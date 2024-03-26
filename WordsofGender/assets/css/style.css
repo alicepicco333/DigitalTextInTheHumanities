@@ -1762,6 +1762,13 @@ section {
   padding-left: 3vw;
 }
 
+#img-fluid{
+  object-fit: cover;
+}
+
+
+
+
 .text-food {
   background-color: #e44e34;
 }
