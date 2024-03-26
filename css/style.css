@@ -10,9 +10,11 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: black;
-  text-align: justify;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #0B0014;
+  text-align: left;
 }
 
 #graph1, #graph2 {
@@ -24,28 +26,30 @@ body {
 }
 
 button {
-  background-color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  border-color: #ff4a17;
+  background-color:#F5E9E2;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  border-color: #D44D5C;
   margin: 2px;
 }
 
 #footnotes, #footnotes2, #footnotes3 {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #D44D5C;
   padding-top: 10px;
 }
 #footnotes4 {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #D44D5C;
   padding-top: 10px;
 }
 #footnotes5 {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #D44D5C;
   padding-top: 10px;
 }
 
@@ -81,12 +85,12 @@ blockquote {
 }
 
 a {
-  color: #ff4a17;
+  color: #D44D5C;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff724a;
+  color: #D44D5C;
   text-decoration: none;
 }
 
@@ -96,7 +100,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
 
 }
 
@@ -110,7 +116,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff4a17;
+  background: #D44D5C;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -124,7 +130,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ff6a40;
+  background: #D44D5C;
   color: #fff;
 }
 
@@ -152,7 +158,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ff4a17;
+  border: 6px solid #D44D5C;
   border-top-color: #ffe9e3;
   border-radius: 50%;
   width: 60px;
@@ -267,7 +273,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #ff4a17;
+  background-color: #D44D5C;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -299,8 +305,8 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #fd3800;
-  border-color: #ff4a17;
+  background: #D44D5C;
+  border-color: #773344;
 }
 
 .navbar>ul>li>.getstarted:before {
@@ -342,7 +348,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #ff4a17;
+  color: #773344;
 }
 
 .navbar .dropdown:hover>ul {
@@ -438,7 +444,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #ff4a17;
+  color: #773344;
 }
 
 .navbar-mobile .getstarted,
@@ -473,7 +479,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #ff4a17;
+  color: #773344;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -540,8 +546,8 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #fc00009d;
-  border: 2px solid #fc00009d;
+  background: #773344;
+  border: 2px solid #773344;
 }
 
 #hero .btn-get-started:hover {
@@ -569,7 +575,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #fc00009d;
+  color: #773344;
 }
 
 @media (min-width: 1024px) {
