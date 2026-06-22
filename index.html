@@ -10,12 +10,12 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/demoiselles-fb.jpg" rel="icon">
-  <link href="assets/img/demoiselles-fb.jpg" rel="apple-touch-icon">
+  <link href="img/demoiselles-fb.jpg" rel="icon">
+  <link href="img/demoiselles-fb.jpg" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="vendor/aos/aos.css" rel="stylesheet">
@@ -46,7 +46,7 @@
 
       <h1 class="logo"><a href="index.html">WoG</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <!-- <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -56,7 +56,7 @@
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
                    <li class="dropdown"><a href="#"><span>The project</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="WordsofGender/">Texts</a></li>
+              <li><a href="texts.html">Texts</a></li>
               <li><a href="inner-page.html#visualization">Visualization</a></li>
             </ul>
           </li>
@@ -87,7 +87,7 @@
         <div class="row">
 
           <div class="col-lg-4 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="cover_book">
+            <img src="img/about.jpg" class="img-fluid" alt="cover_book">
           </div>
 
           <div class="col-lg-7 pt-3 pt-lg-0 content">
@@ -113,28 +113,28 @@
     <section id="about-boxes" class="about-boxes">
       <div class="container" data-aos="fade-up">
 
-        <div class="row">
-          <div class="col-lg-5 col-md-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center g-4">
+          <div class="col-lg-5 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <img src="assets/img/about-boxes-3.png" class="card-img-top" alt="...">
-              <div class="card-icon"><a href="inner-page.html#visualization">
-                <i class="ri-calendar-check-line"></i></a>
+              <div class="card-icon">
+                <i class="ri-mind-map"></i>
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="inner-page.html#visualization">Concepts</a></h5>
-                <p class="card-text">Visualization of concepts</p>
+                <p class="card-text">Explore how recurring themes — beauty, strength, independence, marriage — connect across authors and centuries through interactive visualizations.</p>
+                <a href="inner-page.html#visualization" class="card-cta">Explore visualization <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
-          <div class="col-lg-5 col-md-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/about-boxes-2.jpg" class="card-img-top" alt="...">
-              <div class="card-icon"><a href="inner-page.html#explore">
-                <i class="ri-movie-2-line"></i></a>
+              <div class="card-icon">
+                <i class="ri-book-open-line"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="inner-page.html#explore">Texts</a></h5>
-                <p class="card-text">Archive of texts and metadata</p>
+                <h5 class="card-title"><a href="texts.html">Texts</a></h5>
+                <p class="card-text">Read annotated excerpts from nine women authors spanning five centuries, encoded in TEI XML with linked open data and highlighted concept markers.</p>
+                <a href="texts.html" class="card-cta">Browse the archive <i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -148,32 +148,18 @@
 
         <h1>Documentation</h1>
 
-        <br>
-
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block">The contest</h4>
-            </a>
+        <ul class="nav nav-tabs" id="doc-tabs">
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Context</a>
           </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
-              <i class="ri-body-scan-line"></i>
-              <h4 class="d-none d-lg-block">The concept</h4>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Concept</a>
           </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
-              <i class="ri-sun-line"></i>
-              <h4 class="d-none d-lg-block">Methodologies</h4>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Methodologies</a>
           </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
-              <i class="ri-store-line"></i>
-              <h4 class="d-none d-lg-block">Future Development</h4>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Future Work</a>
           </li>
         </ul>
 
@@ -462,7 +448,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>George Sand</h3>
                 <!-- <h4>Ceo &amp; Founder</h4> -->
                 <p>
@@ -475,7 +461,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Veronica Franco</h3>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -490,7 +476,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Claude Cahun</h3>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -502,7 +488,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Marguerite Anguleme</h3>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -516,7 +502,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>Mary Wollstonecraft</h3>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>

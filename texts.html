@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive — Words of Gender</title>
+  <link href="img/demoiselles-fb.jpg" rel="icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <style>
+    /* ── Layout ── */
+    .archive-wrap {
+      margin-top: 56px;
+      min-height: calc(100vh - 56px);
+      display: flex;
+    }
+
+    /* ── Sidebar ── */
+    .archive-sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      background: var(--white);
+      position: sticky;
+      top: 56px;
+      height: calc(100vh - 56px);
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-head {
+      padding: 20px 18px 14px;
+      border-bottom: 1px solid var(--border);
+      background: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    .sidebar-head p {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin: 0;
+    }
+
+    .text-list { list-style: none; padding: 0; margin: 0; flex: 1; }
+
+    .text-list li { border-bottom: 1px solid var(--border); }
+
+    .text-list-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 13px 18px;
+      background: none;
+      border: 0;
+      border-left: 3px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      color: var(--text-dark);
+      margin: 0;
+      border-radius: 0;
+    }
+
+    .text-list-btn:hover {
+      background: var(--blush-bg);
+      border-left-color: var(--border);
+      color: var(--text-dark);
+    }
+
+    .text-list-btn.active {
+      background: var(--blush-bg);
+      border-left-color: var(--primary);
+    }
+
+    .tl-author {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--primary);
+      display: block;
+      margin-bottom: 2px;
+      letter-spacing: 0.3px;
+    }
+
+    .text-list-btn.active .tl-author { color: var(--primary); }
+
+    .tl-title {
+      font-size: 12px;
+      color: var(--text-mid);
+      display: block;
+      font-style: italic;
+      line-height: 1.45;
+    }
+
+    .tl-lang {
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-top: 3px;
+      display: block;
+    }
+
+    /* ── Main area ── */
+    .archive-main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* empty/loading states */
+    .state-center {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 32px;
+      text-align: center;
+    }
+
+    .state-center .bi {
+      font-size: 40px;
+      color: var(--border);
+      display: block;
+      margin-bottom: 18px;
+    }
+
+    .state-center h3 {
+      font-size: 1rem;
+      color: var(--text-light);
+      font-weight: 400;
+      margin-bottom: 6px;
+    }
+
+    .state-center p {
+      font-size: 13px;
+      color: var(--text-light);
+      max-width: 320px;
+      margin: 0;
+    }
+
+    /* ── Reader header ── */
+    .reader-header {
+      padding: 24px 32px 18px;
+      border-bottom: 1px solid var(--border);
+      background: var(--white);
+    }
+
+    .reader-sup {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent-rose);
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .reader-header h1 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      margin: 0 0 4px;
+      line-height: 1.3;
+    }
+
+    .reader-meta {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-light);
+    }
+
+    /* ── Reader body ── */
+    .reader-body {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+      min-height: 0;
+    }
+
+    /* ── Concepts panel ── */
+    .concepts-panel {
+      width: 190px;
+      flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      padding: 20px 14px;
+      overflow-y: auto;
+      background: var(--blush-bg);
+    }
+
+    .panel-label {
+      font-family: var(--font-mono);
+      font-size: 9.5px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    .panel-label + .panel-label { margin-top: 14px; }
+
+    .concept-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 6px 9px;
+      margin-bottom: 3px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      color: var(--text-mid);
+      cursor: pointer;
+      letter-spacing: 0.2px;
+      border-radius: 0;
+      transition: all 0.15s ease;
+    }
+
+    .concept-btn:hover {
+      border-color: var(--accent-rose);
+      color: var(--primary);
+      background: var(--white);
+    }
+
+    .concept-btn.active {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+
+    /* ── Text body ── */
+    .text-body {
+      flex: 1;
+      padding: 36px 52px;
+      overflow-y: auto;
+      font-size: 16.5px;
+      line-height: 1.92;
+      color: var(--text-dark);
+    }
+
+    .text-body p { margin-bottom: 1.5rem; }
+
+    .text-body .line-group { margin-bottom: 1.3rem; }
+
+    .text-body .line { display: block; }
+
+    .text-body h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--text-light);
+      margin: 2rem 0 0.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    .text-body cite { font-style: italic; }
+
+    .text-body .role-name { font-style: italic; }
+
+    /* ── Concept spans ── */
+    .seg { transition: background 0.15s ease, outline 0.15s ease; }
+
+    .seg.highlighted {
+      background: rgba(201, 138, 144, 0.28);
+      border-radius: 2px;
+      outline: 1px solid rgba(201, 138, 144, 0.5);
+      outline-offset: 1px;
+    }
+
+    .persname {
+      border-bottom: 1px dotted var(--accent-rose);
+      cursor: default;
+    }
+
+    .persname.highlighted {
+      background: rgba(191, 203, 157, 0.35);
+      border-bottom-color: var(--accent-sage);
+      border-radius: 2px;
+      outline: 1px solid rgba(191, 203, 157, 0.6);
+      outline-offset: 1px;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 900px) {
+      .archive-wrap { flex-direction: column; margin-top: 52px; }
+      .archive-sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        max-height: 240px;
+      }
+      .reader-body { flex-direction: column; overflow: visible; }
+      .concepts-panel {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid var(--border);
+        max-height: 160px;
+        overflow-x: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding: 12px;
+      }
+      .concepts-panel .panel-label { width: 100%; margin-bottom: 4px; }
+      .concept-btn { width: auto; display: inline-block; white-space: nowrap; }
+      .text-body { padding: 24px 20px; }
+      .reader-header { padding: 18px 20px 14px; position: relative; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">WoG</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="index.html#about">About</a></li>
+          <li><a class="nav-link" href="index.html#features">Documentation</a></li>
+          <li class="dropdown"><a href="#"><span>The project</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="active" href="texts.html">Texts</a></li>
+              <li><a href="inner-page.html#visualization">Visualization</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <div class="archive-wrap">
+
+    <!-- ── Sidebar ── -->
+    <aside class="archive-sidebar">
+      <div class="sidebar-head">
+        <p>9 texts · 5 centuries</p>
+      </div>
+      <ul class="text-list" id="textList"></ul>
+    </aside>
+
+    <!-- ── Reader ── -->
+    <main class="archive-main" id="readerArea">
+      <div class="state-center" id="emptyState">
+        <i class="bi bi-book"></i>
+        <h3>Select a text from the sidebar</h3>
+        <p>Nine annotated excerpts by women authors across five centuries, encoded in TEI XML with concept and character markers.</p>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+  (function () {
+    const NS = 'http://www.tei-c.org/ns/1.0';
+
+    const TEXTS = [
+      { file: 'MarkedTexts/MaryWollstonecraft.xml',      author: 'Mary Wollstonecraft',   lang: 'EN' },
+      { file: 'MarkedTexts/ChiaradAssisi.xml',            author: "Chiara d'Assisi",       lang: 'IT / LAT' },
+      { file: 'MarkedTexts/Ada Negri.xml',                author: 'Ada Negri',             lang: 'IT' },
+      { file: 'MarkedTexts/androgyne.xml',                author: 'Claude Cahun',          lang: 'FR' },
+      { file: 'MarkedTexts/FINALGeorgeSand.xml',          author: 'George Sand',           lang: 'FR' },
+      { file: 'MarkedTexts/FINALMargueriteAnguleme.xml',  author: 'Marguerite de Navarre', lang: 'FR' },
+      { file: 'MarkedTexts/Madame de Lambert.xml',        author: 'Madame de Lambert',     lang: 'FR' },
+      { file: 'MarkedTexts/Veronica Franco.xml',          author: 'Veronica Franco',       lang: 'IT' },
+      { file: 'MarkedTexts/deBeauvoir.xml',               author: 'Simone de Beauvoir',    lang: 'FR' },
+    ];
+
+    /* active highlight IDs */
+    const active = new Set();
+
+    /* ── helpers ── */
+    function gs(root, tag) { return root.getElementsByTagNameNS(NS, tag); }
+    function gt(root, tag) { const e = gs(root, tag); return e.length ? e[0].textContent.trim() : ''; }
+
+    /* Extract source work title — never falls back to the top-level <titleStmt> title,
+       which is the shared project title and would be identical across all files. */
+    function extractSourceTitle(xml) {
+      // Best: biblFull > title (the actual work's bibliographic title)
+      const bf = gs(xml, 'biblFull');
+      if (bf.length) {
+        const ti = gs(bf[0], 'title');
+        if (ti.length) return ti[0].textContent.trim();
+      }
+      // Try titlePart (some files split the title this way)
+      const tp = gs(xml, 'titlePart');
+      if (tp.length) return tp[0].textContent.trim();
+      // Try any title inside sourceDesc
+      const sd = gs(xml, 'sourceDesc');
+      if (sd.length) {
+        const ti = gs(sd[0], 'title');
+        if (ti.length) return ti[0].textContent.trim();
+      }
+      return '';
+    }
+
+    /* ── TEI → HTML renderer ── */
+    function render(node) {
+      if (node.nodeType === Node.TEXT_NODE) return esc(node.textContent);
+      if (node.nodeType !== Node.ELEMENT_NODE) return '';
+      const tag   = node.localName;
+      const inner = Array.from(node.childNodes).map(render).join('');
+      switch (tag) {
+        case 'body':     return inner;
+        case 'div':      return `<div>${inner}</div>`;
+        case 'p':        return `<p>${inner}</p>`;
+        case 'lg':       return `<div class="line-group">${inner}</div>`;
+        case 'l':        return `<span class="line">${inner}<br></span>`;
+        case 'lb':       return '<br>';
+        case 'head':     return `<h4>${inner}</h4>`;
+        case 'title':    return `<cite>${inner}</cite>`;
+        case 'roleName': return `<span class="role-name">${inner}</span>`;
+        case 'name':     return inner;
+        case 'quote':    return `<q>${inner}</q>`;
+        case 'hi': {
+          const r = node.getAttribute('rend') || '';
+          if (r === 'italic' || r === 'i') return `<em>${inner}</em>`;
+          if (r === 'bold'   || r === 'b') return `<strong>${inner}</strong>`;
+          return inner;
+        }
+        case 'seg': {
+          const ana = (node.getAttribute('ana') || '').replace(/^#/, '');
+          return ana ? `<span class="seg ${ana}" data-c="${ana}">${inner}</span>` : inner;
+        }
+        case 'persName': {
+          const ref = (node.getAttribute('ref') || '').replace(/^#/, '');
+          return `<span class="persname${ref ? ' ' + ref : ''}">${inner}</span>`;
+        }
+        default: return inner;
+      }
+    }
+
+    function esc(s) {
+      return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    /* ── Build sidebar ── */
+    function buildSidebar() {
+      const ul = document.getElementById('textList');
+      TEXTS.forEach((t, i) => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          <button class="text-list-btn" id="sb${i}" onclick="loadText(${i})">
+            <span class="tl-author">${t.author}</span>
+            <span class="tl-title" id="sbt${i}">—</span>
+            <span class="tl-lang">${t.lang}</span>
+          </button>`;
+        ul.appendChild(li);
+        fetchTitle(i, t.file);
+      });
+    }
+
+    async function fetchTitle(i, file) {
+      try {
+        const xml = new DOMParser().parseFromString(await (await fetch(file)).text(), 'application/xml');
+        const el = document.getElementById(`sbt${i}`);
+        if (el) el.textContent = extractSourceTitle(xml) || '—';
+      } catch (_) {}
+    }
+
+    /* ── Load text ── */
+    window.loadText = async function (index) {
+      document.querySelectorAll('.text-list-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(`sb${index}`)?.classList.add('active');
+      active.clear();
+
+      const area = document.getElementById('readerArea');
+      area.innerHTML = `<div class="state-center"><i class="bi bi-arrow-repeat" style="animation:spin .7s linear infinite"></i></div>`;
+
+      try {
+        const res  = await fetch(TEXTS[index].file);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const xml  = new DOMParser().parseFromString(await res.text(), 'application/xml');
+
+        /* title */
+        const sourceTitle = extractSourceTitle(xml);
+
+        /* author / date / lang */
+        const author = (() => {
+          const bf = gs(xml, 'biblFull');
+          if (bf.length) { const a = gs(bf[0], 'author'); if (a.length) return a[0].textContent.trim(); }
+          return gt(xml, 'author');
+        })();
+        const dateEl = gs(xml, 'date');
+        const date   = dateEl.length ? (dateEl[0].getAttribute('when') || dateEl[0].textContent.trim()) : '';
+        const langEl = gs(xml, 'language');
+        const lang   = langEl.length ? langEl[0].getAttribute('ident')?.toUpperCase() : '';
+
+        /* concepts — use xml:id as label (text content is a long description) */
+        const fmtId = id => id.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        const concepts = Array.from(gs(xml, 'interp')).map(el => {
+          const id = el.getAttribute('xml:id') || '';
+          return { id, label: fmtId(id) };
+        }).filter(c => c.id);
+
+        /* characters */
+        const chars = Array.from(gs(xml, 'person')).map(el => ({
+          id:    el.getAttribute('xml:id') || '',
+          label: gs(el, 'persName')[0]?.textContent.trim() || ''
+        })).filter(c => c.id && c.label);
+
+        /* body */
+        const bodyEl = gs(xml, 'body')[0];
+        const bodyHTML = bodyEl ? render(bodyEl) : '<p><em>Body not found.</em></p>';
+
+        /* concept buttons */
+        const mkBtns = (items, cls = '') => items.map(c =>
+          `<button class="concept-btn${cls}" data-cid="${c.id}" onclick="toggle('${c.id}',this)">${c.label}</button>`
+        ).join('');
+
+        const conceptsPanel = `
+          ${concepts.length ? `<span class="panel-label">Concepts</span>${mkBtns(concepts)}` : ''}
+          ${chars.length    ? `<span class="panel-label">Characters</span>${mkBtns(chars)}` : ''}`;
+
+        area.innerHTML = `
+          <div class="reader-header">
+            <span class="reader-sup">From the archive</span>
+            <h1>${esc(sourceTitle)}</h1>
+            <div class="reader-meta">
+              ${esc(author)}${date ? ' &middot; ' + esc(date) : ''}${lang ? ' &middot; ' + lang : ''}
+            </div>
+          </div>
+          <div class="reader-body">
+            <div class="concepts-panel">${conceptsPanel}</div>
+            <div class="text-body">${bodyHTML}</div>
+          </div>`;
+
+      } catch (err) {
+        area.innerHTML = `
+          <div class="state-center">
+            <i class="bi bi-exclamation-circle"></i>
+            <h3>Could not load text</h3>
+            <p>${err.message}</p>
+            <p style="margin-top:8px; font-size:12px; font-family:var(--font-mono)">
+              This page must be served over HTTP.<br>
+              Open it via GitHub Pages or a local server&nbsp;—&nbsp;not directly as a file.
+            </p>
+          </div>`;
+      }
+    };
+
+    /* ── Toggle highlight ── */
+    window.toggle = function (id, btn) {
+      const segs = document.querySelectorAll(`.seg.${id}, .persname.${id}`);
+      if (active.has(id)) {
+        active.delete(id);
+        segs.forEach(s => s.classList.remove('highlighted'));
+        btn?.classList.remove('active');
+      } else {
+        active.add(id);
+        segs.forEach(s => s.classList.add('highlighted'));
+        btn?.classList.add('active');
+      }
+    };
+
+    /* spin keyframe for loading icon */
+    const style = document.createElement('style');
+    style.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+    document.head.appendChild(style);
+
+    buildSidebar();
+  })();
+  </script>
+
+</body>
+</html>
