@@ -461,3 +461,9 @@ table.matrix { border-collapse: collapse; width: 100%; font-size: 14px; }
 .page .panel-inner { border-top: 1px solid var(--ink); margin-top: 26px; padding-top: 2px; }
 .page .panel-inner h2 { border-top: 0; }
 @media (max-width: 560px) { .matrix td .dot:not(.none) { transform: scale(0.8); } }
+
+.psg blockquote.kwic::before, .psg blockquote.kwic::after { content: none; }
+.psg .ctx { color: var(--ink-3); }
+.psg .kw { color: var(--ink); text-decoration: underline solid var(--accent) 1.5px; text-underline-offset: 0.2em; }
+.track .m.src.same { width: 20px; height: 20px; margin: -10px 0 0 -10px; }
+.figure .dg:empty { display: none; }

@@ -90,10 +90,12 @@ class Renderer:
         self.verse = verse
         self.segs = []
         self.seen_ids = set()
+        self.plain = []  # running plain text, for keyword-in-context
 
     def txt(self, s):
         if s is None:
             return ''
+        self.plain.append(s)
         if self.verse:
             # keep verse line breaks, drop the indentation of the XML file
             s = re.sub(r'[ \t]*\n[ \t]*', '\n', s)
@@ -102,6 +104,22 @@ class Renderer:
             s = re.sub(r'\s+', ' ', s)
         return html.escape(s, quote=False)
 
+    def flat(self, s):
+        if self.verse:
+            return ' / '.join(norm(l) for l in s.split(chr(10)) if norm(l))
+        return norm(s)
+
+    def add_context(self, n=24):
+        full = ''.join(self.plain)
+        for g in self.segs:
+            a, b = g.pop('_span')
+            before = self.flat(full[:a]).split(' ')
+            after = self.flat(full[b:]).split(' ')
+            before = [w for w in before if w]
+            after = [w for w in after if w]
+            g['before'] = ('… ' if len(before) > n else '') + ' '.join(before[-n:])
+            g['after'] = ' '.join(after[:n]) + (' …' if len(after) > n else '')
+
     def seg_text(self, e):
         t = ''.join(e.itertext())
         if self.verse:
@@ -109,8 +127,12 @@ class Renderer:
             return ' / '.join(l for l in lines if l)
         return norm(t)
 
+    def pos(self):
+        return sum(len(x) for x in self.plain)
+
     def render(self, e, depth=0):
         tag = e.tag.replace(T, '')
+        start = self.pos()
         inner = self.txt(e.text) + ''.join(self.render(c, depth + 1) + self.txt(c.tail) for c in e)
         if tag == 'body':
             return inner
@@ -125,7 +147,8 @@ class Renderer:
             while dom_id in self.seen_ids:
                 dom_id += 'x'
             self.seen_ids.add(dom_id)
-            self.segs.append({'id': dom_id, 'xmlId': xid, 'concepts': cids, 'text': self.seg_text(e)})
+            self.segs.append({'id': dom_id, 'xmlId': xid, 'concepts': cids, 'text': self.seg_text(e),
+                              '_span': (start, self.pos())})
             data = ' '.join(cids)
             return f'<span class="seg" id="{dom_id}" data-c="{data}">{inner}</span>'
         if tag == 'persName':
@@ -213,6 +236,7 @@ def build_text(path):
     r = Renderer(slug, slug in VERSE)
     body = root.find(f'{T}text/{T}body')
     body_html = r.render(body).strip()
+    r.add_context()
     words = len(text(body).split())
 
     dc_date_el = desc.find(DC + 'date') if desc is not None else None

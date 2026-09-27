@@ -52,7 +52,7 @@
       if (f == null || Math.abs(s.year - f) > 30) tr += '<span class="yr src" style="left:' + pct(s.year) + '">' + s.year + '</span>';
     }
     if (f != null && s.year === f && (s.place || s.publisher)) {
-      tr += '<span class="m src" style="left:' + pct(f) + '"></span>';
+      tr += '<span class="m src same" style="left:' + pct(f) + '"></span>';
     }
     if (f != null) {
       tr += '<span class="m first" style="left:' + pct(f) + '"></span>';

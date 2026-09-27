@@ -73,7 +73,18 @@
         var w = words(g.text), long = w.length > LIMIT;
         var shown = long ? w.slice(0, LIMIT).join(' ') + ' …' : g.text;
         var also = g.concepts.filter(function (c) { return c !== sel; });
-        h += '<div class="psg"><blockquote lang="' + esc(t.lang) + '" data-full="' + esc(g.text) + '">' + esc(shown) + '</blockquote>' +
+        var q;
+        if (w.length < 30) {
+          // short passage: keyword in context, from the surrounding text of the TEI body
+          var b = words(g.before || '').filter(Boolean), a = words(g.after || '').filter(Boolean);
+          var bt = (b.length > 14 ? '… ' : '') + b.slice(-14).join(' ').replace(/^…\s*/, '');
+          var at = a.slice(0, 14).join(' ').replace(/\s*…$/, '') + (a.length > 14 ? ' …' : '');
+          var sep = /^[.,;:!?)\]»”’]/.test(at) ? '' : ' ';
+          q = '<blockquote class="kwic" lang="' + esc(t.lang) + '"><span class="ctx">' + esc(bt) + '</span> <span class="kw">' + esc(g.text) + '</span>' + sep + '<span class="ctx">' + esc(at) + '</span></blockquote>';
+        } else {
+          q = '<blockquote lang="' + esc(t.lang) + '" data-full="' + esc(g.text) + '">' + esc(shown) + '</blockquote>';
+        }
+        h += '<div class="psg">' + q +
           (also.length ? '<div class="also">Also tagged: ' + esc(also.map(W.label).join(', ')) + '</div>' : '') +
           '<div class="also">' + (long ? '<button type="button" class="more" aria-expanded="false">Show the whole passage (' + w.length + ' words)</button> · ' : '') +
           '<a href="texts.html?t=' + t.id + '&amp;c=' + encodeURIComponent(sel) + '#' + g.id + '">Read in context →</a></div></div>';
