@@ -53,6 +53,7 @@ NOTES = [
     'The availability link in androgyne.xml points to the Internet Archive copy of La Petite Fadette, so it is not shown for Cahun.',
     'ChiaradAssisi.xml records only the 2008 edition it was transcribed from; the date of the letter itself is not encoded, so the timeline leaves it undated.',
     'Veronica Franco.xml gives the date 1575 but no publisher or place for the source.',
+    'In deBeauvoir.xml several persName/@ref values keep the space of the name (ref="#Colette Yver") while the listPerson ids do not (ColetteYver); names are marked in the text either way.',
 ]
 
 
