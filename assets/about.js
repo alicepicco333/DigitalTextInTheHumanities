@@ -29,7 +29,7 @@
   var team = {};
   D.texts.forEach(function (t) { (team[t.encoder] = team[t.encoder] || []).push(t.author); });
   $('team').innerHTML = Object.keys(team).map(function (n) {
-    return '<div><b>' + esc(n) + '</b><span>Encoded ' + esc(team[n].join(' and ')) + '</span></div>';
+    return '<div class="frame"><b>' + esc(n) + '</b><span>Encoded ' + esc(team[n].join(' and ')) + '</span></div>';
   }).join('');
 
   // notes

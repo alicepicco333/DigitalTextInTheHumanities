@@ -8,8 +8,9 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/keepsake.css">
 <title>About &amp; method · Words of Gender</title>
 <meta name="description" content="Context, research question, methodology (TEI, linked open data, XSLT), the alphabet of concepts, future work, bibliography and team of Words of Gender.">
 </head>
@@ -48,7 +49,8 @@
     <div class="prose">
       <section id="project" aria-labelledby="project-h">
         <p class="eyebrow">About this project</p>
-        <h1 id="project-h" style="font-size:clamp(38px,5vw,64px);margin-bottom:18px">The prototype of an archive of women authors</h1>
+        <h1 id="project-h" style="margin-bottom:10px">The prototype of an archive of women authors</h1>
+        <p class="epigraph">It is the ensemble of relationships and links that make the content accessible and visible, and thus bring it into existence.<cite>Marcello Vitali-Rosati, <i>On editorialization</i>, 2018</cite></p>
         <p>“Words of Gender” takes inspiration from the essay <i>Parole d’altro genere</i> (Rizzoli, 2023) by sociolinguist Vera Gheno, in which she selects 42 female authors who have contributed to women’s emancipation throughout history. From Gheno we borrow the idea of examining how different female authors in different historical and cultural contexts have written about the same concepts, sometimes elaborated in depth as the main theme and sometimes only mentioned as an input for a broader argument. The aim of this research is to identify these concepts, both explicit and implicit, to highlight the conceptual connections that unite the selected literary texts, constructing a network of variations and cross-references.</p>
         <p>Therefore, having as our first reference the excerpts selected by Gheno in <i>Parole d’altro genere</i>, we choose to extrapolate some of them with the intention of linking them with each other and defining maps of meaning to build an intertextual dimension. Intertextuality is not intended as a simple relationship between one text and another, but as a “pantextualistic vision in which the world itself becomes a text, an infinitely ramified labyrinth of texts that recall and intertwine, without any possibility of arriving at an unambiguous, stable and delimited meaning”.</p>
         <p>There is a general lack of awareness regarding female authors. Indeed, a study published by <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239012">PLOS</a> reports that “emerging evidence demonstrates that female-authored publications are not well represented in course readings in some fields, resulting in a syllabi gender gap.” This is why <b>women</b> are the center of this digital archive and anthology, whose aim is to keep expanding.</p>
@@ -129,13 +131,13 @@
         <blockquote><p>The choice of ontological predicates, suitable for providing real semantic consistency to the markup, must be consciously undertaken with the goal of enhancing the expressiveness of the knowledge base contained in the text, avoiding the dispersion of its informational potential in the name of, albeit necessary, simplification. The selection of the most suitable ontological models constitutes the central aspect of this phase.<sup><a id="r8" href="#n8" aria-label="Note 8">8</a></sup></p></blockquote>
         <p>In practice, each file carries an RDF block in <code>&lt;xenoData&gt;</code> with Dublin Core title, creator and date, and <code>owl:sameAs</code> links: VIAF for every author, Wikidata or WorldCat for the works. The reading view lists them under each text.</p>
 
-        <div class="figure" id="graph1">
+        <div class="figure frame" id="graph1">
           <p><b>The conceptual map.</b> Each text, its author, its publication data and the concepts it contains reference to (diagrams.net, 2023).</p>
           <div class="dg" data-src="data/diagrams/conceptual-map.drawio"></div>
           <button type="button" class="tbtn" data-load="graph1">Load the interactive diagram</button>
           <a class="tbtn" style="text-decoration:none;display:inline-block;margin-left:6px" href="data/diagrams/conceptual-map.drawio" download>Download .drawio</a>
         </div>
-        <div class="figure" id="graph2">
+        <div class="figure frame" id="graph2">
           <p><b>The ontologies.</b> The same graph expressed in CIDOC-CRM classes and properties: E21 Person, E84 Information Carrier, E33 Linguistic Object, P14 carried out by, P67 refers to, P72 has language (diagrams.net, 2023).</p>
           <div class="dg" data-src="data/diagrams/ontologies-cidoc-crm.drawio"></div>
           <button type="button" class="tbtn" data-load="graph2">Load the interactive diagram</button>
@@ -202,7 +204,7 @@
         <h2 id="credits-h">Course and team</h2>
         <p>This project was developed for the course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/467035">Digital Text in the Humanities</a> held by Professor Tiziana Mancinelli, within the MA in Digital Humanities and Digital Knowledge (DHDK) at the University of Bologna, 2023.</p>
         <div class="team" id="team"></div>
-        <p style="margin-top:18px">The source files, the TEI encoding and the working documents (<i>Documentazione Archivio al femminile</i> and the bibliography, in .docx) are on <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">GitHub</a>.</p>
+        <p style="margin-top:18px">The source files, the TEI encoding and the working documents (<i>Documentazione Archivio al femminile</i> and the bibliography, in .docx) are on <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">GitHub</a>. The portraits of Marguerite de Navarre, Mary Wollstonecraft and Claude Cahun are the ones used on the project’s 2023 site.</p>
       </section>
     </div>
   </div>

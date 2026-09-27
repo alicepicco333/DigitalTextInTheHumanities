@@ -39,6 +39,7 @@
   var prev = D.texts[idx - 1], next = D.texts[idx + 1];
   $('page').innerHTML =
     '<header class="page-head">' +
+      (W.portrait(t.id) ? '<img class="cameo" src="' + W.portrait(t.id) + '" alt="Portrait of ' + esc(t.author) + '" width="96" height="120">' : '') +
       '<p class="eyebrow">' + (idx + 1) + ' of ' + D.texts.length + ' · ' + esc(W.langName(t)) + (t.verse ? ' · verse' : ' · prose') + '</p>' +
       '<h1 lang="' + esc(t.lang) + '">' + esc(t.title) + '</h1>' +
       '<p class="byline"><b>' + esc(t.author) + '</b>' + (t.firstEdition != null ? ', ' + t.firstEdition : '') + '</p>' +

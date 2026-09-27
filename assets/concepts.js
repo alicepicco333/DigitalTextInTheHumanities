@@ -64,7 +64,7 @@
     users.forEach(function (t) {
       var segs = t.segs.filter(function (g) { return g.concepts.indexOf(sel) >= 0; });
       var gloss = (t.concepts.filter(function (c) { return c.id === sel; })[0] || {}).gloss;
-      h += '<section class="cmp-col" id="col-' + t.id + '" aria-labelledby="h-' + t.id + '" tabindex="-1">' +
+      h += '<section class="cmp-col frame" id="col-' + t.id + '" aria-labelledby="h-' + t.id + '" tabindex="-1">' +
         '<h3 id="h-' + t.id + '">' + esc(t.author) + '</h3>' +
         '<div class="w">' + esc(t.title) + '</div>' +
         '<div class="m">' + W.date(t) + ' · ' + esc(W.langName(t)) + ' · ' + W.plural(segs.length, 'passage') +

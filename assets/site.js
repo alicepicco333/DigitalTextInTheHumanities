@@ -42,6 +42,7 @@
     label: function (cid) { return D.concepts[cid] ? D.concepts[cid].label : cid; },
     date: function (t) { return t.firstEdition != null ? String(t.firstEdition) : 'n.d.'; },
     plural: function (n, one, many) { return n + ' ' + (n === 1 ? one : (many || one + 's')); },
+    portrait: function (id) { return { marguerite: 'marguerite', wollstonecraft: 'wollstonecraft', cahun: 'cahun' }[id] ? 'assets/portraits/' + id + '.jpg' : null; },
     langName: function (t) { return t.langName || (t.lang || '').toUpperCase(); }
   };
 })();
