@@ -363,7 +363,7 @@ window.WOG = {
    "author": "Madame de Lambert",
    "authorFull": "Anne-Thérèse de Lambert",
    "title": "Réflexions sur les femmes",
-   "workTitle": "Réflexions sur les femme",
+   "workTitle": null,
    "container": null,
    "lang": "fr",
    "langName": "French",

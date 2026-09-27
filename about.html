@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem('wog-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<title>About &amp; method · Words of Gender</title>
+<meta name="description" content="Context, research question, methodology (TEI, linked open data, XSLT), the alphabet of concepts, future work, bibliography and team of Words of Gender.">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html">Words <i>of</i> Gender</a>
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Contents</a></li>
+        <li><a href="texts.html">Read</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="about.html" aria-current="page">About &amp; method</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" id="theme" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="tl">Dark</span></button>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <div class="about">
+    <nav class="about-toc" aria-label="On this page">
+      <p class="eyebrow">Documentation</p>
+      <ol>
+        <li><a href="#project">The project</a></li>
+        <li><a href="#context">Context</a></li>
+        <li><a href="#concept">Concept</a></li>
+        <li><a href="#method">Methodology</a></li>
+        <li><a href="#alphabet">Alphabet of concepts</a></li>
+        <li><a href="#future">Future work</a></li>
+        <li><a href="#bibliography">Bibliography</a></li>
+        <li><a href="#credits">Course and team</a></li>
+      </ol>
+    </nav>
+
+    <div class="prose">
+      <section id="project" aria-labelledby="project-h">
+        <p class="eyebrow">About this project</p>
+        <h1 id="project-h" style="font-size:clamp(38px,5vw,64px);margin-bottom:18px">The prototype of an archive of women authors</h1>
+        <p>“Words of Gender” takes inspiration from the essay <i>Parole d’altro genere</i> (Rizzoli, 2023) by sociolinguist Vera Gheno, in which she selects 42 female authors who have contributed to women’s emancipation throughout history. From Gheno we borrow the idea of examining how different female authors in different historical and cultural contexts have written about the same concepts, sometimes elaborated in depth as the main theme and sometimes only mentioned as an input for a broader argument. The aim of this research is to identify these concepts, both explicit and implicit, to highlight the conceptual connections that unite the selected literary texts, constructing a network of variations and cross-references.</p>
+        <p>Therefore, having as our first reference the excerpts selected by Gheno in <i>Parole d’altro genere</i>, we choose to extrapolate some of them with the intention of linking them with each other and defining maps of meaning to build an intertextual dimension. Intertextuality is not intended as a simple relationship between one text and another, but as a “pantextualistic vision in which the world itself becomes a text, an infinitely ramified labyrinth of texts that recall and intertwine, without any possibility of arriving at an unambiguous, stable and delimited meaning”.</p>
+        <p>There is a general lack of awareness regarding female authors. Indeed, a study published by <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0239012">PLOS</a> reports that “emerging evidence demonstrates that female-authored publications are not well represented in course readings in some fields, resulting in a syllabi gender gap.” This is why <b>women</b> are the center of this digital archive and anthology, whose aim is to keep expanding.</p>
+      </section>
+
+      <section id="context" aria-labelledby="context-h">
+        <h2 id="context-h">Context</h2>
+        <p><b>Our research question:</b> <i>How have different authors declined the same concepts related to the female gender (e.g. grace, beauty, maternity …) in different historical and cultural contexts?</i></p>
+        <p>The research fits into the context of gender studies, as it shares some of its characteristic intentions. Firstly, following the example of Vera Gheno, the project aims to give a voice to female authors who have been neglected over time and excluded from the literary canon. Furthermore, the creation of links between concepts belonging to different semantic spheres makes it clear that gender issues are inseparable from those of class, religion, origin and many others. Finally, the direct comparison of different ways of interpreting the same fundamental concepts (gender, beauty, femininity) brings out how these are not unambiguous and unchangeable, but rather changeable and closely dependent on the society in which they develop.</p>
+        <p>Another field of study within which this research is inscribed is that of comparative literature, since it broadens the analysis of certain key concepts beyond country and class boundaries. In an initial phase of the project we will adopt a perspective that is still West-centric, but in a further development of this research we hope that authors with different ethnic backgrounds will be included too in order to enrich this digital archive.</p>
+
+        <h3>What happened to female writers?</h3>
+        <p>The landscape of digital archives leaves little room for female authors. In the Italian context, even big projects like the <a href="http://www.bibliotecaitaliana.it/">Biblioteca italiana</a> out of a collection of more than 180 volumes, fewer than ten are works written by women. As the writer and sociolinguist Vera Gheno effectively highlights in <i>Parole d’altro genere</i>, even in school anthologies, which are the first to contribute to the normalization of a canon, women are absent or severely underrepresented:</p>
+        <blockquote><p>Some might argue, I can already hear the objections, that the reason for the absence of female authors in the so-called literary canon is that the ones that do exist are less brilliant, of lower quality, and therefore, in a merit-based selection, their numbers are reduced. Yet, this does not correspond to reality: when one looks more closely, discovers an immense, highly valid production that mostly remains below the surface: the famous women’s literature, written by women, read by women, defined as ‘genre fiction’ (just as if “male” is not a genre in itself)<sup><a id="r1" href="#n1" aria-label="Note 1">1</a></sup>.</p></blockquote>
+        <p>The initial issue of representation morphs into a misconception centered on quality and merit, resulting in a cultural hegemony that does not allow room for expression and does not guarantee freedom of speech.</p>
+        <p>Our work, therefore, begins with the recognition of a gap and the awareness that the “cogency of female literary culture as a whole lies in the multiplicity of its voices and its insistence upon the collective foundation of individual consciousness”<sup><a id="r2" href="#n2" aria-label="Note 2">2</a></sup>. It is necessary to recognize that literature, rather than being punctuated by a few highly successful women, is instead rich in female authors. This forgotten literature must be considered an essential, yet forgotten, part of our culture and experience, which is therefore characterized by multiplicity and exchange but also by conflict and tragedy.</p>
+
+        <h3>Someone has found them</h3>
+        <p>Over the years, awareness of this representational gap and its cultural, political, and male-oriented origins has grown. Numerous projects have emerged with the aim of addressing this gap or bringing it to the attention of the public.</p>
+        <p>Below, we list some of these projects while analysing which ideas are innovative and transferable and which limitations can still be overcome:</p>
+        <ul class="projects">
+          <li><b><a href="https://webapp1.dlib.indiana.edu/vwwp/search?smode=simple;rmode=none;style=;brand=general;text1=adventurefiction;field1=browse-genre;browseText=adventure+fiction">Victorian Women Writers Project</a></b>
+            <p>This project dates back to 1995 and did not originate as a feminist attempt to reclaim space for women. Instead, it arose from the gap in The New Cambridge Bibliography of English Literature, which included writers considered canonical but excluded those who had later become part of anthologies.</p>
+            <blockquote><p>I worked […] to draw up a list of authors who were important or interesting enough to be considered, but whose works were not in the Chadwyck-Healey database. A quick scan of this preliminary list showed that most of the writers were women, so we decided to focus the project on their work<sup><a id="r3" href="#n3" aria-label="Note 3">3</a></sup>.</p></blockquote>
+            <p>The collection encompasses various genres, including poetry, novels, children’s books, political pamphlets, religious tracts, histories, and more. It features both prolific and rare female writers and offers users the ability to search for content by title, author, and genre. It shows the entire texts. The collection is extensive and demonstrates excellent archival work, also adhering to TEI standards. Unfortunately, there has been limited investment in the past decade, and the search and visualization solutions appear outdated and do not facilitate content exploration or engagement.</p>
+          </li>
+          <li><b><a href="https://orlando.cambridge.org/">The Orlando Project</a></b>
+            <p>It has been more than 25 years since the Orlando Project’s experiment in feminist literary history was first launched in 1995. The Orlando Project’s database includes a wide range of information, including biographical data, literary works, bibliographies, critical and contextual essays, and historical and cultural context. It covers both well-known and lesser-known women writers from various time periods. It’s a great resource, but the majority of the collection is only accessible through a subscription.</p>
+          </li>
+          <li><b><a href="http://digital.library.upenn.edu/women/wr-search.html">A Celebration of Women Writers</a></b>
+            <p>This website allows users to search for women writers by ethnicity, historical period, and nationality. Furthermore, it provides an up-to-date database, with the option to access texts that are not protected by copyright. Unfortunately, the website is not well-maintained, and the reading experience suffers as a result.</p>
+          </li>
+        </ul>
+
+        <h3>Vera Gheno: a female writer for female writers</h3>
+        <p>Vera Gheno’s book, <i>Parole d’altro genere</i> (as we have already mentioned), presents itself as an attempt to a feminist reappropriation. It is a collection of authoritative texts, an anthology, and a female canon. What is being claimed is what has been taken from women for a long time: the space of the book page and in general the right to speech. For a long time, words did not belong to women, and often what is perhaps the most important and personal among words was taken from them: their own name. Often, female authors have been forced to use pseudonyms, and their names have been condemned to silence. But there are also other mechanisms that have taken words away from women. An example is discursive injustice. Or the tendency to use rhetorical weapons to make the text acceptable in contexts where a woman was not free to say everything she wanted. This is where Vera Gheno’s reflection begins:</p>
+        <blockquote><p>I have had the privilege of adding my voice to these exceptional authors: for each of them, I have selected a word, or it would be better to say a lemma (a noun, an adjective, a verb) that has a special connection with the texts or the life of that author, and I have built a brief argument around it: Disobedience for Chiara D’Assisi, Whore for Marguerite d’Angoulême, Erase for Alfonsina Storni, Divorce for Zhang Ailing…<sup><a id="r4" href="#n4" aria-label="Note 4">4</a></sup></p></blockquote>
+        <div class="notes" role="doc-endnotes">
+          <p id="n1">1. Vera Gheno, <i>Parole d’altro genere</i>, Bur. Rizzoli, p. 8. <a href="#r1" aria-label="Back to note 1">↩</a></p>
+          <p id="n2">2. Alison Anderson, <i>World Literature Today</i>, Vol. 90, No. 6 (November/December 2016), p. 15. <a href="#r2" aria-label="Back to note 2">↩</a></p>
+          <p id="n3">3. Willett, Perry. “The Victorian Women Writers Project: The Library as a Creator and Publisher of Electronic Texts.” <i>The Public-Access Computer Systems Review</i> 7, no. 6 (1996): 5–16. <a href="#r3" aria-label="Back to note 3">↩</a></p>
+          <p id="n4">4. Vera Gheno, <i>Parole d’altro genere</i>, Bur. Rizzoli, p. 9. <a href="#r4" aria-label="Back to note 4">↩</a></p>
+        </div>
+      </section>
+
+      <section id="concept" aria-labelledby="concept-h">
+        <h2 id="concept-h">Concept</h2>
+        <h3 style="margin-top:0">Words of Gender: the digital archive</h3>
+        <p>Taking inspiration from these and similar projects, we have decided to build a philological archive for gender studies. The key elements of our idea are:</p>
+        <div class="keys">
+          <div><span class="k">Archive</span><div>
+            <p>A freely accessible archive of texts written by women. Having an archive of texts is essential, especially for their preservation. As Willett Perry from the Victorian Women Writers Project emphasizes:</p>
+            <blockquote><p>The breadth of writing by women in this period seems staggering, and much of it was either printed in limited press runs, not collected by libraries, or has disintegrated along with so many other works from the late nineteenth century (many of which were printed on acid-based paper). Carol Poster writes of the urgency of recovering these works, noting that failure to do so “will be the permanent silencing of the majority of popular female Victorian novelists by permitting physical disintegration of their works.”<sup><a id="r5" href="#n5" aria-label="Note 5">5</a></sup></p>
+            <p>As literary critics rediscover women’s writing from this period, the immediate hurdle they must overcome is finding works by these writers. A recent discussion on the victorian list demonstrated researchers’ frustrations with the limited in-print availability of works by women writers of this period. One professor said that she routinely sends inquiries to publishers as to whether they would be interested in reprinting some of these works, and the answer is invariably “no.”</p></blockquote>
+          </div></div>
+          <div><span class="k">Digital</span><div><p>The opportunity provided by the digital medium allows for efficient collection management. Not only it offers an intuitive way to navigate through texts, but it also makes it easy to keep the archive up to date. Digitalization also enables the uploading of texts in standardized XML formats with TEI, making them as accessible as possible. Creating a digital environment is also a good strategy to enable alternative views, such as the one for concepts, which we will discuss in more detail later on.</p></div></div>
+          <div><span class="k">Multilingual and multicultural</span><div><p>This archive encompasses texts of diverse genres and aims to be an attempt to include female writers from different cultures and texts of different languages.</p></div></div>
+        </div>
+
+        <h3>Words and concepts: their role</h3>
+        <p>Compared to a typical digital archive, we have chosen to foster a productive dialogue among the texts. From Gheno we borrow the idea of examining how different female authors in different historical and cultural contexts have written about the same concepts, sometimes elaborated in depth as the main theme and sometimes only mentioned as an input for a broader argument. The aim of this research is to identify these concepts, both explicit and implicit, to highlight the conceptual connections that unite the selected literary texts, constructing a network of variations and cross-references.</p>
+        <p>Therefore, having as our first reference the excerpts selected by Gheno in <i>Parole d’altro genere</i>, we choose to extrapolate some of them with the intention of linking them with each other and defining maps of meaning to build an intertextual dimension. Intertextuality is not intended as a simple relationship between one text and another, but as a “pantextualistic vision in which the world itself becomes a text, an infinitely ramified labyrinth of texts that recall and intertwine, without any possibility of arriving at an unambiguous, stable and delimited meaning”.</p>
+        <p>It is for this reason that we choose to approach the notion of text as an open, plural, disseminated work, believing that in this way we can achieve the ambition of a collection that articulates horizontally (thus taking into account the temporal axis) and multiplies vertically.</p>
+        <blockquote><p>What has become important, then, is not the unity of a text produced by one person – and legitimated by her or him, or by an editor – but the collection of dynamic relationships that this content maintains with other content. And these relationships, which are part of an open process, determine the existence of a piece of content. It is the ensemble of relationships and links that make the content accessible and visible, and thus bring it into existence. Completely independent content would be inaccessible, invisible, actually non-existing.<sup><a id="r6" href="#n6" aria-label="Note 6">6</a></sup></p></blockquote>
+        <div class="notes" role="doc-endnotes">
+          <p id="n5">5. Willett, Perry. “The Victorian Women Writers Project: The Library as a Creator and Publisher of Electronic Texts.” <i>The Public-Access Computer Systems Review</i> 7, no. 6 (1996): 7. <a href="#r5" aria-label="Back to note 5">↩</a></p>
+          <p id="n6">6. Marcello Vitali-Rosati, “On editorialization. Structuring space and authority in the digital age”, <i>Institute of Network Cultures</i>, Amsterdam, 2018, p. 78. <a href="#r6" aria-label="Back to note 6">↩</a></p>
+        </div>
+      </section>
+
+      <section id="method" aria-labelledby="method-h">
+        <h2 id="method-h">Methodology</h2>
+        <h3 style="margin-top:0">Interoperability and annotations</h3>
+        <p>We decided to create XML versions of texts and use the Text Encoding Initiative (TEI) markup. XML is a robust and future-proof format for long-term preservation. It ensures that the encoded texts remain accessible and usable for generations to come, even as technology evolves. TEI is a widely adopted markup XML standard for encoding literary and historical texts. Using TEI helps ensure consistency and compatibility with other digital archives and projects, making it easier to share and exchange data. It is possible to link directly to authority files (as VIAF, for example).</p>
+        <p>We then decided to enrich the XML file with Linked Open Data (LOD).</p>
+        <blockquote><p>The expansion of the Web of Data prompts the redefinition of the concept of digital scientific editions (ESD) by the academic community. ESD, currently structured essentially as a network of documents, must be reconsidered as a set of entities, also resources uniquely identified by URIs and interconnected through the use of typed links (RDF properties), according to a data-centric paradigm. […] The document (or the collection of documents) that constitutes the edition becomes the subject of a deconstruction process, aimed at identifying uniquely identified informational atoms. However, this process also compels these atomic elements to be extracted, enriched, organized, manipulated, and queried outside the ‘straightjacket’ of the document within which they occupy a specific position and contribute to its composition.<sup><a id="r7" href="#n7" aria-label="Note 7">7</a></sup></p></blockquote>
+        <p>We have reflected on the most suitable schema to use (see our <a href="#graph1">conceptual map</a> and our <a href="#graph2">ontologies map</a>), considering that:</p>
+        <blockquote><p>The choice of ontological predicates, suitable for providing real semantic consistency to the markup, must be consciously undertaken with the goal of enhancing the expressiveness of the knowledge base contained in the text, avoiding the dispersion of its informational potential in the name of, albeit necessary, simplification. The selection of the most suitable ontological models constitutes the central aspect of this phase.<sup><a id="r8" href="#n8" aria-label="Note 8">8</a></sup></p></blockquote>
+        <p>In practice, each file carries an RDF block in <code>&lt;xenoData&gt;</code> with Dublin Core title, creator and date, and <code>owl:sameAs</code> links: VIAF for every author, Wikidata or WorldCat for the works. The reading view lists them under each text.</p>
+
+        <div class="figure" id="graph1">
+          <p><b>The conceptual map.</b> Each text, its author, its publication data and the concepts it contains reference to (diagrams.net, 2023).</p>
+          <div class="dg" data-src="data/diagrams/conceptual-map.drawio"></div>
+          <button type="button" class="tbtn" data-load="graph1">Load the interactive diagram</button>
+          <a class="tbtn" style="text-decoration:none;display:inline-block;margin-left:6px" href="data/diagrams/conceptual-map.drawio" download>Download .drawio</a>
+        </div>
+        <div class="figure" id="graph2">
+          <p><b>The ontologies.</b> The same graph expressed in CIDOC-CRM classes and properties: E21 Person, E84 Information Carrier, E33 Linguistic Object, P14 carried out by, P67 refers to, P72 has language (diagrams.net, 2023).</p>
+          <div class="dg" data-src="data/diagrams/ontologies-cidoc-crm.drawio"></div>
+          <button type="button" class="tbtn" data-load="graph2">Load the interactive diagram</button>
+          <a class="tbtn" style="text-decoration:none;display:inline-block;margin-left:6px" href="data/diagrams/ontologies-cidoc-crm.drawio" download>Download .drawio</a>
+        </div>
+        <p>The first visual map of the archive was drawn on a <a href="https://miro.com/app/live-embed/uXjVM3fignM=/?moveToViewport=-4732,-604,4652,2189&amp;embedId=480370280318">Miro board</a>, which remains online.</p>
+
+        <p>We decided to use TEI also because it provides a granular approach to annotation, allowing you to add detailed metadata and commentary to texts. This is valuable for scholarly analysis and interpretation and we have made extensive use of the features provided by the <code>&lt;interpGrp&gt;</code> tag. We analysed each text and selected significant segments (see the tags <code>&lt;seg&gt;</code>) that could be topics or concepts also addressed by other authors, allowing us to create a bridge between the texts (following the idea described above).</p>
+        <p>The working list of tags agreed by the team (<a href="lista_tag.txt">lista_tag.txt</a>) contained the following values; three of them, <code>anti-model</code> (later replaced by <code>counterstereotype</code>), <code>lover</code> and <code>irony</code>, were not used in the final encoding, while <code>independence</code>, <code>uglyness</code>, <code>sensuality</code>, <code>housework</code>, <code>feminism</code> and <code>submission</code> were added during encoding.</p>
+        <p class="tags" id="taglist"></p>
+
+        <h3>Who encoded what</h3>
+        <table class="encoders" id="encoders"></table>
+
+        <h3>Visualisation</h3>
+        <p>To visualise our XML texts we used XSLT. XSLT stands for “Extensible Stylesheet Language Transformations” and it is a language used for transforming XML documents into different formats, such as HTML.</p>
+        <p>Building the XSLT stylesheet we created templates and rules that dictate how the output should be generated from the source data. These templates have allowed us not only to extract the actual text but also the list of characters that we have annotated in XML (<code>&lt;persName&gt;</code>) and the segments of the concepts that we have selected and highlighted. This transformed output is displayed in our website.</p>
+        <p>The transformation is such that it allows for the marking and easy display of annotations, so that a JavaScript integration is sufficient to make the content segments stand out and catch the eye of the reader who is interested in visualising them.</p>
+        <p>The 2026 edition of this site keeps that logic (the original <a href="WordsofGender/template.xsl">template.xsl</a> is still in the repository) but moves the transformation to build time: <code>tools/build_archive.py</code> reads the nine TEI files and writes one data file from which the reading view, the concept matrix and the timeline are all drawn, so every number on the site can be traced back to a <code>&lt;seg&gt;</code>. Browsers are phasing out native XSLT, which is why the transformation no longer runs in the page.</p>
+
+        <h3>Notes on the encoding</h3>
+        <p>Reading the files together surfaced a few inconsistencies. The site does not correct the XML; it reads it as follows:</p>
+        <ul id="notes" class="bib"></ul>
+
+        <div class="notes" role="doc-endnotes">
+          <p id="n7">7. M. Daquino, F. Giovannetti, F. Tomasi, “Linked Data per le edizioni scientifiche digitali. Il workflow di pubblicazione dell’edizione semantica del quaderno di appunti di Paolo Bufalini”, DOI: <a href="http://doi.org/10.6092/issn.2532-8816/9091">10.6092/issn.2532-8816/9091</a>, p. 50. <a href="#r7" aria-label="Back to note 7">↩</a></p>
+          <p id="n8">8. M. Daquino, F. Giovannetti, F. Tomasi, p. 51. <a href="#r8" aria-label="Back to note 8">↩</a></p>
+        </div>
+      </section>
+
+      <section id="alphabet" aria-labelledby="alphabet-h">
+        <h2 id="alphabet-h">An alphabet of concepts</h2>
+        <p>Here is the full list of the concepts we decided to work with, with the number of passages and authors each one gathers in the encoding.</p>
+        <div class="alpha" id="alpha"></div>
+      </section>
+
+      <section id="future" aria-labelledby="future-h">
+        <h2 id="future-h">Future developments</h2>
+        <p>Possible scenarios related to the development of our project would certainly involve enriching our archive with hundreds of texts, perhaps starting with the search for XML-annotated texts that are reliable and open source. Once again, text selection would focus only on women writers but aspire to encompass as many languages and cultures as possible.</p>
+        <p>The texts would be properly annotated to create a rich and comprehensive map. Ideally, an additional visualization mode would be added to create a network of concepts that connect the texts with each other in a more immediate and engaging way.</p>
+        <p>The <a href="concepts.html">concept matrix</a> of this edition is a first step in that direction.</p>
+      </section>
+
+      <section id="bibliography" aria-labelledby="bibliography-h">
+        <h2 id="bibliography-h">Bibliography</h2>
+        <ul class="bib">
+          <li>Alison Anderson, <i>World Literature Today</i>, Vol. 90, No. 6 (November/December 2016), pp. 11–15.</li>
+          <li>Ciotti, Fabio, and Francesca Tomasi. 2016. “Formal Ontologies, Linked Data, and TEI Semantics.” <i>Journal of the Text Encoding Initiative</i> 9.</li>
+          <li>Cyganiak, Richard, David Wood, and Markus Lanthaler, eds. 2014. “RDF 1.1 concepts and abstract syntax.” W3C Recommendation. <a href="https://www.w3.org/TR/rdf11-concepts/">https://www.w3.org/TR/rdf11-concepts/</a>.</li>
+          <li>Ciotti, Fabio, Marilena Daquino, and Francesca Tomasi. 2016. “Text Encoding Initiative Semantic Modeling. A Conceptual Workflow Proposal.” In <i>Communications in Computer and Information Science</i>, 48–60. Springer International Publishing. <a href="https://doi.org/10.1007/978-3-319-41938-1_5">https://doi.org/10.1007/978-3-319-41938-1_5</a>.</li>
+          <li>Clark, James. 1999. “XSL Transformations (XSLT) Version 1.0.” W3C Recommendation, November 16, 1999. <a href="https://www.w3.org/TR/xslt-10/">https://www.w3.org/TR/xslt-10/</a>.</li>
+          <li><i>Digital Scholarly Editing. Theories and practices</i>, Matthew James Driscoll and Elena Pierazzo (eds.), Open Book Publishers, 2016. <a href="https://www.openbookpublishers.com/reader/483#page/1/mode/2up">https://www.openbookpublishers.com/reader/483</a></li>
+          <li>Elizabeth Fox-Genovese, <i>The Antioch Review</i>, Vol. 50, No. 1/2, 50th Anniversary Issue (Winter–Spring, 1992), pp. 260–282.</li>
+          <li>M. Daquino, F. Giovannetti, F. Tomasi, “Linked Data per le edizioni scientifiche digitali. Il workflow di pubblicazione dell’edizione semantica del quaderno di appunti di Paolo Bufalini”. DOI: <a href="http://doi.org/10.6092/issn.2532-8816/9091">http://doi.org/10.6092/issn.2532-8816/9091</a></li>
+          <li>Marcello Vitali-Rosati, “On editorialization. Structuring space and authority in the digital age”, Institute of Network Cultures, Amsterdam, 2018.</li>
+          <li>Susan Coryat, Colleen Clemens, <i>The English Journal</i>, Vol. 106, No. 5 (May 2017), pp. 40–45.</li>
+          <li>Vera Gheno, 2023, <i>Parole d’altro genere</i>, Bur. Rizzoli.</li>
+          <li>Willett, Perry. “The Victorian Women Writers Project: The Library as a Creator and Publisher of Electronic Texts.” <i>The Public-Access Computer Systems Review</i> 7, no. 6 (1996): 5–16.</li>
+          <li>University of Alberta Library, Women and Gender Studies: Digital archives. <a href="https://guides.library.ualberta.ca/women-gender-studies/digital-archives">https://guides.library.ualberta.ca/women-gender-studies/digital-archives</a></li>
+        </ul>
+      </section>
+
+      <section id="credits" aria-labelledby="credits-h">
+        <h2 id="credits-h">Course and team</h2>
+        <p>This project was developed for the course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/467035">Digital Text in the Humanities</a> held by Professor Tiziana Mancinelli, within the MA in Digital Humanities and Digital Knowledge (DHDK) at the University of Bologna, 2023.</p>
+        <div class="team" id="team"></div>
+        <p style="margin-top:18px">The source files, the TEI encoding and the working documents (<i>Documentazione Archivio al femminile</i> and the bibliography, in .docx) are on <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">GitHub</a>.</p>
+      </section>
+    </div>
+  </div>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p><strong>Words of Gender</strong>, the prototype of an archive of women authors.</p>
+      <p>Developed for the course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/467035">Digital Text in the Humanities</a> held by Professor Tiziana Mancinelli, MA Digital Humanities and Digital Knowledge, University of Bologna, 2023.</p>
+    </div>
+    <div>
+      <p><strong>Team</strong>: Nicole Liggeri, Chiara Parravicini, Lucia Bertoldini, Alice Picco.</p>
+      <p>Texts encoded in TEI P5 with linked open data. <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">Source and XML on GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/about.js"></script>
+</body>
+</html>

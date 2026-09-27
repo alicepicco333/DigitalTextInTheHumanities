@@ -10,8 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
-<title>Read · Words of Gender</title>
-<meta name="description" content="The reading room of Words of Gender: each excerpt rendered from its TEI encoding, with the annotated concepts as switchable highlights.">
+<title>Concepts · Words of Gender</title>
+<meta name="description" content="Which women authors share which concepts: an author–concept matrix built from the TEI annotations, and every passage on a concept read side by side.">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -21,8 +21,8 @@
     <nav aria-label="Primary">
       <ul class="nav">
         <li><a href="index.html">Contents</a></li>
-        <li><a href="texts.html" aria-current="page">Read</a></li>
-        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="texts.html">Read</a></li>
+        <li><a href="concepts.html" aria-current="page">Concepts</a></li>
         <li><a href="about.html">About &amp; method</a></li>
       </ul>
     </nav>
@@ -30,36 +30,33 @@
   </div>
 </header>
 <main id="main" class="wrap">
-  <div class="reader">
-    <nav class="toc" aria-label="Texts in the archive">
-      <p class="eyebrow">The archive, in time</p>
-      <ol id="toc"></ol>
-    </nav>
+  <div class="sec-head" style="margin-top:32px">
+    <p class="eyebrow">Author × concept</p>
+    <h1 style="font-size:clamp(36px,4.6vw,60px)">Where the concepts meet</h1>
+    <p>Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side.</p>
+  </div>
 
-    <article class="page" id="page" aria-live="off">
-      <noscript><p>The reading view is rendered from the TEI files with JavaScript. The XML sources are in the <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities/tree/main/MarkedTexts">MarkedTexts folder</a>.</p></noscript>
-    </article>
-
-    <aside class="panel" aria-labelledby="concepts-h">
-      <div class="panel-inner">
-        <div>
-          <h2 id="concepts-h">Concepts in this text</h2>
-          <p class="hint">Switch on up to four at a time. Each one takes its own colour, line style and label.</p>
-          <p class="status" id="status" role="status"></p>
-          <ul class="clist" id="clist"></ul>
-        </div>
-        <div>
-          <h2>Display</h2>
-          <div class="opts">
-            <label class="switch"><input type="checkbox" id="opt-labels" checked> Concept labels in the text</label>
-            <label class="switch" id="opt-pers-wrap"><input type="checkbox" id="opt-pers"> Mark named persons <span class="mono">&lt;persName&gt;</span></label>
-            <div><button class="tbtn" type="button" id="clear">Clear highlights</button></div>
-          </div>
-          <div id="persons"></div>
+  <div class="cx">
+    <div class="matrix-wrap" id="mwrap">
+      <div class="opts" style="display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 12px">
+        <span class="hint" style="margin:0" id="order-l">Order concepts</span>
+        <div role="group" aria-labelledby="order-l" style="display:flex;gap:6px">
+          <button type="button" class="tbtn" data-order="shared" aria-pressed="true">By authors sharing</button>
+          <button type="button" class="tbtn" data-order="alpha" aria-pressed="false">A–Z</button>
         </div>
       </div>
-    </aside>
+      <table class="matrix" id="matrix"></table>
+      <div class="mx-legend" aria-hidden="true">
+        <span><i class="dot" style="width:10px;height:10px"></i>1 passage</span>
+        <span><i class="dot" style="width:20px;height:20px"></i>10 passages</span>
+        <span><i class="dot decl"></i>declared, no passage tagged</span>
+        <span><i class="dot none"></i>not used</span>
+      </div>
+    </div>
+
+    <section class="compare" id="compare" aria-live="polite" tabindex="-1"></section>
   </div>
+  <div class="tip" id="tip" role="presentation"></div>
 </main>
 <footer class="foot">
   <div class="wrap foot-grid">
@@ -75,6 +72,6 @@
 </footer>
 <script src="data/archive.js"></script>
 <script src="assets/site.js"></script>
-<script src="assets/read.js"></script>
+<script src="assets/concepts.js"></script>
 </body>
 </html>

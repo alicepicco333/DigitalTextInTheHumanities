@@ -1,34 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{var t=localStorage.getItem('wog-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
-<meta name="color-scheme" content="light dark">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..600;1,400..600&family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css">
+{{head}}
 <title>Words of Gender</title>
 <meta name="description" content="Words of Gender: the prototype of an archive of women authors. Nine excerpts across five centuries, encoded in TEI XML and read side by side through the concepts they share.">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="mast">
-  <div class="mast-in">
-    <a class="brand" href="index.html">Words <i>of</i> Gender</a>
-    <nav aria-label="Primary">
-      <ul class="nav">
-        <li><a href="index.html" aria-current="page">Contents</a></li>
-        <li><a href="texts.html">Read</a></li>
-        <li><a href="concepts.html">Concepts</a></li>
-        <li><a href="about.html">About &amp; method</a></li>
-      </ul>
-    </nav>
-    <button class="theme-btn" id="theme" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="tl">Dark</span></button>
-  </div>
-</header>
+{{mast}}
 <main id="main">
   <div class="wrap">
     <section class="hero" aria-labelledby="t">
@@ -96,18 +74,7 @@
     </section>
   </div>
 </main>
-<footer class="foot">
-  <div class="wrap foot-grid">
-    <div>
-      <p><strong>Words of Gender</strong>, the prototype of an archive of women authors.</p>
-      <p>Developed for the course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/467035">Digital Text in the Humanities</a> held by Professor Tiziana Mancinelli, MA Digital Humanities and Digital Knowledge, University of Bologna, 2023.</p>
-    </div>
-    <div>
-      <p><strong>Team</strong>: Nicole Liggeri, Chiara Parravicini, Lucia Bertoldini, Alice Picco.</p>
-      <p>Texts encoded in TEI P5 with linked open data. <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">Source and XML on GitHub</a>.</p>
-    </div>
-  </div>
-</footer>
+{{foot}}
 <script src="data/archive.js"></script>
 <script src="assets/site.js"></script>
 <script src="assets/home.js"></script>

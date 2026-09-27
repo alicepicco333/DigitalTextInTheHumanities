@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{head}}
+<title>Read · Words of Gender</title>
+<meta name="description" content="The reading room of Words of Gender: each excerpt rendered from its TEI encoding, with the annotated concepts as switchable highlights.">
+</head>
+<body>
+{{mast}}
+<main id="main" class="wrap">
+  <div class="reader">
+    <nav class="toc" aria-label="Texts in the archive">
+      <p class="eyebrow">The archive, in time</p>
+      <ol id="toc"></ol>
+    </nav>
+
+    <article class="page" id="page" aria-live="off">
+      <noscript><p>The reading view is rendered from the TEI files with JavaScript. The XML sources are in the <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities/tree/main/MarkedTexts">MarkedTexts folder</a>.</p></noscript>
+    </article>
+
+    <aside class="panel" aria-labelledby="concepts-h">
+      <div class="panel-inner">
+        <div>
+          <h2 id="concepts-h">Concepts in this text</h2>
+          <p class="hint">Switch on up to four at a time. Each one takes its own colour, line style and label.</p>
+          <p class="status" id="status" role="status"></p>
+          <ul class="clist" id="clist"></ul>
+        </div>
+        <div>
+          <h2>Display</h2>
+          <div class="opts">
+            <label class="switch"><input type="checkbox" id="opt-labels" checked> Concept labels in the text</label>
+            <label class="switch" id="opt-pers-wrap"><input type="checkbox" id="opt-pers"> Mark named persons <span class="mono">&lt;persName&gt;</span></label>
+            <div><button class="tbtn" type="button" id="clear">Clear highlights</button></div>
+          </div>
+          <div id="persons"></div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+{{foot}}
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/read.js"></script>
+</body>
+</html>

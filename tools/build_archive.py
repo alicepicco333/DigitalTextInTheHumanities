@@ -230,7 +230,7 @@ def build_text(path):
         'author': author,
         'authorFull': top_author if top_author != author else None,
         'title': title,
-        'workTitle': bf_title if bf_title and bf_title != title else None,
+        'workTitle': bf_title if bf_title and bf_title.lower()[:12] != title.lower()[:12] else None,
         'container': container,
         'lang': lang_el.get('ident') if lang_el is not None else None,
         'langName': text(lang_el) if lang_el is not None else None,

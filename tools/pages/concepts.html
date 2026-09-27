@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{head}}
+<title>Concepts · Words of Gender</title>
+<meta name="description" content="Which women authors share which concepts: an author–concept matrix built from the TEI annotations, and every passage on a concept read side by side.">
+</head>
+<body>
+{{mast}}
+<main id="main" class="wrap">
+  <div class="sec-head" style="margin-top:32px">
+    <p class="eyebrow">Author × concept</p>
+    <h1 style="font-size:clamp(36px,4.6vw,60px)">Where the concepts meet</h1>
+    <p>Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side.</p>
+  </div>
+
+  <div class="cx">
+    <div class="matrix-wrap" id="mwrap">
+      <div class="opts" style="display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 12px">
+        <span class="hint" style="margin:0" id="order-l">Order concepts</span>
+        <div role="group" aria-labelledby="order-l" style="display:flex;gap:6px">
+          <button type="button" class="tbtn" data-order="shared" aria-pressed="true">By authors sharing</button>
+          <button type="button" class="tbtn" data-order="alpha" aria-pressed="false">A–Z</button>
+        </div>
+      </div>
+      <table class="matrix" id="matrix"></table>
+      <div class="mx-legend" aria-hidden="true">
+        <span><i class="dot" style="width:10px;height:10px"></i>1 passage</span>
+        <span><i class="dot" style="width:20px;height:20px"></i>10 passages</span>
+        <span><i class="dot decl"></i>declared, no passage tagged</span>
+        <span><i class="dot none"></i>not used</span>
+      </div>
+    </div>
+
+    <section class="compare" id="compare" aria-live="polite" tabindex="-1"></section>
+  </div>
+  <div class="tip" id="tip" role="presentation"></div>
+</main>
+{{foot}}
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/concepts.js"></script>
+</body>
+</html>
