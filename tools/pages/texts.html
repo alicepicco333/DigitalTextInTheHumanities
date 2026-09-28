@@ -7,16 +7,14 @@
 </head>
 <body>
 {{mast}}
-<main id="main" class="slides">
-  <section class="slide read-head" id="readhead" aria-label="Excerpt"></section>
-  <section class="slide read-body" aria-label="Text and concepts">
+<main id="main" class="wrap">
   <div class="reader">
     <nav class="toc" aria-label="Texts in the archive">
       <p class="eyebrow">The archive, in time</p>
       <ol id="toc"></ol>
     </nav>
 
-    <article class="page" id="page">
+    <article class="page frame" id="page" aria-live="off">
       <noscript><p>The reading view is rendered from the TEI files with JavaScript. The XML sources are in the <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities/tree/main/MarkedTexts">MarkedTexts folder</a>.</p></noscript>
     </article>
 
@@ -27,7 +25,6 @@
           <p class="hint">Switch on up to four at a time. Each one takes its own colour, line style and label.</p>
           <p class="status" id="status" role="status"></p>
           <ul class="clist" id="clist"></ul>
-          <div class="hlnav" id="hlnav" hidden><span id="hlpos" aria-live="polite"></span><span class="hlbtns"><button class="tbtn" type="button" id="hlprev">Previous</button><button class="tbtn" type="button" id="hlnext">Next</button></span></div>
         </div>
         <div>
           <h2>Display</h2>
@@ -41,7 +38,6 @@
       </div>
     </aside>
   </div>
-  </section>
 </main>
 {{foot}}
 <script src="data/archive.js"></script>

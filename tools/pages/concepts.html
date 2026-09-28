@@ -7,19 +7,15 @@
 </head>
 <body>
 {{mast}}
-<main id="main" class="slides">
-  <section class="slide cx-head" aria-labelledby="cx-h">
-    <div class="titlebar small">
-      <span class="num" aria-hidden="true">09</span>
-      <h1 id="cx-h" class="mix"><span class="g">Where the</span> <em>concepts</em> <span class="g">meet</span></h1>
-      <span class="num" aria-hidden="true">27</span>
-    </div>
-    <p class="lead">Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side.</p>
-  </section>
+<main id="main" class="wrap">
+  <div class="sec-head" style="margin-top:32px">
+    <p class="eyebrow">Author × concept</p>
+    <h1 style="font-size:clamp(36px,4.6vw,60px)">Where the concepts meet</h1>
+    <p>Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side.</p>
+  </div>
 
-  <section class="slide" aria-label="Matrix and passages">
   <div class="cx">
-    <div class="matrix-wrap" id="mwrap">
+    <div class="matrix-wrap frame" id="mwrap">
       <div class="opts" style="display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 12px">
         <span class="hint" style="margin:0" id="order-l">Order concepts</span>
         <div role="group" aria-labelledby="order-l" style="display:flex;gap:6px">
@@ -38,7 +34,6 @@
 
     <section class="compare" id="compare" aria-live="polite" tabindex="-1"></section>
   </div>
-  </section>
   <div class="tip" id="tip" role="presentation"></div>
 </main>
 {{foot}}

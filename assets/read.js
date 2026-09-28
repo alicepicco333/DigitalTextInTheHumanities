@@ -37,34 +37,19 @@
   rows.push(['Encoded by', esc(t.encoder || '') + ' · <a href="' + esc(encodeURI(t.file)) + '">TEI source</a> · ' + t.words + ' words, ' + W.plural(t.segs.length, 'segment')]);
 
   var prev = D.texts[idx - 1], next = D.texts[idx + 1];
-  var N = D.texts.length, two = function (n) { return (n < 10 ? '0' : '') + n; };
-  var pf = t.portrait;
-  function pager(where) {
-    return '<nav class="slide-nav" aria-label="Excerpts, ' + where + '">' +
-      (prev ? '<a href="texts.html?t=' + prev.id + '" rel="prev">back<span class="sr-only">: ' + esc(prev.author) + '</span></a>' : '<span class="off" aria-hidden="true">back</span>') +
-      '<span>excerpt <b>' + (idx + 1) + '</b> of ' + N + '</span>' +
-      (next ? '<a href="texts.html?t=' + next.id + '" rel="next">next<span class="sr-only">: ' + esc(next.author) + '</span></a>' : '<span class="off" aria-hidden="true">next</span>') +
-      '</nav>';
-  }
-  $('readhead').innerHTML =
-    '<div class="slide-top">' + pager('top') +
-      '<label class="picker"><span>Choose an excerpt</span><select id="pick">' + D.texts.map(function (x, i) {
-        return '<option value="' + x.id + '"' + (x === t ? ' selected' : '') + '>' + two(i + 1) + '. ' + esc(x.author) + ', ' + esc(x.title) + '</option>';
-      }).join('') + '</select></label>' +
-    '</div>' +
-    '<div class="rh-grid">' +
-      '<div class="rh-text">' +
-        '<div class="titlebar left"><span class="num" aria-hidden="true">' + two(idx + 1) + '</span>' +
-        '<h1 class="work" lang="' + esc(t.lang) + '">' + esc(t.title) + '</h1></div>' +
-        '<p class="by"><span class="g">by</span> <em>' + esc(t.author) + '</em>' + (t.firstEdition != null ? '<span class="g">, ' + t.firstEdition + '</span>' : '') + '</p>' +
-        '<p class="eyebrow">' + esc(W.langName(t)) + (t.verse ? ' · verse' : ' · prose') + ' · ' + W.plural(t.segs.length, 'tagged passage') + '</p>' +
-        '<details class="bib-d" id="bibd"><summary>Edition, authorities and encoding</summary><dl class="biblio">' + rows.map(function (r) { return '<dt>' + r[0] + '</dt><dd>' + r[1] + '</dd>'; }).join('') + '</dl></details>' +
-      '</div>' +
-      (pf ? '<figure class="ph portrait"><img src="' + esc(pf.file) + '" alt="Portrait of ' + esc(t.author) + (pf.artist ? ', by ' + esc(pf.artist) : '') + '" width="560" height="700" style="object-position:' + W.focus(t.id) + '"><span class="tag">' + esc(t.author) + '</span></figure>' : '') +
-    '</div>';
   $('page').innerHTML =
-    '<div class="text" id="text" lang="' + esc(t.lang) + '">' + t.html + '</div>' + pager('bottom');
-  $('pick').addEventListener('change', function () { location.href = 'texts.html?t=' + encodeURIComponent(this.value); });
+    '<header class="page-head">' +
+      (W.portrait(t.id) ? '<img class="cameo" src="' + W.portrait(t.id) + '" alt="Portrait of ' + esc(t.author) + '" width="96" height="120">' : '') +
+      '<p class="eyebrow">' + (idx + 1) + ' of ' + D.texts.length + ' · ' + esc(W.langName(t)) + (t.verse ? ' · verse' : ' · prose') + '</p>' +
+      '<h1 lang="' + esc(t.lang) + '">' + esc(t.title) + '</h1>' +
+      '<p class="byline"><b>' + esc(t.author) + '</b>' + (t.firstEdition != null ? ', ' + t.firstEdition : '') + '</p>' +
+      '<details class="bib-d" id="bibd" open><summary>Edition, authorities and encoding</summary><dl class="biblio">' + rows.map(function (r) { return '<dt>' + r[0] + '</dt><dd>' + r[1] + '</dd>'; }).join('') + '</dl></details>' +
+    '</header>' +
+    '<div class="text" id="text" lang="' + esc(t.lang) + '">' + t.html + '</div>' +
+    '<nav class="pager" aria-label="Previous and next text">' +
+      (prev ? '<a class="prev" href="texts.html?t=' + prev.id + '"><small>Previous</small><span>' + esc(prev.author) + '</span></a>' : '') +
+      (next ? '<a class="next" href="texts.html?t=' + next.id + '"><small>Next</small><span>' + esc(next.author) + '</span></a>' : '') +
+    '</nav>';
 
   var textEl = $('text');
 
@@ -77,6 +62,7 @@
   }
   place();
   if (narrow.addEventListener) narrow.addEventListener('change', place);
+  if (window.matchMedia('(max-width: 820px)').matches) $('bibd').open = false;
 
   // concept list: declared interps plus any concept tagged but not declared
   var counts = {};
@@ -130,36 +116,12 @@
       var untagged = !counts[c];
       b.setAttribute('aria-disabled', (untagged || (!sl && n >= MAX)) ? 'true' : 'false');
     });
-    if (n >= MAX) $('status').textContent = 'Four concepts are on. Switch one off to add another.';
-    else if (!n) $('status').textContent = '';
+    $('status').textContent = n >= MAX ? 'Four concepts are on. Switch one off to add another.' : '';
     var q = new URLSearchParams(location.search);
     q.set('t', t.id);
     var on = Object.keys(active).sort(function (a, b) { return active[a] - active[b]; });
     if (on.length) q.set('c', on.join(',')); else q.delete('c');
     try { history.replaceState(null, '', '?' + q.toString() + location.hash); } catch (e) { /* ignore */ }
-  }
-
-  // Walk through the highlighted passages, so switching a concept on always shows something.
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var pos = -1;
-  function lit() { return Array.prototype.slice.call(textEl.querySelectorAll('.seg.on')); }
-  function visible(el) { var r = el.getBoundingClientRect(); return r.bottom > 80 && r.top < innerHeight - 40; }
-  function goTo(el) {
-    textEl.querySelectorAll('.seg.target').forEach(function (x) { x.classList.remove('target'); });
-    el.classList.add('target');
-    el.scrollIntoView({ block: 'center', behavior: reduce ? 'auto' : 'smooth' });
-  }
-  function updateNav() {
-    var all = lit();
-    $('hlnav').hidden = !all.length;
-    if (!all.length) { pos = -1; return; }
-    if (pos >= all.length) pos = all.length - 1;
-    $('hlpos').textContent = pos < 0 ? W.plural(all.length, 'passage') + ' highlighted' : 'Passage ' + (pos + 1) + ' of ' + all.length;
-  }
-  function step(d) {
-    var all = lit(); if (!all.length) return;
-    pos = pos < 0 ? (d > 0 ? 0 : all.length - 1) : (pos + d + all.length) % all.length;
-    goTo(all[pos]); updateNav();
   }
 
   function turnOn(c) {
@@ -176,31 +138,20 @@
     if (active[c]) delete active[c];
     else if (!counts[c]) { $('status').textContent = 'This concept is declared in the header but no passage is tagged with it.'; return; }
     else if (!turnOn(c)) { $('status').textContent = 'Four concepts are on. Switch one off to add another.'; return; }
-    var added = !!active[c];
     render();
-    pos = -1; updateNav();
-    if (added) {
-      var mine = lit().filter(function (g) { return (g.getAttribute('data-c') || '').split(' ').indexOf(c) >= 0; });
-      $('status').textContent = W.label(c) + ': ' + W.plural(mine.length, 'passage') + ' highlighted.';
-      if (mine.length && !mine.some(visible)) { pos = lit().indexOf(mine[0]); goTo(mine[0]); updateNav(); }
-    }
   });
-  $('hlprev').addEventListener('click', function () { step(-1); });
-  $('hlnext').addEventListener('click', function () { step(1); });
-  $('clear').addEventListener('click', function () { active = {}; render(); updateNav(); });
+  $('clear').addEventListener('click', function () { active = {}; render(); });
   $('opt-labels').addEventListener('change', function () { textEl.classList.toggle('no-labels', !this.checked); });
   $('opt-pers').addEventListener('change', function () { textEl.classList.toggle('show-pers', this.checked); });
 
   // initial state from the URL
   (params.get('c') || '').split(',').filter(Boolean).forEach(turnOn);
   render();
-  updateNav();
   if (location.hash) {
     var target = document.getElementById(location.hash.slice(1));
     if (target && target.classList.contains('seg')) {
       target.classList.add('target');
       target.setAttribute('tabindex', '-1');
-      pos = lit().indexOf(target); updateNav();
       requestAnimationFrame(function () { target.scrollIntoView({ block: 'center' }); target.focus({ preventScroll: true }); });
     }
   }

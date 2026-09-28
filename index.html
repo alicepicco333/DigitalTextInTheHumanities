@@ -8,9 +8,9 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Great+Vibes&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=b68789c1">
-<link rel="stylesheet" href="assets/letter.css?v=1ef21451">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/keepsake.css">
 <title>Words of Gender</title>
 <meta name="description" content="Words of Gender: the prototype of an archive of women authors. Nine excerpts across five centuries, encoded in TEI XML and read side by side through the concepts they share.">
 </head>
@@ -18,7 +18,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="mast">
   <div class="mast-in">
-    <a class="brand" href="index.html"><span>Words</span> <em>of</em> <span>Gender</span></a>
+    <a class="brand" href="index.html">Words <i>of</i> Gender</a>
     <nav aria-label="Primary">
       <ul class="nav">
         <li><a href="index.html" aria-current="page">Contents</a></li>
@@ -30,109 +30,72 @@
     <button class="theme-btn" id="theme" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="tl">Dark</span></button>
   </div>
 </header>
-<main id="main" class="slides">
+<main id="main">
+  <div class="wrap">
+    <section class="hero" aria-labelledby="t">
+      <div>
+        <p class="eyebrow">A Digital Text in the Humanities project</p>
+        <h1 id="t">Words <em>of</em> Gender</h1>
+        <p class="sub">The prototype of an archive of women authors.</p>
+      </div>
+      <div class="question">
+        <p>How have different authors declined the same concepts related to the female gender (e.g. grace, beauty, maternity&nbsp;…) in different historical and cultural contexts?</p>
+        <span class="src">The research question, after Vera Gheno, <i>Parole d’altro genere</i> (Rizzoli, 2023)</span>
+      </div>
+    </section>
 
-  <section class="slide hero" id="s1" aria-labelledby="t">
-    <div class="titlebar">
-      <span class="num" aria-hidden="true">09</span>
-      <h1 id="t" class="mix"><span class="g">Words</span> <em>of</em> <span class="g">Gender</span></h1>
-      <span class="num" aria-hidden="true">27</span>
-    </div>
-    <p class="sub">The prototype of an archive of women authors <span class="sep">·</span> nine authors, twenty-seven concepts</p>
-    <ul class="strip" id="strip" aria-label="The nine authors"></ul>
-    <p class="made">an archive by <b>Nicole Liggeri</b>, <b>Chiara Parravicini</b>, <b>Lucia Bertoldini</b> and <b>Alice Picco</b></p>
-  </section>
-
-  <section class="slide question-slide" id="s2" aria-labelledby="q-h">
-    <div class="slide-top"><span>Words of Gender</span><span class="mid">the <b>research</b> question</span><span>Parole d’altro genere</span></div>
-    <div class="q-body">
-      <svg class="bow" viewBox="0 0 220 130" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M110 46 C 84 10, 34 6, 26 34 C 20 58, 64 66, 110 46"/><path d="M110 46 C 88 26, 52 22, 40 36"/><path d="M110 46 C 136 10, 186 6, 194 34 C 200 58, 156 66, 110 46"/><path d="M110 46 C 132 26, 168 22, 180 36"/><path d="M104 50 C 96 72, 80 96, 58 120 L 70 116 L 74 126"/><path d="M116 50 C 126 74, 144 98, 166 118 L 154 116 L 152 126"/><path d="M110 50 C 104 70, 92 90, 78 106"/><path d="M110 50 C 118 70, 132 90, 146 104"/><ellipse cx="110" cy="47" rx="8" ry="6"/></g></svg>
-      <h2 id="q-h" class="mix q">
-        <span class="g">How have different authors</span> <em>declined</em> <span class="g">the same concepts related to the female gender (e.g.</span> <em>grace,</em> <em>beauty,</em> <em>maternity</em><span class="g">&nbsp;…) in different historical and cultural contexts?</span>
-      </h2>
-      <p class="src">After Vera Gheno, <i>Parole d’altro genere</i> (Rizzoli, 2023)</p>
-    </div>
     <ul class="facts" id="facts" aria-label="The archive in numbers"></ul>
-    <nav class="slide-nav" aria-label="Home slides, page 2"><a href="#s1">back</a><span>page <b>2</b> of 5</span><a href="#s3">next</a></nav>
-  </section>
 
-  <section class="slide" id="s3" aria-labelledby="contents-h">
-    <div class="titlebar small">
-      <span class="num" aria-hidden="true">1558</span>
-      <h2 id="contents-h" class="mix"><span class="g">Nine</span> <em>voices,</em> <span class="g">five</span> <em>centuries</em></h2>
-      <span class="num" aria-hidden="true">1958</span>
-    </div>
-    <p class="lead">The excerpts in the order of their first edition as recorded in each TEI header. The open diamond marks the edition the text was transcribed from, where the encoding names one; the dashed line is the distance between the two.</p>
-    <div class="tl-legend" aria-hidden="true">
-      <span><i class="k-first"></i><span>First edition (<span class="mono">editionStmt</span>)</span></span>
-      <span><i class="k-src"></i><span>Edition transcribed (<span class="mono">publicationStmt</span>)</span></span>
-      <span><i class="k-span"></i>Time between them</span>
-    </div>
-    <ol class="tl" id="timeline" aria-label="The nine texts in chronological order"></ol>
-    <nav class="slide-nav" aria-label="Home slides, page 3"><a href="#s2">back</a><span>page <b>3</b> of 5</span><a href="#s4">next</a></nav>
-  </section>
+    <section aria-labelledby="contents-h">
+      <div class="sec-head">
+        <h2 id="contents-h">Contents, in time</h2>
+        <p>Nine excerpts in the order of their first edition as recorded in each TEI header. The diamond marks the edition the text was transcribed from, where the encoding names one; the dashed line is the distance between the two.</p>
+      </div>
+      <div class="tl-legend" aria-hidden="true">
+        <span><i class="k-first"></i><span>First edition (<span class="mono">editionStmt</span>)</span></span>
+        <span><i class="k-src"></i><span>Edition transcribed (<span class="mono">publicationStmt</span>)</span></span>
+        <span><i class="k-span"></i>Time between them</span>
+      </div>
+      <ol class="tl frame" id="timeline" aria-label="The nine texts in chronological order"></ol>
+    </section>
 
-  <section class="slide stars" id="s4" aria-labelledby="voices-h">
-    <div class="titlebar small">
-      <h2 id="voices-h" class="mix"><span class="g">They</span> <em>wrote</em> <span class="g">it in their</span> <em>own words</em></h2>
-    </div>
-    <div class="voices">
-      <figure lang="fr">
-        <a class="ph" href="texts.html?t=sand&amp;c=counterstereotype"><img src="assets/portraits/sand.jpg" alt="George Sand, photographed by Nadar, 1864" loading="lazy" width="560" height="700"><span class="tag">George Sand</span></a>
-        <blockquote>C’est que tu n’as rien d’une <b>fille</b> et tout d’un <b>garçon</b>, dans ton air et dans tes manières.</blockquote>
-        <figcaption><i>La Petite Fadette</i>, 1849</figcaption>
-      </figure>
-      <figure lang="it">
-        <a class="ph" href="texts.html?t=franco&amp;c=bitch#franco-seg6"><img src="assets/portraits/franco.jpg" alt="Portrait of a lady traditionally identified as Veronica Franco, by Tintoretto or a follower" loading="lazy" width="560" height="700"><span class="tag">Veronica Franco</span></a>
-        <blockquote>E se ben <b>«meretrice»</b> mi chiamate, / o volete inferir ch’io non vi sono, / o che ve n’èn tra tali di lodate.</blockquote>
-        <figcaption><i>D’ardito cavalier non è prodezza</i>, 1575</figcaption>
-      </figure>
-      <figure lang="fr">
-        <a class="ph" href="texts.html?t=cahun&amp;c=body"><img src="assets/portraits/cahun.jpg" alt="Claude Cahun, self-portrait, 1927" loading="lazy" width="560" height="700"><span class="tag">Claude Cahun</span></a>
-        <blockquote>Des <b>seins superflus</b> ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal…</blockquote>
-        <figcaption><i>L’Androgyne</i>, 1930</figcaption>
-      </figure>
-      <figure lang="fr">
-        <a class="ph" href="texts.html?t=marguerite&amp;c=honour"><img src="assets/portraits/marguerite.jpg" alt="Marguerite de Navarre, attributed to Jean Clouet, about 1527" loading="lazy" width="560" height="700"><span class="tag">Marguerite de Navarre</span></a>
-        <blockquote>Celle qui preféroit son <b>plaisir</b> à tout l’<b>honneur</b> du monde</blockquote>
-        <figcaption><i>La doulce prison</i>, 1558</figcaption>
-      </figure>
-      <figure lang="en">
-        <a class="ph" href="texts.html?t=wollstonecraft&amp;c=counterstereotype#wollstonecraft-seg8"><img src="assets/portraits/wollstonecraft.jpg" alt="Mary Wollstonecraft by John Opie, about 1797" loading="lazy" width="560" height="700"><span class="tag">Mary Wollstonecraft</span></a>
-        <blockquote>I should think, wish with me, that they may every day grow more and more <b>masculine</b>.</blockquote>
-        <figcaption><i>A Vindication of the Rights of Woman</i>, 1792</figcaption>
-      </figure>
-    </div>
-    <p class="note">Words in crimson are the ones each passage turns on. Every portrait opens its passage in the reading room.</p>
-    <nav class="slide-nav" aria-label="Home slides, page 4"><a href="#s3">back</a><span>page <b>4</b> of 5</span><a href="#s5">next</a></nav>
-  </section>
 
-  <section class="slide" id="s5" aria-labelledby="ways-h">
-    <div class="titlebar small">
-      <h2 id="ways-h" class="mix"><span class="g">Three</span> <em>ways</em> <span class="g">in</span></h2>
-    </div>
-    <div class="doors">
-      <a class="door" href="texts.html">
-        <span class="num">i</span>
-        <h3 class="mix"><span class="g">Read the</span> <em>texts</em></h3>
-        <p>Each excerpt rendered from its TEI file, with the annotated concepts as highlights you can switch on, four at a time.</p>
-        <span class="go">Open the reading room</span>
-      </a>
-      <a class="door" href="concepts.html">
-        <span class="num">ii</span>
-        <h3 class="mix"><span class="g">Compare a</span> <em>concept</em></h3>
-        <p>A matrix of which authors share which concepts. Choose one and read every passage tagged with it, author beside author.</p>
-        <span class="go">Open the concept matrix</span>
-      </a>
-      <a class="door" href="about.html">
-        <span class="num">iii</span>
-        <h3 class="mix"><span class="g">About &amp;</span> <em>method</em></h3>
-        <p>Context, research question, the TEI and linked-data encoding, the alphabet of concepts, bibliography, portraits and team.</p>
-        <span class="go">Read the documentation</span>
-      </a>
-    </div>
-    <nav class="slide-nav" aria-label="Home slides, page 5"><a href="#s4">back</a><span>page <b>5</b> of 5</span><a href="texts.html">read</a></nav>
-  </section>
+    <section aria-labelledby="voices-h">
+      <div class="sec-head">
+        <h2 id="voices-h">Five voices from the archive</h2>
+      </div>
+      <div class="voices">
+        <figure class="frame" lang="fr"><span class="orn-s" aria-hidden="true">❦</span><blockquote>C’est que tu n’as rien d’une fille et tout d’un garçon, dans ton air et dans tes manières.</blockquote><figcaption><a href="texts.html?t=sand">George Sand, <i>La Petite Fadette</i></a></figcaption></figure>
+        <figure class="frame" lang="it"><span class="orn-s" aria-hidden="true">❦</span><blockquote>E se ben «meretrice» mi chiamate, / o volete inferir ch’io non vi sono, / o che ve n’èn tra tali di lodate. / Quanto le meretrici hanno di buono, / quanto di grazioso e di gentile, / esprime in me del parlar vostro il suono.</blockquote><figcaption><a href="texts.html?t=franco&amp;c=bitch#franco-seg6">Veronica Franco, <i>D’ardito cavalier non è prodezza</i></a></figcaption></figure>
+        <figure class="frame" lang="fr"><img class="cameo" src="assets/portraits/cahun.jpg" alt="Portrait of Claude Cahun" width="96" height="120" loading="lazy"><blockquote>Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon – le démon de l’hérédité – a tordues, déformées…</blockquote><figcaption><a href="texts.html?t=cahun&amp;c=body">Claude Cahun, <i>L’Androgyne</i></a></figcaption></figure>
+        <figure class="frame" lang="fr"><img class="cameo" src="assets/portraits/marguerite.jpg" alt="Portrait of Marguerite de Navarre" width="96" height="120" loading="lazy"><blockquote>Celle qui preféroit son plaisir à tout l’honneur du monde</blockquote><figcaption><a href="texts.html?t=marguerite">Marguerite de Navarre, <i>La doulce prison</i></a></figcaption></figure>
+        <figure class="frame" lang="en"><img class="cameo" src="assets/portraits/wollstonecraft.jpg" alt="Portrait of Mary Wollstonecraft" width="96" height="120" loading="lazy"><blockquote>From every quarter have I heard exclamations against masculine women. […] I should think, wish with me, that they may every day grow more and more masculine.</blockquote><figcaption><a href="texts.html?t=wollstonecraft&amp;c=counterstereotype#wollstonecraft-seg8">Mary Wollstonecraft, <i>A Vindication of the Rights of Woman</i></a></figcaption></figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="ways-h">
+      <div class="sec-head">
+        <h2 id="ways-h">Three ways in</h2>
+      </div>
+      <div class="doors">
+        <a class="door frame" href="texts.html">
+          <h3>Read the texts</h3>
+          <p>Each excerpt rendered from its TEI file, with the annotated concepts as highlights you can switch on, four at a time.</p>
+          <span>Open the reading room →</span>
+        </a>
+        <a class="door frame" href="concepts.html">
+          <h3>Compare a concept</h3>
+          <p>A matrix of which authors share which concepts. Choose one and read every passage tagged with it, author beside author.</p>
+          <span>Open the concept matrix →</span>
+        </a>
+        <a class="door frame" href="about.html">
+          <h3>About &amp; method</h3>
+          <p>Context, research question, the TEI and linked-data encoding, the alphabet of concepts, bibliography and team.</p>
+          <span>Read the documentation →</span>
+        </a>
+      </div>
+    </section>
+  </div>
 </main>
 <footer class="foot">
   <div class="wrap foot-grid">
@@ -146,8 +109,8 @@
     </div>
   </div>
 </footer>
-<script src="data/archive.js?v=9de2bc01"></script>
-<script src="assets/site.js?v=2590bd39"></script>
-<script src="assets/home.js?v=6c929be7"></script>
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/home.js"></script>
 </body>
 </html>

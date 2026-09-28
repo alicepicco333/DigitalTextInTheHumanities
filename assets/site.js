@@ -42,8 +42,7 @@
     label: function (cid) { return D.concepts[cid] ? D.concepts[cid].label : cid; },
     date: function (t) { return t.firstEdition != null ? String(t.firstEdition) : 'n.d.'; },
     plural: function (n, one, many) { return n + ' ' + (n === 1 ? one : (many || one + 's')); },
-    portrait: function (id) { var t = byId[id]; return t && t.portrait ? t.portrait.file : null; },
-    focus: function (id) { return { cahun: '50% 8%', chiara: '50% 12%', negri: '50% 20%', sand: '50% 18%', franco: '50% 18%', lambert: '50% 15%', marguerite: '50% 22%', wollstonecraft: '50% 20%', beauvoir: '50% 25%' }[id] || '50% 20%'; },
+    portrait: function (id) { return { marguerite: 'marguerite', wollstonecraft: 'wollstonecraft', cahun: 'cahun' }[id] ? 'assets/portraits/' + id + '.jpg' : null; },
     langName: function (t) { return t.langName || (t.lang || '').toUpperCase(); }
   };
 })();

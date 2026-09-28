@@ -8,9 +8,9 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Great+Vibes&family=IBM+Plex+Mono:wght@400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/site.css?v=b68789c1">
-<link rel="stylesheet" href="assets/letter.css?v=1ef21451">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/keepsake.css">
 <title>Read · Words of Gender</title>
 <meta name="description" content="The reading room of Words of Gender: each excerpt rendered from its TEI encoding, with the annotated concepts as switchable highlights.">
 </head>
@@ -18,7 +18,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="mast">
   <div class="mast-in">
-    <a class="brand" href="index.html"><span>Words</span> <em>of</em> <span>Gender</span></a>
+    <a class="brand" href="index.html">Words <i>of</i> Gender</a>
     <nav aria-label="Primary">
       <ul class="nav">
         <li><a href="index.html">Contents</a></li>
@@ -30,16 +30,14 @@
     <button class="theme-btn" id="theme" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="tl">Dark</span></button>
   </div>
 </header>
-<main id="main" class="slides">
-  <section class="slide read-head" id="readhead" aria-label="Excerpt"></section>
-  <section class="slide read-body" aria-label="Text and concepts">
+<main id="main" class="wrap">
   <div class="reader">
     <nav class="toc" aria-label="Texts in the archive">
       <p class="eyebrow">The archive, in time</p>
       <ol id="toc"></ol>
     </nav>
 
-    <article class="page" id="page">
+    <article class="page frame" id="page" aria-live="off">
       <noscript><p>The reading view is rendered from the TEI files with JavaScript. The XML sources are in the <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities/tree/main/MarkedTexts">MarkedTexts folder</a>.</p></noscript>
     </article>
 
@@ -50,7 +48,6 @@
           <p class="hint">Switch on up to four at a time. Each one takes its own colour, line style and label.</p>
           <p class="status" id="status" role="status"></p>
           <ul class="clist" id="clist"></ul>
-          <div class="hlnav" id="hlnav" hidden><span id="hlpos" aria-live="polite"></span><span class="hlbtns"><button class="tbtn" type="button" id="hlprev">Previous</button><button class="tbtn" type="button" id="hlnext">Next</button></span></div>
         </div>
         <div>
           <h2>Display</h2>
@@ -64,7 +61,6 @@
       </div>
     </aside>
   </div>
-  </section>
 </main>
 <footer class="foot">
   <div class="wrap foot-grid">
@@ -78,8 +74,8 @@
     </div>
   </div>
 </footer>
-<script src="data/archive.js?v=9de2bc01"></script>
-<script src="assets/site.js?v=2590bd39"></script>
-<script src="assets/read.js?v=78dd2d0a"></script>
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/read.js"></script>
 </body>
 </html>

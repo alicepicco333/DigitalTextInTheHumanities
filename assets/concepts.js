@@ -55,7 +55,7 @@
     var k = C[sel];
     var users = texts.filter(function (t) { return k.counts[t.id]; });
     var absent = texts.filter(function (t) { return !k.counts[t.id]; });
-    var h = '<header class="cmp-head"><h2 id="cmp-h" class="mix"><span class="g">the concept of</span> <em>' + esc(k.label) + '</em></h2>' +
+    var h = '<header class="cmp-head"><p class="eyebrow">Concept</p><h2 id="cmp-h">' + esc(k.label) + '</h2>' +
       '<p class="stat">' + W.plural(k.passages, 'tagged passage') + ' by ' + users.length + ' of ' + texts.length + ' authors' +
       ' · <span class="mono">ana="#' + esc(sel) + '"</span></p>';
     if (k.doc) h += '<p class="doc">' + esc(k.doc) + '</p><p class="doc-src">From the project’s alphabet of concepts.</p>';
@@ -64,10 +64,9 @@
     users.forEach(function (t) {
       var segs = t.segs.filter(function (g) { return g.concepts.indexOf(sel) >= 0; });
       var gloss = (t.concepts.filter(function (c) { return c.id === sel; })[0] || {}).gloss;
-      h += '<section class="cmp-col" id="col-' + t.id + '" aria-labelledby="h-' + t.id + '" tabindex="-1">' +
-        '<div class="cmp-who">' + (t.portrait ? '<span class="ph mini" aria-hidden="true"><img src="' + esc(t.portrait.file) + '" alt="" width="560" height="700" loading="lazy" style="object-position:' + W.focus(t.id) + '"></span>' : '') +
-        '<div><h3 id="h-' + t.id + '">' + esc(t.author) + '</h3>' +
-        '<div class="w">' + esc(t.title) + '</div></div></div>' +
+      h += '<section class="cmp-col frame" id="col-' + t.id + '" aria-labelledby="h-' + t.id + '" tabindex="-1">' +
+        '<h3 id="h-' + t.id + '">' + esc(t.author) + '</h3>' +
+        '<div class="w">' + esc(t.title) + '</div>' +
         '<div class="m">' + W.date(t) + ' · ' + esc(W.langName(t)) + ' · ' + W.plural(segs.length, 'passage') +
         (gloss && gloss.toLowerCase() !== sel.toLowerCase() && gloss.toLowerCase() !== k.label.toLowerCase() ? ' · interp: “' + esc(gloss) + '”' : '') + '</div>';
       segs.forEach(function (g) {

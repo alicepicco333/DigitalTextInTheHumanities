@@ -21,16 +21,6 @@
     return '<li><b>' + esc(f[0]) + '</b>' + esc(f[1]) + '</li>';
   }).join('');
 
-  // portrait strip
-  var strip = document.getElementById('strip');
-  if (strip) strip.innerHTML = D.texts.map(function (t) {
-    var p = t.portrait;
-    return '<li><a class="ph" href="texts.html?t=' + t.id + '">' +
-      (p ? '<img src="' + esc(p.file) + '" alt="" width="560" height="700" loading="lazy" style="object-position:' + W.focus(t.id) + '">' : '') +
-      '<span class="tag">' + esc(t.author) + '</span></a>' +
-      '<span class="yr">' + W.date(t) + '</span><span class="sr-only">: ' + esc(t.title) + '</span></li>';
-  }).join('');
-
   // timeline
   var ol = document.getElementById('timeline');
   var ticks = '';

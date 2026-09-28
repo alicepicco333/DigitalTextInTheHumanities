@@ -309,10 +309,6 @@ def main():
         docs = json.load(f)
     for cid, c in concepts.items():
         c['doc'] = docs.get(cid)
-    with open(os.path.join(ROOT, 'data', 'portraits.json'), encoding='utf-8') as f:
-        portraits = json.load(f)
-    for t in texts:
-        t['portrait'] = portraits.get(t['id'])
     out = {
         'generated': 'tools/build_archive.py',
         'texts': texts,
