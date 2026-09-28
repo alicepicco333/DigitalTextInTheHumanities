@@ -32,6 +32,14 @@
     return '<div class="frame"><b>' + esc(n) + '</b><span>Encoded ' + esc(team[n].join(' and ')) + '</span></div>';
   }).join('');
 
+  // portrait credits
+  $('pcredits').innerHTML = D.texts.map(function (t) {
+    var p = t.portrait; if (!p) return '';
+    var lic = p.licenceUrl ? '<a href="' + esc(p.licenceUrl) + '">' + esc(p.licence) + '</a>' : esc(p.licence);
+    return '<li><b>' + esc(t.author) + '</b>: ' + esc(p.artist || 'Unknown') + (p.date ? ', ' + esc(p.date) : '') + '. ' + lic +
+      '. <a href="' + esc(p.source) + '">Wikimedia Commons</a>' + (p.note ? '. ' + esc(p.note) : '') + (p.licence.indexOf('BY-SA') >= 0 ? ' Converted to black and white; shared under the same licence.' : '') + '</li>';
+  }).join('');
+
   // notes
   $('notes').innerHTML = D.notes.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('');
 
