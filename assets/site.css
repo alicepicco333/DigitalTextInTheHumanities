@@ -1,28 +1,33 @@
-/* Words of Gender — keepsake edition
-   Type: Pinyon Script (display only: wordmark, section titles, author names, large numerals),
-   Cormorant Garamond (the texts), Jost (apparatus), IBM Plex Mono (encoding).
-   Palette: chocolate and cocoa inks on blush; deep rose accent; deep brown with pink in dark mode.
-   Concept slots validated all-pairs with the dataviz validator on both grounds. */
+/* Words of Gender — letter edition
+   A crimson frame around white "slides", after a digital love-letter layout.
+   Type: Great Vibes (display words only), Crimson Pro (texts and serif headlines),
+   Inter (apparatus), IBM Plex Mono (encoding).
+   Concept slots validated all-pairs with the dataviz validator on #ffffff and #151111. */
 
 :root {
   color-scheme: light;
-  --paper: #f7e8e6;    /* blush */
-  --paper-2: #efd6d3;  /* powder rose */
-  --paper-3: #e6c3bf;
-  --card: #fbf1ef;
-  --ink: #3a2119;      /* chocolate, 12.5:1 on blush */
-  --ink-2: #6b4234;    /* cocoa, 7.2:1 */
-  --ink-3: #7a5143;    /* 5.7:1 */
-  --rule: #e3c2bd;
-  --rule-2: #c99790;
-  --accent: #9c2f55;   /* deep rose, 6.0:1 */
-  --rose: #b8627a;     /* dusty rose, ornaments only */
-  --focus: #9c2f55;
-  --c1: #be5b77; --c2: #843f0f; --c3: #6b3c8a; --c4: #207dbe;
-  --tint: 17%;
-  --serif: "Cormorant Garamond", "Cormorant", Garamond, "Times New Roman", serif;
-  --script: "Pinyon Script", "Snell Roundhand", cursive;
-  --sans: "Jost", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --frame: #7a0a0a;    /* crimson surround; white on it 11.2:1 */
+  --frame-ink: #ffffff;
+  --frame-ink-2: #f0d6d6; /* 8.2:1 on the frame */
+  --paper: #ffffff;    /* slides */
+  --paper-2: #f7f4f4;
+  --paper-3: #eee8e8;
+  --card: #ffffff;
+  --ink: #1a1414;      /* 18.2:1 */
+  --ink-2: #6b6363;    /* grey, 5.9:1 */
+  --ink-3: #7a7272;    /* 4.7:1 */
+  --rule: #e8e1e1;
+  --rule-2: #cdc2c2;
+  --accent: #8b0d12;   /* crimson text, 9.7:1 */
+  --rose: #8b0d12;
+  --star: #efd3d3;
+  --line: #9a9292;     /* ornament line drawing */
+  --focus: #8b0d12;
+  --c1: #9e122b; --c2: #075a8e; --c3: #a36826; --c4: #8a70b8;
+  --tint: 14%;
+  --serif: "Crimson Pro", "Crimson Text", Georgia, "Times New Roman", serif;
+  --script: "Great Vibes", "Snell Roundhand", cursive;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
   --gutter: clamp(16px, 4vw, 48px);
   --maxw: 1320px;
@@ -30,22 +35,24 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --paper: #1f1411; --paper-2: #2b1c17; --paper-3: #3a2620; --card: #261915;
-    --ink: #f7dfe0; --ink-2: #e3b7bb; --ink-3: #c79ea1;
-    --rule: #4a2f28; --rule-2: #6e4a42;
-    --accent: #f291b0; --rose: #d97a96; --focus: #f291b0;
-    --c1: #d86385; --c2: #9a5920; --c3: #7f589b; --c4: #5096ce;
-    --tint: 28%;
+    --frame: #4d0507; --frame-ink: #ffffff; --frame-ink-2: #f0d6d6;
+    --paper: #151111; --paper-2: #1e1818; --paper-3: #2a2222; --card: #151111;
+    --ink: #f3ecec; --ink-2: #b8acac; --ink-3: #a39a9a;
+    --rule: #2e2626; --rule-2: #4a3d3d;
+    --accent: #f08c93; --rose: #f08c93; --star: #3d1a1d; --line: #7d7171; --focus: #f08c93;
+    --c1: #e45b63; --c2: #5096ce; --c3: #975c16; --c4: #81589a;
+    --tint: 30%;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --paper: #1f1411; --paper-2: #2b1c17; --paper-3: #3a2620; --card: #261915;
-  --ink: #f7dfe0; --ink-2: #e3b7bb; --ink-3: #c79ea1;
-  --rule: #4a2f28; --rule-2: #6e4a42;
-  --accent: #f291b0; --rose: #d97a96; --focus: #f291b0;
-  --c1: #d86385; --c2: #9a5920; --c3: #7f589b; --c4: #5096ce;
-  --tint: 28%;
+  --frame: #4d0507; --frame-ink: #ffffff; --frame-ink-2: #f0d6d6;
+  --paper: #151111; --paper-2: #1e1818; --paper-3: #2a2222; --card: #151111;
+  --ink: #f3ecec; --ink-2: #b8acac; --ink-3: #a39a9a;
+  --rule: #2e2626; --rule-2: #4a3d3d;
+  --accent: #f08c93; --rose: #f08c93; --star: #3d1a1d; --line: #7d7171; --focus: #f08c93;
+  --c1: #e45b63; --c2: #5096ce; --c3: #975c16; --c4: #81589a;
+  --tint: 30%;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -226,10 +233,10 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; line-height: 1.12; mar
 .text.show-pers .pers { font-variant-caps: all-small-caps; letter-spacing: 0.04em; border-bottom: 1px dotted var(--ink-3); }
 .text .seg { scroll-margin-top: 120px; }
 .text .seg.on { -webkit-box-decoration-break: clone; box-decoration-break: clone; padding: 0.04em 0; }
-.text .seg.s1 { background: color-mix(in srgb, var(--c1) var(--tint), transparent); text-decoration: underline solid var(--c1) 2px; text-underline-offset: 0.2em; }
-.text .seg.s2 { background: color-mix(in srgb, var(--c2) var(--tint), transparent); text-decoration: underline double var(--c2) 2px; text-underline-offset: 0.2em; }
-.text .seg.s3 { background: color-mix(in srgb, var(--c3) var(--tint), transparent); text-decoration: underline dashed var(--c3) 2px; text-underline-offset: 0.2em; }
-.text .seg.s4 { background: color-mix(in srgb, var(--c4) var(--tint), transparent); text-decoration: underline dotted var(--c4) 3px; text-underline-offset: 0.2em; }
+.text .seg.s1 { background: color-mix(in srgb, var(--c1) var(--tint), transparent); text-decoration-line: underline; text-decoration-style: solid; text-decoration-color: var(--c1); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+.text .seg.s2 { background: color-mix(in srgb, var(--c2) var(--tint), transparent); text-decoration-line: underline; text-decoration-style: double; text-decoration-color: var(--c2); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+.text .seg.s3 { background: color-mix(in srgb, var(--c3) var(--tint), transparent); text-decoration-line: underline; text-decoration-style: dashed; text-decoration-color: var(--c3); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+.text .seg.s4 { background: color-mix(in srgb, var(--c4) var(--tint), transparent); text-decoration-line: underline; text-decoration-style: dotted; text-decoration-color: var(--c4); text-decoration-thickness: 3px; text-underline-offset: 0.2em; }
 .text .seg.s1 .seg.on, .text .seg.s2 .seg.on, .text .seg.s3 .seg.on, .text .seg.s4 .seg.on { text-underline-offset: 0.42em; }
 .text .seg.target { outline: 2px solid var(--ink); outline-offset: 2px; }
 .lab {
