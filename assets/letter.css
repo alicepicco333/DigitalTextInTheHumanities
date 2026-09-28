@@ -265,3 +265,5 @@ a.ph:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
   .slide-nav { font-size: 16px; }
 }
 @media print { body { background: #fff; } .slide { padding: 0; } }
+.epigraph { font-family: var(--serif); font-style: italic; font-size: 21px; line-height: 1.45; color: var(--ink-2); max-width: 34em; margin: 0 0 30px; }
+.epigraph cite { display: block; font-style: normal; font-family: var(--sans); font-size: 13px; color: var(--ink-3); margin-top: 8px; }
