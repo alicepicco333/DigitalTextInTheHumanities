@@ -19,6 +19,10 @@
                 <resp>conversion to TEI-conformant markup</resp>
                     <name>Lucia Bertoldini</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition> DHDK Digital Edition <date>2023</date>
@@ -202,6 +206,7 @@
                 <interp xml:id="bitch">bitch</interp>       
                 <interp xml:id="independence">independence</interp>
                 <interp xml:id="counterstereotype">counterstereotype</interp>      
+                <interp xml:id="marriage" resp="#ed2026">marriage</interp>
             </interpGrp> 
         </front>
         <body>
@@ -215,7 +220,7 @@
                 tant pour la nouveauté de son habillement
                 que <seg xml:id="seg2" ana="#beauty">pour la richesse dont il estoit plein,
                 estoit regardée de chascun</seg>; <seg xml:id="seg3" ana="#grace">et combien
-                qu'elle ne fust des plus belles, si avoit-elle
+                qu'elle ne fust des plus <seg xml:id="e26-1" ana="#beauty" resp="#ed2026">belles</seg>, si avoit-elle
                 une grace avecq une audace tant bonne
                 qu'il n'estoit possible de plus, la parolle et
                 la gravité de mesme, de sorte qu'il n'y avoit
@@ -370,7 +375,7 @@
                 estoient à la table, jurérent qu'ilz avoient
                 bien gardé ce rang. " Or, puisque ainsy
                 est ", dist <persName ref="#Astillon">Astillon</persName>, a je diray l'estat de
-                nostre geolière elle est mariée et son
+                nostre geolière elle est <seg xml:id="e26-2" ana="#marriage" resp="#ed2026">mariée</seg> et son
                 mary est bien loing". "C'est ceste-là
                 propre", respondirent-ilz tous. "Or,
                 pour nous mettre hors de peyne",
@@ -434,7 +439,7 @@
                 l'honneur et la conscience</seg>, ne voulut
                 point recepvoir la honte qu'ilz lui 
                 cuydoient faire; mais, comme <seg xml:id="seg5" ana="#independence">celle qui 
-                preféroit son plaisir à tout l'honneur du
+                preféroit son plaisir à tout l'<seg xml:id="e26-3" ana="#honour" resp="#ed2026">honneur</seg> du
                 monde</seg>, ne leur en feit pire visaige, n'y
                 n'en changea de contenance : dont il.
                 furent tant estonnez, qu'ilz rapportèrent

@@ -40,8 +40,9 @@
     <div class="sec-head">
       <p class="eyebrow">A check on the encoding</p>
       <h2 id="check-h">How the words were tagged</h2>
-      <p>For each concept that a word can name, the build script counts every occurrence of that word in the texts (by stem, in the language of each text) and how many of those fall inside a passage tagged with the concept. This is not a score of the encoding. The encoders tagged passages that <em>argue</em> about a concept, not every time a word appears: <i>grace</i> is often the grace of God, and <i>esprit</i> is mostly wit or mind. The last column counts the opposite case, passages tagged with a concept that never use its word, where the reading does work a search cannot.</p>
+      <p>For each concept that a word can name, the build script finds every occurrence of that word in the texts (by stem, in the language of each text). In 2023 the encoders tagged the passages that argue about a concept, and left many occurrences of its word untagged. In 2026 each of those 187 occurrences was read in context: the 128 that are an instance of the concept, as the <a href="about.html#alphabet">alphabet of concepts</a> defines it, are now tagged, as single words marked <span class="mono">resp="#ed2026"</span> in the TEI, apart from the encoders’ own tags. The other 59 are left untagged, each with its reason: <i>grazia</i> that is the grace of God, <i>jeune</i> (young) that only looks like <i>jeûne</i> (fasting), the honour of a knight rather than of a woman. The last column counts the opposite case, passages tagged in 2023 that never use the word, where the reading does work a search cannot.</p>
     </div>
+    <div class="check-key" aria-hidden="true"><span><i class="b23"></i>Tagged by the encoders, 2023</span><span><i class="b26"></i>Tagged in the 2026 review</span><span><i class="b0"></i>Not the concept</span></div>
     <div class="check-wrap frame"><table class="check" id="check"></table></div>
   </section>
 </main>

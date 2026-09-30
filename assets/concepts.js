@@ -86,6 +86,7 @@
         }
         h += '<div class="psg">' + q +
           (g.en ? '<p class="psg-en" lang="en"><span class="en-l">In English</span> ' + esc(g.en) + '</p>' : '') +
+          (g.added ? '<div class="also"><b class="y26">2026</b> tagged in the review of the encoding</div>' : '') +
           (also.length ? '<div class="also">Also tagged: ' + esc(also.map(W.label).join(', ')) + '</div>' : '') +
           '<div class="also">' + (long ? '<button type="button" class="more" aria-expanded="false">Show the whole passage (' + w.length + ' words)</button> · ' : '') +
           '<a href="texts.html?t=' + t.id + '&amp;c=' + encodeURIComponent(sel) + '#' + g.id + '">Read in context →</a></div></div>';
@@ -239,9 +240,9 @@
     var td = e.target.closest('td[data-t]');
     if (!td) { tip.style.display = 'none'; colHL(null); return; }
     var t = W.text(td.getAttribute('data-t')), c = C[td.getAttribute('data-c')];
-    var n = +td.getAttribute('data-n');
+    var n = +td.getAttribute('data-n'), a26 = (c.added || {})[t.id] || 0;
     tip.innerHTML = '<b>' + esc(c.label) + '</b> in ' + esc(t.author) + '<br>' +
-      (n ? W.plural(n, 'passage') + ' · click to read' : (td.getAttribute('data-d') === '1' ? 'Declared, no passage tagged' : 'Not used'));
+      (n ? W.plural(n, 'passage') + (a26 ? ' (' + a26 + ' tagged in 2026)' : '') + ' · click to read' : (td.getAttribute('data-d') === '1' ? 'Declared, no passage tagged' : 'Not used'));
     tip.style.display = 'block';
     var x = e.clientX + 14, y = e.clientY + 14;
     var r = tip.getBoundingClientRect();

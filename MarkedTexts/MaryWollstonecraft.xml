@@ -19,6 +19,10 @@
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Chiara Parravicini</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition> DHDK Digital Edition <date>2023</date>
@@ -113,6 +117,11 @@
                 <interp xml:id="society">society</interp>
                 <interp xml:id="strength">strength</interp>
                 <interp xml:id="weakness">weakness</interp>      
+                <interp xml:id="body" resp="#ed2026">what concerns body, its perception and value</interp>
+                <interp xml:id="modesty" resp="#ed2026">modesty as a feminine value</interp>
+                <interp xml:id="housework" resp="#ed2026">housework</interp>
+                <interp xml:id="sensuality" resp="#ed2026">sensuality</interp>
+                <interp xml:id="submission" resp="#ed2026">submission</interp>
             </interpGrp>
         </front>
 
@@ -126,15 +135,15 @@
                 man and man, or that the civilization which has hitherto
                 taken place in the world has been very partial. I have
                 turned over various books written on the subject of
-                education, and patiently observed the conduct of parents
+                <seg xml:id="e26-1" ana="#education" resp="#ed2026">education</seg>, and patiently observed the conduct of parents
                 and the management of <seg xml:id="seg1" ana="#education">schools</seg>; but what has been
                 the result? - a profound conviction that the <seg xml:id="seg1.1" ana="#education">neglected
                 education</seg> of my fellow-creatures is the grand source of
                 the misery I deplore, and that women, in particular, are
-                rendered weak and wretched by a variety of concurring
+                rendered <seg xml:id="e26-2" ana="#weakness" resp="#ed2026">weak</seg> and wretched by a variety of concurring
                 causes, originating from one hasty conclusion. The conduct and manners of women, in fact, evidently prove
-                that their minds are not in a healthy state; for, like the
-                flowers which are planted in too rich a soil, strength and
+                that their <seg xml:id="e26-3" ana="#intellect" resp="#ed2026">minds</seg> are not in a healthy state; for, like the
+                flowers which are planted in too rich a soil, <seg xml:id="e26-4" ana="#strength" resp="#ed2026">strength</seg> and
                 usefulness are sacrificed to <seg xml:id="seg2" ana="#beauty">beauty</seg>; and the flaunting
                 leaves, after having pleased a fastidious eye, fade, disre-
                 garded on the stalk, long before the season when they
@@ -155,7 +164,7 @@
                 In a treatise, therefore, on <seg xml:id="seg5" ana="#rights">female rights</seg> and manners,
                 the works which have been particularly written for their
                 improvement must not be overlooked, especially when
-                it is asserted, in direct terms, that the minds of women
+                it is asserted, in direct terms, that the <seg xml:id="e26-5" ana="#intellect" resp="#ed2026">minds</seg> of women
                 are enfeebled by <seg xml:id="seg6" ana="#grace">false refinement</seg>; that the books of
                 <seg xml:id="seg1.3" ana="#education">instruction</seg>, written by men of genius, have had the same
                 tendency as more frivolous productions; and that, in the
@@ -174,7 +183,7 @@
                 reasoning to misconstruction, I shall stop a moment to
                 deliver, in a few words, my opinion. In the government
                 of the physical world it is observable <seg xml:id="seg7" ana="#weakness">that the female in
-                point of strength is, in general, inferior to the male</seg>. This
+                point of <seg xml:id="e26-6" ana="#strength" resp="#ed2026">strength</seg> is, in general, inferior to the male</seg>. This
                 is the law of Nature; and it does not appear to be
                 suspended or abrogated in favour of woman. A degree
                 of physical superiority cannot, therefore, be denied, and
@@ -223,9 +232,9 @@
                 a premature unnatural manner, undermine the very
                 foundation of virtue, and spread corruption through the
                 whole mass of society! As a class of mankind they have
-                the strongest claim to pity; the education of the rich
+                the strongest claim to pity; the <seg xml:id="e26-7" ana="#education" resp="#ed2026">education</seg> of the rich
                 tends to render them vain and helpless, and the unfolding
-                mind is not strengthened by the practice of those duties
+                <seg xml:id="e26-8" ana="#intellect" resp="#ed2026">mind</seg> is not <seg xml:id="e26-9" ana="#strength" resp="#ed2026">strengthened</seg> by the practice of those duties
                 which dignify the human character. They only live to
                 amuse themselves, and by the same law which in Nature
                 invariably produces certain effects, they soon only afford
@@ -245,7 +254,7 @@
                 graces</seg>, and viewing them as if they were in a state of
                 perpetual childhood, <seg xml:id="seg7.1" ana="#weakness">unable to stand alone</seg>. I earnestly
                 wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour
-                to acquire <seg xml:id="seg10" ana="#strength"><seg xml:id="seg3.3" ana="#intellect">strength, both of mind</seg> and body</seg>, and to
+                to acquire <seg xml:id="seg10" ana="#strength"><seg xml:id="seg3.3" ana="#intellect">strength, both of mind</seg> and <seg xml:id="e26-10" ana="#body" resp="#ed2026">body</seg></seg>, and to
                 convince them that the soft; phrases, susceptibility of
                 heart, delicacy of sentiment, and refinement of taste, are
                 almost synonymous with epithets of <seg xml:id="seg7.2" ana="#weakness">weakness</seg>, and that
@@ -256,8 +265,8 @@
             <p>
                 Dismissing, then, those <seg xml:id="seg6.3" ana="#grace">pretty feminine phrases</seg>,
                 which the men condescendingly use to soften our slavish
-                dependence, and despising that weak elegancy of mind,
-                exquisite sensibility, and <seg xml:id="seg6.4" ana="#grace">sweet docility of manners</seg>, 
+                <seg xml:id="e26-11" ana="#submission" resp="#ed2026">dependence</seg>, and despising that <seg xml:id="e26-12" ana="#weakness" resp="#ed2026">weak</seg> elegancy of <seg xml:id="e26-13" ana="#intellect" resp="#ed2026">mind</seg>,
+                exquisite sensibility, and <seg xml:id="seg6.4" ana="#grace">sweet <seg xml:id="e26-14" ana="#submission" resp="#ed2026">docility</seg> of manners</seg>, 
                 supposed to be the sexual characteristics of the <seg xml:id="seg7.3" ana="#weakness">weaker
                 vessel</seg>, I wish to show that elegance is inferior to virtue,
                 that the first object of laudable ambition is to obtain a
@@ -287,18 +296,18 @@
                 tongue, vitiate the taste, and create a kind of sickly delicacy that turns away from simple unadorned truth; and
                 a deluge of false sentiments and overstretched feelings,
                 stifling the natural emotions of the heart, render the
-                domestic pleasures insipid, that ought to sweeten the
-                exercise of those severe duties, which educate a rational
+                <seg xml:id="e26-15" ana="#housework" resp="#ed2026">domestic</seg> pleasures insipid, that ought to sweeten the
+                exercise of those severe duties, which <seg xml:id="e26-16" ana="#education" resp="#ed2026">educate</seg> a rational
                 and immortal being for a nobler field of action.
             </p>
             <p>
                 The <seg xml:id="seg1.5" ana="#education">education of women</seg> has of late been more
                 attended to than formerly; yet they are still reckoned a
                 frivolous sex, and ridiculed or pitied by the writers who
-                endeavour by satire or instruction to improve them. It
+                endeavour by satire or <seg xml:id="e26-17" ana="#education" resp="#ed2026">instruction</seg> to improve them. It
                 is acknowledged that they spend many of the first years of
                 their lives in acquiring a smattering of accomplishments;
-                meanwhile <seg xml:id="seg10.1" ana="#strength">strength of body</seg> and <seg xml:id="seg3.4" ana="#intellect">mind</seg> are sacrificed to
+                meanwhile <seg xml:id="seg10.1" ana="#strength">strength of <seg xml:id="e26-18" ana="#body" resp="#ed2026">body</seg></seg> and <seg xml:id="seg3.4" ana="#intellect">mind</seg> are sacrificed to
                 libertine notions of <seg xml:id="seg2.1" ana="#beauty">beauty</seg>, to the desire of establishing
                 themselves - the only way women can rise in the world
                 - by <seg xml:id="seg12" ana="#marriage">marriage</seg>. And this desire making mere animals of
@@ -313,11 +322,11 @@
                 If, then, it can be fairly deduced from the present
                 conduct of the sex, from the prevalent fondness for
                 pleasure which takes place of ambition and those nobler
-                passions that open and enlarge the soul, that the instruction which women have hitherto received has only
+                passions that open and enlarge the soul, that the <seg xml:id="e26-19" ana="#education" resp="#ed2026">instruction</seg> which women have hitherto received has only
                 tended, with the constitution of <seg xml:id="seg9.2" ana="#society">civil society</seg>, to render
                 them insignificant objects of desire - mere <seg xml:id="seg4.1" ana="#mother">propagators</seg>
                 of fools! - if it can be proved that in aiming to accomplish
-                them, <seg xml:id="seg1.6" ana="#education">without cultivating their understandings</seg>, they are
+                them, <seg xml:id="seg1.6" ana="#education">without cultivating their <seg xml:id="e26-20" ana="#intellect" resp="#ed2026">understandings</seg></seg>, they are
                 taken out of their sphere of duties, and made ridiculous
                 and useless when <seg xml:id="seg2.2" ana="#beauty">the short-lived bloom of beauty</seg> is
                 over, I presume that rational men will excuse me for
@@ -327,30 +336,30 @@
                 Indeed the word masculine is only a bugbear; there is
                 little reason to fear that women will acquire <seg xml:id="seg10.2" ana="#strength">too much
                 courage or fortitude</seg>, for their <seg xml:id="seg7.5" ana="#weakness">apparent inferiority with
-                respect to bodily strength</seg> must render them in some
-                degree dependent on men in the various relations of life; but why should it be increased 
+                respect to bodily <seg xml:id="e26-21" ana="#strength" resp="#ed2026">strength</seg></seg> must render them in some
+                degree <seg xml:id="e26-22" ana="#submission" resp="#ed2026">dependent</seg> on men in the various relations of life; but why should it be increased 
                 by <seg xml:id="seg11" ana="#gender">prejudices that give a
-                sex to virtue</seg>, and confound simple truths with sensual reveries?
+                sex to virtue</seg>, and confound simple truths with <seg xml:id="e26-23" ana="#sensuality" resp="#ed2026">sensual</seg> reveries?
             </p>
             <p>
                 Women are, in fact, so much degraded by <seg xml:id="seg11.1" ana="#gender">mistaken
                 notions of female excellence</seg>, that I do not mean to add
                 a paradox when I assert that this <seg xml:id="seg7.6" ana="#weakness">artificial weakness</seg>
                 produces a propensity to tyrannize, and gives birth to
-                cunning, the natural opponent of strength, which leads
+                cunning, the natural opponent of <seg xml:id="e26-24" ana="#strength" resp="#ed2026">strength</seg>, which leads
                 them to play off those contemptible infantine airs that
                 undermine esteem even whilst they excite desire. Let
-                men become more chaste and modest, and <seg xml:id="seg3.6" ana="#intellect">if women do
+                men become more chaste and <seg xml:id="e26-25" ana="#modesty" resp="#ed2026">modest</seg>, and <seg xml:id="seg3.6" ana="#intellect">if women do
                 not grow wiser in the same ratio it will be clear that they
-                have weaker understandings</seg>. 
+                have <seg xml:id="e26-26" ana="#weakness" resp="#ed2026">weaker</seg> understandings</seg>. 
             </p>
             <p>
                 It seems scarcely necessary
                 to say that I now speak of the sex in general. Many individuals have more sense than their male relatives; and, as
                 nothing preponderates where there is a constant struggle
                 for an equilibrium without it has naturally more gravity,
-                some women govern their husbands without degrading
-                themselves, because intellect will always govern.
+                some women govern their <seg xml:id="e26-27" ana="#marriage" resp="#ed2026">husbands</seg> without degrading
+                themselves, because <seg xml:id="e26-28" ana="#intellect" resp="#ed2026">intellect</seg> will always govern.
             </p>
         </body>
     </text>

@@ -19,6 +19,10 @@
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Lucia Bertoldini</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition> DHDK Digital Edition <date>2023</date>
@@ -126,6 +130,9 @@
                 <interp xml:id="intellect">intellect</interp>
                 <interp xml:id="beauty">beauty</interp>
                 <interp xml:id="bitch">bitch</interp>
+                <interp xml:id="mother" resp="#ed2026">A mother and the relationship with her child</interp>
+                <interp xml:id="strength" resp="#ed2026">strength</interp>
+                <interp xml:id="uglyness" resp="#ed2026">uglyness</interp>
             </interpGrp>
         </front>
     <body>
@@ -137,18 +144,18 @@
             C'est que <seg xml:id="seg1.1" ana="#counterstereotype"> tu n'as rien d'une fille et tout d'un garçon</seg>, dans ton air et dans tes manières ;
             c'est que <seg xml:id="seg2" ana="#body">tu ne prends pas soin de ta personne.</seg>  Pour commencer, 
             <seg xml:id="seg3" ana="#grace">tu n'as point l'air propre et soigneu</seg> , 
-            et <seg xml:id="seg2.1" ana="#body">tu te fais paraître laide par 
+            et <seg xml:id="seg2.1" ana="#body">tu te fais paraître <seg xml:id="e26-1" ana="#uglyness" resp="#ed2026">laide</seg> par 
             ton habillement et ton langage.</seg>  Tu sais bien que les enfants 
             t'appellent d'un nom encore plus déplaisant que celui de grelet. 
             Ils t'appellent souvent <seg xml:id="seg1.2" ana="#counterstereotype"> le màlot</seg> . Eh bien.
             crois-tu que ce soit à propos, à seize ans, <seg xml:id="seg1.3" ana="#counterstereotype"> de ne point ressembler encore à une fille?</seg> 
             Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen 
-            sans bride ni selle, tu la fais galoper comme si le diable était dessus. <seg xml:id="seg1.4" ana="#counterstereotype"> C'est bon d'être forte et 
+            sans bride ni selle, tu la fais galoper comme si le diable était dessus. <seg xml:id="seg1.4" ana="#counterstereotype"> C'est bon d'être <seg xml:id="e26-2" ana="#strength" resp="#ed2026">forte</seg> et 
             leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. 
             Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</seg>  
             Aussi on te remarque, on te taquine, on crie après toi comme après
-            lo un loup. Tu as de l'esprit et tu réponds des malices qui font rire ceux à qui elles 
-            ne s'adressent point. C'est encore bon d'avoir plus d'esprit que les autres ; 
+            lo un loup. Tu as de l'<seg xml:id="e26-3" ana="#intellect" resp="#ed2026">esprit</seg> et tu réponds des malices qui font rire ceux à qui elles 
+            ne s'adressent point. C'est encore bon d'avoir plus d'<seg xml:id="e26-4" ana="#intellect" resp="#ed2026">esprit</seg> que les autres ; 
             mais à force de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu as surpris 
             les secrets des autres, tu les leur jettes à la."figure bien durement, aussitôt que 
             tu as à te plaindre d'eux. Cela te fait craindre, et on déteste ceux qu'on craint 
@@ -158,7 +165,7 @@
             et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, 
             <persName ref="#FanchonFadet">Fanchon Fadet</persName>, et c'est à cause de ces torts-là que les gens en ont avec toi. 
             Rumine un peu la chose, et tu verras que si tu voulais être un peu plus
-            comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement".
+            comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton <seg xml:id="e26-5" ana="#intellect" resp="#ed2026">entendement</seg>".
         </p>
         <p>
             " Je te remercie, <persName ref="#Landry">Landry</persName>," répondit la petite <persName ref="#FanchonFadet">Fadette</persName>, 
@@ -208,18 +215,18 @@
             il ferait plus d'attention à mon bon cœur qu'à <seg xml:id="seg6" ana="#beauty">ma vilaine figure 
             et à mes mauvais habillements</seg> . Vois un peu, ou apprends si tu ne le sais, 
             quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de 
-            ma pauvre mère qu'un chacun blâme et insulte, quoiqu'elle 
+            ma pauvre <seg xml:id="e26-6" ana="#mother" resp="#ed2026">mère</seg> qu'un chacun blâme et insulte, quoiqu'elle 
             ne soit point là pour se défendre, et sans que je puisse le faire moi qui 
             ne sais pas bien ce qu'elle a fait de mal, ni pourquoi elle a été poussée
-            lo à le faire. Eh bien, le monde est si méchant, qu'à peine ma mère m'eut-elle délaissée, 
+            lo à le faire. Eh bien, le monde est si méchant, qu'à peine ma <seg xml:id="e26-7" ana="#mother" resp="#ed2026">mère</seg> m'eut-elle délaissée, 
             et comme je la pleurais encore bien amèrement, au moindre dépit que les autres 
             enfants avaient contre moi, pour un jeu, pour un rien qu'ils se seraient pardonné 
             entre eux, ils me reprochaient la faute
-            de ma mère et voulaient me forcer à rougir d'elle. 
+            de ma <seg xml:id="e26-8" ana="#mother" resp="#ed2026">mère</seg> et voulaient me forcer à rougir d'elle. 
             <seg xml:id="seg1.5" ana="#counterstereotype">Peut être qu'à ma place une fille raisonnable</seg> , comme tu dis, se fût abaissée dans le silence, 
-            pensant qu'il était prudent d'abandonner la cause de sa mère et de 
+            pensant qu'il était prudent d'abandonner la cause de sa <seg xml:id="e26-9" ana="#mother" resp="#ed2026">mère</seg> et de 
             la laisser injurier pour se préserver de l'être. Mais moi, vois-tu, je ne le
-            pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, 
+            pouvais pas. C'était plus fort- que moi. Ma <seg xml:id="e26-10" ana="#mother" resp="#ed2026">mère</seg> était toujours ma <seg xml:id="e26-11" ana="#mother" resp="#ed2026">mère</seg>, 
             et qu'elle soit ce qu'on voudra, que je la retrouve ou que je n'en entende jamais parler, 
             je laimerai toujours de toute la force de mon cœur. 
             Aussi, quand on m'appell <seg xml:id="seg7" ana="#bitch">enfant de coureuse et de vivandière</seg> , je suis en
@@ -259,8 +266,8 @@
         me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi 
         que Dieu le commande. <seg xml:id="seg6.1" ana="#beauty">Quant à ne prendre soin ni de ma personne </seg> 
         <seg xml:id="seg3.1" ana="#grace">ni de mes manières</seg> , 
-        cela devrait montrer que je ne suis pas assez folle pour me croire belle, 
-        lorsque je sais que je suis si laide que personne ne peut me regarder. 
+        cela devrait montrer que je ne suis pas assez folle pour me croire <seg xml:id="e26-12" ana="#beauty" resp="#ed2026">belle</seg>, 
+        lorsque je sais que je suis si <seg xml:id="e26-13" ana="#uglyness" resp="#ed2026">laide</seg> que personne ne peut me regarder. 
         On me l'a dit assez souvent pour que je le
         sache; et, en voyant combien les gens sont durs et méprisants pour ceux 
         que le bon <roleName>Dieu</roleName> a mal partagés, je me suis fait un plaisir de leur déplaire, 

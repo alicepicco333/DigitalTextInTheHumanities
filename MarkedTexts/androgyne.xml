@@ -19,6 +19,10 @@
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Alice Picco</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition> DHDK Digital Edition <date>2023</date>
@@ -118,6 +122,8 @@
                 <interp xml:id="grace">grace</interp>
                 <interp xml:id="marriage">marriage</interp>
                 <interp xml:id="counterstereotype">counterstereotype</interp>
+                <interp xml:id="strength" resp="#ed2026">strength</interp>
+                <interp xml:id="modesty" resp="#ed2026">modesty as a feminine value</interp>
             </interpGrp>
         </front>
     <body>
@@ -155,10 +161,10 @@
         <p>
         <roleName>Le Maître de l’Androgyne</roleName> :
         – Méfiance envers les hommes (et soi-même) ; confiance… relative à l’égard de l’Androgyne. 
-        Une excessive pudeur mentale. Une paresse étrange – qui est plutôt l’horreur des initiatives, de tout changement, peut-être des transitions. 
+        Une excessive <seg xml:id="e26-1" ana="#modesty" resp="#ed2026">pudeur</seg> mentale. Une paresse étrange – qui est plutôt l’horreur des initiatives, de tout changement, peut-être des transitions. 
         – Honnêteté stricte, un sens rare de la justice, le respect de la liberté de chacun. 
         Quelques préjugés enracinés, pour ainsi dire : physiques, qui sont bien des préjugés cependant puisqu’à l’essai ils peuvent être vaincus. 
-        – Douceur, bonté sans illusion. – Une certaine lâcheté morale (effet de l’excessive pudeur et de la paresse).
+        – Douceur, bonté sans illusion. – Une certaine lâcheté morale (effet de l’excessive <seg xml:id="e26-2" ana="#modesty" resp="#ed2026">pudeur</seg> et de la paresse).
         </p>
         <p>
         <roleName>Le Poète</roleName>, amant de <roleName>l’Androgyne</roleName>:
@@ -171,7 +177,7 @@
         (Existe-t-il, Celui ?… non, non ! mais plutôt : est-il bien nécessaire d’être « honnête » ?) – Restez avec votre <roleName>Maître</roleName>, <roleName>Androgyne</roleName>, mais couchez avec moi. 
         Il vous soignera mieux que je ne pourrais faire… (traduisez : je n’aurai pas cette peine) – et moi je serai là pour l’Art, le Rêve, l’Amour… 
         Il faut seulement me promettre de n’aimer que moi seul, de ne coucher qu’avec moi seul… (En effet : quand je fais l’amour à mon Maître, le Poète s’en aperçoit et le Poète est furieux !) 
-        – (Enfin à cela je puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de force à coucher avec vous deux !
+        – (Enfin à cela je puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de <seg xml:id="e26-3" ana="#strength" resp="#ed2026">force</seg> à coucher avec vous deux !
         </p>
             </body>
             </text>

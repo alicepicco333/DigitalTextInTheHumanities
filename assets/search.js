@@ -69,8 +69,10 @@
       while ((m = rx.exec(ix.folded)) && total < MAXHITS) {
         var a = m.index, b = a + m[0].length, segs = segsAt(ix, a);
         var cs = conceptLine.call(ix.segById, segs);
-        var en = segs.length && ix.t.lang !== 'en' ? (ix.segById[segs[segs.length - 1]] || {}).en : null;
-        hits.push({ where: 'text', before: clip(ix.full.slice(Math.max(0, a - 90), a), 70, true), word: ix.full.slice(a, b), after: clip(ix.full.slice(b, b + 90), 70), seg: segs[segs.length - 1], concepts: cs, en: en });
+        var en = null;
+        for (var si = segs.length - 1; si >= 0 && !en; si--) if (ix.t.lang !== 'en') en = (ix.segById[segs[si]] || {}).en;
+        var added = segs.length > 0 && segs.every(function (id) { return (ix.segById[id] || {}).added; });
+        hits.push({ where: 'text', added: added, before: clip(ix.full.slice(Math.max(0, a - 90), a), 70, true), word: ix.full.slice(a, b), after: clip(ix.full.slice(b, b + 90), 70), seg: segs[segs.length - 1], concepts: cs, en: en });
         total++; if (cs.length) tagged++;
         if (!m[0].length) rx.lastIndex++;
       }
@@ -101,7 +103,7 @@
             '<span class="ctx">' + esc(h.before) + '</span><mark>' + esc(h.word) + '</mark><span class="ctx">' + esc(h.after) + '</span></p>' +
             (h.orig ? '<p class="sr-orig" lang="' + esc(t.lang) + '">' + esc(clip(h.orig, 180)) + '</p>' : '') +
             (h.en ? '<p class="sr-en" lang="en"><span class="en-l">In English</span> ' + esc(clip(h.en, 220)) + '</p>' : '') +
-            '<p class="sr-meta">' + (h.concepts.length ? 'Tagged <b>' + esc(h.concepts.map(W.label).join(' + ')) + '</b>' : '<span class="untag">Not inside a tagged passage</span>') +
+            '<p class="sr-meta">' + (h.concepts.length ? 'Tagged <b>' + esc(h.concepts.map(W.label).join(' + ')) + '</b>' + (h.added ? ' <b class="y26">2026</b>' : '') : '<span class="untag">Not inside a tagged passage</span>') +
             ' · <a href="' + href + '">Read in context →</a></p></li>';
         }).join('') + '</ol></section>';
     }).join('');
@@ -125,21 +127,21 @@
     return y.total - x.total || D.concepts[a].label.localeCompare(D.concepts[b].label);
   });
   var h = '<caption>Word occurrences for ' + rows.length + ' concepts that are named by a word. Gender, society and counter-stereotype are argued rather than named and are left out.</caption>' +
-    '<thead><tr><th scope="col">Concept</th><th scope="col">Words looked for</th><th scope="col" class="n">Occurrences</th><th scope="col" class="n">Tagged</th><th scope="col" class="bar-h"><span class="sr-only">Share tagged</span></th><th scope="col" class="n">Tagged passages without the word</th></tr></thead><tbody>';
+    '<thead><tr><th scope="col">Concept</th><th scope="col">Words looked for</th><th scope="col" class="n">Occurrences</th><th scope="col" class="n">Tagged 2023</th><th scope="col" class="n">Tagged 2026</th><th scope="col" class="n">Not the concept</th><th scope="col" class="bar-h"><span class="sr-only">Share of the occurrences</span></th><th scope="col" class="n">2023 passages without the word</th></tr></thead><tbody>';
   rows.forEach(function (c) {
-    var k = D.concepts[c].check, share = k.total ? k.tagged / k.total : 0;
-    var pats = Object.keys(k.pattern).map(function (l) { return '<span class="lg">' + LANGS[l] + '</span> <span class="mono">' + esc(k.pattern[l].replace(/\\b/g, '').replace(/\(\?:/g, '(')) + '</span>'; }).join('<br>');
+    var k = D.concepts[c].check, orig = k.tagged - k.added, pc = function (n) { return k.total ? (n / k.total * 100).toFixed(1) : 0; };
+    var pats = Object.keys(k.pattern).map(function (l) { return '<span class="lg">' + LANGS[l] + '</span> <span class="mono">' + esc(k.pattern[l].replace(/\\b/g, '').replace(/\(\?:/g, '(')).replace(/\|/g, '|<wbr>') + '</span>'; }).join('<br>');
     var ex = k.examples.map(function (e) {
       var t = W.text(e.t);
       return '<li lang="' + esc(t.lang) + '"><span class="au">' + esc(t.author) + '</span> <span class="ctx">' + esc(e.before) + '</span> <mark>' + esc(e.word) + '</mark> <span class="ctx">' + esc(e.after) + '</span>' +
-        '<span class="wh">' + (e.where === 'other' ? 'inside a passage tagged ' + esc(e.others.map(W.label).join(' + ')) : 'outside any tagged passage') + '</span></li>';
+        '<span class="wh">' + (e.why ? 'Not tagged: ' + esc(e.why) : 'Not yet reviewed') + (e.where === 'other' ? ' · inside a passage tagged ' + esc(e.others.map(W.label).join(' + ')) : '') + '</span></li>';
     }).join('');
     h += '<tr><th scope="row"><a href="concepts.html?c=' + encodeURIComponent(c) + '">' + esc(D.concepts[c].label) + '</a></th><td class="pat">' + pats + '</td>' +
-      '<td class="n">' + k.total + '</td><td class="n">' + k.tagged + '</td>' +
-      '<td class="bar"><span class="track-b"><span style="width:' + (share * 100).toFixed(1) + '%"></span></span><span class="pc">' + Math.round(share * 100) + '%</span></td>' +
+      '<td class="n">' + k.total + '</td><td class="n">' + orig + '</td><td class="n">' + k.added + '</td><td class="n">' + k.untaggedAll + '</td>' +
+      '<td class="bar"><span class="track-b" aria-hidden="true"><span class="b23" style="width:' + pc(orig) + '%"></span><span class="b26" style="width:' + pc(k.added) + '%"></span></span></td>' +
       '<td class="n">' + k.passagesWithoutWord + ' of ' + k.passages + '</td></tr>';
     if (k.examples.length) {
-      h += '<tr class="ex-row"><td colspan="6"><details><summary>' + (k.untaggedAll > k.examples.length ? 'The first ' + k.examples.length + ' of ' + k.untaggedAll : 'The ' + W.plural(k.untaggedAll, 'occurrence')) + ' not tagged ' + esc(D.concepts[c].label) + '</summary><ol class="ex">' + ex + '</ol></details></td></tr>';
+      h += '<tr class="ex-row"><td colspan="8"><details><summary>Why ' + (k.untaggedAll === 1 ? 'one occurrence is' : k.untaggedAll + ' occurrences are') + ' not tagged ' + esc(D.concepts[c].label) + '</summary><ol class="ex">' + ex + '</ol></details></td></tr>';
     }
   });
   $('check').innerHTML = h + '</tbody>';

@@ -1,0 +1,239 @@
+{
+ "_about": "Every occurrence of a concept word (tools/build_archive.py, KEYWORDS) that the 2023 encoding left untagged, reviewed one by one in 2026. Tagged ones are now <seg resp=\"#ed2026\"> in the TEI; the others are listed here with the reason they are not an instance of the concept as the alphabet of concepts defines it. Key: concept|text|offset in the plain text of the body.",
+ "beauty|negri|8347": {
+  "word": "bel",
+  "why": "a “beautiful name”: said of her name, not of her looks"
+ },
+ "beauty|chiara|3093": {
+  "word": "bellezza",
+  "why": "the beauty of Christ, not of a woman"
+ },
+ "beauty|sand|3452": {
+  "word": "beau",
+  "why": "fine grass"
+ },
+ "beauty|sand|3568": {
+  "word": "belles",
+  "why": "the best places in a garden"
+ },
+ "beauty|sand|4586": {
+  "word": "beau",
+  "why": "said of plants and weeds"
+ },
+ "beauty|lambert|2796": {
+  "word": "belles",
+  "why": "“les belles années”: the years of youth"
+ },
+ "beauty|franco|5457": {
+  "word": "bella",
+  "why": "a fine piece of writing by the man she answers"
+ },
+ "beauty|beauvoir|5754": {
+  "word": "belle",
+  "why": "a book cover"
+ },
+ "beauty|beauvoir|6802": {
+  "word": "beau",
+  "why": "“le plus beau des rôles”: the finest role (tagged Mother)"
+ },
+ "beauty|beauvoir|9776": {
+  "word": "Belle",
+  "why": "“Belle de la Nuit”: the name of a costume"
+ },
+ "grace|chiara|3965": {
+  "word": "grazia",
+  "why": "the grace of God"
+ },
+ "grace|marguerite|1466": {
+  "word": "grace",
+  "why": "said of a man"
+ },
+ "honour|marguerite|15777": {
+  "word": "honneur",
+  "why": "the honour of men who speak ill of women"
+ },
+ "honour|marguerite|16080": {
+  "word": "honneur",
+  "why": "the gentlemen’s own honour"
+ },
+ "honour|marguerite|16212": {
+  "word": "honneur",
+  "why": "the honour of a knight"
+ },
+ "honour|franco|255": {
+  "word": "onor",
+  "why": "the knight’s honour"
+ },
+ "body|negri|5178": {
+  "word": "corpo",
+  "why": "“dare un corpo”: to give shape to a need"
+ },
+ "body|negri|10245": {
+  "word": "corpo",
+  "why": "the fog becoming almost solid"
+ },
+ "body|chiara|1912": {
+  "word": "Corpo",
+  "why": "the Church as the body of Christ"
+ },
+ "body|sand|8121": {
+  "word": "corps",
+  "why": "the human body in general, in a remedy"
+ },
+ "mother|sand|8096": {
+  "word": "mère",
+  "why": "grandmother"
+ },
+ "mother|sand|8876": {
+  "word": "mère",
+  "why": "grandmother"
+ },
+ "mother|marguerite|14855": {
+  "word": "mère",
+  "why": "the Church as a mother"
+ },
+ "sorority|wollstonecraft|8684": {
+  "word": "sister",
+  "why": "a feeling called the “sister” of love"
+ },
+ "foodOrFoodAbst|lambert|977": {
+  "word": "jeune",
+  "why": "“jeune” (young), not “jeûne” (fasting)"
+ },
+ "foodOrFoodAbst|lambert|2675": {
+  "word": "jeunesse",
+  "why": "“jeunesse” (youth), not fasting"
+ },
+ "foodOrFoodAbst|lambert|5012": {
+  "word": "nourriture",
+  "why": "reading as “nourishment” of the mind"
+ },
+ "foodOrFoodAbst|beauvoir|3623": {
+  "word": "jeune",
+  "why": "“jeune” (young), not “jeûne” (fasting)"
+ },
+ "foodOrFoodAbst|beauvoir|4265": {
+  "word": "jeune",
+  "why": "“jeune” (young), not “jeûne” (fasting)"
+ },
+ "foodOrFoodAbst|beauvoir|4577": {
+  "word": "jeune",
+  "why": "“jeune” (young), not “jeûne” (fasting)"
+ },
+ "strength|negri|4075": {
+  "word": "forza",
+  "why": "“forza d’oblio”: no power of forgetting"
+ },
+ "strength|sand|1597": {
+  "word": "force",
+  "why": "“à force de”: by dint of"
+ },
+ "strength|sand|6487": {
+  "word": "forcer",
+  "why": "“forcer”: to force"
+ },
+ "strength|sand|7023": {
+  "word": "force",
+  "why": "with all the strength of her heart: the intensity of a feeling"
+ },
+ "strength|marguerite|16800": {
+  "word": "forte",
+  "why": "a strong love"
+ },
+ "strength|marguerite|17357": {
+  "word": "forte",
+  "why": "a strong passion"
+ },
+ "strength|lambert|1707": {
+  "word": "force",
+  "why": "the force men used to take authority"
+ },
+ "strength|wollstonecraft|6928": {
+  "word": "strongest",
+  "why": "“the strongest claim to pity”"
+ },
+ "strength|franco|1079": {
+  "word": "robusto",
+  "why": "the strength of the man who attacks her"
+ },
+ "strength|franco|2848": {
+  "word": "forte",
+  "why": "said of a strong man"
+ },
+ "strength|cahun|1745": {
+  "word": "force",
+  "why": "“à force de”: by dint of"
+ },
+ "weakness|chiara|1873": {
+  "word": "deboli",
+  "why": "the weak members of the Church"
+ },
+ "weakness|wollstonecraft|3162": {
+  "word": "feeble",
+  "why": "the feeble hand of men, given a sceptre by their sex"
+ },
+ "weakness|wollstonecraft|6596": {
+  "word": "Weak",
+  "why": "said of the rich and great"
+ },
+ "weakness|cahun|4338": {
+  "word": "faiblesse",
+  "why": "said of the Poet, the Androgyne’s lover"
+ },
+ "uglyness|negri|826": {
+  "word": "difformi",
+  "why": "carriages looming in the fog"
+ },
+ "uglyness|sand|10619": {
+  "word": "laide",
+  "why": "a caterpillar"
+ },
+ "housework|sand|2856": {
+  "word": "ménagement",
+  "why": "“ménagement”: tact"
+ },
+ "housework|lambert|8833": {
+  "word": "menagement",
+  "why": "“ménagement”: a balance of qualities"
+ },
+ "intellect|marguerite|6687": {
+  "word": "sçavoir",
+  "why": "“pour savoir si”: to find out whether"
+ },
+ "intellect|lambert|6963": {
+  "word": "esprit",
+  "why": "“un homme d’esprit”: said of a man"
+ },
+ "intellect|franco|263": {
+  "word": "mente",
+  "why": "the knight’s mind"
+ },
+ "intellect|cahun|4151": {
+  "word": "esprit",
+  "why": "said of the Poet"
+ },
+ "intellect|beauvoir|8374": {
+  "word": "intelligent",
+  "why": "said of her father"
+ },
+ "intellect|beauvoir|8822": {
+  "word": "esprit",
+  "why": "said of male geniuses"
+ },
+ "independence|cahun|3751": {
+  "word": "liberté",
+  "why": "the freedom of everyone, in general"
+ },
+ "war|marguerite|4284": {
+  "word": "guerres",
+  "why": "the wars of the men in the story"
+ },
+ "war|lambert|8416": {
+  "word": "combattre",
+  "why": "“combattre”: to fight one’s tastes"
+ },
+ "rights|beauvoir|7439": {
+  "word": "droits",
+  "why": "a mother’s authority over her daughter"
+ }
+}

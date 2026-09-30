@@ -178,7 +178,7 @@
       g.classList.add('on', 's' + slot);
       var lab = document.createElement('span');
       lab.className = 'lab s' + slot;
-      lab.innerHTML = '<i aria-hidden="true"></i>' + esc(on.map(W.label).join(' + '));
+      lab.innerHTML = '<i aria-hidden="true"></i>' + esc(on.map(W.label).join(' + ')) + (g.classList.contains('added') ? '<b class="y26">2026</b>' : '');
       g.insertBefore(lab, g.firstChild);
     });
     var n = Object.keys(active).length;

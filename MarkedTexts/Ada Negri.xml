@@ -17,6 +17,10 @@
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Nicole Liggeri</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>DHDK Digital Edition <date>2023</date></edition>
@@ -94,11 +98,15 @@
             <interp xml:id="mother">A mother and the relationship with her child</interp>
             <interp xml:id="education">value and methods of education</interp>
             <interp xml:id="beauty">beauty as a feminine value</interp>
+            <interp xml:id="weakness" resp="#ed2026">weakness</interp>
+            <interp xml:id="uglyness" resp="#ed2026">uglyness</interp>
+            <interp xml:id="independence" resp="#ed2026">independence</interp>
+            <interp xml:id="sensuality" resp="#ed2026">sensuality</interp>
         </interpGrp>
     </front>
         <body>
             <p>
-        Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" ana="#body"> attillato come una fascia sul suo bel
+        Raimonda alzò il bavero del soprabito, <seg xml:id="seg1" ana="#body"> attillato come una fascia sul suo <seg xml:id="e26-1" ana="#beauty" resp="#ed2026">bel</seg>
         corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia
         fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso,
         fra la nebbia. </seg>
@@ -115,17 +123,17 @@
         Di questo, sovra tutto, era felice Raimonda, che camminava sicura,
         conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi
         gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <seg xml:id="seg6" ana="#beauty"> Raimonda aveva
-        la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta
+        la parte destra del viso orribilmente <seg xml:id="e26-2" ana="#uglyness" resp="#ed2026">sfregiata</seg>. A dieci anni, una mala caduta
         sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte
-        era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo,
+        era cresciuta agile e bellissima di <seg xml:id="e26-3" ana="#body" resp="#ed2026">corpo</seg>, calda di sangue, chiara nell’animo,
         pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza
         maschera raggrinzata, paonazza, costringendo anche la bocca ad una
-        smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</seg>
+        smorfia grottesca nel riso, non l’avesse <seg xml:id="e26-4" ana="#uglyness" resp="#ed2026">deturpata</seg> senza rimedio.</seg>
         <seg xml:id="seg2" ana="#society"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva,
         parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua
         disgrazia. Pel mostro non esiste la propria mostruosità».</seg>
         S’ingannavano. <seg xml:id="seg4" ana="#mother"> Non forse la madre, alla quale il sesto senso materno
-        dava pupille più penetranti;</seg> ma, debole e incerta creatura crepuscolare,
+        dava pupille più penetranti;</seg> ma, <seg xml:id="e26-5" ana="#weakness" resp="#ed2026">debole</seg> e incerta creatura crepuscolare,
         tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso.
         La verità era questa: tolte le obliose ore del sonno, non un minuto della
         vita di Raimonda era trascorso senza che – nel camminare, nel parlare, nel
@@ -142,8 +150,8 @@
         subito, nell’implacabile memoria dei sensi le si scolpiva la visione del
         proprio volto; e pensava, con terrore, la disgraziata, che l’ombra sarebbe
         svanita con la notte, che la luce avrebbe fatto ritorno, e con essa gli sguardi
-        pietosi o ironici o stupiti o sfuggenti, sulla sua deformità.
-        Vi sono tragedie che afferrano una creatura in piena bellezza, in piena
+        pietosi o ironici o stupiti o sfuggenti, sulla sua <seg xml:id="e26-6" ana="#uglyness" resp="#ed2026">deformità</seg>.
+        Vi sono tragedie che afferrano una creatura in piena <seg xml:id="e26-7" ana="#beauty" resp="#ed2026">bellezza</seg>, in piena
         felicità, in piena armonia d’azione; e l’incalzano e l’aggirano
         vorticosamente nel loro turbine ruinoso: poi la lasciano, a terra, inerte, uno
         straccio, ma libera: ed ella a poco a poco si riconosce, si ritrova intatta,
@@ -156,7 +164,7 @@
         uomini se non quel ch’era impossibile nascondere: il marchio del viso.</seg>
         Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un
         divieto. Quel divieto la disonorava come una condanna. Dai dodici ai sedici
-        anni, alle scuole tecniche, nei gruppi delle compagne non aveva udito che
+        anni, alle <seg xml:id="e26-8" ana="#education" resp="#ed2026">scuole</seg> tecniche, nei gruppi delle compagne non aveva udito che
         bisbigliar d’amore. Pareva che in tutte quelle fanciulle destinate a
         guadagnarsi la vita fra l’odor di muffa dei magazzini o l’odor d’inchiostro
         degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti
@@ -185,7 +193,7 @@
         celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile
         ad ognuno. Era giunta a non trovarsi bene che nell’ombra; e sempre avrebbe
         voluto muoversi fra la densa bruma che ravvolgeva quella sera di
-        novembre, dandole un senso inatteso e mordente d’agilità, di libertà, di
+        novembre, dandole un senso inatteso e mordente d’agilità, di <seg xml:id="e26-9" ana="#independence" resp="#ed2026">libertà</seg>, di
         sicurezza.
         Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le
         indicava lo svolto di via Solferino in via Pontaccio.<seg xml:id="seg3.1" ana="#gender"> Scivolava rasente i
@@ -201,9 +209,9 @@
         Con un rapidissimo volger del capo e delle pupille aveva scorta l’alta
         figura d’un giovane, sfumata nella bruma che intorbidava, velandoli, i
         lineamenti del viso. Ah!… Quell’ignoto non l’avrebbe vista in faccia, non
-        avrebbe celato il brivido del ribrezzo davanti alla mezza maschera deforme.
+        avrebbe celato il brivido del ribrezzo davanti alla mezza maschera <seg xml:id="e26-10" ana="#uglyness" resp="#ed2026">deforme</seg>.
         Fitta veletta, fitta nebbia, ora di sogno, nella quale ella pure poteva esser
-        bella per un uomo: ora che forse non sarebbe ritornata più!…
+        <seg xml:id="e26-11" ana="#beauty" resp="#ed2026">bella</seg> per un uomo: ora che forse non sarebbe ritornata più!…
         Tacque, lasciò dire, lasciò che l’ignoto le si avvicinasse alle spalle, le si
         serrasse dappresso, tanto da alitarle nel collo il respiro profumato di
         sigaretta.
@@ -225,7 +233,7 @@
         Con sua immensa meraviglia, il bacio gli fu reso.
         Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in
         quell’attimo l’intera sua vita di donna, accumulando in quell’attimo sogni,
-        desideri, brividi, carezze, impeti di dedizione, voluttà di sensazioni, tutta
+        desideri, brividi, carezze, impeti di dedizione, <seg xml:id="e26-12" ana="#sensuality" resp="#ed2026">voluttà</seg> di sensazioni, tutta
         l’occulta parte di sé che alla luce spietata del sole non aveva diritto di
         esistere.
         Quando le ingorde labbra lentamente si staccarono, e il lunghissimo
@@ -238,12 +246,12 @@
         bocca.
         Ritrovata per virtù di consuetudine la porta della sua casa, infilata a capo
         basso un’umidiccia scala a chiocciola anch’essa invasa di nebbia,
-        Raimonda suonò il campanello d’un modesto usciolo bruno. Alla madre
+        Raimonda suonò il campanello d’un modesto usciolo bruno. Alla <seg xml:id="e26-13" ana="#mother" resp="#ed2026">madre</seg>
         che, inquieta e premurosa, le aperse, mormorò un frettoloso saluto. Poi, con
         voce rauca: «Stasera non mangio, ho male alla testa, voglio riposare, abbi
         pazienza…». E sgusciò nella sua camera e vi si rinchiuse.
         Nel letto, al buio, colle braccia avvinte sul seno, coi begli occhi sbarrati
-        nell’oscurità, rabbrividendo ancora per tutto il corpo sotto l’invisibile
+        nell’oscurità, rabbrividendo ancora per tutto il <seg xml:id="e26-14" ana="#body" resp="#ed2026">corpo</seg> sotto l’invisibile
         carezza della maschia voce carnale, rigustando in bocca il sapore dell’unico
         bacio, si raggomitolò, sussultò, si contorse, pregò Iddio che di quell’ora non
         le togliesse mai più la memoria – e pianse, e rise.

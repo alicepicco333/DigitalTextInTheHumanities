@@ -11,6 +11,9 @@ Three files beside the TEI are merged in, each documented where it is made:
   data/translations.json  working English translations of the tagged passages (2026)
   data/authors.json       life dates and places from Wikidata (tools/fetch_authors.py)
   KEYWORDS below          the words that stand for each concept, for the tagging check
+  data/tagging_review.json  the occurrences of those words deliberately left untagged, and why
+
+Passages tagged in 2026 carry resp="#ed2026" in the TEI and are marked 'added' in the output.
 """
 import glob
 import html
@@ -119,7 +122,7 @@ class Renderer:
         self.spans = []
         for g in self.segs:
             a, b = g.pop('_span')
-            self.spans.append((a, b, g['concepts'], g['id']))
+            self.spans.append((a, b, g['concepts'], g['id'], bool(g.get('added'))))
             before = self.flat(full[:a]).split(' ')
             after = self.flat(full[b:]).split(' ')
             before = [w for w in before if w]
@@ -154,10 +157,14 @@ class Renderer:
             while dom_id in self.seen_ids:
                 dom_id += 'x'
             self.seen_ids.add(dom_id)
+            added = e.get('resp') == '#ed2026'
             self.segs.append({'id': dom_id, 'xmlId': xid, 'concepts': cids, 'text': self.seg_text(e),
                               'xml': tei_source(e), '_span': (start, self.pos())})
+            if added:
+                self.segs[-1]['added'] = True
             data = ' '.join(cids)
-            return f'<span class="seg" id="{dom_id}" data-c="{data}">{inner}</span>'
+            cls = 'seg added' if added else 'seg'
+            return f'<span class="{cls}" id="{dom_id}" data-c="{data}">{inner}</span>'
         if tag == 'persName':
             ref = (e.get('ref') or '').lstrip('#')
             attr = f' data-p="{html.escape(ref)}"' if ref else ''
@@ -221,13 +228,14 @@ def fold(s):
     return ''.join((unicodedata.normalize('NFD', c)[0] if c not in 'œæ' else c).lower() for c in s)
 
 
-def tagging_check(texts, concepts, plains):
+def tagging_check(texts, concepts, plains, review):
     import unicodedata
+    unreviewed = []
     for cid, pats in KEYWORDS.items():
         if cid not in concepts:
             continue
         rxs = {lang: re.compile(r'(?<![^\W\d_])(?:' + fold(unicodedata.normalize('NFC', pat)) + ')', re.I) for lang, pat in pats.items()}
-        total = tagged = other = 0
+        total = tagged = added = other = 0
         by_text, untagged = {}, []
         tagged_with_word = set()
         for t in texts:
@@ -241,27 +249,34 @@ def tagging_check(texts, concepts, plains):
                 total += 1; bt['total'] += 1
                 if any(cid in sp[2] for sp in inside):
                     tagged += 1; bt['tagged'] += 1
+                    if not any(cid in sp[2] and not sp[4] for sp in inside):
+                        added += 1
                     tagged_with_word.update(sp[3] for sp in inside if cid in sp[2])
                     continue
+                why = review.get(f"{cid}|{t['id']}|{a}", {}).get('why')
+                if why is None:
+                    unreviewed.append(f"{cid}|{t['id']}|{a}")
                 if inside:
                     other += 1
                 where = 'other' if inside else 'none'
-                if len(untagged) < 40:
+                if len(untagged) < 80:
                     end = m.end()
                     while end < len(full) and (full[end].isalpha() or full[end] in "'’"):
                         end += 1
                     b = norm(full[max(0, a - 70):a]).split(' ')
                     af = norm(full[end:end + 70]).split(' ')
-                    untagged.append({'t': t['id'], 'where': where, 'others': sorted({c for sp in inside for c in sp[2]}),
+                    untagged.append({'t': t['id'], 'where': where, 'why': why, 'others': sorted({c for sp in inside for c in sp[2]}),
                                      'before': ' '.join(b[1:] if len(b) > 1 else b), 'word': full[a:end], 'after': ' '.join(af[:-1] if len(af) > 1 else af)})
             if bt['total']:
                 by_text[t['id']] = bt
-        seg_ids = [g['id'] for t in texts for g in t['segs'] if cid in g['concepts']]
+        seg_ids = [g['id'] for t in texts for g in t['segs'] if cid in g['concepts'] and not g.get('added')]
         concepts[cid]['check'] = {
-            'pattern': pats, 'total': total, 'tagged': tagged, 'inOther': other, 'untaggedAll': total - tagged,
+            'pattern': pats, 'total': total, 'tagged': tagged, 'added': added, 'inOther': other, 'untaggedAll': total - tagged,
             'byText': by_text, 'examples': untagged,
             'passagesWithoutWord': len([i for i in seg_ids if i not in tagged_with_word]), 'passages': len(seg_ids),
         }
+    if unreviewed:
+        print('WARNING: concept words neither tagged nor reviewed in data/tagging_review.json:', ', '.join(unreviewed))
 
 
 def fix_uri(u):
@@ -398,7 +413,7 @@ def main():
                 g['en'] = tr[g['id']]
                 if g['id'] in tr_notes:
                     g['enNote'] = tr_notes[g['id']]
-            elif t['lang'] != 'en':
+            elif t['lang'] != 'en' and not g.get('added'):  # the 2026 tags are single words, shown with their label
                 missing.append(g['id'])
     assert not missing, ('untranslated passages', missing)
     unknown = [k for k in tr if not k.startswith('_') and not any(g['id'] == k for t in texts for g in t['segs'])]
@@ -423,10 +438,12 @@ def main():
     for cid in concept_ids:
         used = {t['id']: sum(cid in s['concepts'] for s in t['segs']) for t in texts}
         declared = [t['id'] for t in texts if any(c['id'] == cid for c in t['concepts'])]
+        added = {t['id']: sum(cid in s['concepts'] and bool(s.get('added')) for s in t['segs']) for t in texts}
         concepts[cid] = {
             'id': cid,
             'label': label_for(cid),
             'counts': {k: v for k, v in used.items() if v},
+            'added': {k: v for k, v in added.items() if v},
             'declared': declared,
             'passages': sum(used.values()),
         }
@@ -434,7 +451,9 @@ def main():
         docs = json.load(f)
     for cid, c in concepts.items():
         c['doc'] = docs.get(cid)
-    tagging_check(texts, concepts, PLAINS)
+    with open(os.path.join(ROOT, 'data', 'tagging_review.json'), encoding='utf-8') as f:
+        review = json.load(f)
+    tagging_check(texts, concepts, PLAINS, review)
     out = {
         'generated': 'tools/build_archive.py',
         'texts': texts,
@@ -454,7 +473,7 @@ def main():
     for cid, c in concepts.items():
         k = c.get('check')
         if k:
-            print(f"  {cid:16s} {k['tagged']:3d} / {k['total']:3d}   in another passage {k['inOther']:3d}   without the word {k['passagesWithoutWord']}/{k['passages']}")
+            print(f"  {cid:16s} {k['tagged']:3d} / {k['total']:3d} (2026: {k['added']:2d})   in another passage {k['inOther']:3d}   without the word {k['passagesWithoutWord']}/{k['passages']}")
 
 
 if __name__ == '__main__':

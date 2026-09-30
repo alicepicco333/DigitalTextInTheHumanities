@@ -17,6 +17,10 @@
                     <resp>conversion to TEI-conformant markup</resp>
                     <name>Nicole Liggeri</name>
                 </respStmt>
+                <respStmt xml:id="ed2026">
+                    <resp>additional tagging of concept words left untagged in 2023, reviewed occurrence by occurrence (see data/tagging_review.json)</resp>
+                    <name>Words of Gender, 2026 edition</name>
+                </respStmt>
             </titleStmt>
             <editionStmt>
                 <edition>DHDK Digital Edition <date>2023</date></edition>
@@ -92,6 +96,10 @@
             <interp xml:id="war">semantic field of war</interp>
             <interp xml:id="education">value and methods of education</interp>
             <interp xml:id="bitch">bitch</interp>
+            <interp xml:id="beauty" resp="#ed2026">beauty as a feminine value</interp>
+            <interp xml:id="grace" resp="#ed2026">grace</interp>
+            <interp xml:id="strength" resp="#ed2026">strength</interp>
+            <interp xml:id="weakness" resp="#ed2026">weakness</interp>
         </interpGrp>
         </front>
         <body>
@@ -109,7 +117,7 @@
         Men ch’agli altri ciò far poi se gli aspetta
         <seg xml:id="seg3" ana="#gender">contra le donne, da natura fatte
         per l’uso che piú d’altro a l’uom diletta:</seg>
-        <seg xml:id="seg1" ana="#body"> imbecilli di corpo, ed in nulla atte
+        <seg xml:id="seg1" ana="#body"> <seg xml:id="e26-1" ana="#weakness" resp="#ed2026">imbecilli</seg> di corpo, ed in nulla atte
         non pur a offender gli altri, ma se stesse
         dal difender col cor timido astratte.
         Questo doveva far che s’astenesse
@@ -164,7 +172,7 @@
         render buon conto a ciascun uom potemo,
         ché mani e piedi e core avem qual voi;
         e se ben molli e delicate semo,
-        ancor tal uom, ch’è delicato, è forte;
+        ancor tal uom, ch’è delicato, è <seg xml:id="e26-2" ana="#strength" resp="#ed2026">forte</seg>;
         e tal, ruvido ed aspro, è d’ardir scemo.
         Di ciò non se ne son le donne accorte;
         che se si risolvessero di farlo,
@@ -181,18 +189,18 @@
         Certo d’un gran piacer voi sète privo,
         a non gustar di noi la gran dolcezza;
         ed al mal uso in ciò la colpa ascrivo.
-        <seg xml:id="seg1.1" ana="#body">Data è dal ciel la feminil bellezza,
+        <seg xml:id="seg1.1" ana="#body">Data è dal ciel la feminil <seg xml:id="e26-3" ana="#beauty" resp="#ed2026">bellezza</seg>,
         perch’ella sia felicitate in terra
         di qualunque uom conosce gentilezza.</seg>
        <seg xml:id="seg2" ana="#intellect"> Ma dove ’l mio pensier trascorre ed erra
         a ragionar de le cose d’amore,
-        or ch’io sono in procinto di far guerra,
+        or ch’io sono in procinto di far <seg xml:id="e26-4" ana="#war" resp="#ed2026">guerra</seg>,
         torno al mio intento, ond’era uscita fuore,
-        e vi disfido a singolar battaglia.
-        Cingetevi pur d’armi e di valore:
+        e vi disfido a singolar <seg xml:id="e26-5" ana="#war" resp="#ed2026">battaglia</seg>.
+        Cingetevi pur d’<seg xml:id="e26-6" ana="#war" resp="#ed2026">armi</seg> e di valore:
         vi mostrerò quanto al vostro prevaglia
         il sesso feminil; pigliate quali
-        volete armi, e di voi stesso vi caglia,
+        volete <seg xml:id="e26-7" ana="#war" resp="#ed2026">armi</seg>, e di voi stesso vi caglia,
         ch’io vi risponderò di colpi tali,
         il campo a voi lasciando elegger anco,
         ch’a questi forse non sentiste eguali.
@@ -205,10 +213,10 @@
         Vostra di questa rissa è la cagione,
         ed a me per difesa e per vendetta
         carico d’oppugnarvi ora s’impone.
-        Prendete pur de l’armi omai l’eletta,
+        Prendete pur de l’<seg xml:id="e26-8" ana="#war" resp="#ed2026">armi</seg> omai l’eletta,
         ch’io non posso soffrir lunga dimora,
         da lo sdegno de l’animo costretta.
-        La spada, che ’n man vostra rade e fôra,
+        La <seg xml:id="e26-9" ana="#war" resp="#ed2026">spada</seg>, che ’n man vostra rade e fôra,
         de la lingua volgar veneziana,
         s’a voi piace d’usar, piace a me ancora;
         e se volete entrar ne la toscana,
@@ -245,7 +253,7 @@
         ma l’anfibologia non quadra in cosa
         qual mostrar voi volete espressamente.
         Quella di cui la fama è gloriosa,
-        e che ’n bellezza od in valor eccelle,
+        e che ’n <seg xml:id="e26-10" ana="#beauty" resp="#ed2026">bellezza</seg> od in valor eccelle,
         senza par di gran lunga virtuosa,
         «unica» a gran ragion vien che s’appelle;
         e l’arte, a l’ironia non sottoposto,
@@ -277,8 +285,8 @@
         <seg xml:id="seg6" ana="#bitch">E se ben «meretrice» mi chiamate,</seg>
         <seg xml:id="seg4.6" ana="#war">o volete inferir ch’io non vi sono,
         o che ve n’èn tra tali di lodate.
-        Quanto le meretrici hanno di buono,
-        quanto di grazioso e di gentile,
+        Quanto le <seg xml:id="e26-11" ana="#bitch" resp="#ed2026">meretrici</seg> hanno di buono,
+        quanto di <seg xml:id="e26-12" ana="#grace" resp="#ed2026">grazioso</seg> e di gentile,
         esprime in me del parlar vostro il suono.
         Se questo intese il vostro arguto stile,
         di non farne romor io son contenta,
@@ -291,7 +299,7 @@
         e partorir lo sdegno ch’entro covo.
         Apparecchiate pur l’inchiostro e ’l foglio,
         e fatemi saper senz’altro indugio
-        quali armi per combatter in man toglio.
+        quali <seg xml:id="e26-13" ana="#war" resp="#ed2026">armi</seg> per <seg xml:id="e26-14" ana="#war" resp="#ed2026">combatter</seg> in man toglio.
         Voi non avrete incontro a me rifugio,
         ch’a tutte prove sono apparecchiata,
         e impazientemente a l’opra indugio

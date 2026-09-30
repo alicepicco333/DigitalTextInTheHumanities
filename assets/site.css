@@ -562,7 +562,7 @@ table.matrix { border-collapse: collapse; width: 100%; font-size: 14px; }
 .check td, .check tbody th { padding: 8px 10px 8px 0; border-top: 1px solid var(--rule); vertical-align: top; text-align: left; }
 .check tbody th { font-family: var(--serif); font-weight: 500; font-size: 18px; white-space: nowrap; }
 .check .n { text-align: right; font-variant-numeric: tabular-nums; }
-.check .pat { font-size: 12px; color: var(--ink-2); max-width: 26em; overflow-wrap: anywhere; }
+.check .pat { font-size: 12px; color: var(--ink-2); max-width: 26em; }
 .check .pat .lg { color: var(--ink-3); }
 .check .bar { min-width: 140px; white-space: nowrap; }
 .check .track-b { display: inline-block; vertical-align: middle; width: 100px; height: 8px; border-radius: 4px; background: var(--paper-3); overflow: hidden; }
@@ -577,3 +577,17 @@ table.matrix { border-collapse: collapse; width: 100%; font-size: 14px; }
 .check .ex .wh { display: block; font-family: var(--sans); font-size: 12px; color: var(--ink-3); }
 @media (max-width: 700px) { .check .pat { display: none; } .check thead th:nth-child(2) { display: none; } }
 @media (forced-colors: active) { .ct-dot { fill: CanvasText; } .check .track-b span { background: CanvasText; } .track .life { border: 1px solid CanvasText; } }
+
+/* ── 2026 review of the tagging ── */
+.y26 { display: inline-block; font-family: var(--sans); font-weight: 500; font-size: 9.5px; letter-spacing: 0.06em; line-height: 1; padding: 2px 4px 1px; margin-left: 5px; border: 1px solid currentColor; border-radius: 3px; vertical-align: 0.15em; color: var(--ink-2); text-transform: none; }
+.check .track-b { display: inline-flex; width: 120px; }
+.check .track-b span { border-radius: 0; }
+.check .track-b .b23, .check-key .b23 { background: var(--ink); }
+.check .track-b .b26, .check-key .b26 { background: repeating-linear-gradient(135deg, var(--accent) 0 3px, color-mix(in srgb, var(--accent) 45%, var(--card)) 3px 5px); }
+.check .track-b .b23 + .b26 { box-shadow: -2px 0 0 var(--card); }
+.check-key { display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 13px; color: var(--ink-2); margin: 0 0 12px; }
+.check-key span { display: inline-flex; gap: 8px; align-items: center; }
+.check-key i { display: inline-block; width: 18px; height: 8px; border-radius: 2px; }
+.check-key .b0 { background: var(--paper-3); }
+@media (forced-colors: active) { .check .track-b .b26 { background: Highlight; } }
+@media (max-width: 700px) { .check tr > :nth-child(7), .check tr > :nth-child(8) { display: none; } .check-wrap { padding: 10px 12px; } .check tbody th { font-size: 16px; white-space: normal; } }
