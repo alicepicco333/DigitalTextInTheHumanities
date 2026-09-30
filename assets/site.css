@@ -591,3 +591,18 @@ table.matrix { border-collapse: collapse; width: 100%; font-size: 14px; }
 .check-key .b0 { background: var(--paper-3); }
 @media (forced-colors: active) { .check .track-b .b26 { background: Highlight; } }
 @media (max-width: 700px) { .check tr > :nth-child(7), .check tr > :nth-child(8) { display: none; } .check-wrap { padding: 10px 12px; } .check tbody th { font-size: 16px; white-space: normal; } }
+
+/* ── scrollbars in the palette (page, side panels, matrix, code) ── */
+html { scrollbar-color: var(--rule-2) var(--paper); }
+.toc, .panel, .matrix-wrap, .ctime, .check-wrap, .tei-box pre { scrollbar-width: thin; scrollbar-color: var(--rule-2) transparent; }
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { background: var(--paper); }
+::-webkit-scrollbar-thumb { background: var(--rule-2); border-radius: 8px; border: 3px solid var(--paper); }
+::-webkit-scrollbar-thumb:hover { background: var(--rose); }
+::-webkit-scrollbar-corner { background: var(--paper); }
+:is(.toc, .panel, .matrix-wrap, .ctime, .check-wrap, .tei-box pre)::-webkit-scrollbar { width: 8px; height: 8px; }
+:is(.toc, .panel, .matrix-wrap, .ctime, .check-wrap, .tei-box pre)::-webkit-scrollbar-track { background: transparent; }
+:is(.matrix-wrap, .ctime, .check-wrap, .tei-box pre)::-webkit-scrollbar-thumb { border-color: var(--card); }
+:is(.toc, .panel)::-webkit-scrollbar-thumb { border: 2px solid var(--paper); }
+::-webkit-scrollbar-button { display: none; }
+@media (forced-colors: active) { html, .toc, .panel, .matrix-wrap, .ctime, .check-wrap, .tei-box pre { scrollbar-color: auto; } }
