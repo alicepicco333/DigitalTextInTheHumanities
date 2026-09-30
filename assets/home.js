@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var W = window.WG, D = W.data, esc = W.esc;
-  var Y0 = 1500, Y1 = 2030;
+  var Y0 = 1480, Y1 = 2030;
   function pct(y) { return ((y - Y0) / (Y1 - Y0) * 100).toFixed(3) + '%'; }
 
   // facts
@@ -42,8 +42,13 @@
       ed.push('source edition not recorded');
     }
     ed.push(W.plural(t.segs.length, 'passage'));
+    var L = t.life;
+    if (L && f != null && L.died && f > L.died) ed.push('published ' + (f - L.died) + ' years after her death');
 
     var tr = grid;
+    if (L && L.born && L.died && L.died > Y0) {
+      tr += '<span class="life" style="left:' + pct(Math.max(Y0, L.born)) + ';width:calc(' + pct(L.died) + ' - ' + pct(Math.max(Y0, L.born)) + ')"></span>';
+    }
     if (f != null && s.year && s.year !== f) {
       tr += '<span class="span" style="left:' + pct(f) + ';width:calc(' + pct(s.year) + ' - ' + pct(f) + ')"></span>';
     }
@@ -59,11 +64,12 @@
       var lab = (s.year && s.year !== f && Math.abs(s.year - f) <= 30) ? f + ' / ' + s.year : String(f);
       tr += '<span class="yr" style="left:' + pct(f) + '">' + lab + '</span>';
     } else {
-      tr += '<span class="nd">date of the letter not encoded</span>';
+      tr += '<span class="nd">date of the letter not encoded' + (L && L.died && L.died < Y0 ? '; she lived ' + L.born + '–' + L.died + ', before this axis' : '') + '</span>';
     }
     var what = t.title + (t.container ? ', in ' + t.container : (t.workTitle ? ', ' + t.workTitle : ''));
     html += '<li class="tl-row">' +
-      '<div class="tl-meta"><div class="who">' + esc(t.author) + '</div>' +
+      '<div class="tl-meta">' + (W.portrait(t.id) ? '<img class="tl-face" src="' + W.portrait(t.id) + '" alt="" width="48" height="60" loading="lazy">' : '') +
+      '<div class="who">' + esc(t.author) + (L && L.born ? ' <span class="dates">' + L.born + '–' + (L.died || '') + '</span>' : '') + '</div>' +
       '<div class="what">' + esc(what) + '</div>' +
       '<div class="ed">' + esc(ed.join(' · ')) + '</div></div>' +
       '<div class="track" aria-hidden="true">' + tr + '</div>' +

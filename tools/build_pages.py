@@ -25,7 +25,7 @@ def main():
         with open(path, encoding='utf-8') as f:
             s = f.read()
         m = mast
-        for key in ('index', 'texts', 'concepts', 'about'):
+        for key in ('index', 'texts', 'concepts', 'search', 'about'):
             m = m.replace(f'@@{key}', ' aria-current="page"' if key == name else '')
         s = s.replace('{{head}}', head).replace('{{mast}}', m).replace('{{foot}}', foot)
         with open(os.path.join(ROOT, f'{name}.html'), 'w', encoding='utf-8', newline='\n') as f:

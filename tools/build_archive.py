@@ -6,6 +6,11 @@ Everything on the site (reading views, concept matrix, comparisons, timeline)
 is generated from the TEI encoding by this script; nothing is typed in by hand
 except the display labels in CONCEPT_LABELS and the handful of documented
 normalisations listed in NOTES (each one explains what the TEI says).
+
+Three files beside the TEI are merged in, each documented where it is made:
+  data/translations.json  working English translations of the tagged passages (2026)
+  data/authors.json       life dates and places from Wikidata (tools/fetch_authors.py)
+  KEYWORDS below          the words that stand for each concept, for the tagging check
 """
 import glob
 import html
@@ -111,8 +116,10 @@ class Renderer:
 
     def add_context(self, n=24):
         full = ''.join(self.plain)
+        self.spans = []
         for g in self.segs:
             a, b = g.pop('_span')
+            self.spans.append((a, b, g['concepts'], g['id']))
             before = self.flat(full[:a]).split(' ')
             after = self.flat(full[b:]).split(' ')
             before = [w for w in before if w]
@@ -148,7 +155,7 @@ class Renderer:
                 dom_id += 'x'
             self.seen_ids.add(dom_id)
             self.segs.append({'id': dom_id, 'xmlId': xid, 'concepts': cids, 'text': self.seg_text(e),
-                              '_span': (start, self.pos())})
+                              'xml': tei_source(e), '_span': (start, self.pos())})
             data = ' '.join(cids)
             return f'<span class="seg" id="{dom_id}" data-c="{data}">{inner}</span>'
         if tag == 'persName':
@@ -162,6 +169,99 @@ class Renderer:
         if tag == 'title':
             return f'<span class="inhead">{inner.strip()}</span>'
         return inner
+
+
+ET.register_namespace('', T.strip('{}'))
+
+
+def tei_source(e):
+    """The <seg> element as it is written in the TEI file (namespace declaration and tail dropped)."""
+    tail, e.tail = e.tail, None
+    x = ET.tostring(e, encoding='unicode')
+    e.tail = tail
+    x = re.sub(r' xmlns(:\w+)?="[^"]+"', '', x)
+    return x.strip()
+
+
+# The words that stand for each concept, per language of the archive (stems matched at the start of a word,
+# case- and accent-insensitive; each list is applied only to the texts in its language, so that the English
+# "mere" is not read as the French "mère"). The tagging check counts how often they occur and how many of those
+# occurrences the encoders tagged. Concepts that are argued rather than named in one word are left out.
+KEYWORDS = {
+    'beauty': {'fr': r'beaut|belles?\b|beaux?\b|bel\b', 'it': r'bellezz|bellissim|bell[aoie]\b|bel\b', 'en': r'beaut'},
+    'grace': {'fr': r'grâce|grace|gracieu', 'it': r'grazi', 'en': r'grace'},
+    'honour': {'fr': r'honneur', 'it': r'onor', 'en': r'hono'},
+    'body': {'fr': r'corps\b|corporel', 'it': r'corp[oi]\b|corpore|corporal', 'en': r'body|bodies|corporal'},
+    'mother': {'fr': r'mères?\b|matern', 'it': r'madr[ei]\b|matern', 'en': r'mother|matern'},
+    'marriage': {'fr': r'mari(?:er|age|é|ée|ées|és|erai|erez|era|s)?\b|épous', 'it': r'spos[aeio]\b|sposar|matrimon|nozze', 'en': r'marri|husband|wedlock'},
+    'sorority': {'fr': r'sœurs?\b|soeurs?\b', 'it': r'sorell', 'en': r'sisters?\b|sisterhood'},
+    'witch': {'fr': r'sorci', 'it': r'streg', 'en': r'witch'},
+    'virginity': {'fr': r'vierge|virginit', 'it': r'vergin', 'en': r'virgin'},
+    'foodOrFoodAbst': {'fr': r'nourritur|jeûn|aliment', 'it': r'cib[oi]\b|digiun', 'en': r'food|fasting'},
+    'strength': {'fr': r'force|robust|fortes?\b', 'it': r'robust|forza|fort[ei]\b', 'en': r'strength|strong'},
+    'weakness': {'fr': r'faible', 'it': r'debol|fragil|imbecill', 'en': r'weak|feeble'},
+    'modesty': {'fr': r'pudeur|pudique|modestie', 'it': r'pudor|pudic|modesti', 'en': r'modest'},
+    'uglyness': {'fr': r'laid(?:e|es|s|eur)?\b|difform', 'it': r'brutt|deform|difform|sfregia|deturpa', 'en': r'ugl|deform'},
+    'feminism': {'fr': r'féminis', 'it': r'femminis', 'en': r'feminis'},
+    'housework': {'fr': r'vaisselle|ménag|cuisin', 'it': r'faccend|cucin', 'en': r'housework|domestic'},
+    'intellect': {'fr': r'esprit|intelligen|intellect|sçavoir|savoir|entendement', 'it': r'intellett|ingegn|intelligen|mente\b', 'en': r'minds?\b|understanding|intellect'},
+    'education': {'fr': r'éducation|instruc|école', 'it': r'educaz|istruz|scuol', 'en': r'educat|school|instruct'},
+    'independence': {'fr': r'indépendan|liberté', 'it': r'indipenden|libertà', 'en': r'independen|liberty|freedom'},
+    'sensuality': {'fr': r'sensuel|voluptu', 'it': r'sensual|volutt', 'en': r'sensual|voluptu'},
+    'submission': {'fr': r'soumi|obéi|docil|dépendan', 'it': r'sottomess|sottomission|obbed|docil|dipenden', 'en': r'submi|obedien|docil|dependen'},
+    'bitch': {'fr': r'putain|courtisan|coureuse', 'it': r'meretric|puttan|cortigian', 'en': r'whore|harlot|prostitu'},
+    'war': {'fr': r'guerre|bataill|combat|armes\b|épée', 'it': r'guerr|battagl|arm[ie]\b|spad[ae]\b|combatt', 'en': r'wars?\b|warfare|battle|arms\b|sword|combat'},
+    'rights': {'fr': r'droits\b', 'it': r'diritti\b', 'en': r'rights\b'},
+}
+
+
+def fold(s):
+    """Lower case, accents removed, one character for one character (so positions stay aligned)."""
+    import unicodedata
+    return ''.join((unicodedata.normalize('NFD', c)[0] if c not in 'œæ' else c).lower() for c in s)
+
+
+def tagging_check(texts, concepts, plains):
+    import unicodedata
+    for cid, pats in KEYWORDS.items():
+        if cid not in concepts:
+            continue
+        rxs = {lang: re.compile(r'(?<![^\W\d_])(?:' + fold(unicodedata.normalize('NFC', pat)) + ')', re.I) for lang, pat in pats.items()}
+        total = tagged = other = 0
+        by_text, untagged = {}, []
+        tagged_with_word = set()
+        for t in texts:
+            full, spans = plains[t['id']]
+            ff = fold(full)
+            bt = {'total': 0, 'tagged': 0}
+            rx = rxs.get(t['lang'])
+            for m in (rx.finditer(ff) if rx else []):
+                a = m.start()
+                inside = [sp for sp in spans if sp[0] <= a < sp[1]]
+                total += 1; bt['total'] += 1
+                if any(cid in sp[2] for sp in inside):
+                    tagged += 1; bt['tagged'] += 1
+                    tagged_with_word.update(sp[3] for sp in inside if cid in sp[2])
+                    continue
+                if inside:
+                    other += 1
+                where = 'other' if inside else 'none'
+                if len(untagged) < 40:
+                    end = m.end()
+                    while end < len(full) and (full[end].isalpha() or full[end] in "'’"):
+                        end += 1
+                    b = norm(full[max(0, a - 70):a]).split(' ')
+                    af = norm(full[end:end + 70]).split(' ')
+                    untagged.append({'t': t['id'], 'where': where, 'others': sorted({c for sp in inside for c in sp[2]}),
+                                     'before': ' '.join(b[1:] if len(b) > 1 else b), 'word': full[a:end], 'after': ' '.join(af[:-1] if len(af) > 1 else af)})
+            if bt['total']:
+                by_text[t['id']] = bt
+        seg_ids = [g['id'] for t in texts for g in t['segs'] if cid in g['concepts']]
+        concepts[cid]['check'] = {
+            'pattern': pats, 'total': total, 'tagged': tagged, 'inOther': other, 'untaggedAll': total - tagged,
+            'byText': by_text, 'examples': untagged,
+            'passagesWithoutWord': len([i for i in seg_ids if i not in tagged_with_word]), 'passages': len(seg_ids),
+        }
 
 
 def fix_uri(u):
@@ -237,6 +337,7 @@ def build_text(path):
     body = root.find(f'{T}text/{T}body')
     body_html = r.render(body).strip()
     r.add_context()
+    PLAINS[slug] = (''.join(r.plain), r.spans)
     words = len(text(body).split())
 
     dc_date_el = desc.find(DC + 'date') if desc is not None else None
@@ -281,8 +382,32 @@ def build_text(path):
     }
 
 
+PLAINS = {}
+
+
 def main():
     texts = [build_text(p) for p in sorted(glob.glob(os.path.join(ROOT, 'MarkedTexts', '*.xml')))]
+    # working English translations of the tagged passages, for the French and Italian texts
+    with open(os.path.join(ROOT, 'data', 'translations.json'), encoding='utf-8') as f:
+        tr = json.load(f)
+    tr_notes = tr.get('_notes', {})
+    missing = []
+    for t in texts:
+        for g in t['segs']:
+            if g['id'] in tr:
+                g['en'] = tr[g['id']]
+                if g['id'] in tr_notes:
+                    g['enNote'] = tr_notes[g['id']]
+            elif t['lang'] != 'en':
+                missing.append(g['id'])
+    assert not missing, ('untranslated passages', missing)
+    unknown = [k for k in tr if not k.startswith('_') and not any(g['id'] == k for t in texts for g in t['segs'])]
+    assert not unknown, ('translations for passages that do not exist', unknown)
+    # life dates and places, from Wikidata by VIAF (tools/fetch_authors.py)
+    with open(os.path.join(ROOT, 'data', 'authors.json'), encoding='utf-8') as f:
+        lives = json.load(f)
+    for t in texts:
+        t['life'] = lives.get(t['id'])
     # chronological by encoded first edition; undated texts last
     texts.sort(key=lambda t: (t['firstEdition'] is None, t['firstEdition'] or 0))
     concept_ids = []
@@ -309,6 +434,7 @@ def main():
         docs = json.load(f)
     for cid, c in concepts.items():
         c['doc'] = docs.get(cid)
+    tagging_check(texts, concepts, PLAINS)
     out = {
         'generated': 'tools/build_archive.py',
         'texts': texts,
@@ -324,6 +450,11 @@ def main():
     print(f'{len(texts)} texts, {len(concepts)} concepts declared ({len(used)} tagged), {n_segs} segments')
     for t in texts:
         print(f"  {t['firstEdition']} {t['author']}: {t['title']} ({len(t['segs'])} segs, {len(t['concepts'])} concepts)")
+    print('tagging check (word occurrences: tagged / total; passages tagged without the word):')
+    for cid, c in concepts.items():
+        k = c.get('check')
+        if k:
+            print(f"  {cid:16s} {k['tagged']:3d} / {k['total']:3d}   in another passage {k['inOther']:3d}   without the word {k['passagesWithoutWord']}/{k['passages']}")
 
 
 if __name__ == '__main__':

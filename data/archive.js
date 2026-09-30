@@ -114,8 +114,10 @@ window.WOG = {
       "honour"
      ],
      "text": "pour l'honneur",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#honour\">pour l'honneur</seg>",
      "before": "En la cour du Roy Charles, je ne diray point le quantiesme",
-     "after": "de celle dont je veulx parler, laquelle je ne veulx nommer par son nom propre, y avoit une Comtesse de fort bonne maison, mais …"
+     "after": "de celle dont je veulx parler, laquelle je ne veulx nommer par son nom propre, y avoit une Comtesse de fort bonne maison, mais …",
+     "en": "for honour"
     },
     {
      "id": "marguerite-seg2",
@@ -124,8 +126,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "pour la richesse dont il estoit plein, estoit regardée de chascun",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#beauty\">pour la richesse dont il estoit plein,\n                estoit regardée de chascun</seg>",
      "before": "… maison, mais estrangière. Et, pource que toutes choses nou- velles plaisent, ceste Dame, à sa venue tant pour la nouveauté de son habillement que",
-     "after": "; et combien qu'elle ne fust des plus belles, si avoit-elle une grace avecq une audace tant bonne qu'il n'estoit possible de plus, la …"
+     "after": "; et combien qu'elle ne fust des plus belles, si avoit-elle une grace avecq une audace tant bonne qu'il n'estoit possible de plus, la …",
+     "en": "for the riches it was full of, was admired by everyone"
     },
     {
      "id": "marguerite-seg3",
@@ -134,8 +138,10 @@ window.WOG = {
       "grace"
      ],
      "text": "et combien qu'elle ne fust des plus belles, si avoit-elle une grace avecq une audace tant bonne qu'il n'estoit possible de plus, la parolle et la gravité de mesme, de sorte qu'il n'y avoit nul qui n'eust craincte à l'aborder",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#grace\">et combien\n                qu'elle ne fust des plus belles, si avoit-elle\n                une grace avecq une audace tant bonne\n                qu'il n'estoit possible de plus, la parolle et\n                la gravité de mesme, de sorte qu'il n'y avoit\n                nul qui n'eust craincte à l'aborder</seg>",
      "before": "… ceste Dame, à sa venue tant pour la nouveauté de son habillement que pour la richesse dont il estoit plein, estoit regardée de chascun;",
-     "after": ", sinon le Roy qui l'ayma très-fort. Et, pour parler à elle plus priveement, donna quelque commission au Comte son mary, en laquelle il …"
+     "after": ", sinon le Roy qui l'ayma très-fort. Et, pour parler à elle plus priveement, donna quelque commission au Comte son mary, en laquelle il …",
+     "en": "and although she was not among the most beautiful, she had a grace, together with a boldness, as fine as could be, and speech and bearing to match, so that there was no one who did not fear to approach her"
     },
     {
      "id": "marguerite-seg4",
@@ -144,8 +150,10 @@ window.WOG = {
       "bitch"
      ],
      "text": "Que à tous les diables soit la villaine qui nous a faict d'une chose tant travailler, et nous réputer si heureux de l'avoir acquise! Il ne fut oncques une telle meschante, car, quand elle en tenoit un en cache, elle pratiquoit l'autre, pour n'estre jamais sans passetemps; et aymerois-je mieulx estre mort, qu'elle demorast sans pug nition!",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#bitch\">Que à tous les diables soit la\n                villaine qui nous a faict d'une chose\n                tant travailler, et nous réputer si heureux de l'avoir \n                acquise! Il ne fut oncques une telle meschante, car, quand\n                elle en tenoit un en cache, elle pratiquoit l'autre, \n                pour n'estre jamais sans\n                passetemps; et aymerois-je mieulx\n                estre mort, qu'elle demorast sans pug\n                nition!</seg>",
      "before": "… nommeray aussy le pre- mier, c'est ma Dame la Comtesse qui estoit si audatieuse, que, en gaingnant son amitié, je pensois avoir gaingné Cesar.",
-     "after": "\" Ilz demandèrent chascun, qu'il leur sembloit quelle debvoit avoir et qu'ilz estoient tous prestz de la luy donner. \"ll me semble,\" dist-il, \"que …"
+     "after": "\" Ilz demandèrent chascun, qu'il leur sembloit quelle debvoit avoir et qu'ilz estoient tous prestz de la luy donner. \"ll me semble,\" dist-il, \"que …",
+     "en": "To all the devils with the wretch who has made us toil so hard for one thing, and think ourselves so lucky to have won it! There was never such a wicked woman: when she kept one man hidden, she was courting another, so as never to be without amusement; and I would rather be dead than see her go unpunished!"
     },
     {
      "id": "marguerite-seg1-1",
@@ -154,8 +162,10 @@ window.WOG = {
       "honour"
      ],
      "text": "elle, qui avoit perdu l'honneur et la conscience",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#honour\">elle, qui avoit perdu\n                l'honneur et la conscience</seg>",
      "before": "… les estonner. Mais ilz poursuyvoient si bien leurs propos, qu'elle entendit que la chose estoit descouverte. Parquoy, trouva incontinent moien de les tromper, car",
-     "after": ", ne voulut point recepvoir la honte qu'ilz lui cuydoient faire; mais, comme celle qui preféroit son plaisir à tout l'honneur du monde, ne …"
+     "after": ", ne voulut point recepvoir la honte qu'ilz lui cuydoient faire; mais, comme celle qui preféroit son plaisir à tout l'honneur du monde, ne …",
+     "en": "she, who had lost her honour and her conscience"
     },
     {
      "id": "marguerite-seg5",
@@ -164,8 +174,10 @@ window.WOG = {
       "independence"
      ],
      "text": "celle qui preféroit son plaisir à tout l'honneur du monde",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#independence\">celle qui \n                preféroit son plaisir à tout l'honneur du\n                monde</seg>",
      "before": "… de les tromper, car elle, qui avoit perdu l'honneur et la conscience, ne voulut point recepvoir la honte qu'ilz lui cuydoient faire; mais, comme",
-     "after": ", ne leur en feit pire visaige, n'y n'en changea de contenance : dont il. furent tant estonnez, qu'ilz rapportèrent en leur sein la …"
+     "after": ", ne leur en feit pire visaige, n'y n'en changea de contenance : dont il. furent tant estonnez, qu'ilz rapportèrent en leur sein la …",
+     "en": "she who preferred her pleasure to all the honour in the world"
     },
     {
      "id": "marguerite-seg6",
@@ -174,8 +186,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "les femmes aussi mauvaises que les hommes",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#counterstereotype\">les femmes aussi\n                mauvaises que les hommes</seg>",
      "before": "… qu'ilz rapportèrent en leur sein la honte qu'ilz luy avoient voulu faire. \"Si vous ne trouvez, mes Dames, ce compte digne de faire congnoistre",
-     "after": ", j'en chercheray d'autres pour vous contenter; toutesfois, il me semble que cestuy-là suffise pour vous monstrer que une femme qul a perdu la …"
+     "after": ", j'en chercheray d'autres pour vous contenter; toutesfois, il me semble que cestuy-là suffise pour vous monstrer que une femme qul a perdu la …",
+     "en": "women as wicked as men"
     },
     {
      "id": "marguerite-seg1-2",
@@ -184,11 +198,27 @@ window.WOG = {
       "honour"
      ],
      "text": "une femme qul a perdu la honte est cent foys plus hardye à faire mal que n'est un homme",
+     "xml": "<seg xml:id=\"seg1.2\" ana=\"#honour\">une femme qul a perdu la\n                honte est cent foys plus hardye à faire mal\n                que n'est un homme</seg>",
      "before": "… les femmes aussi mauvaises que les hommes, j'en chercheray d'autres pour vous contenter; toutesfois, il me semble que cestuy-là suffise pour vous monstrer que",
-     "after": "\". ll n'y eut femme en la compaignie, oiant racompter ceste histoire, qui ne fist tant de signes de croix, qu'il sembloit qu'elles voyoient …"
+     "after": "\". ll n'y eut femme en la compaignie, oiant racompter ceste histoire, qui ne fist tant de signes de croix, qu'il sembloit qu'elles voyoient …",
+     "en": "a woman who has lost her shame is a hundred times bolder in doing wrong than a man"
     }
    ],
-   "html": "<p>En la cour du <span class=\"pers\" data-p=\"RoyCharles\"><span class=\"role\">Roy</span> Charles</span>, je ne diray point le quantiesme <span class=\"seg\" id=\"marguerite-seg1\" data-c=\"honour\">pour l'honneur</span> de celle dont je veulx parler, laquelle je ne veulx nommer par son nom propre, y avoit une Comtesse de fort bonne maison, mais estrangière. Et, pource que toutes choses nou- velles plaisent, ceste Dame, à sa venue tant pour la nouveauté de son habillement que <span class=\"seg\" id=\"marguerite-seg2\" data-c=\"beauty\">pour la richesse dont il estoit plein, estoit regardée de chascun</span>; <span class=\"seg\" id=\"marguerite-seg3\" data-c=\"grace\">et combien qu'elle ne fust des plus belles, si avoit-elle une grace avecq une audace tant bonne qu'il n'estoit possible de plus, la parolle et la gravité de mesme, de sorte qu'il n'y avoit nul qui n'eust craincte à l'aborder</span>, sinon le <span class=\"role\">Roy</span> qui l'ayma très-fort. Et, pour parler à elle plus priveement, donna quelque commission au Comte son mary, en laquelle il demeura longuement; et, durant ce temps, le <span class=\"role\">Roy</span> feit grand chère avec sa femme. Plusieurs gentilz hommes du <span class=\"role\">Roy</span>, qui congnurent que leur maistre en estoit bien traicté, prindrent hardiesse de parler à clle; et, entre autres, un nommé <span class=\"pers\" data-p=\"Astillon\">Astillon</span> aul estoit fort audatienx et homme de bonne grace. Au commencement, elle luy tint une si grande gravité, le menas- sant de le dire au <span class=\"role\">Roy</span> son maistre, qu'il en cuyda avoir paour; mais luy, qui n'avoit point accoustumé de craindre les menasses d'un bien hardy capitaine, s'as- seura des siennes ; et il la poursuivyt de si près, qu'elle luy accorda de parler a luy seulle, luy enseignant la manière comme il devoit venir en sa chambre. A quoy il ne faillyt; et, afin que le <span class=\"role\">Roy</span> n'en eust nul soupson, luy demanda congé d'aller en quelque voiage. Et s'en partit de la court, mais, la première journée, laissa tout son train, et sen revint de nuict recepvoir les promesses que la Comtesse luy avoit faictes; ce qu'elle luy tint: dont il demeura si satisfaict, qu'il fut content de demeurer cinq ou six jours enfermé en une garderobbe, sans saillyr dehors , et et ia là ne vivoit que de restaurans. Durant les huict jours qu'il estoit vint un de ses compaignons faire l'amour à la Comtesse, lequel avoit nom <span class=\"pers\" data-p=\"Durassier\">Durassier</span>. Elle tint telz termes à ce serviteur, qu'elle avoit faict au premier : au commencement, en rudes et audaticux propos qui tous les jours sadoucişsoient; et, quand cestoit le jour qu'elle donnoit congé au premier prisonnier, elle mettoit un serviteur en sa place. Et, durant qu'il y estoit, un autre sien compaignon, nommé <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, feit pareille office que les deux premiers; et, après culx, en vindrent deux ou trois aultres qui avoient part à la doulce prison.</p> <p>Ceste vie dura assez longuement, et conduicte si finement, que les uns ne sçavoient rien des aultres. Et combien qu'ilz entendissent assez l'amour que chascun luy portoit, si n'y avoit-il nul qui ne pensast en avoir eu seul ce qu'il en demandoit : et se mocquoit chascun de son compaignon, qu'il pensoit avoir failly à un si grand bien.</p> <p>Un jour que les gentilz hommes dessus nommez estoient en un bancquet où ilz faisoient fort grand chère, ilz commencèrent àa parler de leurs fortunes et prisons, quilz avoient eues durant les guerres. Mais <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, à qui il faisoit mal de celer si longuement une si bonne fortune que celle qu'il avoit eue, va dire à ses compaignons : \"Je ne scay quelles prisons vous aver cu, mals quanta moy, pour l'amour d'une où j'ay esté, je diray toute ma vie louange et bien des autres; car je pense quil ny plaisir en ce monde qui approche de celluy quel'on a d'estre prisonnier.\" <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, qui avoit esté le premier prisonnier, se doubta de la prison qu'il vouloit dire, et luy respondit : \"<span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, soubz quel geolière avez-vous esté si bien traicté, que vous aymez tant vostre prison?\" <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span> luy dist : \"Quel que soit le geolier, la prison m'a esté si agréable, que j'eusse bien voulu qu'elle eust duré plus longuement, car je ne fuz jamais mieulx traicté ne plus content. \" <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, qui estoit homme peu parlant, congnoissant très-bien que lon se débatoit de la prison où il avoit part comme les autres, dist à <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>: \"De quelles viandes estiez-vous nourry en ceste prison, dont yous vous louez dist si fort?\" - De quelles viandes? dist <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>: \"le Roy n'en a poinct de meilleures ne plus nourrissantes\". \"Mais encores fault-il que je sçache,\" dist <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, \" si celluy qui vous tenoit prisonnier vous faisoit bien gaingner vostre pain?\". <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, qui se doubta d'estre entendu, ne se peut tenir de jurer: \"Ha, vertu Dieul aurois-je bien des compaignons, oà je pense estre tout seul?\" <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, voiant ce différent où il avoit part comme les aultres, dist en riant: \"Nous sommes tous à un maistre compaignons et amys dės nostre jeu- nesse; parquoy, si nous sommes com- paignons d'une bonne fortune, nous avons occasion d'en rire, mais, pour sçavoir si ce que je pense est vmay, je vous prie que je vous interroge et que vous tous me confessiez la vérité, car s'il est advenu ainsy de nous comme je pense, ce seroit une adventure aussi plaisante que l'on en sçauroit trouver en nul livre.\" Ilz jurèrent tous dire vérité, s'il estoit ainsy qu'ilz ne la peus- sent dényer. Il leur dist: \"Je vous diray ma fortune, et vous me respondrez ouy ou nenny, si la vostre est pareille\". Ilz se accorderent tous, et alors il dist: \"Je demanday congé au <span class=\"role\">Roy</span> d'aller en quelque voiage. Ilz respondirent: \"Et nous aussy.\" \"Quant je fuz a deux lieues de la court, je laissay tout mon train et m'allay rendre prisonnier.\" Ilz respondirent: \"Nous en fismes autant\". \"Je demouray,\" dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, sept ou huict jours, et couchay en une garderobbe ou l'on ne me fit manger que restaurans et les meilleures viandes que je mangeay jamais; et, au bout de huict jours, ceulx qui me tenoient me laissèrent aller beaucoup plus foible que je n'estois arrivé. Ilz jurèrent tous que ainsy leur estoit advenu.\" \"Ma prison\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"commencea tel jour et fina tel jour.\" \"La mienne\" dist <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, \"commencea le propre jour que la vostre fina; et dura jusques a un tel jour\". <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, qui perdoit patience, commencea à jurer et dire: \"Par le sang Dieu! à ce que je voy, je suis le tiers qui pensois estre le premier et le seul, car je y entray tel jour et en saillys tel jour.\" Les aultres trois, qui estoient à la table, jurérent qu'ilz avoient bien gardé ce rang. \" Or, puisque ainsy est \", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, a je diray l'estat de nostre geolière elle est mariée et son mary est bien loing\". \"C'est ceste-là propre\", respondirent-ilz tous. \"Or, pour nous mettre hors de peyne\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"moy qui suis le premier en roolle, la nommeray aussy le pre- mier, c'est ma Dame la Comtesse qui estoit si audatieuse, que, en gaingnant son amitié, je pensois avoir gaingné Cesar. <span class=\"seg\" id=\"marguerite-seg4\" data-c=\"bitch\">Que à tous les diables soit la villaine qui nous a faict d'une chose tant travailler, et nous réputer si heureux de l'avoir acquise! Il ne fut oncques une telle meschante, car, quand elle en tenoit un en cache, elle pratiquoit l'autre, pour n'estre jamais sans passetemps; et aymerois-je mieulx estre mort, qu'elle demorast sans pug nition!</span>\" Ilz demandèrent chascun, qu'il leur sembloit quelle debvoit avoir et qu'ilz estoient tous prestz de la luy donner. \"ll me semble,\" dist-il, \"que nous le debvons dire au <span class=\"role\">Roy</span> nostre maistre, lequel en faict un cas comme d'une déesse?\" - \"Nous ne ferons point ainsy\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>; \"nous avons assez de molen pour nous venger d'elle, sans y appeller nostre maistre. Trouvons-nous demain, quant elle ira à la messe; et que chascun de nous porte une chaine de fer au col; et, quand elle entrera en l'église, nous la salue- rons comme il appartient.\"</p> <p>Ce conseil fut trouvé très-bon de toute la compaignie; et feirent provision de chascun une chaine de fer. Le matin venu, tous habillez de noir, leurs chaines de fer tournées À l'entour de leur col en façon de collier, vindrent trouver <span class=\"role\">le Comtesse</span> qui alloit à l'église. Et, si tost qu'elle les veid ainsy habillez, se print a rire et leur dist : \"Ou vont ces gens si douloureux?\" \"Ma <span class=\"role\">Dame</span>\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"nous vous venons accompagner comme pauvres esclaves prisonniers qui sont tenuz à vous faire service.\" La Comtesse, faisant semblant de n'y entendre rien, leur dist : \"Vous n'estes point mes prisonniers, ne je n'entendz point que vous ayer occa- sion de me faire service plus que les autres.\" <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span> s'advancea et luy dist:\" Si nous avons mange de vostre pain si longuement, nous serions bien ingratz si nous ne vous faisions ser- vice\". Elle feit si bonne mine de n'y rien entendre, qufelle cuydoit par ceste gravité les estonner. Mais ilz poursuyvoient si bien leurs propos, qu'elle entendit que la chose estoit descouverte. Parquoy, trouva incontinent moien de les tromper, car <span class=\"seg\" id=\"marguerite-seg1-1\" data-c=\"honour\">elle, qui avoit perdu l'honneur et la conscience</span>, ne voulut point recepvoir la honte qu'ilz lui cuydoient faire; mais, comme <span class=\"seg\" id=\"marguerite-seg5\" data-c=\"independence\">celle qui preféroit son plaisir à tout l'honneur du monde</span>, ne leur en feit pire visaige, n'y n'en changea de contenance : dont il. furent tant estonnez, qu'ilz rapportèrent en leur sein la honte qu'ilz luy avoient voulu faire.</p> <p>\"Si vous ne trouvez, mes Dames, ce compte digne de faire congnoistre <span class=\"seg\" id=\"marguerite-seg6\" data-c=\"counterstereotype\">les femmes aussi mauvaises que les hommes</span>, j'en chercheray d'autres pour vous contenter; toutesfois, il me semble que cestuy-là suffise pour vous monstrer que <span class=\"seg\" id=\"marguerite-seg1-2\" data-c=\"honour\">une femme qul a perdu la honte est cent foys plus hardye à faire mal que n'est un homme</span>\". ll n'y eut femme en la compaignie, oiant racompter ceste histoire, qui ne fist tant de signes de croix, qu'il sembloit qu'elles voyoient tous les dia- bles d'enfer devant leurs oeilz. Mais Oisille leur dist : \" Mes Dames, humilions-nous, quand nous oyons cest horrible cas, d'autant que la personne délaissde de <span class=\"role\">Dieu</span> se rend pareille à celluy avecq lequel elle est joincte, car, puisque ceulx qui adbèrent A <span class=\"role\">Dieu</span> ont son esperit avecq eulx, aussy sont cculx qui adhèrent à son contraire; et n'est rien si bestial que la personne destituće de l'esperit de Dieu\". \"Quoy que ait faict ceste pauvre Dame\", dist <span class=\"pers\" data-p=\"Ennasuitte\">Ennasuitte</span>, \"si ne scaurois-je louer ceulx qui se vantent de leur prison\". \"J'ay opinion\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"que la peine n'est moindre un homme de celer sa bonne fortune, que de la pourchasser, car il n'y a veneur qui ne prenne plaisir à corner sa prise, ny amou. reux, d'avoir la gloire de sa victoire\". \"Voila une opinion\", dist <span class=\"pers\" data-p=\"Simontault\">Simontault</span>, \"que devant tous les inquisiteurs de la Foy, je soustiendray héréticque, car il y a plus d'hommes secretz que de femmes ; et sçay bien qu'on en trouveroit qui aimeroient mieulx n'en avoir bonne chère, que s'il falloit que créature du monde lentendist. Et, pour ce, a l'Eglise, comme bonne mère ordonne les prestres confesseurs et non Pas les femmes, parce qu'elles ne peuvent rien celer\". \"Ce n'est pas pour ceate accasion, dit <span class=\"pers\" data-p=\"Oisille\">Oisille</span>, \"mais c'est parce que les femmes sont tant ennemyes du vice, qu'elles ne donneroient pas si facilement absolution que les hommes , et seroient trop austères an leurs péoitences\". \"Si elles l'estoient autant\" dist <span class=\"pers\" data-p=\"Dagoudin\">Dagoudin</span>, \"qu'elles sont en leurs responces , clles feroient désespérer plus de pécheurs, qu'elles n'en attireroient à salut ; parquoy l'Eglise, en toute sorte, y a bien pourveu. Mais si ne veulx-je pas, pour cela, excuser les gentilz hommes, qui se vantèrent ainsy de leur prison, car jamais homme n'eut honneur à dire mal des femmes\". \"Puis que le faict estoit commun\", dit <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"il me semble qu'ilz faisoient bien de se consoler les uns aux aultres\". \"Mais\", dist <span class=\"pers\" data-p=\"Geburon\">Geburon</span>, \"ilz ne le devoient jamais confesser pour leur honneur mesme. Car les livres de la Table Ronde nous apprennent que ce n'est point honneur à un bon chevalier, d'en abattre un qui ne vault rien\". \"Je p'esbahys\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"que ceste paüvre femme ne moroit de honte devant ses prisonniers\". \"Celles qui l'ont perdue\", dist <span class=\"pers\" data-p=\"Oisille\">Oisille</span>, \"à grand peyne la peuvent-elles jamais reprendre, sinon celle que fort amour a faict oublier.De telles en ay-je veu beaucoup re\" venir\". \"Je croy\", dist <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"que vous en avez veu revenir celles qui y sont alldes, car forte amour, qui est en une femme, est malaisée à trourer\". \"Je ne suis pas de vostre opinion, dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"car je croy qu'il y en a qui ont aymé juaques à la mort\". \"J'ay tant d'envie d'ouyr ceste nouvelle\", dist <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"que je vous donne ma voix pour congnoistre aux femmes l'amour que je n'ay jamais estimé y estre\". \"Or, mais que vous l'oyez\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"vous le croirez, et quil n'est nulle Plus forte passion que celle d'amour Mais, tout ainsy qu'elle faict entreprendre choses quasi impossibles, pour acquérir quelque conten tement en ceste vie, aussy mène-elle, plus que autre passion, E désespoir celluy ou celle qui perd lespérance de son désir comme vous verrez par ceste histoire\".</p>"
+   "html": "<p>En la cour du <span class=\"pers\" data-p=\"RoyCharles\"><span class=\"role\">Roy</span> Charles</span>, je ne diray point le quantiesme <span class=\"seg\" id=\"marguerite-seg1\" data-c=\"honour\">pour l'honneur</span> de celle dont je veulx parler, laquelle je ne veulx nommer par son nom propre, y avoit une Comtesse de fort bonne maison, mais estrangière. Et, pource que toutes choses nou- velles plaisent, ceste Dame, à sa venue tant pour la nouveauté de son habillement que <span class=\"seg\" id=\"marguerite-seg2\" data-c=\"beauty\">pour la richesse dont il estoit plein, estoit regardée de chascun</span>; <span class=\"seg\" id=\"marguerite-seg3\" data-c=\"grace\">et combien qu'elle ne fust des plus belles, si avoit-elle une grace avecq une audace tant bonne qu'il n'estoit possible de plus, la parolle et la gravité de mesme, de sorte qu'il n'y avoit nul qui n'eust craincte à l'aborder</span>, sinon le <span class=\"role\">Roy</span> qui l'ayma très-fort. Et, pour parler à elle plus priveement, donna quelque commission au Comte son mary, en laquelle il demeura longuement; et, durant ce temps, le <span class=\"role\">Roy</span> feit grand chère avec sa femme. Plusieurs gentilz hommes du <span class=\"role\">Roy</span>, qui congnurent que leur maistre en estoit bien traicté, prindrent hardiesse de parler à clle; et, entre autres, un nommé <span class=\"pers\" data-p=\"Astillon\">Astillon</span> aul estoit fort audatienx et homme de bonne grace. Au commencement, elle luy tint une si grande gravité, le menas- sant de le dire au <span class=\"role\">Roy</span> son maistre, qu'il en cuyda avoir paour; mais luy, qui n'avoit point accoustumé de craindre les menasses d'un bien hardy capitaine, s'as- seura des siennes ; et il la poursuivyt de si près, qu'elle luy accorda de parler a luy seulle, luy enseignant la manière comme il devoit venir en sa chambre. A quoy il ne faillyt; et, afin que le <span class=\"role\">Roy</span> n'en eust nul soupson, luy demanda congé d'aller en quelque voiage. Et s'en partit de la court, mais, la première journée, laissa tout son train, et sen revint de nuict recepvoir les promesses que la Comtesse luy avoit faictes; ce qu'elle luy tint: dont il demeura si satisfaict, qu'il fut content de demeurer cinq ou six jours enfermé en une garderobbe, sans saillyr dehors , et et ia là ne vivoit que de restaurans. Durant les huict jours qu'il estoit vint un de ses compaignons faire l'amour à la Comtesse, lequel avoit nom <span class=\"pers\" data-p=\"Durassier\">Durassier</span>. Elle tint telz termes à ce serviteur, qu'elle avoit faict au premier : au commencement, en rudes et audaticux propos qui tous les jours sadoucişsoient; et, quand cestoit le jour qu'elle donnoit congé au premier prisonnier, elle mettoit un serviteur en sa place. Et, durant qu'il y estoit, un autre sien compaignon, nommé <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, feit pareille office que les deux premiers; et, après culx, en vindrent deux ou trois aultres qui avoient part à la doulce prison.</p> <p>Ceste vie dura assez longuement, et conduicte si finement, que les uns ne sçavoient rien des aultres. Et combien qu'ilz entendissent assez l'amour que chascun luy portoit, si n'y avoit-il nul qui ne pensast en avoir eu seul ce qu'il en demandoit : et se mocquoit chascun de son compaignon, qu'il pensoit avoir failly à un si grand bien.</p> <p>Un jour que les gentilz hommes dessus nommez estoient en un bancquet où ilz faisoient fort grand chère, ilz commencèrent àa parler de leurs fortunes et prisons, quilz avoient eues durant les guerres. Mais <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, à qui il faisoit mal de celer si longuement une si bonne fortune que celle qu'il avoit eue, va dire à ses compaignons : \"Je ne scay quelles prisons vous aver cu, mals quanta moy, pour l'amour d'une où j'ay esté, je diray toute ma vie louange et bien des autres; car je pense quil ny plaisir en ce monde qui approche de celluy quel'on a d'estre prisonnier.\" <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, qui avoit esté le premier prisonnier, se doubta de la prison qu'il vouloit dire, et luy respondit : \"<span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, soubz quel geolière avez-vous esté si bien traicté, que vous aymez tant vostre prison?\" <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span> luy dist : \"Quel que soit le geolier, la prison m'a esté si agréable, que j'eusse bien voulu qu'elle eust duré plus longuement, car je ne fuz jamais mieulx traicté ne plus content. \" <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, qui estoit homme peu parlant, congnoissant très-bien que lon se débatoit de la prison où il avoit part comme les autres, dist à <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>: \"De quelles viandes estiez-vous nourry en ceste prison, dont yous vous louez dist si fort?\" - De quelles viandes? dist <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>: \"le Roy n'en a poinct de meilleures ne plus nourrissantes\". \"Mais encores fault-il que je sçache,\" dist <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, \" si celluy qui vous tenoit prisonnier vous faisoit bien gaingner vostre pain?\". <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, qui se doubta d'estre entendu, ne se peut tenir de jurer: \"Ha, vertu Dieul aurois-je bien des compaignons, oà je pense estre tout seul?\" <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, voiant ce différent où il avoit part comme les aultres, dist en riant: \"Nous sommes tous à un maistre compaignons et amys dės nostre jeu- nesse; parquoy, si nous sommes com- paignons d'une bonne fortune, nous avons occasion d'en rire, mais, pour sçavoir si ce que je pense est vmay, je vous prie que je vous interroge et que vous tous me confessiez la vérité, car s'il est advenu ainsy de nous comme je pense, ce seroit une adventure aussi plaisante que l'on en sçauroit trouver en nul livre.\" Ilz jurèrent tous dire vérité, s'il estoit ainsy qu'ilz ne la peus- sent dényer. Il leur dist: \"Je vous diray ma fortune, et vous me respondrez ouy ou nenny, si la vostre est pareille\". Ilz se accorderent tous, et alors il dist: \"Je demanday congé au <span class=\"role\">Roy</span> d'aller en quelque voiage. Ilz respondirent: \"Et nous aussy.\" \"Quant je fuz a deux lieues de la court, je laissay tout mon train et m'allay rendre prisonnier.\" Ilz respondirent: \"Nous en fismes autant\". \"Je demouray,\" dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, sept ou huict jours, et couchay en une garderobbe ou l'on ne me fit manger que restaurans et les meilleures viandes que je mangeay jamais; et, au bout de huict jours, ceulx qui me tenoient me laissèrent aller beaucoup plus foible que je n'estois arrivé. Ilz jurèrent tous que ainsy leur estoit advenu.\" \"Ma prison\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"commencea tel jour et fina tel jour.\" \"La mienne\" dist <span class=\"pers\" data-p=\"Durassier\">Durassier</span>, \"commencea le propre jour que la vostre fina; et dura jusques a un tel jour\". <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span>, qui perdoit patience, commencea à jurer et dire: \"Par le sang Dieu! à ce que je voy, je suis le tiers qui pensois estre le premier et le seul, car je y entray tel jour et en saillys tel jour.\" Les aultres trois, qui estoient à la table, jurérent qu'ilz avoient bien gardé ce rang. \" Or, puisque ainsy est \", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, a je diray l'estat de nostre geolière elle est mariée et son mary est bien loing\". \"C'est ceste-là propre\", respondirent-ilz tous. \"Or, pour nous mettre hors de peyne\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"moy qui suis le premier en roolle, la nommeray aussy le pre- mier, c'est ma Dame la Comtesse qui estoit si audatieuse, que, en gaingnant son amitié, je pensois avoir gaingné Cesar. <span class=\"seg\" id=\"marguerite-seg4\" data-c=\"bitch\">Que à tous les diables soit la villaine qui nous a faict d'une chose tant travailler, et nous réputer si heureux de l'avoir acquise! Il ne fut oncques une telle meschante, car, quand elle en tenoit un en cache, elle pratiquoit l'autre, pour n'estre jamais sans passetemps; et aymerois-je mieulx estre mort, qu'elle demorast sans pug nition!</span>\" Ilz demandèrent chascun, qu'il leur sembloit quelle debvoit avoir et qu'ilz estoient tous prestz de la luy donner. \"ll me semble,\" dist-il, \"que nous le debvons dire au <span class=\"role\">Roy</span> nostre maistre, lequel en faict un cas comme d'une déesse?\" - \"Nous ne ferons point ainsy\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>; \"nous avons assez de molen pour nous venger d'elle, sans y appeller nostre maistre. Trouvons-nous demain, quant elle ira à la messe; et que chascun de nous porte une chaine de fer au col; et, quand elle entrera en l'église, nous la salue- rons comme il appartient.\"</p> <p>Ce conseil fut trouvé très-bon de toute la compaignie; et feirent provision de chascun une chaine de fer. Le matin venu, tous habillez de noir, leurs chaines de fer tournées À l'entour de leur col en façon de collier, vindrent trouver <span class=\"role\">le Comtesse</span> qui alloit à l'église. Et, si tost qu'elle les veid ainsy habillez, se print a rire et leur dist : \"Ou vont ces gens si douloureux?\" \"Ma <span class=\"role\">Dame</span>\", dist <span class=\"pers\" data-p=\"Astillon\">Astillon</span>, \"nous vous venons accompagner comme pauvres esclaves prisonniers qui sont tenuz à vous faire service.\" La Comtesse, faisant semblant de n'y entendre rien, leur dist : \"Vous n'estes point mes prisonniers, ne je n'entendz point que vous ayer occa- sion de me faire service plus que les autres.\" <span class=\"pers\" data-p=\"Valnebon\">Valnebon</span> s'advancea et luy dist:\" Si nous avons mange de vostre pain si longuement, nous serions bien ingratz si nous ne vous faisions ser- vice\". Elle feit si bonne mine de n'y rien entendre, qufelle cuydoit par ceste gravité les estonner. Mais ilz poursuyvoient si bien leurs propos, qu'elle entendit que la chose estoit descouverte. Parquoy, trouva incontinent moien de les tromper, car <span class=\"seg\" id=\"marguerite-seg1-1\" data-c=\"honour\">elle, qui avoit perdu l'honneur et la conscience</span>, ne voulut point recepvoir la honte qu'ilz lui cuydoient faire; mais, comme <span class=\"seg\" id=\"marguerite-seg5\" data-c=\"independence\">celle qui preféroit son plaisir à tout l'honneur du monde</span>, ne leur en feit pire visaige, n'y n'en changea de contenance : dont il. furent tant estonnez, qu'ilz rapportèrent en leur sein la honte qu'ilz luy avoient voulu faire.</p> <p>\"Si vous ne trouvez, mes Dames, ce compte digne de faire congnoistre <span class=\"seg\" id=\"marguerite-seg6\" data-c=\"counterstereotype\">les femmes aussi mauvaises que les hommes</span>, j'en chercheray d'autres pour vous contenter; toutesfois, il me semble que cestuy-là suffise pour vous monstrer que <span class=\"seg\" id=\"marguerite-seg1-2\" data-c=\"honour\">une femme qul a perdu la honte est cent foys plus hardye à faire mal que n'est un homme</span>\". ll n'y eut femme en la compaignie, oiant racompter ceste histoire, qui ne fist tant de signes de croix, qu'il sembloit qu'elles voyoient tous les dia- bles d'enfer devant leurs oeilz. Mais Oisille leur dist : \" Mes Dames, humilions-nous, quand nous oyons cest horrible cas, d'autant que la personne délaissde de <span class=\"role\">Dieu</span> se rend pareille à celluy avecq lequel elle est joincte, car, puisque ceulx qui adbèrent A <span class=\"role\">Dieu</span> ont son esperit avecq eulx, aussy sont cculx qui adhèrent à son contraire; et n'est rien si bestial que la personne destituće de l'esperit de Dieu\". \"Quoy que ait faict ceste pauvre Dame\", dist <span class=\"pers\" data-p=\"Ennasuitte\">Ennasuitte</span>, \"si ne scaurois-je louer ceulx qui se vantent de leur prison\". \"J'ay opinion\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"que la peine n'est moindre un homme de celer sa bonne fortune, que de la pourchasser, car il n'y a veneur qui ne prenne plaisir à corner sa prise, ny amou. reux, d'avoir la gloire de sa victoire\". \"Voila une opinion\", dist <span class=\"pers\" data-p=\"Simontault\">Simontault</span>, \"que devant tous les inquisiteurs de la Foy, je soustiendray héréticque, car il y a plus d'hommes secretz que de femmes ; et sçay bien qu'on en trouveroit qui aimeroient mieulx n'en avoir bonne chère, que s'il falloit que créature du monde lentendist. Et, pour ce, a l'Eglise, comme bonne mère ordonne les prestres confesseurs et non Pas les femmes, parce qu'elles ne peuvent rien celer\". \"Ce n'est pas pour ceate accasion, dit <span class=\"pers\" data-p=\"Oisille\">Oisille</span>, \"mais c'est parce que les femmes sont tant ennemyes du vice, qu'elles ne donneroient pas si facilement absolution que les hommes , et seroient trop austères an leurs péoitences\". \"Si elles l'estoient autant\" dist <span class=\"pers\" data-p=\"Dagoudin\">Dagoudin</span>, \"qu'elles sont en leurs responces , clles feroient désespérer plus de pécheurs, qu'elles n'en attireroient à salut ; parquoy l'Eglise, en toute sorte, y a bien pourveu. Mais si ne veulx-je pas, pour cela, excuser les gentilz hommes, qui se vantèrent ainsy de leur prison, car jamais homme n'eut honneur à dire mal des femmes\". \"Puis que le faict estoit commun\", dit <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"il me semble qu'ilz faisoient bien de se consoler les uns aux aultres\". \"Mais\", dist <span class=\"pers\" data-p=\"Geburon\">Geburon</span>, \"ilz ne le devoient jamais confesser pour leur honneur mesme. Car les livres de la Table Ronde nous apprennent que ce n'est point honneur à un bon chevalier, d'en abattre un qui ne vault rien\". \"Je p'esbahys\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"que ceste paüvre femme ne moroit de honte devant ses prisonniers\". \"Celles qui l'ont perdue\", dist <span class=\"pers\" data-p=\"Oisille\">Oisille</span>, \"à grand peyne la peuvent-elles jamais reprendre, sinon celle que fort amour a faict oublier.De telles en ay-je veu beaucoup re\" venir\". \"Je croy\", dist <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"que vous en avez veu revenir celles qui y sont alldes, car forte amour, qui est en une femme, est malaisée à trourer\". \"Je ne suis pas de vostre opinion, dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"car je croy qu'il y en a qui ont aymé juaques à la mort\". \"J'ay tant d'envie d'ouyr ceste nouvelle\", dist <span class=\"pers\" data-p=\"Hircan\">Hircan</span>, \"que je vous donne ma voix pour congnoistre aux femmes l'amour que je n'ay jamais estimé y estre\". \"Or, mais que vous l'oyez\", dist <span class=\"pers\" data-p=\"Longarine\">Longarine</span>, \"vous le croirez, et quil n'est nulle Plus forte passion que celle d'amour Mais, tout ainsy qu'elle faict entreprendre choses quasi impossibles, pour acquérir quelque conten tement en ceste vie, aussy mène-elle, plus que autre passion, E désespoir celluy ou celle qui perd lespérance de son désir comme vous verrez par ceste histoire\".</p>",
+   "life": {
+    "qid": "Q190058",
+    "viaf": "89797196",
+    "born": 1492,
+    "died": 1549,
+    "approx": false,
+    "birthplace": "Angoulême",
+    "deathplace": "Gascony",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": null,
+     "note": "from the project's 2023 site"
+    }
+   }
   },
   {
    "id": "franco",
@@ -257,8 +287,10 @@ window.WOG = {
       "war"
      ],
      "text": "con armi insidiose e non vedute, / a chi piú disarmato men sospetta / dar gravi colpi di mortal ferute.",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#war\">con armi insidiose e non vedute,\n        a chi piú disarmato men sospetta\n        dar gravi colpi di mortal ferute.</seg>",
      "before": "… gentilezza), / da cavalier non è, ch’abbia raccolta / ne l’animo suo invitto alta virtute, / e che a l’onor la mente abbia rivolta,",
-     "after": "Men ch’agli altri ciò far poi se gli aspetta / contra le donne, da natura fatte / per l’uso che piú d’altro a l’uom …"
+     "after": "Men ch’agli altri ciò far poi se gli aspetta / contra le donne, da natura fatte / per l’uso che piú d’altro a l’uom …",
+     "en": "with treacherous, unseen weapons, / dealing grave and mortal wounds / to whoever, most disarmed, least expects it."
     },
     {
      "id": "franco-seg3",
@@ -267,8 +299,10 @@ window.WOG = {
       "gender"
      ],
      "text": "contra le donne, da natura fatte / per l’uso che piú d’altro a l’uom diletta:",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#gender\">contra le donne, da natura fatte\n        per l’uso che piú d’altro a l’uom diletta:</seg>",
      "before": "… / a chi piú disarmato men sospetta / dar gravi colpi di mortal ferute. / Men ch’agli altri ciò far poi se gli aspetta",
-     "after": "imbecilli di corpo, ed in nulla atte / non pur a offender gli altri, ma se stesse / dal difender col cor timido astratte. …"
+     "after": "imbecilli di corpo, ed in nulla atte / non pur a offender gli altri, ma se stesse / dal difender col cor timido astratte. …",
+     "en": "against women, made by nature / for the use that pleases man more than any other:"
     },
     {
      "id": "franco-seg1",
@@ -277,8 +311,10 @@ window.WOG = {
       "body"
      ],
      "text": "imbecilli di corpo, ed in nulla atte / non pur a offender gli altri, ma se stesse / dal difender col cor timido astratte. / Questo doveva far che s’astenesse / la vostra man da quell’aspre percosse, / ch’al mio feminil petto ignudo impresse.",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#body\"> imbecilli di corpo, ed in nulla atte\n        non pur a offender gli altri, ma se stesse\n        dal difender col cor timido astratte.\n        Questo doveva far che s’astenesse\n        la vostra man da quell’aspre percosse,\n        ch’al mio feminil petto ignudo impresse.</seg>",
      "before": "… ch’agli altri ciò far poi se gli aspetta / contra le donne, da natura fatte / per l’uso che piú d’altro a l’uom diletta:",
-     "after": "Io non saprei già dir onde ciò fosse, / se non che fuor del lato mi traeste / l’armi vostre del sangue asperse e …"
+     "after": "Io non saprei già dir onde ciò fosse, / se non che fuor del lato mi traeste / l’armi vostre del sangue asperse e …",
+     "en": "weak of body, and in no way fit / to harm others, nor even, held back / by a timid heart, to defend themselves. / This should have kept your hand / from those harsh blows / it struck on my bare woman's breast."
     },
     {
      "id": "franco-seg4-1",
@@ -287,8 +323,10 @@ window.WOG = {
       "war"
      ],
      "text": "l’armi vostre del sangue asperse e rosse. / Spogliata e sola e incauta mi coglieste, / debil d’animo, e in armi non esperta, / e robusto ed armato m’offendeste:",
+     "xml": "<seg xml:id=\"seg4.1\" ana=\"#war\">l’armi vostre del sangue asperse e rosse.\n        Spogliata e sola e incauta mi coglieste,\n        debil d’animo, e in armi non esperta,\n        e robusto ed armato m’offendeste:</seg>",
      "before": "… ch’al mio feminil petto ignudo impresse. / Io non saprei già dir onde ciò fosse, / se non che fuor del lato mi traeste",
-     "after": "tanto ch’io stei per lungo spazio incerta / di mia salute; e fu per me tra tanto / passion infinita al cor sofferta. / …"
+     "after": "tanto ch’io stei per lungo spazio incerta / di mia salute; e fu per me tra tanto / passion infinita al cor sofferta. / …",
+     "en": "your weapons spattered and red with blood. / Stripped, alone and unwary you caught me, / weak of spirit and unskilled in arms, / and strong and armed you struck me:"
     },
     {
      "id": "franco-seg3-1",
@@ -297,8 +335,10 @@ window.WOG = {
       "gender"
      ],
      "text": "benché femina a molli opere nata;",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#gender\">benché femina a molli opere nata;</seg>",
      "before": "… saldata, / che da l’un mi passava a l’altro canto. / Quasi da pigro sonno or poi svegliata, / dal cansato periglio animo presi,",
-     "after": "e in man col ferro a essercitarmi appresi, / tanto ch’aver le donne agil natura, / non men che l’uomo, in armeggiando intesi: / …"
+     "after": "e in man col ferro a essercitarmi appresi, / tanto ch’aver le donne agil natura, / non men che l’uomo, in armeggiando intesi: / …",
+     "en": "though a woman, born to gentle tasks;"
     },
     {
      "id": "franco-seg4-2",
@@ -307,8 +347,10 @@ window.WOG = {
       "war"
      ],
      "text": "e in man col ferro a essercitarmi appresi,",
+     "xml": "<seg xml:id=\"seg4.2\" ana=\"#war\">e in man col ferro a essercitarmi appresi,</seg>",
      "before": "… a l’altro canto. / Quasi da pigro sonno or poi svegliata, / dal cansato periglio animo presi, / benché femina a molli opere nata;",
-     "after": "tanto ch’aver le donne agil natura, / non men che l’uomo, in armeggiando intesi: / perché ’n ciò posto ogni mia industria e cura, …"
+     "after": "tanto ch’aver le donne agil natura, / non men che l’uomo, in armeggiando intesi: / perché ’n ciò posto ogni mia industria e cura, …",
+     "en": "and learned to train with steel in hand,"
     },
     {
      "id": "franco-seg4-3",
@@ -317,8 +359,10 @@ window.WOG = {
       "war"
      ],
      "text": "in armeggiando intesi",
+     "xml": "<seg xml:id=\"seg4.3\" ana=\"#war\">in armeggiando intesi</seg>",
      "before": "… molli opere nata; / e in man col ferro a essercitarmi appresi, / tanto ch’aver le donne agil natura, / non men che l’uomo,",
-     "after": ": / perché ’n ciò posto ogni mia industria e cura, / mercé del ciel, mi veggo giunta a tale, / che più d’offese …"
+     "after": ": / perché ’n ciò posto ogni mia industria e cura, / mercé del ciel, mi veggo giunta a tale, / che più d’offese …",
+     "en": "intent on bearing arms"
     },
     {
      "id": "franco-seg4-4",
@@ -327,8 +371,10 @@ window.WOG = {
       "war"
      ],
      "text": "ho sempre atteso / a l’essercizio nobile de l’armi, / sì ch’or, animo e forze avendo preso, / di provocarvi a rissa in campo ardisco, / con cor non poco a la vendetta acceso.",
+     "xml": "<seg xml:id=\"seg4.4\" ana=\"#war\">ho sempre atteso\n        a l’essercizio nobile de l’armi,\n        sì ch’or, animo e forze avendo preso,\n        di provocarvi a rissa in campo ardisco,\n        con cor non poco a la vendetta acceso.</seg>",
      "before": "… giovarmi, / e ’l fatto stesso parla e sì v’accusa. / Ed io, poi che ’l ciel vòlse liberarmi / da sì mortal periglio,",
-     "after": "Non so se voi stimiate lieve risco / entrar con una donna in campo armato; / ma io, benché ingannata, v’avvertisco / che ’l …"
+     "after": "Non so se voi stimiate lieve risco / entrar con una donna in campo armato; / ma io, benché ingannata, v’avvertisco / che ’l …",
+     "en": "I have always applied myself / to the noble exercise of arms, / so that now, having gathered courage and strength, / I dare to challenge you to fight on the field, / with a heart burning not a little for revenge."
     },
     {
      "id": "franco-seg3-2",
@@ -337,8 +383,10 @@ window.WOG = {
       "gender"
      ],
      "text": "Non so se voi stimiate lieve risco / entrar con una donna in campo armato; / ma io, benché ingannata, v’avvertisco / che ’l mettersi con donne è da l’un lato / biasmo ad uom forte, ma da l’altro è poi / caso d’alta importanza riputato. / Quando armate ed esperte ancor siam noi, / render buon conto a ciascun uom potemo, / ché mani e piedi e core avem qual voi; / e se ben molli e delicate semo, / ancor tal uom, ch’è delicato, è forte; / e tal, ruvido ed aspro, è d’ardir scemo. / Di ciò non se ne son le donne accorte; / che se si risolvessero di farlo, / con voi pugnar porìan fino a la morte. / E per farvi veder che ’l vero parlo, / tra tante donne incominciar voglio io, / porgendo essempio a lor di seguitarlo.",
+     "xml": "<seg xml:id=\"seg3.2\" ana=\"#gender\">Non so se voi stimiate lieve risco\n        entrar con una donna in campo armato;\n        ma io, benché ingannata, v’avvertisco\n        che ’l mettersi con donne è da l’un lato\n        biasmo ad uom forte, ma da l’altro è poi\n        caso d’alta importanza riputato.\n        Quando armate ed esperte ancor siam noi,\n        render buon conto a ciascun uom potemo,\n        ché mani e piedi e core avem qual voi;\n        e se ben molli e delicate semo,\n        ancor tal uom, ch’è delicato, è forte;\n        e tal, ruvido ed aspro, è d’ardir scemo.\n        Di ciò non se ne son le donne accorte;\n        che se si risolvessero di farlo,\n        con voi pugnar porìan fino a la morte.\n        E per farvi veder che ’l vero parlo,\n        tra tante donne incominciar voglio io,\n        porgendo essempio a lor di seguitarlo.</seg>",
      "before": "… sì ch’or, animo e forze avendo preso, / di provocarvi a rissa in campo ardisco, / con cor non poco a la vendetta acceso.",
-     "after": "A voi, che contra tutte sète rio, / con qual’armi volete in man mi volgo, / con speme d’atterrarvi e con desio; / e …"
+     "after": "A voi, che contra tutte sète rio, / con qual’armi volete in man mi volgo, / con speme d’atterrarvi e con desio; / e …",
+     "en": "I do not know whether you think it a small risk / to take the armed field against a woman; / but I, though deceived, warn you / that taking on women is, on the one hand, / a disgrace for a strong man, and on the other / is held to be a matter of great moment. / When we too are armed and trained, / we can give a good account of ourselves to any man, / for we have hands and feet and hearts as you do; / and if we are soft and delicate, / there are delicate men who are strong, / and rough, harsh men who lack daring. / Women have not yet realised this; / for if they resolved to do it, / they could fight you to the death. / And to show you that I speak the truth, / among so many women I will be the first, / setting them an example to follow."
     },
     {
      "id": "franco-seg4-5",
@@ -347,8 +395,10 @@ window.WOG = {
       "war"
      ],
      "text": "A voi, che contra tutte sète rio, / con qual’armi volete in man mi volgo, / con speme d’atterrarvi e con desio; / e le donne a difender tutte tolgo",
+     "xml": "<seg xml:id=\"seg4.5\" ana=\"#war\">A voi, che contra tutte sète rio,\n        con qual’armi volete in man mi volgo,\n        con speme d’atterrarvi e con desio;\n        e le donne a difender tutte tolgo</seg>",
      "before": "… morte. / E per farvi veder che ’l vero parlo, / tra tante donne incominciar voglio io, / porgendo essempio a lor di seguitarlo.",
-     "after": "contra di voi, che di lor sète schivo, / sì ch’a ragion io sola non mi dolgo. / Certo d’un gran piacer voi sète …"
+     "after": "contra di voi, che di lor sète schivo, / sì ch’a ragion io sola non mi dolgo. / Certo d’un gran piacer voi sète …",
+     "en": "To you, who are cruel to all of us, / I turn, with whatever weapons you choose in hand, / hoping and longing to bring you down; / and I take up the defence of all women"
     },
     {
      "id": "franco-seg1-1",
@@ -357,8 +407,10 @@ window.WOG = {
       "body"
      ],
      "text": "Data è dal ciel la feminil bellezza, / perch’ella sia felicitate in terra / di qualunque uom conosce gentilezza.",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#body\">Data è dal ciel la feminil bellezza,\n        perch’ella sia felicitate in terra\n        di qualunque uom conosce gentilezza.</seg>",
      "before": "… gran piacer voi sète privo, / a non gustar di noi la gran dolcezza; / ed al mal uso in ciò la colpa ascrivo.",
-     "after": "Ma dove ’l mio pensier trascorre ed erra / a ragionar de le cose d’amore, / or ch’io sono in procinto di far guerra, …"
+     "after": "Ma dove ’l mio pensier trascorre ed erra / a ragionar de le cose d’amore, / or ch’io sono in procinto di far guerra, …",
+     "en": "Woman's beauty is given by heaven / so that it may be happiness on earth / for every man who knows nobility of heart."
     },
     {
      "id": "franco-seg2",
@@ -367,8 +419,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "Ma dove ’l mio pensier trascorre ed erra / a ragionar de le cose d’amore, / or ch’io sono in procinto di far guerra, / torno al mio intento, ond’era uscita fuore, / e vi disfido a singolar battaglia. / Cingetevi pur d’armi e di valore: / vi mostrerò quanto al vostro prevaglia / il sesso feminil; pigliate quali / volete armi, e di voi stesso vi caglia, / ch’io vi risponderò di colpi tali, / il campo a voi lasciando elegger anco, / ch’a questi forse non sentiste eguali. / Mal difender da me potrete il fianco, / e stran vi parrà forse, a offenderne uso, / da me vedervi oppresso in terra stanco: / così talor quell’uom resta deluso, / ch’ingiuria gli altri fuor d’ogni ragione, / non so se per natura, o per mal uso. / Vostra di questa rissa è la cagione, / ed a me per difesa e per vendetta / carico d’oppugnarvi ora s’impone. / Prendete pur de l’armi omai l’eletta, / ch’io non posso soffrir lunga dimora, / da lo sdegno de l’animo costretta. / La spada, che ’n man vostra rade e fôra, / de la lingua volgar veneziana, / s’a voi piace d’usar, piace a me ancora; / e se volete entrar ne la toscana, / scegliete voi la seria o la burlesca, / ché l’una e l’altra è a me facile e piana.",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#intellect\"> Ma dove ’l mio pensier trascorre ed erra\n        a ragionar de le cose d’amore,\n        or ch’io sono in procinto di far guerra,\n        torno al mio intento, ond’era uscita fuore,\n        e vi disfido a singolar battaglia.\n        Cingetevi pur d’armi e di valore:\n        vi mostrerò quanto al vostro prevaglia\n        il sesso feminil; pigliate quali\n        volete armi, e di voi stesso vi caglia,\n        ch’io vi risponderò di colpi tali,\n        il campo a voi lasciando elegger anco,\n        ch’a questi forse non sentiste eguali.\n        Mal difender da me potrete il fianco,\n        e stran vi parrà forse, a offenderne uso,\n        da me vedervi oppresso in terra stanco:\n        così talor quell’uom resta deluso,\n        ch’ingiuria gli altri fuor d’ogni ragione,\n        non so se per natura, o per mal uso.\n        Vostra di questa rissa è la cagione,\n        ed a me per difesa e per vendetta\n        carico d’oppugnarvi ora s’impone.\n        Prendete pur de l’armi omai l’eletta,\n        ch’io non posso soffrir lunga dimora,\n        da lo sdegno de l’animo costretta.\n        La spada, che ’n man vostra rade e fôra,\n        de la lingua volgar veneziana,\n        s’a voi piace d’usar, piace a me ancora;\n        e se volete entrar ne la toscana,\n        scegliete voi la seria o la burlesca,\n        ché l’una e l’altra è a me facile e piana.</seg>",
      "before": "… ciò la colpa ascrivo. / Data è dal ciel la feminil bellezza, / perch’ella sia felicitate in terra / di qualunque uom conosce gentilezza.",
-     "after": "Io ho veduto in lingua selvaghesca / certa fattura vostra molto bella, / simile a la maniera pedantesca: / se voi volete usar o …"
+     "after": "Io ho veduto in lingua selvaghesca / certa fattura vostra molto bella, / simile a la maniera pedantesca: / se voi volete usar o …",
+     "en": "But where my thought runs on and strays / to speak of the things of love, / now that I am about to make war, / I return to my purpose, from which I had wandered, / and challenge you to single combat. / Gird yourself with arms and valour: / I will show you how far the female sex / surpasses yours; take whatever / weapons you want, and look to yourself, / for I will answer you with such blows, / leaving you even the choice of the field, / that you perhaps never felt their equal. / You will hardly guard your flank from me, / and it may seem strange to you, used to giving offence, / to see yourself struck down and spent by me: / so at times the man is left deceived / who wrongs others beyond all reason, / whether by nature or by bad habit, I do not know. / Yours is the cause of this quarrel, / and on me, in defence and revenge, / falls the charge of fighting you now. / Choose your weapons now, / for I cannot bear a long delay, / driven by the indignation of my spirit. / The sword that in your hand cuts and pierces, / the vernacular Venetian tongue, / if you like to use it, I like it too; / and if you would enter the Tuscan, / choose the serious or the burlesque, / for both come easy and plain to me."
     },
     {
      "id": "franco-seg5",
@@ -377,8 +431,10 @@ window.WOG = {
       "education"
      ],
      "text": "avendole perciò tutte imparate. / Per contrastar con voi con ardimento, / in tutte queste ho molta industria speso:",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#education\">avendole perciò tutte imparate.\n        Per contrastar con voi con ardimento,\n        in tutte queste ho molta industria speso:</seg>",
      "before": "… biasmo nostro le quadrella, / qual di lor più vi piace, e voi pigliate, / ché di tutte ad un modo io mi contento.",
-     "after": "se bene o male, io stessa mi contento; / e ciò sarà dagli altri ancora inteso, / e ’l saperete voi, che forse vinto …"
+     "after": "se bene o male, io stessa mi contento; / e ciò sarà dagli altri ancora inteso, / e ’l saperete voi, che forse vinto …",
+     "en": "having therefore learned them all. / To contend with you boldly, / I have spent great effort on all of these:"
     },
     {
      "id": "franco-seg6",
@@ -387,8 +443,11 @@ window.WOG = {
       "bitch"
      ],
      "text": "E se ben «meretrice» mi chiamate,",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#bitch\">E se ben «meretrice» mi chiamate,</seg>",
      "before": "… come in questo caso ancor si vede, / ché voi, non v’accorgendo, mi lodate / di quel ch’al bene ed a la virtù chiede.",
-     "after": "o volete inferir ch’io non vi sono, / o che ve n’èn tra tali di lodate. / Quanto le meretrici hanno di buono, / …"
+     "after": "o volete inferir ch’io non vi sono, / o che ve n’èn tra tali di lodate. / Quanto le meretrici hanno di buono, / …",
+     "en": "And though you call me «whore»,",
+     "enNote": "Franco uses «meretrice», the word her attacker threw at her; she turns it against him in the lines that follow."
     },
     {
      "id": "franco-seg4-6",
@@ -397,11 +456,30 @@ window.WOG = {
       "war"
      ],
      "text": "o volete inferir ch’io non vi sono, / o che ve n’èn tra tali di lodate. / Quanto le meretrici hanno di buono, / quanto di grazioso e di gentile, / esprime in me del parlar vostro il suono. / Se questo intese il vostro arguto stile, / di non farne romor io son contenta, / e d’inchinarmi a voi devota, umìle;",
+     "xml": "<seg xml:id=\"seg4.6\" ana=\"#war\">o volete inferir ch’io non vi sono,\n        o che ve n’èn tra tali di lodate.\n        Quanto le meretrici hanno di buono,\n        quanto di grazioso e di gentile,\n        esprime in me del parlar vostro il suono.\n        Se questo intese il vostro arguto stile,\n        di non farne romor io son contenta,\n        e d’inchinarmi a voi devota, umìle;</seg>",
      "before": "… / ché voi, non v’accorgendo, mi lodate / di quel ch’al bene ed a la virtù chiede. / E se ben «meretrice» mi chiamate,",
-     "after": "ma perch’al fin de la scrittura, intenta / stando, che voi mi biasimate trovo, / e ciò si tocca e non pur s’argomenta, / …"
+     "after": "ma perch’al fin de la scrittura, intenta / stando, che voi mi biasimate trovo, / e ciò si tocca e non pur s’argomenta, / …",
+     "en": "either you mean to imply that I am not one, / or that there are praiseworthy ones among them. / All the good that whores have, / all their grace and gentleness, / the sound of your words expresses in me. / If this is what your sharp style meant, / I am content not to make a fuss about it, / and to bow to you, devoted and humble;"
     }
    ],
-   "html": "<p class=\"verse\">D’ardito cavalier non è prodezza\n(concedami che ’l vero a questa volta\nio possa dir, la vostra gentilezza),\nda cavalier non è, ch’abbia raccolta\nne l’animo suo invitto alta virtute,\ne che a l’onor la mente abbia rivolta,\n<span class=\"seg\" id=\"franco-seg4\" data-c=\"war\">con armi insidiose e non vedute,\na chi piú disarmato men sospetta\ndar gravi colpi di mortal ferute.</span>\nMen ch’agli altri ciò far poi se gli aspetta\n<span class=\"seg\" id=\"franco-seg3\" data-c=\"gender\">contra le donne, da natura fatte\nper l’uso che piú d’altro a l’uom diletta:</span>\n<span class=\"seg\" id=\"franco-seg1\" data-c=\"body\"> imbecilli di corpo, ed in nulla atte\nnon pur a offender gli altri, ma se stesse\ndal difender col cor timido astratte.\nQuesto doveva far che s’astenesse\nla vostra man da quell’aspre percosse,\nch’al mio feminil petto ignudo impresse.</span>\nIo non saprei già dir onde ciò fosse,\nse non che fuor del lato mi traeste\n<span class=\"seg\" id=\"franco-seg4-1\" data-c=\"war\">l’armi vostre del sangue asperse e rosse.\nSpogliata e sola e incauta mi coglieste,\ndebil d’animo, e in armi non esperta,\ne robusto ed armato m’offendeste:</span>\ntanto ch’io stei per lungo spazio incerta\ndi mia salute; e fu per me tra tanto\npassion infinita al cor sofferta.\nPur finalmente s’è stagnato il pianto,\ne quella piaga acerba s’è saldata,\nche da l’un mi passava a l’altro canto.\nQuasi da pigro sonno or poi svegliata,\ndal cansato periglio animo presi,\n<span class=\"seg\" id=\"franco-seg3-1\" data-c=\"gender\">benché femina a molli opere nata;</span>\n<span class=\"seg\" id=\"franco-seg4-2\" data-c=\"war\">e in man col ferro a essercitarmi appresi,</span>\ntanto ch’aver le donne agil natura,\nnon men che l’uomo, <span class=\"seg\" id=\"franco-seg4-3\" data-c=\"war\">in armeggiando intesi</span>:\nperché ’n ciò posto ogni mia industria e cura,\nmercé del ciel, mi veggo giunta a tale,\nche più d’offese altrui non ho paura.\nE se voi dianzi mi trattaste male,\nfu gran vostro diffetto, ed io dal dánno\ngrave n’ho tratto un ben che molto vale.\nCosì nei casi avversi i savi fanno,\nche ’l lor utile espresso alfin cavare\nda quel che nuoce da principio sanno;\ne cosí ancor le medicine amare\nrendon salute; e ’l ferro e ’l foco s’usa\nle putrefatte piaghe a ben curare:\nbenché non serve a voi questa per scusa,\nche m’offendeste non già per giovarmi,\ne ’l fatto stesso parla e sì v’accusa.\nEd io, poi che ’l ciel vòlse liberarmi\nda sì mortal periglio, <span class=\"seg\" id=\"franco-seg4-4\" data-c=\"war\">ho sempre atteso\na l’essercizio nobile de l’armi,\nsì ch’or, animo e forze avendo preso,\ndi provocarvi a rissa in campo ardisco,\ncon cor non poco a la vendetta acceso.</span>\n<span class=\"seg\" id=\"franco-seg3-2\" data-c=\"gender\">Non so se voi stimiate lieve risco\nentrar con una donna in campo armato;\nma io, benché ingannata, v’avvertisco\nche ’l mettersi con donne è da l’un lato\nbiasmo ad uom forte, ma da l’altro è poi\ncaso d’alta importanza riputato.\nQuando armate ed esperte ancor siam noi,\nrender buon conto a ciascun uom potemo,\nché mani e piedi e core avem qual voi;\ne se ben molli e delicate semo,\nancor tal uom, ch’è delicato, è forte;\ne tal, ruvido ed aspro, è d’ardir scemo.\nDi ciò non se ne son le donne accorte;\nche se si risolvessero di farlo,\ncon voi pugnar porìan fino a la morte.\nE per farvi veder che ’l vero parlo,\ntra tante donne incominciar voglio io,\nporgendo essempio a lor di seguitarlo.</span>\n<span class=\"seg\" id=\"franco-seg4-5\" data-c=\"war\">A voi, che contra tutte sète rio,\ncon qual’armi volete in man mi volgo,\ncon speme d’atterrarvi e con desio;\ne le donne a difender tutte tolgo</span>\ncontra di voi, che di lor sète schivo,\nsì ch’a ragion io sola non mi dolgo.\nCerto d’un gran piacer voi sète privo,\na non gustar di noi la gran dolcezza;\ned al mal uso in ciò la colpa ascrivo.\n<span class=\"seg\" id=\"franco-seg1-1\" data-c=\"body\">Data è dal ciel la feminil bellezza,\nperch’ella sia felicitate in terra\ndi qualunque uom conosce gentilezza.</span>\n<span class=\"seg\" id=\"franco-seg2\" data-c=\"intellect\"> Ma dove ’l mio pensier trascorre ed erra\na ragionar de le cose d’amore,\nor ch’io sono in procinto di far guerra,\ntorno al mio intento, ond’era uscita fuore,\ne vi disfido a singolar battaglia.\nCingetevi pur d’armi e di valore:\nvi mostrerò quanto al vostro prevaglia\nil sesso feminil; pigliate quali\nvolete armi, e di voi stesso vi caglia,\nch’io vi risponderò di colpi tali,\nil campo a voi lasciando elegger anco,\nch’a questi forse non sentiste eguali.\nMal difender da me potrete il fianco,\ne stran vi parrà forse, a offenderne uso,\nda me vedervi oppresso in terra stanco:\ncosì talor quell’uom resta deluso,\nch’ingiuria gli altri fuor d’ogni ragione,\nnon so se per natura, o per mal uso.\nVostra di questa rissa è la cagione,\ned a me per difesa e per vendetta\ncarico d’oppugnarvi ora s’impone.\nPrendete pur de l’armi omai l’eletta,\nch’io non posso soffrir lunga dimora,\nda lo sdegno de l’animo costretta.\nLa spada, che ’n man vostra rade e fôra,\nde la lingua volgar veneziana,\ns’a voi piace d’usar, piace a me ancora;\ne se volete entrar ne la toscana,\nscegliete voi la seria o la burlesca,\nché l’una e l’altra è a me facile e piana.</span>\nIo ho veduto in lingua selvaghesca\ncerta fattura vostra molto bella,\nsimile a la maniera pedantesca:\nse voi volete usar o questa o quella,\ned aventar, come ne l’altre fate,\ndi queste in biasmo nostro le quadrella,\nqual di lor più vi piace, e voi pigliate,\nché di tutte ad un modo io mi contento.\n<span class=\"seg\" id=\"franco-seg5\" data-c=\"education\">avendole perciò tutte imparate.\nPer contrastar con voi con ardimento,\nin tutte queste ho molta industria speso:</span>\nse bene o male, io stessa mi contento;\ne ciò sarà dagli altri ancora inteso,\ne ’l saperete voi, che forse vinto\ncadrete, e non vorreste avermi offeso.\nMa prima che si venga in tal procinto,\nquasi per far al gioco una levata,\nnon col ferro tagliente ancora accinto,\nde la vostra canzone, a me mandata,\nil principio vorrei mi dichiaraste,\npoi che l’opera a me vien indrizzata.\n«Verunica» e ’l restante mi chiamaste,\nalludendo a Veronica mio nome,\ned al vostro discorso mi biasmaste;\nma al mio dizzionario io non so come\n«unica» alcuna cosa propriamente\nin mala parte ed in biasmar si nome.\nForse che si direbbe impropriamente,\nma l’anfibologia non quadra in cosa\nqual mostrar voi volete espressamente.\nQuella di cui la fama è gloriosa,\ne che ’n bellezza od in valor eccelle,\nsenza par di gran lunga virtuosa,\n«unica» a gran ragion vien che s’appelle;\ne l’arte, a l’ironia non sottoposto,\nscelto tra gli altri, un tal vocabol dièlle.\nL’«unico» in lode e in pregio vien esposto\nda chi s’intende; e chi parla altrimenti\ndal senso del parlar sen va discosto.\nQuesto non è, signor, fallo d’accenti,\nquello, in che s’inveisce, nominare\ncol titol de le cose piú eccellenti.\nO voi non mi voleste biasimare,\no in questo dir menzogna non sapeste.\nNon parlo del dir bene e del lodare,\nché questo so che far non intendeste,\nma senz’esser offeso da me stato,\nquel che vi corse a l’animo scriveste,\naltrui volendo in ciò forse esser grato;\nbenché me non ingiuria, ma se stesso,\ns’altri mi dice mal, non provocato.\nE ’l voler oscurar il vero espresso\ncon le torbide macchie degli inchiostri\nin buona civiltà non è permesso;\ne spesso avien che ’l mal talento uom mostri,\ngiovando in quello onde più nuocer crede\nessempi in me più d’una volta mostri,\nsì come in questo caso ancor si vede,\nché voi, non v’accorgendo, mi lodate\ndi quel ch’al bene ed a la virtù chiede.\n<span class=\"seg\" id=\"franco-seg6\" data-c=\"bitch\">E se ben «meretrice» mi chiamate,</span>\n<span class=\"seg\" id=\"franco-seg4-6\" data-c=\"war\">o volete inferir ch’io non vi sono,\no che ve n’èn tra tali di lodate.\nQuanto le meretrici hanno di buono,\nquanto di grazioso e di gentile,\nesprime in me del parlar vostro il suono.\nSe questo intese il vostro arguto stile,\ndi non farne romor io son contenta,\ne d’inchinarmi a voi devota, umìle;</span>\nma perch’al fin de la scrittura, intenta\nstando, che voi mi biasimate trovo,\ne ciò si tocca e non pur s’argomenta,\nda questa intenzion io mi rimovo,\ne in ogni modo question far voglio,\ne partorir lo sdegno ch’entro covo.\nApparecchiate pur l’inchiostro e ’l foglio,\ne fatemi saper senz’altro indugio\nquali armi per combatter in man toglio.\nVoi non avrete incontro a me rifugio,\nch’a tutte prove sono apparecchiata,\ne impazientemente a l’opra indugio\no la favella giornalmente usata,\no qual vi piace idioma prendete,\nché ’n tutti quanti sono essercitata;\ne se voi poi non mi risponderete,\ndi me dirò che gran paura abbiate,\nse ben così valente vi tenete.\nMa perché alquanto manco dubitiate,\nson contenta di far con voi la pace,\npur ch’una volta meco vi proviate:\nfate voi quel che più vi giova e piace.</p>"
+   "html": "<p class=\"verse\">D’ardito cavalier non è prodezza\n(concedami che ’l vero a questa volta\nio possa dir, la vostra gentilezza),\nda cavalier non è, ch’abbia raccolta\nne l’animo suo invitto alta virtute,\ne che a l’onor la mente abbia rivolta,\n<span class=\"seg\" id=\"franco-seg4\" data-c=\"war\">con armi insidiose e non vedute,\na chi piú disarmato men sospetta\ndar gravi colpi di mortal ferute.</span>\nMen ch’agli altri ciò far poi se gli aspetta\n<span class=\"seg\" id=\"franco-seg3\" data-c=\"gender\">contra le donne, da natura fatte\nper l’uso che piú d’altro a l’uom diletta:</span>\n<span class=\"seg\" id=\"franco-seg1\" data-c=\"body\"> imbecilli di corpo, ed in nulla atte\nnon pur a offender gli altri, ma se stesse\ndal difender col cor timido astratte.\nQuesto doveva far che s’astenesse\nla vostra man da quell’aspre percosse,\nch’al mio feminil petto ignudo impresse.</span>\nIo non saprei già dir onde ciò fosse,\nse non che fuor del lato mi traeste\n<span class=\"seg\" id=\"franco-seg4-1\" data-c=\"war\">l’armi vostre del sangue asperse e rosse.\nSpogliata e sola e incauta mi coglieste,\ndebil d’animo, e in armi non esperta,\ne robusto ed armato m’offendeste:</span>\ntanto ch’io stei per lungo spazio incerta\ndi mia salute; e fu per me tra tanto\npassion infinita al cor sofferta.\nPur finalmente s’è stagnato il pianto,\ne quella piaga acerba s’è saldata,\nche da l’un mi passava a l’altro canto.\nQuasi da pigro sonno or poi svegliata,\ndal cansato periglio animo presi,\n<span class=\"seg\" id=\"franco-seg3-1\" data-c=\"gender\">benché femina a molli opere nata;</span>\n<span class=\"seg\" id=\"franco-seg4-2\" data-c=\"war\">e in man col ferro a essercitarmi appresi,</span>\ntanto ch’aver le donne agil natura,\nnon men che l’uomo, <span class=\"seg\" id=\"franco-seg4-3\" data-c=\"war\">in armeggiando intesi</span>:\nperché ’n ciò posto ogni mia industria e cura,\nmercé del ciel, mi veggo giunta a tale,\nche più d’offese altrui non ho paura.\nE se voi dianzi mi trattaste male,\nfu gran vostro diffetto, ed io dal dánno\ngrave n’ho tratto un ben che molto vale.\nCosì nei casi avversi i savi fanno,\nche ’l lor utile espresso alfin cavare\nda quel che nuoce da principio sanno;\ne cosí ancor le medicine amare\nrendon salute; e ’l ferro e ’l foco s’usa\nle putrefatte piaghe a ben curare:\nbenché non serve a voi questa per scusa,\nche m’offendeste non già per giovarmi,\ne ’l fatto stesso parla e sì v’accusa.\nEd io, poi che ’l ciel vòlse liberarmi\nda sì mortal periglio, <span class=\"seg\" id=\"franco-seg4-4\" data-c=\"war\">ho sempre atteso\na l’essercizio nobile de l’armi,\nsì ch’or, animo e forze avendo preso,\ndi provocarvi a rissa in campo ardisco,\ncon cor non poco a la vendetta acceso.</span>\n<span class=\"seg\" id=\"franco-seg3-2\" data-c=\"gender\">Non so se voi stimiate lieve risco\nentrar con una donna in campo armato;\nma io, benché ingannata, v’avvertisco\nche ’l mettersi con donne è da l’un lato\nbiasmo ad uom forte, ma da l’altro è poi\ncaso d’alta importanza riputato.\nQuando armate ed esperte ancor siam noi,\nrender buon conto a ciascun uom potemo,\nché mani e piedi e core avem qual voi;\ne se ben molli e delicate semo,\nancor tal uom, ch’è delicato, è forte;\ne tal, ruvido ed aspro, è d’ardir scemo.\nDi ciò non se ne son le donne accorte;\nche se si risolvessero di farlo,\ncon voi pugnar porìan fino a la morte.\nE per farvi veder che ’l vero parlo,\ntra tante donne incominciar voglio io,\nporgendo essempio a lor di seguitarlo.</span>\n<span class=\"seg\" id=\"franco-seg4-5\" data-c=\"war\">A voi, che contra tutte sète rio,\ncon qual’armi volete in man mi volgo,\ncon speme d’atterrarvi e con desio;\ne le donne a difender tutte tolgo</span>\ncontra di voi, che di lor sète schivo,\nsì ch’a ragion io sola non mi dolgo.\nCerto d’un gran piacer voi sète privo,\na non gustar di noi la gran dolcezza;\ned al mal uso in ciò la colpa ascrivo.\n<span class=\"seg\" id=\"franco-seg1-1\" data-c=\"body\">Data è dal ciel la feminil bellezza,\nperch’ella sia felicitate in terra\ndi qualunque uom conosce gentilezza.</span>\n<span class=\"seg\" id=\"franco-seg2\" data-c=\"intellect\"> Ma dove ’l mio pensier trascorre ed erra\na ragionar de le cose d’amore,\nor ch’io sono in procinto di far guerra,\ntorno al mio intento, ond’era uscita fuore,\ne vi disfido a singolar battaglia.\nCingetevi pur d’armi e di valore:\nvi mostrerò quanto al vostro prevaglia\nil sesso feminil; pigliate quali\nvolete armi, e di voi stesso vi caglia,\nch’io vi risponderò di colpi tali,\nil campo a voi lasciando elegger anco,\nch’a questi forse non sentiste eguali.\nMal difender da me potrete il fianco,\ne stran vi parrà forse, a offenderne uso,\nda me vedervi oppresso in terra stanco:\ncosì talor quell’uom resta deluso,\nch’ingiuria gli altri fuor d’ogni ragione,\nnon so se per natura, o per mal uso.\nVostra di questa rissa è la cagione,\ned a me per difesa e per vendetta\ncarico d’oppugnarvi ora s’impone.\nPrendete pur de l’armi omai l’eletta,\nch’io non posso soffrir lunga dimora,\nda lo sdegno de l’animo costretta.\nLa spada, che ’n man vostra rade e fôra,\nde la lingua volgar veneziana,\ns’a voi piace d’usar, piace a me ancora;\ne se volete entrar ne la toscana,\nscegliete voi la seria o la burlesca,\nché l’una e l’altra è a me facile e piana.</span>\nIo ho veduto in lingua selvaghesca\ncerta fattura vostra molto bella,\nsimile a la maniera pedantesca:\nse voi volete usar o questa o quella,\ned aventar, come ne l’altre fate,\ndi queste in biasmo nostro le quadrella,\nqual di lor più vi piace, e voi pigliate,\nché di tutte ad un modo io mi contento.\n<span class=\"seg\" id=\"franco-seg5\" data-c=\"education\">avendole perciò tutte imparate.\nPer contrastar con voi con ardimento,\nin tutte queste ho molta industria speso:</span>\nse bene o male, io stessa mi contento;\ne ciò sarà dagli altri ancora inteso,\ne ’l saperete voi, che forse vinto\ncadrete, e non vorreste avermi offeso.\nMa prima che si venga in tal procinto,\nquasi per far al gioco una levata,\nnon col ferro tagliente ancora accinto,\nde la vostra canzone, a me mandata,\nil principio vorrei mi dichiaraste,\npoi che l’opera a me vien indrizzata.\n«Verunica» e ’l restante mi chiamaste,\nalludendo a Veronica mio nome,\ned al vostro discorso mi biasmaste;\nma al mio dizzionario io non so come\n«unica» alcuna cosa propriamente\nin mala parte ed in biasmar si nome.\nForse che si direbbe impropriamente,\nma l’anfibologia non quadra in cosa\nqual mostrar voi volete espressamente.\nQuella di cui la fama è gloriosa,\ne che ’n bellezza od in valor eccelle,\nsenza par di gran lunga virtuosa,\n«unica» a gran ragion vien che s’appelle;\ne l’arte, a l’ironia non sottoposto,\nscelto tra gli altri, un tal vocabol dièlle.\nL’«unico» in lode e in pregio vien esposto\nda chi s’intende; e chi parla altrimenti\ndal senso del parlar sen va discosto.\nQuesto non è, signor, fallo d’accenti,\nquello, in che s’inveisce, nominare\ncol titol de le cose piú eccellenti.\nO voi non mi voleste biasimare,\no in questo dir menzogna non sapeste.\nNon parlo del dir bene e del lodare,\nché questo so che far non intendeste,\nma senz’esser offeso da me stato,\nquel che vi corse a l’animo scriveste,\naltrui volendo in ciò forse esser grato;\nbenché me non ingiuria, ma se stesso,\ns’altri mi dice mal, non provocato.\nE ’l voler oscurar il vero espresso\ncon le torbide macchie degli inchiostri\nin buona civiltà non è permesso;\ne spesso avien che ’l mal talento uom mostri,\ngiovando in quello onde più nuocer crede\nessempi in me più d’una volta mostri,\nsì come in questo caso ancor si vede,\nché voi, non v’accorgendo, mi lodate\ndi quel ch’al bene ed a la virtù chiede.\n<span class=\"seg\" id=\"franco-seg6\" data-c=\"bitch\">E se ben «meretrice» mi chiamate,</span>\n<span class=\"seg\" id=\"franco-seg4-6\" data-c=\"war\">o volete inferir ch’io non vi sono,\no che ve n’èn tra tali di lodate.\nQuanto le meretrici hanno di buono,\nquanto di grazioso e di gentile,\nesprime in me del parlar vostro il suono.\nSe questo intese il vostro arguto stile,\ndi non farne romor io son contenta,\ne d’inchinarmi a voi devota, umìle;</span>\nma perch’al fin de la scrittura, intenta\nstando, che voi mi biasimate trovo,\ne ciò si tocca e non pur s’argomenta,\nda questa intenzion io mi rimovo,\ne in ogni modo question far voglio,\ne partorir lo sdegno ch’entro covo.\nApparecchiate pur l’inchiostro e ’l foglio,\ne fatemi saper senz’altro indugio\nquali armi per combatter in man toglio.\nVoi non avrete incontro a me rifugio,\nch’a tutte prove sono apparecchiata,\ne impazientemente a l’opra indugio\no la favella giornalmente usata,\no qual vi piace idioma prendete,\nché ’n tutti quanti sono essercitata;\ne se voi poi non mi risponderete,\ndi me dirò che gran paura abbiate,\nse ben così valente vi tenete.\nMa perché alquanto manco dubitiate,\nson contenta di far con voi la pace,\npur ch’una volta meco vi proviate:\nfate voi quel che più vi giova e piace.</p>",
+   "life": {
+    "qid": "Q257493",
+    "viaf": "66577804",
+    "born": 1546,
+    "died": 1591,
+    "approx": false,
+    "birthplace": "Venice",
+    "deathplace": "Venice",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "Seguace JacopoTintoretto Ritratto di signora.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Seguace_JacopoTintoretto_Ritratto_di_signora.jpg",
+     "artist": "Follower of Jacopo Tintoretto",
+     "licence": "Public domain",
+     "licenceUrl": null
+    }
+   }
   },
   {
    "id": "lambert",
@@ -470,8 +548,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, qu’aux vices qui leur sont le plus défendus.",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#intellect\">Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, \n            qu’aux vices qui leur sont le plus défendus.</seg>",
      "before": "… dégré si éminent, en a amolli et énervé le courage. Moliere en France a fait le même desordre, par la Comedie des Femmes sçavantes.",
-     "after": "Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, il falloit choisir celle qui leur rendoit davantage, …"
+     "after": "Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, il falloit choisir celle qui leur rendoit davantage, …",
+     "en": "Since that time, almost as much shame has been attached to women's learning as to the vices most forbidden to them."
     },
     {
      "id": "lambert-seg1",
@@ -480,8 +560,10 @@ window.WOG = {
       "body"
      ],
      "text": "Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, il falloit choisir celle qui leur rendoit davantage, et elles se sont livrées aux plaisirs.",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#body\">Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, \n            il falloit choisir celle qui leur rendoit davantage, et elles se sont livrées aux plaisirs.</seg>",
      "before": "… Femmes sçavantes. Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, qu’aux vices qui leur sont le plus défendus.",
-     "after": "Le desordre s’est accru par l’exemple, et a été autorisé par les femmes en dignité; car la licence et l’impunité sont les privileges de …"
+     "after": "Le desordre s’est accru par l’exemple, et a été autorisé par les femmes en dignité; car la licence et l’impunité sont les privileges de …",
+     "en": "When they found themselves attacked over innocent amusements, they understood that, shame for shame, they had better choose the one that paid them more, and they gave themselves over to pleasure."
     },
     {
      "id": "lambert-seg1-1",
@@ -490,8 +572,10 @@ window.WOG = {
       "body"
      ],
      "text": "Elles ont mis la débauche à la place du sçavoir ;",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#body\"> Elles ont mis la débauche à la place du sçavoir ;</seg>",
      "before": "… laisser sa part de la Royauté, qui est la liberté et l’impunité. La societé a-t’elle gagné dans cet échange du goût des Femmes ?",
-     "after": "le precieux qu’on leur a tant reproché, elles l’ont changé en indécence : Par-là elles se sont dégradées ; et sont déchuës de leur …"
+     "after": "le precieux qu’on leur a tant reproché, elles l’ont changé en indécence : Par-là elles se sont dégradées ; et sont déchuës de leur …",
+     "en": "They have put debauchery in the place of learning;"
     },
     {
      "id": "lambert-seg3",
@@ -500,8 +584,10 @@ window.WOG = {
       "gender"
      ],
      "text": "Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et plus elles se sont avilies.",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#gender\"> Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et plus elles se sont avilies.</seg>",
      "before": "… il n’y a que la vertu qui leur conserve leur place, et il n’y a que les bienséances, qui les maintienent dans leurs droits.",
-     "after": "Les hommes par la force plutôt que par le droit naturel, ont usurpé l’autorité sur les femmes ; elles ne rentrent dans leur domination …"
+     "after": "Les hommes par la force plutôt que par le droit naturel, ont usurpé l’autorité sur les femmes ; elles ne rentrent dans leur domination …",
+     "en": "But the more they wished to resemble men in that respect, the more they degraded themselves."
     },
     {
      "id": "lambert-seg4",
@@ -510,8 +596,10 @@ window.WOG = {
       "modesty"
      ],
      "text": "mais le regne de la beauté est peu durable. On l’appelle une courte tyrannie ; elle leur donne le pouvoir de faire des malheureux, mais il ne faut pas qu’elles en abusent. Le regne de la vertu est pour toute la vie : c’est le caractere des choses estimables de redoubler de prix par leur durée, et de plaire par le dégré de perfection qu’elles ont, quand elles ne plaisent plus par le charme de la nouveauté. Il faut penser qu’il y a peu de tems à être belle, et beaucoup à ne l’être plus ; que quand les graces abandonnent les Femmes, elles ne se soûtiennent que par les parties essentielles et par les qualitez estimables.",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#modesty\"> mais le regne de la beauté est peu durable. On l’appelle une courte tyrannie ; \n             elle leur donne le pouvoir de faire des malheureux, mais il ne faut pas qu’elles en abusent.\n\n            Le regne de la vertu est pour toute la vie : c’est le caractere des choses estimables de redoubler de prix par leur durée, et de plaire par le dégré de perfection \n            qu’elles ont, quand elles ne plaisent plus par le charme de la nouveauté. Il faut penser qu’il y a peu de tems à être belle, et beaucoup à ne l’être plus ; \n            que quand les graces abandonnent les Femmes, elles ne se soûtiennent que par les parties essentielles et par les qualitez estimables.</seg>",
      "before": "… dans leur domination que par la beauté et par la vertu : si elles peuvent joindre les deux, leur empire sera plus absolu :",
-     "after": "Il ne faut pas qu’elles esperent allier une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient …"
+     "after": "Il ne faut pas qu’elles esperent allier une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient …",
+     "en": "but the reign of beauty is short-lived. It is called a brief tyranny; it gives them the power to make men unhappy, but they must not abuse it. The reign of virtue lasts a whole life: it is in the nature of things worthy of esteem to grow in value as they last, and to please by their degree of perfection once they no longer please by the charm of novelty. One must remember that there is little time for being beautiful, and a long time for no longer being so; that when the graces abandon women, they are sustained only by what is essential and by qualities worthy of esteem."
     },
     {
      "id": "lambert-seg4-1",
@@ -520,8 +608,10 @@ window.WOG = {
       "modesty"
      ],
      "text": "c’est elle qui sert leur veritable interêt : elle augmente leur beauté : elle en est la fleur : elle sert d’excuse à la laideur : elle est le charme des yeux, l’attrait des cœurs, la caution des vertus, l’union et la paix des familles.",
+     "xml": "<seg xml:id=\"seg4.1\" ana=\"#modesty\"> c’est elle qui sert leur veritable interêt : elle augmente leur beauté : elle en est la fleur : elle sert d’excuse à la laideur : elle est le charme des yeux, \n             l’attrait des cœurs, la caution des vertus, l’union et la paix des familles.</seg>",
      "before": "… une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient pas plus que les belles années :",
-     "after": "Mais si elle est une sûreté pour les mœurs, elle est aussi l’aiguillon des desirs : sans elle l’amour seroit sans gloire, et sans …"
+     "after": "Mais si elle est une sûreté pour les mœurs, elle est aussi l’aiguillon des desirs : sans elle l’amour seroit sans gloire, et sans …",
+     "en": "it is modesty that serves their true interest: it increases their beauty; it is its flower; it excuses plainness; it is the charm of the eyes, the attraction of hearts, the pledge of the virtues, the union and peace of families."
     },
     {
      "id": "lambert-seg4-2",
@@ -530,8 +620,10 @@ window.WOG = {
       "modesty"
      ],
      "text": "La pudeur enfin est si necessaire aux plaisirs, qu’il la faut conserver dans les tems mêmes destinez à la perdre ; elle est aussi une coquetterie rafinée, une espece d’enchere, que les belles personnes mettent à leurs appas, et une maniere délicate d’augmenter leurs charmes en les cachant.",
+     "xml": "<seg xml:id=\"seg4.2\" ana=\"#modesty\">La pudeur enfin est si necessaire aux plaisirs, qu’il la faut conserver dans les tems mêmes \n            destinez à la perdre ; elle est aussi une coquetterie rafinée, une espece d’enchere, que les belles personnes mettent à leurs appas, et une maniere délicate\n             d’augmenter leurs charmes en les cachant.</seg>",
      "before": "… seroit sans gloire, et sans goût ; c’est sur elle que se prennent les plus flateuses conquêtes ; elle met le prix aux faveurs.",
-     "after": "Ce qu’elles dérobent aux yeux leur est rendu par la liberalité de l’imagination. Plutarque dit qu’il y avoit un Temple dedié à Venus la …"
+     "after": "Ce qu’elles dérobent aux yeux leur est rendu par la liberalité de l’imagination. Plutarque dit qu’il y avoit un Temple dedié à Venus la …",
+     "en": "Modesty, in short, is so necessary to pleasure that it must be kept even at the very moments meant for losing it; it is also a refined coquetry, a kind of raising of the price that beautiful women set on their charms, and a delicate way of increasing their allure by hiding it."
     },
     {
      "id": "lambert-seg2-1",
@@ -540,8 +632,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "Ne doit-il pas leur suffire de regler tout le mouvement de notre cœur, sans se saisir encore de notre intelligence ? Ils veulent que la bienséance soit aussi blessée, quand nous ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.",
+     "xml": "<seg xml:id=\"seg2.1\" ana=\"#intellect\">Ne doit-il pas \n            leur suffire de regler tout le mouvement de notre cœur, sans se saisir encore de notre intelligence ? Ils veulent que la bienséance soit aussi blessée, quand nous\n             ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.</seg>",
      "before": "… dire : quelle est la tyrannie des hommes ! Ils veulent que nous ne fassions aucun usage de notre esprit ni de nos sentimens.",
-     "after": "Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs. Le divorce que nous faisons avec nous-mêmes, …"
+     "after": "Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs. Le divorce que nous faisons avec nous-mêmes, …",
+     "en": "Should it not be enough for them to rule every movement of our hearts, without seizing our intelligence as well? They would have propriety as wounded when we adorn our minds as when we give away our hearts. That is stretching their rights too far."
     },
     {
      "id": "lambert-seg3-1",
@@ -550,8 +644,10 @@ window.WOG = {
       "gender"
      ],
      "text": "Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs.",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#gender\">Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs.</seg>",
      "before": "… veulent que la bienséance soit aussi blessée, quand nous ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.",
-     "after": "Le divorce que nous faisons avec nous-mêmes, est la source de tous nos égaremens. Quand nous ne tenons pas à nous par des goûts …"
+     "after": "Le divorce que nous faisons avec nous-mêmes, est la source de tous nos égaremens. Quand nous ne tenons pas à nous par des goûts …",
+     "en": "Men have a great interest in calling women back to themselves and to their first duties."
     },
     {
      "id": "lambert-seg2-2",
@@ -560,8 +656,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "Quand nous sçavons nous occuper par de bonnes lectures, il se fait en nous insensiblement une nourriture solide, qui coule dans les mœurs. [...] Ceux qui attaquent les Femmes, ont prétendu que l’action de l’esprit qui consiste à considerer un objet, étoit bien moins parfaite dans les Femmes, parce que le sentiment qui les domine, les distrait et les entraîne. L’attention est necessaire ; elle fait naître la lumière pour ainsi dire, approche les idées de l’esprit et les met à la portée : mais chez les Femmes les idées s’offrent d’elles-mêmes, et s’arrangent plutôt par sentiment que par réflexion : la nature raisonne pour elles et leur en épargne tous les frais. Je ne crois donc pas que le sentiment nuise à l’entendement ; il fournit de nouveaux esprits, qui illuminent de maniere, que les idées se presentent plus vives, plus nettes et plus démêlées ; et pour preuve de ce que je dis, toutes les passions sont éloquentes : nous allons aussi surement à la verité par la force et la chaleur des sentimens, que par l’étenduë et la justesse des raisonnemens ; et nous arrivons toujours par eux plus vîte au but dont il s’agit, que par les connoissances. La persuasion du cœur est audessus de celle de l’esprit, puisque souvent notre conduite en dépend : c’est à notre imagination et à notre cœur, que la nature a rendis la conduite de nos actions et de ses mouvemens.",
+     "xml": "<seg xml:id=\"seg2.2\" ana=\"#intellect\">Quand nous sçavons nous occuper par de bonnes lectures, il se fait \n             en nous insensiblement une nourriture solide, qui coule dans les mœurs.\n             [...]\n             Ceux qui attaquent les Femmes, ont prétendu que l’action de l’esprit qui consiste à considerer un objet, étoit bien moins parfaite dans les Femmes, parce que le sentiment qui les domine, les distrait et les entraîne. \n             L’attention est necessaire ; elle fait naître la lumière pour ainsi dire, approche les idées de l’esprit et les met à la portée : mais chez les Femmes les idées s’offrent d’elles-mêmes, et s’arrangent plutôt par sentiment que par réflexion : la nature raisonne pour elles et leur en épargne tous les frais. \n             Je ne crois donc pas que le sentiment nuise à l’entendement ; il fournit de nouveaux esprits, qui illuminent de maniere, que les idées se presentent plus vives, plus nettes et plus démêlées ; et pour preuve de ce que je dis, toutes les passions sont éloquentes : nous allons aussi surement à la verité par la force et la chaleur des sentimens, que par l’étenduë et la justesse des raisonnemens ; \n             et nous arrivons toujours par eux plus vîte au but dont il s’agit, que par les connoissances. La persuasion du cœur est audessus de celle de l’esprit, puisque souvent notre conduite en dépend : c’est à notre imagination et à notre cœur, que la nature a rendis la conduite de nos actions et de ses mouvemens.</seg>",
      "before": "… la solitude que la verité donne ses leçons, et où nous apprenons à rabattre du prix des choses, que notre imagination sçait nous surfaire.",
-     "after": "La sensibilité est une disposition de l’ame qu’il est avantageux de trouver dans les autres. Vous ne pouvez avoir ni humanité ni generosité, sans …"
+     "after": "La sensibilité est une disposition de l’ame qu’il est avantageux de trouver dans les autres. Vous ne pouvez avoir ni humanité ni generosité, sans …",
+     "en": "When we know how to occupy ourselves with good reading, a solid nourishment forms in us without our noticing, and flows into our conduct. [...] Those who attack women have claimed that the working of the mind that consists in considering an object is far less perfect in women, because the feeling that governs them distracts them and carries them away. Attention is necessary: it gives rise to light, so to speak, brings ideas closer to the mind and puts them within its reach. But in women ideas offer themselves of their own accord, and fall into order by feeling rather than by reflection: nature reasons for them and spares them all the cost. I do not believe, then, that feeling harms understanding; it supplies new spirits, which illuminate in such a way that ideas appear livelier, clearer and more distinct. And as proof of what I say, all the passions are eloquent: we reach the truth as surely by the force and warmth of our feelings as by the breadth and soundness of our reasoning, and by them we always arrive at the goal sooner than by learning. The persuasion of the heart stands above that of the mind, since our conduct often depends on it: it is to our imagination and our heart that nature has entrusted the conduct of our actions and their impulses."
     },
     {
      "id": "lambert-seg6",
@@ -570,8 +668,10 @@ window.WOG = {
       "education"
      ],
      "text": "Les Femmes d’ordinaire ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un esprit qui ne leur coûte rien ? Nous gâtons toutes les dispositions que leur a donné la nature : nous commençons par négliger leur éducation : nous n’occupons leur esprit à rien de solide, et le cœur en profite : nous les destinons à plaire, et elles ne nous plaisent que par leurs graces ou par leurs vices ; il semble qu’elles ne soient faites que pour être un spectacle agréable à nos yeux. Elles ne songent donc qu’à cultiver leurs agremens, et se laissent aisément entraîner au penchant de la nature ; elles ne se refusent pas à des goûts qu’elles ne croyent pas avoir reçus de la nature, pour les combattre.",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#education\"> Les Femmes d’ordinaire ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un esprit qui ne leur coûte rien ? Nous gâtons toutes les dispositions que leur a donné la nature : nous commençons par négliger leur éducation : nous n’occupons leur esprit à rien de solide, et le cœur en profite : nous les destinons à plaire, et elles ne nous plaisent que par leurs graces ou par leurs vices ; il semble qu’elles ne soient faites que pour être un spectacle agréable à nos yeux. Elles ne songent donc qu’à cultiver leurs agremens, et se laissent aisément entraîner au penchant de la nature ; elles ne se refusent pas à des goûts qu’elles ne croyent pas avoir reçus de la nature, pour les combattre.</seg>",
      "before": "… la superiorité de l’esprit, qui vient de la sensibilité et de la force de l’imagination, parce que la persuasion est toujours à sa suite.",
-     "after": "Mais ce qu’il y a de singulier, c’est qu’en les formant pour l’amour, nous leur en défendons l’usage. Il faudrait prendre parti : si …"
+     "after": "Mais ce qu’il y a de singulier, c’est qu’en les formant pour l’amour, nous leur en défendons l’usage. Il faudrait prendre parti : si …",
+     "en": "Women ordinarily owe nothing to art. Why take it amiss that they have a mind that costs them nothing? We spoil all the gifts nature has given them: we begin by neglecting their education; we occupy their minds with nothing solid, and the heart profits from it; we destine them to please, and they please us only by their graces or their vices; it seems they are made only to be a pleasant spectacle for our eyes. So they think only of cultivating their charms, and let themselves be carried along by the inclination of nature; they do not deny themselves tastes that they do not believe nature gave them only to be fought."
     },
     {
      "id": "lambert-seg2-3",
@@ -580,8 +680,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "mais nous leur demandons un mélange et un menagement de ces qualitez, qu’il est difficile d’attraper et de réduire à une mesure juste. Nous leur voulions de l’esprit, mais pour le cacher, l’arrêter et l’empêcher de rien produire. Il ne sçauroit prendre l’essor, qu’il ne soit aussi-tôt rappellé par ce qu’on nomme bienséance.",
+     "xml": "<seg xml:id=\"seg2.3\" ana=\"#intellect\"> mais nous leur demandons un mélange et un menagement de ces qualitez, qu’il est difficile d’attraper et de réduire à une mesure juste. Nous leur voulions de l’esprit, mais pour le cacher, l’arrêter et l’empêcher de rien produire. Il ne sçauroit prendre l’essor, qu’il ne soit aussi-tôt rappellé par ce qu’on nomme bienséance.</seg>",
      "before": "… de leurs agrémens : si vous les voulez raisonnables et spirituelles, ne les abandonnez pas, quand elles n’ont que cette sorte de mérite ;",
-     "after": "La gloire, qui est l’ame et le soutien de toutes les productions de l’esprit, leur est refusée. On ôte à leur esprit tout objet, …"
+     "after": "La gloire, qui est l’ame et le soutien de toutes les productions de l’esprit, leur est refusée. On ôte à leur esprit tout objet, …",
+     "en": "but we ask of them a blend and a careful balance of these qualities that is hard to achieve and to bring to the right measure. We wanted them to have wit, but only to hide it, to check it and to stop it from producing anything. It cannot take flight without being called back at once by what is called propriety."
     },
     {
      "id": "lambert-seg3-3",
@@ -590,11 +692,30 @@ window.WOG = {
       "gender"
      ],
      "text": "Je crois, dit-il, moins impossible de trouver dans les Femmes la saine raison des hommes, que dans les hommes les agremens des Femmes. Je demande aux hommes de la part de tout le sexe : Que voulez-vous de nous ? vous souhaitez tous de vous unir à des personnes estimables, d’un esprit aimable et d’un cœur droit. Permettez-leur donc l’usage des choses qui perfectionnent la raison. Ne voulez-vous que des grâces qui favorisent les plaisirs ? Ne vous plaignez donc pas si les Femmes étendent un peu l’usage de leurs charmes.",
+     "xml": "<seg xml:id=\"seg3.3\" ana=\"#gender\"> Je crois, dit-il, moins impossible de trouver dans les Femmes la saine raison des hommes, que dans les hommes les agremens des Femmes. Je demande aux hommes de la part de tout le sexe : Que voulez-vous de nous ? vous souhaitez tous de vous unir à des personnes estimables, d’un esprit aimable et d’un cœur droit. Permettez-leur donc l’usage des choses qui perfectionnent la raison. Ne voulez-vous que des grâces qui favorisent les plaisirs ? Ne vous plaignez donc pas si les Femmes étendent un peu l’usage de leurs charmes.</seg>",
      "before": "… une grande autorité : c’est s. Evremont. Quand il a voulu donner un modèle de perfection, il ne l’a pas placé chez les hommes.",
-     "after": ""
+     "after": "",
+     "en": "I believe, he says, it is less impossible to find the sound reason of men in women than the charms of women in men. I ask men on behalf of the whole sex: what do you want of us? You all wish to unite yourselves with persons worthy of esteem, of amiable mind and upright heart. Allow them, then, the use of the things that perfect reason. Do you want only graces that serve pleasure? Then do not complain if women stretch the use of their charms a little."
     }
    ],
-   "html": "<p>Le Livre de Dom-Quichotte, selon un Auteur Espagnol, a perdu la Monarchie d’Espagne ; parce que le ridicule qu’il a répandu sur la valeur, que cette Nation possedoit autrefois dans un dégré si éminent, en a amolli et énervé le courage. Moliere en France a fait le même desordre, par la Comedie des Femmes sçavantes. <span class=\"seg\" id=\"lambert-seg2\" data-c=\"intellect\">Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, qu’aux vices qui leur sont le plus défendus.</span> <span class=\"seg\" id=\"lambert-seg1\" data-c=\"body\">Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, il falloit choisir celle qui leur rendoit davantage, et elles se sont livrées aux plaisirs.</span> Le desordre s’est accru par l’exemple, et a été autorisé par les femmes en dignité; car la licence et l’impunité sont les privileges de la Grandeur : Alexandre nous l’a appris. On vint un jour lui dire que sa sœur aimoit un jeune homme, que leur intrigue étoit publique, et qu’elle se respectoit peu : Il faut bien, dit-il, lui laisser sa part de la Royauté, qui est la liberté et l’impunité. La societé a-t’elle gagné dans cet échange du goût des Femmes ? <span class=\"seg\" id=\"lambert-seg1-1\" data-c=\"body\"> Elles ont mis la débauche à la place du sçavoir ;</span> le precieux qu’on leur a tant reproché, elles l’ont changé en indécence : Par-là elles se sont dégradées ; et sont déchuës de leur dignité ; car il n’y a que la vertu qui leur conserve leur place, et il n’y a que les bienséances, qui les maintienent dans leurs droits.<span class=\"seg\" id=\"lambert-seg3\" data-c=\"gender\"> Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et plus elles se sont avilies.</span> Les hommes par la force plutôt que par le droit naturel, ont usurpé l’autorité sur les femmes ; elles ne rentrent dans leur domination que par la beauté et par la vertu : si elles peuvent joindre les deux, leur empire sera plus absolu : <span class=\"seg\" id=\"lambert-seg4\" data-c=\"modesty\"> mais le regne de la beauté est peu durable. On l’appelle une courte tyrannie ; elle leur donne le pouvoir de faire des malheureux, mais il ne faut pas qu’elles en abusent. Le regne de la vertu est pour toute la vie : c’est le caractere des choses estimables de redoubler de prix par leur durée, et de plaire par le dégré de perfection qu’elles ont, quand elles ne plaisent plus par le charme de la nouveauté. Il faut penser qu’il y a peu de tems à être belle, et beaucoup à ne l’être plus ; que quand les graces abandonnent les Femmes, elles ne se soûtiennent que par les parties essentielles et par les qualitez estimables.</span> Il ne faut pas qu’elles esperent allier une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient pas plus que les belles années : <span class=\"seg\" id=\"lambert-seg4-1\" data-c=\"modesty\"> c’est elle qui sert leur veritable interêt : elle augmente leur beauté : elle en est la fleur : elle sert d’excuse à la laideur : elle est le charme des yeux, l’attrait des cœurs, la caution des vertus, l’union et la paix des familles.</span> Mais si elle est une sûreté pour les mœurs, elle est aussi l’aiguillon des desirs : sans elle l’amour seroit sans gloire, et sans goût ; c’est sur elle que se prennent les plus flateuses conquêtes ; elle met le prix aux faveurs. <span class=\"seg\" id=\"lambert-seg4-2\" data-c=\"modesty\">La pudeur enfin est si necessaire aux plaisirs, qu’il la faut conserver dans les tems mêmes destinez à la perdre ; elle est aussi une coquetterie rafinée, une espece d’enchere, que les belles personnes mettent à leurs appas, et une maniere délicate d’augmenter leurs charmes en les cachant.</span> Ce qu’elles dérobent aux yeux leur est rendu par la liberalité de l’imagination. Plutarque dit qu’il y avoit un Temple dedié à Venus la voilée. On ne sçauroit, dit-il, entourer cette Déesse de trop d’ombres, d’obscuritez et de mystères. Mais à present l’indécence est au point de ne vouloir plus de voile à ses foiblesses. Les Femmes pourroient dire : quelle est la tyrannie des hommes ! Ils veulent que nous ne fassions aucun usage de notre esprit ni de nos sentimens.<span class=\"seg\" id=\"lambert-seg2-1\" data-c=\"intellect\">Ne doit-il pas leur suffire de regler tout le mouvement de notre cœur, sans se saisir encore de notre intelligence ? Ils veulent que la bienséance soit aussi blessée, quand nous ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.</span> <span class=\"seg\" id=\"lambert-seg3-1\" data-c=\"gender\">Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs.</span> Le divorce que nous faisons avec nous-mêmes, est la source de tous nos égaremens. Quand nous ne tenons pas à nous par des goûts solides, nous tenons à tout. C’est dans la solitude que la verité donne ses leçons, et où nous apprenons à rabattre du prix des choses, que notre imagination sçait nous surfaire. <span class=\"seg\" id=\"lambert-seg2-2\" data-c=\"intellect\">Quand nous sçavons nous occuper par de bonnes lectures, il se fait en nous insensiblement une nourriture solide, qui coule dans les mœurs. [...] Ceux qui attaquent les Femmes, ont prétendu que l’action de l’esprit qui consiste à considerer un objet, étoit bien moins parfaite dans les Femmes, parce que le sentiment qui les domine, les distrait et les entraîne. L’attention est necessaire ; elle fait naître la lumière pour ainsi dire, approche les idées de l’esprit et les met à la portée : mais chez les Femmes les idées s’offrent d’elles-mêmes, et s’arrangent plutôt par sentiment que par réflexion : la nature raisonne pour elles et leur en épargne tous les frais. Je ne crois donc pas que le sentiment nuise à l’entendement ; il fournit de nouveaux esprits, qui illuminent de maniere, que les idées se presentent plus vives, plus nettes et plus démêlées ; et pour preuve de ce que je dis, toutes les passions sont éloquentes : nous allons aussi surement à la verité par la force et la chaleur des sentimens, que par l’étenduë et la justesse des raisonnemens ; et nous arrivons toujours par eux plus vîte au but dont il s’agit, que par les connoissances. La persuasion du cœur est audessus de celle de l’esprit, puisque souvent notre conduite en dépend : c’est à notre imagination et à notre cœur, que la nature a rendis la conduite de nos actions et de ses mouvemens.</span> La sensibilité est une disposition de l’ame qu’il est avantageux de trouver dans les autres. Vous ne pouvez avoir ni humanité ni generosité, sans sensibilité. Un seul sentiment, un seul mouvement du cœur a plus de credit sur l’ame, que toutes les sentences des Philosophes : la ssensibilité secourt l’esprit et sert la vertu. On convient que les agrémens se trouvent chez les personnes de ce caractere ; les graces vives et soudaines, dont parle Plutarque, ne font que pour elles. Une Dame qui a été un modele d’agrémens sert de preuves à ce que j’avance. On demandoit un jour à un homme d’esprit de ses amis, ce qu’elle faisoit et ce qu’elle pensoit dans sa retraite. Elle n’a jamais pensé, répondit-il, elle ne fait que sentir. Tous ceux qui l’ont connuë, conviennent, que c’étoit la plus séduisante personne du monde, et que les goûts, ou plûtôt les passions, se rendoient maîtres de son imagination et de sa raison, de maniere que ses goûts étoient toujours justifiez par sa raison et respectez par ses amis : aucun de ceux qui l’ont connuë, n’a osé la condamner qu’en cessant de la voir, parce que jamais elle n’avoit tort en presence. Cela prouve que rien n’est si absolu, que la superiorité de l’esprit, qui vient de la sensibilité et de la force de l’imagination, parce que la persuasion est toujours à sa suite. <span class=\"seg\" id=\"lambert-seg6\" data-c=\"education\"> Les Femmes d’ordinaire ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un esprit qui ne leur coûte rien ? Nous gâtons toutes les dispositions que leur a donné la nature : nous commençons par négliger leur éducation : nous n’occupons leur esprit à rien de solide, et le cœur en profite : nous les destinons à plaire, et elles ne nous plaisent que par leurs graces ou par leurs vices ; il semble qu’elles ne soient faites que pour être un spectacle agréable à nos yeux. Elles ne songent donc qu’à cultiver leurs agremens, et se laissent aisément entraîner au penchant de la nature ; elles ne se refusent pas à des goûts qu’elles ne croyent pas avoir reçus de la nature, pour les combattre.</span> Mais ce qu’il y a de singulier, c’est qu’en les formant pour l’amour, nous leur en défendons l’usage. Il faudrait prendre parti : si nous ne les destinons qu’à plaire, ne leur défendons pas l’usage de leurs agrémens : si vous les voulez raisonnables et spirituelles, ne les abandonnez pas, quand elles n’ont que cette sorte de mérite ; <span class=\"seg\" id=\"lambert-seg2-3\" data-c=\"intellect\"> mais nous leur demandons un mélange et un menagement de ces qualitez, qu’il est difficile d’attraper et de réduire à une mesure juste. Nous leur voulions de l’esprit, mais pour le cacher, l’arrêter et l’empêcher de rien produire. Il ne sçauroit prendre l’essor, qu’il ne soit aussi-tôt rappellé par ce qu’on nomme bienséance.</span> La gloire, qui est l’ame et le soutien de toutes les productions de l’esprit, leur est refusée. On ôte à leur esprit tout objet, toute esperance : on l’abaisse, et si j’ose me servir des termes de Platon, on lui coupe les aîles. Il est bien étonnant qu’il leur en reste encore. Les Femmes ont pour elles une grande autorité : c’est s. Evremont. Quand il a voulu donner un modèle de perfection, il ne l’a pas placé chez les hommes.<span class=\"seg\" id=\"lambert-seg3-3\" data-c=\"gender\"> Je crois, dit-il, moins impossible de trouver dans les Femmes la saine raison des hommes, que dans les hommes les agremens des Femmes. Je demande aux hommes de la part de tout le sexe : Que voulez-vous de nous ? vous souhaitez tous de vous unir à des personnes estimables, d’un esprit aimable et d’un cœur droit. Permettez-leur donc l’usage des choses qui perfectionnent la raison. Ne voulez-vous que des grâces qui favorisent les plaisirs ? Ne vous plaignez donc pas si les Femmes étendent un peu l’usage de leurs charmes.</span></p>"
+   "html": "<p>Le Livre de Dom-Quichotte, selon un Auteur Espagnol, a perdu la Monarchie d’Espagne ; parce que le ridicule qu’il a répandu sur la valeur, que cette Nation possedoit autrefois dans un dégré si éminent, en a amolli et énervé le courage. Moliere en France a fait le même desordre, par la Comedie des Femmes sçavantes. <span class=\"seg\" id=\"lambert-seg2\" data-c=\"intellect\">Depuis ce tems-là, on a attaché presque autant de honte au sçayoir des Femmes, qu’aux vices qui leur sont le plus défendus.</span> <span class=\"seg\" id=\"lambert-seg1\" data-c=\"body\">Lorsqu’elles se sont vûës attaquées sur des amusemens innocens, elles ont compris que, honte pour honte, il falloit choisir celle qui leur rendoit davantage, et elles se sont livrées aux plaisirs.</span> Le desordre s’est accru par l’exemple, et a été autorisé par les femmes en dignité; car la licence et l’impunité sont les privileges de la Grandeur : Alexandre nous l’a appris. On vint un jour lui dire que sa sœur aimoit un jeune homme, que leur intrigue étoit publique, et qu’elle se respectoit peu : Il faut bien, dit-il, lui laisser sa part de la Royauté, qui est la liberté et l’impunité. La societé a-t’elle gagné dans cet échange du goût des Femmes ? <span class=\"seg\" id=\"lambert-seg1-1\" data-c=\"body\"> Elles ont mis la débauche à la place du sçavoir ;</span> le precieux qu’on leur a tant reproché, elles l’ont changé en indécence : Par-là elles se sont dégradées ; et sont déchuës de leur dignité ; car il n’y a que la vertu qui leur conserve leur place, et il n’y a que les bienséances, qui les maintienent dans leurs droits.<span class=\"seg\" id=\"lambert-seg3\" data-c=\"gender\"> Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et plus elles se sont avilies.</span> Les hommes par la force plutôt que par le droit naturel, ont usurpé l’autorité sur les femmes ; elles ne rentrent dans leur domination que par la beauté et par la vertu : si elles peuvent joindre les deux, leur empire sera plus absolu : <span class=\"seg\" id=\"lambert-seg4\" data-c=\"modesty\"> mais le regne de la beauté est peu durable. On l’appelle une courte tyrannie ; elle leur donne le pouvoir de faire des malheureux, mais il ne faut pas qu’elles en abusent. Le regne de la vertu est pour toute la vie : c’est le caractere des choses estimables de redoubler de prix par leur durée, et de plaire par le dégré de perfection qu’elles ont, quand elles ne plaisent plus par le charme de la nouveauté. Il faut penser qu’il y a peu de tems à être belle, et beaucoup à ne l’être plus ; que quand les graces abandonnent les Femmes, elles ne se soûtiennent que par les parties essentielles et par les qualitez estimables.</span> Il ne faut pas qu’elles esperent allier une jeunesse voluptueuse et une vieillesse honorable. Quand une fois la pudeur est immolée, elle ne revient pas plus que les belles années : <span class=\"seg\" id=\"lambert-seg4-1\" data-c=\"modesty\"> c’est elle qui sert leur veritable interêt : elle augmente leur beauté : elle en est la fleur : elle sert d’excuse à la laideur : elle est le charme des yeux, l’attrait des cœurs, la caution des vertus, l’union et la paix des familles.</span> Mais si elle est une sûreté pour les mœurs, elle est aussi l’aiguillon des desirs : sans elle l’amour seroit sans gloire, et sans goût ; c’est sur elle que se prennent les plus flateuses conquêtes ; elle met le prix aux faveurs. <span class=\"seg\" id=\"lambert-seg4-2\" data-c=\"modesty\">La pudeur enfin est si necessaire aux plaisirs, qu’il la faut conserver dans les tems mêmes destinez à la perdre ; elle est aussi une coquetterie rafinée, une espece d’enchere, que les belles personnes mettent à leurs appas, et une maniere délicate d’augmenter leurs charmes en les cachant.</span> Ce qu’elles dérobent aux yeux leur est rendu par la liberalité de l’imagination. Plutarque dit qu’il y avoit un Temple dedié à Venus la voilée. On ne sçauroit, dit-il, entourer cette Déesse de trop d’ombres, d’obscuritez et de mystères. Mais à present l’indécence est au point de ne vouloir plus de voile à ses foiblesses. Les Femmes pourroient dire : quelle est la tyrannie des hommes ! Ils veulent que nous ne fassions aucun usage de notre esprit ni de nos sentimens.<span class=\"seg\" id=\"lambert-seg2-1\" data-c=\"intellect\">Ne doit-il pas leur suffire de regler tout le mouvement de notre cœur, sans se saisir encore de notre intelligence ? Ils veulent que la bienséance soit aussi blessée, quand nous ornons notre esprit, que quand nous livrons notre cœur. C’est étendre trop loin leurs droits.</span> <span class=\"seg\" id=\"lambert-seg3-1\" data-c=\"gender\">Les hommes ont un grand intérêt à rappeller les Femmes à elles-mêmes et à leurs premiers devoirs.</span> Le divorce que nous faisons avec nous-mêmes, est la source de tous nos égaremens. Quand nous ne tenons pas à nous par des goûts solides, nous tenons à tout. C’est dans la solitude que la verité donne ses leçons, et où nous apprenons à rabattre du prix des choses, que notre imagination sçait nous surfaire. <span class=\"seg\" id=\"lambert-seg2-2\" data-c=\"intellect\">Quand nous sçavons nous occuper par de bonnes lectures, il se fait en nous insensiblement une nourriture solide, qui coule dans les mœurs. [...] Ceux qui attaquent les Femmes, ont prétendu que l’action de l’esprit qui consiste à considerer un objet, étoit bien moins parfaite dans les Femmes, parce que le sentiment qui les domine, les distrait et les entraîne. L’attention est necessaire ; elle fait naître la lumière pour ainsi dire, approche les idées de l’esprit et les met à la portée : mais chez les Femmes les idées s’offrent d’elles-mêmes, et s’arrangent plutôt par sentiment que par réflexion : la nature raisonne pour elles et leur en épargne tous les frais. Je ne crois donc pas que le sentiment nuise à l’entendement ; il fournit de nouveaux esprits, qui illuminent de maniere, que les idées se presentent plus vives, plus nettes et plus démêlées ; et pour preuve de ce que je dis, toutes les passions sont éloquentes : nous allons aussi surement à la verité par la force et la chaleur des sentimens, que par l’étenduë et la justesse des raisonnemens ; et nous arrivons toujours par eux plus vîte au but dont il s’agit, que par les connoissances. La persuasion du cœur est audessus de celle de l’esprit, puisque souvent notre conduite en dépend : c’est à notre imagination et à notre cœur, que la nature a rendis la conduite de nos actions et de ses mouvemens.</span> La sensibilité est une disposition de l’ame qu’il est avantageux de trouver dans les autres. Vous ne pouvez avoir ni humanité ni generosité, sans sensibilité. Un seul sentiment, un seul mouvement du cœur a plus de credit sur l’ame, que toutes les sentences des Philosophes : la ssensibilité secourt l’esprit et sert la vertu. On convient que les agrémens se trouvent chez les personnes de ce caractere ; les graces vives et soudaines, dont parle Plutarque, ne font que pour elles. Une Dame qui a été un modele d’agrémens sert de preuves à ce que j’avance. On demandoit un jour à un homme d’esprit de ses amis, ce qu’elle faisoit et ce qu’elle pensoit dans sa retraite. Elle n’a jamais pensé, répondit-il, elle ne fait que sentir. Tous ceux qui l’ont connuë, conviennent, que c’étoit la plus séduisante personne du monde, et que les goûts, ou plûtôt les passions, se rendoient maîtres de son imagination et de sa raison, de maniere que ses goûts étoient toujours justifiez par sa raison et respectez par ses amis : aucun de ceux qui l’ont connuë, n’a osé la condamner qu’en cessant de la voir, parce que jamais elle n’avoit tort en presence. Cela prouve que rien n’est si absolu, que la superiorité de l’esprit, qui vient de la sensibilité et de la force de l’imagination, parce que la persuasion est toujours à sa suite. <span class=\"seg\" id=\"lambert-seg6\" data-c=\"education\"> Les Femmes d’ordinaire ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un esprit qui ne leur coûte rien ? Nous gâtons toutes les dispositions que leur a donné la nature : nous commençons par négliger leur éducation : nous n’occupons leur esprit à rien de solide, et le cœur en profite : nous les destinons à plaire, et elles ne nous plaisent que par leurs graces ou par leurs vices ; il semble qu’elles ne soient faites que pour être un spectacle agréable à nos yeux. Elles ne songent donc qu’à cultiver leurs agremens, et se laissent aisément entraîner au penchant de la nature ; elles ne se refusent pas à des goûts qu’elles ne croyent pas avoir reçus de la nature, pour les combattre.</span> Mais ce qu’il y a de singulier, c’est qu’en les formant pour l’amour, nous leur en défendons l’usage. Il faudrait prendre parti : si nous ne les destinons qu’à plaire, ne leur défendons pas l’usage de leurs agrémens : si vous les voulez raisonnables et spirituelles, ne les abandonnez pas, quand elles n’ont que cette sorte de mérite ; <span class=\"seg\" id=\"lambert-seg2-3\" data-c=\"intellect\"> mais nous leur demandons un mélange et un menagement de ces qualitez, qu’il est difficile d’attraper et de réduire à une mesure juste. Nous leur voulions de l’esprit, mais pour le cacher, l’arrêter et l’empêcher de rien produire. Il ne sçauroit prendre l’essor, qu’il ne soit aussi-tôt rappellé par ce qu’on nomme bienséance.</span> La gloire, qui est l’ame et le soutien de toutes les productions de l’esprit, leur est refusée. On ôte à leur esprit tout objet, toute esperance : on l’abaisse, et si j’ose me servir des termes de Platon, on lui coupe les aîles. Il est bien étonnant qu’il leur en reste encore. Les Femmes ont pour elles une grande autorité : c’est s. Evremont. Quand il a voulu donner un modèle de perfection, il ne l’a pas placé chez les hommes.<span class=\"seg\" id=\"lambert-seg3-3\" data-c=\"gender\"> Je crois, dit-il, moins impossible de trouver dans les Femmes la saine raison des hommes, que dans les hommes les agremens des Femmes. Je demande aux hommes de la part de tout le sexe : Que voulez-vous de nous ? vous souhaitez tous de vous unir à des personnes estimables, d’un esprit aimable et d’un cœur droit. Permettez-leur donc l’usage des choses qui perfectionnent la raison. Ne voulez-vous que des grâces qui favorisent les plaisirs ? Ne vous plaignez donc pas si les Femmes étendent un peu l’usage de leurs charmes.</span></p>",
+   "life": {
+    "qid": "Q457511",
+    "viaf": "95150112",
+    "born": 1647,
+    "died": 1733,
+    "approx": false,
+    "birthplace": "Paris",
+    "deathplace": "Paris",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "Nicolas de Largillierre - Portrait d'Anne-Thérèse de Marguenat de Courcelles, marquise de Lambert (1647-1733) - P2516 - Musée Carnavalet.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largillierre_-_Portrait_d%27Anne-Th%C3%A9r%C3%A8se_de_Marguenat_de_Courcelles,_marquise_de_Lambert_(1647-1733)_-_P2516_-_Mus%C3%A9e_Carnavalet.jpg",
+     "artist": "Nicolas de Largillière",
+     "licence": "Public domain",
+     "licenceUrl": null
+    }
+   }
   },
   {
    "id": "wollstonecraft",
@@ -687,6 +808,7 @@ window.WOG = {
       "education"
      ],
      "text": "schools",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#education\">schools</seg>",
      "before": "… partial. I have turned over various books written on the subject of education, and patiently observed the conduct of parents and the management of",
      "after": "; but what has been the result? - a profound conviction that the neglected education of my fellow-creatures is the grand source of the …"
     },
@@ -697,6 +819,7 @@ window.WOG = {
       "education"
      ],
      "text": "neglected education",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#education\">neglected\n                education</seg>",
      "before": "… and patiently observed the conduct of parents and the management of schools; but what has been the result? - a profound conviction that the",
      "after": "of my fellow-creatures is the grand source of the misery I deplore, and that women, in particular, are rendered weak and wretched by a …"
     },
@@ -707,6 +830,7 @@ window.WOG = {
       "beauty"
      ],
      "text": "beauty",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#beauty\">beauty</seg>",
      "before": "… are not in a healthy state; for, like the flowers which are planted in too rich a soil, strength and usefulness are sacrificed to",
      "after": "; and the flaunting leaves, after having pleased a fastidious eye, fade, disre- garded on the stalk, long before the season when they ought …"
     },
@@ -717,6 +841,7 @@ window.WOG = {
       "education"
      ],
      "text": "false system of edu- cation",
+     "xml": "<seg xml:id=\"seg1.2\" ana=\"#education\">false system of edu-\n                cation</seg>",
      "before": "… the stalk, long before the season when they ought to have arrived at maturity. One cause of this barren blooming I attribute to a",
      "after": ", gathered from the books written on this subject by men who, considering females rather as women than human creatures, have been more anxious …"
     },
@@ -727,6 +852,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "rational",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#intellect\">rational</seg>",
      "before": "… by men who, considering females rather as women than human creatures, have been more anxious to make them alluring mistresses than affectionate wives and",
      "after": "mothers; and the understanding of the sex has been so bubbled by this specious homage, that the civilized women of the present century, with …"
     },
@@ -737,6 +863,7 @@ window.WOG = {
       "mother"
      ],
      "text": "mothers",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#mother\">mothers</seg>",
      "before": "… men who, considering females rather as women than human creatures, have been more anxious to make them alluring mistresses than affectionate wives and rational",
      "after": "; and the understanding of the sex has been so bubbled by this specious homage, that the civilized women of the present century, with …"
     },
@@ -747,6 +874,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "understanding",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#intellect\">understanding</seg>",
      "before": "… females rather as women than human creatures, have been more anxious to make them alluring mistresses than affectionate wives and rational mothers; and the",
      "after": "of the sex has been so bubbled by this specious homage, that the civilized women of the present century, with a few exceptions, are …"
     },
@@ -757,6 +885,7 @@ window.WOG = {
       "rights"
      ],
      "text": "female rights",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#rights\">female rights</seg>",
      "before": "… to inspire love, when they ought to cherish a nobler ambition, and by their abilities and virtues exact respect. In a treatise, therefore, on",
      "after": "and manners, the works which have been particularly written for their improvement must not be overlooked, especially when it is asserted, in direct terms, …"
     },
@@ -767,6 +896,7 @@ window.WOG = {
       "grace"
      ],
      "text": "false refinement",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#grace\">false refinement</seg>",
      "before": "… written for their improvement must not be overlooked, especially when it is asserted, in direct terms, that the minds of women are enfeebled by",
      "after": "; that the books of instruction, written by men of genius, have had the same tendency as more frivolous productions; and that, in the …"
     },
@@ -777,6 +907,7 @@ window.WOG = {
       "education"
      ],
      "text": "instruction",
+     "xml": "<seg xml:id=\"seg1.3\" ana=\"#education\">instruction</seg>",
      "before": "… be overlooked, especially when it is asserted, in direct terms, that the minds of women are enfeebled by false refinement; that the books of",
      "after": ", written by men of genius, have had the same tendency as more frivolous productions; and that, in the true style of Mahometanism, they …"
     },
@@ -787,6 +918,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "that the female in point of strength is, in general, inferior to the male",
+     "xml": "<seg xml:id=\"seg7\" ana=\"#weakness\">that the female in\n                point of strength is, in general, inferior to the male</seg>",
      "before": "… misconstruction, I shall stop a moment to deliver, in a few words, my opinion. In the government of the physical world it is observable",
      "after": ". This is the law of Nature; and it does not appear to be suspended or abrogated in favour of woman. A degree of …"
     },
@@ -797,6 +929,7 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "masculine women",
+     "xml": "<seg xml:id=\"seg8\" ana=\"#counterstereotype\">masculine\n                women</seg>",
      "before": "… of the fellow-creatures who find amusement in their society. I am aware of an obvious inference. From every quarter have I heard exclamations against",
      "after": ", but where are they to be found? If by this appellation men mean to inveigh against their ardour in hunting, shooting, and gaming, …"
     },
@@ -807,6 +940,7 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "they may every day grow more and more masculine",
+     "xml": "<seg xml:id=\"seg8.1\" ana=\"#counterstereotype\">they\n                may every day grow more and more masculine</seg>",
      "before": "… being, when they are comprehensively termed mankind, all those who view them with a philosophic eye must, I should think, wish with me, that",
      "after": ". This discussion naturally divides the subject. I shall first consider women in the grand light of human creatures, who, in common with men, …"
     },
@@ -817,6 +951,7 @@ window.WOG = {
       "education"
      ],
      "text": "instruction",
+     "xml": "<seg xml:id=\"seg1.4\" ana=\"#education\">instruction</seg>",
      "before": "… particularly point out their peculiar designation. I wish also to steer clear of an error which many respectable writers have fallen into; for the",
      "after": "which has hitherto been addressed to women, has rather been applicable to ladies, if the little indirect advice that is scattered through 'Sandford and …"
     },
@@ -827,6 +962,7 @@ window.WOG = {
       "society"
      ],
      "text": "those in the middle class",
+     "xml": "<seg xml:id=\"seg9\" ana=\"#society\">those in the middle class</seg>",
      "before": "… indirect advice that is scattered through 'Sandford and Merton' be excepted; but, addressing my sex in a firmer tone, I pay particular attention to",
      "after": ", because they appear to be in the most natural state. Perhaps the seeds of false refinement, immorality, and vanity, have ever been shed …"
     },
@@ -837,6 +973,7 @@ window.WOG = {
       "grace"
      ],
      "text": "false refinement",
+     "xml": "<seg xml:id=\"seg6.1\" ana=\"#grace\">false refinement</seg>",
      "before": "… I pay particular attention to those in the middle class, because they appear to be in the most natural state. Perhaps the seeds of",
      "after": ", immorality, and vanity, have ever been shed by the great. Weak, artificial beings, raised above the common wants and affections of their race, …"
     },
@@ -847,6 +984,7 @@ window.WOG = {
       "society"
      ],
      "text": "the different ranks of society",
+     "xml": "<seg xml:id=\"seg9.3\" ana=\"#society\">the different\n                ranks of society</seg>",
      "before": "… same law which in Nature invariably produces certain effects, they soon only afford barren amusement. But as I purpose taking a separate view of",
      "after": ", and of the moral character of women in each, this hint is for the present sufficient; and I have only alluded to the …"
     },
@@ -857,6 +995,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "rational creatures",
+     "xml": "<seg xml:id=\"seg3.2\" ana=\"#intellect\">rational creatures</seg>",
      "before": "… a cursory account of the contents of the work it introduces. My own sex, I hope, will excuse me, if 1 treat them like",
      "after": ", instead of flattering their fascinating graces, and viewing them as if they were in a state of perpetual childhood, unable to stand alone. …"
     },
@@ -867,6 +1006,7 @@ window.WOG = {
       "grace"
      ],
      "text": "fascinating graces",
+     "xml": "<seg xml:id=\"seg6.2\" ana=\"#grace\">fascinating\n                graces</seg>",
      "before": "… of the work it introduces. My own sex, I hope, will excuse me, if 1 treat them like rational creatures, instead of flattering their",
      "after": ", and viewing them as if they were in a state of perpetual childhood, unable to stand alone. I earnestly wish to point out …"
     },
@@ -877,6 +1017,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "unable to stand alone",
+     "xml": "<seg xml:id=\"seg7.1\" ana=\"#weakness\">unable to stand alone</seg>",
      "before": "… treat them like rational creatures, instead of flattering their fascinating graces, and viewing them as if they were in a state of perpetual childhood,",
      "after": ". I earnestly wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour to acquire …"
     },
@@ -887,6 +1028,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "strength, both of mind",
+     "xml": "<seg xml:id=\"seg3.3\" ana=\"#intellect\">strength, both of mind</seg>",
      "before": "… alone. I earnestly wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour to acquire",
      "after": "and body, and to convince them that the soft; phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with …"
     },
@@ -897,6 +1039,7 @@ window.WOG = {
       "strength"
      ],
      "text": "strength, both of mind and body",
+     "xml": "<seg xml:id=\"seg10\" ana=\"#strength\"><seg xml:id=\"seg3.3\" ana=\"#intellect\">strength, both of mind</seg> and body</seg>",
      "before": "… alone. I earnestly wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour to acquire",
      "after": ", and to convince them that the soft; phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets …"
     },
@@ -907,6 +1050,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "weakness",
+     "xml": "<seg xml:id=\"seg7.2\" ana=\"#weakness\">weakness</seg>",
      "before": "… and to convince them that the soft; phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets of",
      "after": ", and that those beings who are only the objects of pity, and that kind of love which has been termed its sister, will …"
     },
@@ -917,6 +1061,7 @@ window.WOG = {
       "grace"
      ],
      "text": "pretty feminine phrases",
+     "xml": "<seg xml:id=\"seg6.3\" ana=\"#grace\">pretty feminine phrases</seg>",
      "before": "… the objects of pity, and that kind of love which has been termed its sister, will soon become objects of contempt. Dismissing, then, those",
      "after": ", which the men condescendingly use to soften our slavish dependence, and despising that weak elegancy of mind, exquisite sensibility, and sweet docility of …"
     },
@@ -927,6 +1072,7 @@ window.WOG = {
       "grace"
      ],
      "text": "sweet docility of manners",
+     "xml": "<seg xml:id=\"seg6.4\" ana=\"#grace\">sweet docility of manners</seg>",
      "before": "… those pretty feminine phrases, which the men condescendingly use to soften our slavish dependence, and despising that weak elegancy of mind, exquisite sensibility, and",
      "after": ", supposed to be the sexual characteristics of the weaker vessel, I wish to show that elegance is inferior to virtue, that the first …"
     },
@@ -937,6 +1083,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "weaker vessel",
+     "xml": "<seg xml:id=\"seg7.3\" ana=\"#weakness\">weaker\n                vessel</seg>",
      "before": "… slavish dependence, and despising that weak elegancy of mind, exquisite sensibility, and sweet docility of manners, supposed to be the sexual characteristics of the",
      "after": ", I wish to show that elegance is inferior to virtue, that the first object of laudable ambition is to obtain a character as …"
     },
@@ -947,6 +1094,7 @@ window.WOG = {
       "grace"
      ],
      "text": "more respectable members of society",
+     "xml": "<seg xml:id=\"seg6.5\" ana=\"#grace\">more\n                respectable members of society</seg>",
      "before": "… feelings, which, coming from the head, never reach the heart. I shall be employed about things, not words! and, anxious to render my sex",
      "after": ", I shall try to avoid that flowery diction which has slided from essays into novels, and from novels into familiar letters and conversations. …"
     },
@@ -957,6 +1105,7 @@ window.WOG = {
       "education"
      ],
      "text": "education of women",
+     "xml": "<seg xml:id=\"seg1.5\" ana=\"#education\">education of women</seg>",
      "before": "… that ought to sweeten the exercise of those severe duties, which educate a rational and immortal being for a nobler field of action. The",
      "after": "has of late been more attended to than formerly; yet they are still reckoned a frivolous sex, and ridiculed or pitied by the writers …"
     },
@@ -967,6 +1116,7 @@ window.WOG = {
       "strength"
      ],
      "text": "strength of body",
+     "xml": "<seg xml:id=\"seg10.1\" ana=\"#strength\">strength of body</seg>",
      "before": "… to improve them. It is acknowledged that they spend many of the first years of their lives in acquiring a smattering of accomplishments; meanwhile",
      "after": "and mind are sacrificed to libertine notions of beauty, to the desire of establishing themselves - the only way women can rise in the …"
     },
@@ -977,6 +1127,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "mind",
+     "xml": "<seg xml:id=\"seg3.4\" ana=\"#intellect\">mind</seg>",
      "before": "… is acknowledged that they spend many of the first years of their lives in acquiring a smattering of accomplishments; meanwhile strength of body and",
      "after": "are sacrificed to libertine notions of beauty, to the desire of establishing themselves - the only way women can rise in the world - …"
     },
@@ -987,6 +1138,7 @@ window.WOG = {
       "beauty"
      ],
      "text": "beauty",
+     "xml": "<seg xml:id=\"seg2.1\" ana=\"#beauty\">beauty</seg>",
      "before": "… the first years of their lives in acquiring a smattering of accomplishments; meanwhile strength of body and mind are sacrificed to libertine notions of",
      "after": ", to the desire of establishing themselves - the only way women can rise in the world - by marriage. And this desire making …"
     },
@@ -997,6 +1149,7 @@ window.WOG = {
       "marriage"
      ],
      "text": "marriage",
+     "xml": "<seg xml:id=\"seg12\" ana=\"#marriage\">marriage</seg>",
      "before": "… sacrificed to libertine notions of beauty, to the desire of establishing themselves - the only way women can rise in the world - by",
      "after": ". And this desire making mere animals of them, when they marry they act as such children may be expected to act - they …"
     },
@@ -1007,6 +1160,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "weak beings",
+     "xml": "<seg xml:id=\"seg7.4\" ana=\"#weakness\">weak beings</seg>",
      "before": "… when they marry they act as such children may be expected to act - they dress, they paint, and nickname God's creatures. Surely these",
      "after": "are only fit for a seraglio! Can they be expected to govern a family with judgement, or take care of the poor babes whom …"
     },
@@ -1017,6 +1171,7 @@ window.WOG = {
       "intellect"
      ],
      "text": "judgement",
+     "xml": "<seg xml:id=\"seg3.5\" ana=\"#intellect\">judgement</seg>",
      "before": "… paint, and nickname God's creatures. Surely these weak beings are only fit for a seraglio! Can they be expected to govern a family with",
      "after": ", or take care of the poor babes whom they bring into the world? If, then, it can be fairly deduced from the present …"
     },
@@ -1027,6 +1182,7 @@ window.WOG = {
       "society"
      ],
      "text": "civil society",
+     "xml": "<seg xml:id=\"seg9.2\" ana=\"#society\">civil society</seg>",
      "before": "… those nobler passions that open and enlarge the soul, that the instruction which women have hitherto received has only tended, with the constitution of",
      "after": ", to render them insignificant objects of desire - mere propagators of fools! - if it can be proved that in aiming to accomplish …"
     },
@@ -1037,6 +1193,7 @@ window.WOG = {
       "mother"
      ],
      "text": "propagators",
+     "xml": "<seg xml:id=\"seg4.1\" ana=\"#mother\">propagators</seg>",
      "before": "… instruction which women have hitherto received has only tended, with the constitution of civil society, to render them insignificant objects of desire - mere",
      "after": "of fools! - if it can be proved that in aiming to accomplish them, without cultivating their understandings, they are taken out of their …"
     },
@@ -1047,6 +1204,7 @@ window.WOG = {
       "education"
      ],
      "text": "without cultivating their understandings",
+     "xml": "<seg xml:id=\"seg1.6\" ana=\"#education\">without cultivating their understandings</seg>",
      "before": "… to render them insignificant objects of desire - mere propagators of fools! - if it can be proved that in aiming to accomplish them,",
      "after": ", they are taken out of their sphere of duties, and made ridiculous and useless when the short-lived bloom of beauty is over, I …"
     },
@@ -1057,6 +1215,7 @@ window.WOG = {
       "beauty"
      ],
      "text": "the short-lived bloom of beauty",
+     "xml": "<seg xml:id=\"seg2.2\" ana=\"#beauty\">the short-lived bloom of beauty</seg>",
      "before": "… in aiming to accomplish them, without cultivating their understandings, they are taken out of their sphere of duties, and made ridiculous and useless when",
      "after": "is over, I presume that rational men will excuse me for endeavouring to persuade them to become more masculine and respectable. Indeed the word …"
     },
@@ -1067,6 +1226,7 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "become more masculine",
+     "xml": "<seg xml:id=\"seg8.2\" ana=\"#counterstereotype\">become more masculine</seg>",
      "before": "… and useless when the short-lived bloom of beauty is over, I presume that rational men will excuse me for endeavouring to persuade them to",
      "after": "and respectable. Indeed the word masculine is only a bugbear; there is little reason to fear that women will acquire too much courage or …"
     },
@@ -1077,6 +1237,7 @@ window.WOG = {
       "strength"
      ],
      "text": "too much courage or fortitude",
+     "xml": "<seg xml:id=\"seg10.2\" ana=\"#strength\">too much\n                courage or fortitude</seg>",
      "before": "… to become more masculine and respectable. Indeed the word masculine is only a bugbear; there is little reason to fear that women will acquire",
      "after": ", for their apparent inferiority with respect to bodily strength must render them in some degree dependent on men in the various relations of …"
     },
@@ -1087,6 +1248,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "apparent inferiority with respect to bodily strength",
+     "xml": "<seg xml:id=\"seg7.5\" ana=\"#weakness\">apparent inferiority with\n                respect to bodily strength</seg>",
      "before": "… the word masculine is only a bugbear; there is little reason to fear that women will acquire too much courage or fortitude, for their",
      "after": "must render them in some degree dependent on men in the various relations of life; but why should it be increased by prejudices that …"
     },
@@ -1097,6 +1259,7 @@ window.WOG = {
       "gender"
      ],
      "text": "prejudices that give a sex to virtue",
+     "xml": "<seg xml:id=\"seg11\" ana=\"#gender\">prejudices that give a\n                sex to virtue</seg>",
      "before": "… bodily strength must render them in some degree dependent on men in the various relations of life; but why should it be increased by",
      "after": ", and confound simple truths with sensual reveries? Women are, in fact, so much degraded by mistaken notions of female excellence, that I do …"
     },
@@ -1107,6 +1270,7 @@ window.WOG = {
       "gender"
      ],
      "text": "mistaken notions of female excellence",
+     "xml": "<seg xml:id=\"seg11.1\" ana=\"#gender\">mistaken\n                notions of female excellence</seg>",
      "before": "… increased by prejudices that give a sex to virtue, and confound simple truths with sensual reveries? Women are, in fact, so much degraded by",
      "after": ", that I do not mean to add a paradox when I assert that this artificial weakness produces a propensity to tyrannize, and gives …"
     },
@@ -1117,6 +1281,7 @@ window.WOG = {
       "weakness"
      ],
      "text": "artificial weakness",
+     "xml": "<seg xml:id=\"seg7.6\" ana=\"#weakness\">artificial weakness</seg>",
      "before": "… fact, so much degraded by mistaken notions of female excellence, that I do not mean to add a paradox when I assert that this",
      "after": "produces a propensity to tyrannize, and gives birth to cunning, the natural opponent of strength, which leads them to play off those contemptible infantine …"
     },
@@ -1127,11 +1292,26 @@ window.WOG = {
       "intellect"
      ],
      "text": "if women do not grow wiser in the same ratio it will be clear that they have weaker understandings",
+     "xml": "<seg xml:id=\"seg3.6\" ana=\"#intellect\">if women do\n                not grow wiser in the same ratio it will be clear that they\n                have weaker understandings</seg>",
      "before": "… them to play off those contemptible infantine airs that undermine esteem even whilst they excite desire. Let men become more chaste and modest, and",
      "after": ". It seems scarcely necessary to say that I now speak of the sex in general. Many individuals have more sense than their male …"
     }
    ],
-   "html": "<p>After considering the historic page, and viewing the living world with anxious solicitude, the most melancholy emotions of sorrowful indignation have depressed my spirits, and I have sighed when obliged to confess that either Nature has made a great difference between man and man, or that the civilization which has hitherto taken place in the world has been very partial. I have turned over various books written on the subject of education, and patiently observed the conduct of parents and the management of <span class=\"seg\" id=\"wollstonecraft-seg1\" data-c=\"education\">schools</span>; but what has been the result? - a profound conviction that the <span class=\"seg\" id=\"wollstonecraft-seg1-1\" data-c=\"education\">neglected education</span> of my fellow-creatures is the grand source of the misery I deplore, and that women, in particular, are rendered weak and wretched by a variety of concurring causes, originating from one hasty conclusion. The conduct and manners of women, in fact, evidently prove that their minds are not in a healthy state; for, like the flowers which are planted in too rich a soil, strength and usefulness are sacrificed to <span class=\"seg\" id=\"wollstonecraft-seg2\" data-c=\"beauty\">beauty</span>; and the flaunting leaves, after having pleased a fastidious eye, fade, disre- garded on the stalk, long before the season when they ought to have arrived at maturity. One cause of this barren blooming I attribute to a <span class=\"seg\" id=\"wollstonecraft-seg1-2\" data-c=\"education\">false system of edu- cation</span>, gathered from the books written on this subject by men who, considering females rather as women than human creatures, have been more anxious to make them alluring mistresses than affectionate wives and <span class=\"seg\" id=\"wollstonecraft-seg3\" data-c=\"intellect\">rational</span> <span class=\"seg\" id=\"wollstonecraft-seg4\" data-c=\"mother\">mothers</span>; and the <span class=\"seg\" id=\"wollstonecraft-seg3-1\" data-c=\"intellect\">understanding</span> of the sex has been so bubbled by this specious homage, that the civilized women of the present century, with a few exceptions, are only anxious to inspire love, when they ought to cherish a nobler ambition, and by their abilities and virtues exact respect.</p> <p>In a treatise, therefore, on <span class=\"seg\" id=\"wollstonecraft-seg5\" data-c=\"rights\">female rights</span> and manners, the works which have been particularly written for their improvement must not be overlooked, especially when it is asserted, in direct terms, that the minds of women are enfeebled by <span class=\"seg\" id=\"wollstonecraft-seg6\" data-c=\"grace\">false refinement</span>; that the books of <span class=\"seg\" id=\"wollstonecraft-seg1-3\" data-c=\"education\">instruction</span>, written by men of genius, have had the same tendency as more frivolous productions; and that, in the true style of Mahometanism, they are treated as a kind of subordinate beings, and not as a part of the human species, when improvable reason is allowed to be the dignified distinction which raises men above the brute creation, and puts a natural sceptre in a feeble hand.</p> <p>Yet, because I am a woman, I would not lead my readers to suppose that I mean violently to agitate the contested question respecting the quality or inferiority of the sex; but as the subject lies in my way, and I cannot pass it over without subjecting the main tendency of my reasoning to misconstruction, I shall stop a moment to deliver, in a few words, my opinion. In the government of the physical world it is observable <span class=\"seg\" id=\"wollstonecraft-seg7\" data-c=\"weakness\">that the female in point of strength is, in general, inferior to the male</span>. This is the law of Nature; and it does not appear to be suspended or abrogated in favour of woman. A degree of physical superiority cannot, therefore, be denied, and it is a noble prerogative! But not content with this natural pre-eminence, men endeavour to sink us still lower, merely to render us alluring objects for a moment; and women, intoxicated by the adoration which men, under the influence of their senses, pay them, do not seek to obtain a durable interest in their hearts, or to become the friends of the fellow-creatures who find amusement in their society.</p> <p>I am aware of an obvious inference. From every quarter have I heard exclamations against <span class=\"seg\" id=\"wollstonecraft-seg8\" data-c=\"counterstereotype\">masculine women</span>, but where are they to be found? If by this appellation men mean to inveigh against their ardour in hunting, shooting, and gaming, I shall most cordially join in the cry; but if it be against the imitation of manly virtues, or, more properly speaking, the attainment of those talents and virtues, the exercise of which ennobles the human character, and which raises females in the scale of animal being, when they are comprehensively termed mankind, all those who view them with a philosophic eye must, I should think, wish with me, that <span class=\"seg\" id=\"wollstonecraft-seg8-1\" data-c=\"counterstereotype\">they may every day grow more and more masculine</span>.</p> <p>This discussion naturally divides the subject. I shall first consider women in the grand light of human creatures, who, in common with men, are placed on this earth to unfold their faculties; and afterwards I shall more particularly point out their peculiar designation.</p> <p>I wish also to steer clear of an error which many respectable writers have fallen into; for the <span class=\"seg\" id=\"wollstonecraft-seg1-4\" data-c=\"education\">instruction</span> which has hitherto been addressed to women, has rather been applicable to ladies, if the little indirect advice that is scattered through 'Sandford and Merton' be excepted; but, addressing my sex in a firmer tone, I pay particular attention to <span class=\"seg\" id=\"wollstonecraft-seg9\" data-c=\"society\">those in the middle class</span>, because they appear to be in the most natural state. Perhaps the seeds of <span class=\"seg\" id=\"wollstonecraft-seg6-1\" data-c=\"grace\">false refinement</span>, immorality, and vanity, have ever been shed by the great. Weak, artificial beings, raised above the common wants and affections of their race, in a premature unnatural manner, undermine the very foundation of virtue, and spread corruption through the whole mass of society! As a class of mankind they have the strongest claim to pity; the education of the rich tends to render them vain and helpless, and the unfolding mind is not strengthened by the practice of those duties which dignify the human character. They only live to amuse themselves, and by the same law which in Nature invariably produces certain effects, they soon only afford barren amusement.</p> <p>But as I purpose taking a separate view of <span class=\"seg\" id=\"wollstonecraft-seg9-3\" data-c=\"society\">the different ranks of society</span>, and of the moral character of women in each, this hint is for the present sufficient; and I have only alluded to the subject because it appears to me to be the very essence of an introduction to give a cursory account of the contents of the work it introduces.</p> <p>My own sex, I hope, will excuse me, if 1 treat them like <span class=\"seg\" id=\"wollstonecraft-seg3-2\" data-c=\"intellect\">rational creatures</span>, instead of flattering their <span class=\"seg\" id=\"wollstonecraft-seg6-2\" data-c=\"grace\">fascinating graces</span>, and viewing them as if they were in a state of perpetual childhood, <span class=\"seg\" id=\"wollstonecraft-seg7-1\" data-c=\"weakness\">unable to stand alone</span>. I earnestly wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour to acquire <span class=\"seg\" id=\"wollstonecraft-seg10\" data-c=\"strength\"><span class=\"seg\" id=\"wollstonecraft-seg3-3\" data-c=\"intellect\">strength, both of mind</span> and body</span>, and to convince them that the soft; phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets of <span class=\"seg\" id=\"wollstonecraft-seg7-2\" data-c=\"weakness\">weakness</span>, and that those beings who are only the objects of pity, and that kind of love which has been termed its sister, will soon become objects of contempt.</p> <p>Dismissing, then, those <span class=\"seg\" id=\"wollstonecraft-seg6-3\" data-c=\"grace\">pretty feminine phrases</span>, which the men condescendingly use to soften our slavish dependence, and despising that weak elegancy of mind, exquisite sensibility, and <span class=\"seg\" id=\"wollstonecraft-seg6-4\" data-c=\"grace\">sweet docility of manners</span>, supposed to be the sexual characteristics of the <span class=\"seg\" id=\"wollstonecraft-seg7-3\" data-c=\"weakness\">weaker vessel</span>, I wish to show that elegance is inferior to virtue, that the first object of laudable ambition is to obtain a character as a human being, regardless of the distinction of sex, and that secondary views should be brought to this simple touchstone.</p> <p>This is a rough sketch of my plan; and should I express my conviction with the energetic emotions that I feel whenever I think of the subject, the dictates of experience and reflection will be felt by some of my readers. Animated by this important object, I shall disdain to cull myphrases or polish my style. I aim at being useful, and sincerity will render me unaffected; for wishing rather to persuade by the force of my arguments than dazzle by the elegance of my language, I shall not waste my time in rounding periods, or in fabricating the turgid bombast of artificial feelings, which, coming from the head, never reach the heart. I shall be employed about things, not words! and, anxious to render my sex <span class=\"seg\" id=\"wollstonecraft-seg6-5\" data-c=\"grace\">more respectable members of society</span>, I shall try to avoid that flowery diction which has slided from essays into novels, and from novels into familiar letters and conversations.</p> <p>These pretty superlatives, dropping glibly from the tongue, vitiate the taste, and create a kind of sickly delicacy that turns away from simple unadorned truth; and a deluge of false sentiments and overstretched feelings, stifling the natural emotions of the heart, render the domestic pleasures insipid, that ought to sweeten the exercise of those severe duties, which educate a rational and immortal being for a nobler field of action.</p> <p>The <span class=\"seg\" id=\"wollstonecraft-seg1-5\" data-c=\"education\">education of women</span> has of late been more attended to than formerly; yet they are still reckoned a frivolous sex, and ridiculed or pitied by the writers who endeavour by satire or instruction to improve them. It is acknowledged that they spend many of the first years of their lives in acquiring a smattering of accomplishments; meanwhile <span class=\"seg\" id=\"wollstonecraft-seg10-1\" data-c=\"strength\">strength of body</span> and <span class=\"seg\" id=\"wollstonecraft-seg3-4\" data-c=\"intellect\">mind</span> are sacrificed to libertine notions of <span class=\"seg\" id=\"wollstonecraft-seg2-1\" data-c=\"beauty\">beauty</span>, to the desire of establishing themselves - the only way women can rise in the world - by <span class=\"seg\" id=\"wollstonecraft-seg12\" data-c=\"marriage\">marriage</span>. And this desire making mere animals of them, when they marry they act as such children may be expected to act - they dress, they paint, and nickname God's creatures. Surely these <span class=\"seg\" id=\"wollstonecraft-seg7-4\" data-c=\"weakness\">weak beings</span> are only fit for a seraglio! Can they be expected to govern a family with <span class=\"seg\" id=\"wollstonecraft-seg3-5\" data-c=\"intellect\">judgement</span>, or take care of the poor babes whom they bring into the world?</p> <p>If, then, it can be fairly deduced from the present conduct of the sex, from the prevalent fondness for pleasure which takes place of ambition and those nobler passions that open and enlarge the soul, that the instruction which women have hitherto received has only tended, with the constitution of <span class=\"seg\" id=\"wollstonecraft-seg9-2\" data-c=\"society\">civil society</span>, to render them insignificant objects of desire - mere <span class=\"seg\" id=\"wollstonecraft-seg4-1\" data-c=\"mother\">propagators</span> of fools! - if it can be proved that in aiming to accomplish them, <span class=\"seg\" id=\"wollstonecraft-seg1-6\" data-c=\"education\">without cultivating their understandings</span>, they are taken out of their sphere of duties, and made ridiculous and useless when <span class=\"seg\" id=\"wollstonecraft-seg2-2\" data-c=\"beauty\">the short-lived bloom of beauty</span> is over, I presume that rational men will excuse me for endeavouring to persuade them to <span class=\"seg\" id=\"wollstonecraft-seg8-2\" data-c=\"counterstereotype\">become more masculine</span> and respectable.</p> <p>Indeed the word masculine is only a bugbear; there is little reason to fear that women will acquire <span class=\"seg\" id=\"wollstonecraft-seg10-2\" data-c=\"strength\">too much courage or fortitude</span>, for their <span class=\"seg\" id=\"wollstonecraft-seg7-5\" data-c=\"weakness\">apparent inferiority with respect to bodily strength</span> must render them in some degree dependent on men in the various relations of life; but why should it be increased by <span class=\"seg\" id=\"wollstonecraft-seg11\" data-c=\"gender\">prejudices that give a sex to virtue</span>, and confound simple truths with sensual reveries?</p> <p>Women are, in fact, so much degraded by <span class=\"seg\" id=\"wollstonecraft-seg11-1\" data-c=\"gender\">mistaken notions of female excellence</span>, that I do not mean to add a paradox when I assert that this <span class=\"seg\" id=\"wollstonecraft-seg7-6\" data-c=\"weakness\">artificial weakness</span> produces a propensity to tyrannize, and gives birth to cunning, the natural opponent of strength, which leads them to play off those contemptible infantine airs that undermine esteem even whilst they excite desire. Let men become more chaste and modest, and <span class=\"seg\" id=\"wollstonecraft-seg3-6\" data-c=\"intellect\">if women do not grow wiser in the same ratio it will be clear that they have weaker understandings</span>.</p> <p>It seems scarcely necessary to say that I now speak of the sex in general. Many individuals have more sense than their male relatives; and, as nothing preponderates where there is a constant struggle for an equilibrium without it has naturally more gravity, some women govern their husbands without degrading themselves, because intellect will always govern.</p>"
+   "html": "<p>After considering the historic page, and viewing the living world with anxious solicitude, the most melancholy emotions of sorrowful indignation have depressed my spirits, and I have sighed when obliged to confess that either Nature has made a great difference between man and man, or that the civilization which has hitherto taken place in the world has been very partial. I have turned over various books written on the subject of education, and patiently observed the conduct of parents and the management of <span class=\"seg\" id=\"wollstonecraft-seg1\" data-c=\"education\">schools</span>; but what has been the result? - a profound conviction that the <span class=\"seg\" id=\"wollstonecraft-seg1-1\" data-c=\"education\">neglected education</span> of my fellow-creatures is the grand source of the misery I deplore, and that women, in particular, are rendered weak and wretched by a variety of concurring causes, originating from one hasty conclusion. The conduct and manners of women, in fact, evidently prove that their minds are not in a healthy state; for, like the flowers which are planted in too rich a soil, strength and usefulness are sacrificed to <span class=\"seg\" id=\"wollstonecraft-seg2\" data-c=\"beauty\">beauty</span>; and the flaunting leaves, after having pleased a fastidious eye, fade, disre- garded on the stalk, long before the season when they ought to have arrived at maturity. One cause of this barren blooming I attribute to a <span class=\"seg\" id=\"wollstonecraft-seg1-2\" data-c=\"education\">false system of edu- cation</span>, gathered from the books written on this subject by men who, considering females rather as women than human creatures, have been more anxious to make them alluring mistresses than affectionate wives and <span class=\"seg\" id=\"wollstonecraft-seg3\" data-c=\"intellect\">rational</span> <span class=\"seg\" id=\"wollstonecraft-seg4\" data-c=\"mother\">mothers</span>; and the <span class=\"seg\" id=\"wollstonecraft-seg3-1\" data-c=\"intellect\">understanding</span> of the sex has been so bubbled by this specious homage, that the civilized women of the present century, with a few exceptions, are only anxious to inspire love, when they ought to cherish a nobler ambition, and by their abilities and virtues exact respect.</p> <p>In a treatise, therefore, on <span class=\"seg\" id=\"wollstonecraft-seg5\" data-c=\"rights\">female rights</span> and manners, the works which have been particularly written for their improvement must not be overlooked, especially when it is asserted, in direct terms, that the minds of women are enfeebled by <span class=\"seg\" id=\"wollstonecraft-seg6\" data-c=\"grace\">false refinement</span>; that the books of <span class=\"seg\" id=\"wollstonecraft-seg1-3\" data-c=\"education\">instruction</span>, written by men of genius, have had the same tendency as more frivolous productions; and that, in the true style of Mahometanism, they are treated as a kind of subordinate beings, and not as a part of the human species, when improvable reason is allowed to be the dignified distinction which raises men above the brute creation, and puts a natural sceptre in a feeble hand.</p> <p>Yet, because I am a woman, I would not lead my readers to suppose that I mean violently to agitate the contested question respecting the quality or inferiority of the sex; but as the subject lies in my way, and I cannot pass it over without subjecting the main tendency of my reasoning to misconstruction, I shall stop a moment to deliver, in a few words, my opinion. In the government of the physical world it is observable <span class=\"seg\" id=\"wollstonecraft-seg7\" data-c=\"weakness\">that the female in point of strength is, in general, inferior to the male</span>. This is the law of Nature; and it does not appear to be suspended or abrogated in favour of woman. A degree of physical superiority cannot, therefore, be denied, and it is a noble prerogative! But not content with this natural pre-eminence, men endeavour to sink us still lower, merely to render us alluring objects for a moment; and women, intoxicated by the adoration which men, under the influence of their senses, pay them, do not seek to obtain a durable interest in their hearts, or to become the friends of the fellow-creatures who find amusement in their society.</p> <p>I am aware of an obvious inference. From every quarter have I heard exclamations against <span class=\"seg\" id=\"wollstonecraft-seg8\" data-c=\"counterstereotype\">masculine women</span>, but where are they to be found? If by this appellation men mean to inveigh against their ardour in hunting, shooting, and gaming, I shall most cordially join in the cry; but if it be against the imitation of manly virtues, or, more properly speaking, the attainment of those talents and virtues, the exercise of which ennobles the human character, and which raises females in the scale of animal being, when they are comprehensively termed mankind, all those who view them with a philosophic eye must, I should think, wish with me, that <span class=\"seg\" id=\"wollstonecraft-seg8-1\" data-c=\"counterstereotype\">they may every day grow more and more masculine</span>.</p> <p>This discussion naturally divides the subject. I shall first consider women in the grand light of human creatures, who, in common with men, are placed on this earth to unfold their faculties; and afterwards I shall more particularly point out their peculiar designation.</p> <p>I wish also to steer clear of an error which many respectable writers have fallen into; for the <span class=\"seg\" id=\"wollstonecraft-seg1-4\" data-c=\"education\">instruction</span> which has hitherto been addressed to women, has rather been applicable to ladies, if the little indirect advice that is scattered through 'Sandford and Merton' be excepted; but, addressing my sex in a firmer tone, I pay particular attention to <span class=\"seg\" id=\"wollstonecraft-seg9\" data-c=\"society\">those in the middle class</span>, because they appear to be in the most natural state. Perhaps the seeds of <span class=\"seg\" id=\"wollstonecraft-seg6-1\" data-c=\"grace\">false refinement</span>, immorality, and vanity, have ever been shed by the great. Weak, artificial beings, raised above the common wants and affections of their race, in a premature unnatural manner, undermine the very foundation of virtue, and spread corruption through the whole mass of society! As a class of mankind they have the strongest claim to pity; the education of the rich tends to render them vain and helpless, and the unfolding mind is not strengthened by the practice of those duties which dignify the human character. They only live to amuse themselves, and by the same law which in Nature invariably produces certain effects, they soon only afford barren amusement.</p> <p>But as I purpose taking a separate view of <span class=\"seg\" id=\"wollstonecraft-seg9-3\" data-c=\"society\">the different ranks of society</span>, and of the moral character of women in each, this hint is for the present sufficient; and I have only alluded to the subject because it appears to me to be the very essence of an introduction to give a cursory account of the contents of the work it introduces.</p> <p>My own sex, I hope, will excuse me, if 1 treat them like <span class=\"seg\" id=\"wollstonecraft-seg3-2\" data-c=\"intellect\">rational creatures</span>, instead of flattering their <span class=\"seg\" id=\"wollstonecraft-seg6-2\" data-c=\"grace\">fascinating graces</span>, and viewing them as if they were in a state of perpetual childhood, <span class=\"seg\" id=\"wollstonecraft-seg7-1\" data-c=\"weakness\">unable to stand alone</span>. I earnestly wish to point out in what true dignity and human happiness consists. I wish to persuade women to endeavour to acquire <span class=\"seg\" id=\"wollstonecraft-seg10\" data-c=\"strength\"><span class=\"seg\" id=\"wollstonecraft-seg3-3\" data-c=\"intellect\">strength, both of mind</span> and body</span>, and to convince them that the soft; phrases, susceptibility of heart, delicacy of sentiment, and refinement of taste, are almost synonymous with epithets of <span class=\"seg\" id=\"wollstonecraft-seg7-2\" data-c=\"weakness\">weakness</span>, and that those beings who are only the objects of pity, and that kind of love which has been termed its sister, will soon become objects of contempt.</p> <p>Dismissing, then, those <span class=\"seg\" id=\"wollstonecraft-seg6-3\" data-c=\"grace\">pretty feminine phrases</span>, which the men condescendingly use to soften our slavish dependence, and despising that weak elegancy of mind, exquisite sensibility, and <span class=\"seg\" id=\"wollstonecraft-seg6-4\" data-c=\"grace\">sweet docility of manners</span>, supposed to be the sexual characteristics of the <span class=\"seg\" id=\"wollstonecraft-seg7-3\" data-c=\"weakness\">weaker vessel</span>, I wish to show that elegance is inferior to virtue, that the first object of laudable ambition is to obtain a character as a human being, regardless of the distinction of sex, and that secondary views should be brought to this simple touchstone.</p> <p>This is a rough sketch of my plan; and should I express my conviction with the energetic emotions that I feel whenever I think of the subject, the dictates of experience and reflection will be felt by some of my readers. Animated by this important object, I shall disdain to cull myphrases or polish my style. I aim at being useful, and sincerity will render me unaffected; for wishing rather to persuade by the force of my arguments than dazzle by the elegance of my language, I shall not waste my time in rounding periods, or in fabricating the turgid bombast of artificial feelings, which, coming from the head, never reach the heart. I shall be employed about things, not words! and, anxious to render my sex <span class=\"seg\" id=\"wollstonecraft-seg6-5\" data-c=\"grace\">more respectable members of society</span>, I shall try to avoid that flowery diction which has slided from essays into novels, and from novels into familiar letters and conversations.</p> <p>These pretty superlatives, dropping glibly from the tongue, vitiate the taste, and create a kind of sickly delicacy that turns away from simple unadorned truth; and a deluge of false sentiments and overstretched feelings, stifling the natural emotions of the heart, render the domestic pleasures insipid, that ought to sweeten the exercise of those severe duties, which educate a rational and immortal being for a nobler field of action.</p> <p>The <span class=\"seg\" id=\"wollstonecraft-seg1-5\" data-c=\"education\">education of women</span> has of late been more attended to than formerly; yet they are still reckoned a frivolous sex, and ridiculed or pitied by the writers who endeavour by satire or instruction to improve them. It is acknowledged that they spend many of the first years of their lives in acquiring a smattering of accomplishments; meanwhile <span class=\"seg\" id=\"wollstonecraft-seg10-1\" data-c=\"strength\">strength of body</span> and <span class=\"seg\" id=\"wollstonecraft-seg3-4\" data-c=\"intellect\">mind</span> are sacrificed to libertine notions of <span class=\"seg\" id=\"wollstonecraft-seg2-1\" data-c=\"beauty\">beauty</span>, to the desire of establishing themselves - the only way women can rise in the world - by <span class=\"seg\" id=\"wollstonecraft-seg12\" data-c=\"marriage\">marriage</span>. And this desire making mere animals of them, when they marry they act as such children may be expected to act - they dress, they paint, and nickname God's creatures. Surely these <span class=\"seg\" id=\"wollstonecraft-seg7-4\" data-c=\"weakness\">weak beings</span> are only fit for a seraglio! Can they be expected to govern a family with <span class=\"seg\" id=\"wollstonecraft-seg3-5\" data-c=\"intellect\">judgement</span>, or take care of the poor babes whom they bring into the world?</p> <p>If, then, it can be fairly deduced from the present conduct of the sex, from the prevalent fondness for pleasure which takes place of ambition and those nobler passions that open and enlarge the soul, that the instruction which women have hitherto received has only tended, with the constitution of <span class=\"seg\" id=\"wollstonecraft-seg9-2\" data-c=\"society\">civil society</span>, to render them insignificant objects of desire - mere <span class=\"seg\" id=\"wollstonecraft-seg4-1\" data-c=\"mother\">propagators</span> of fools! - if it can be proved that in aiming to accomplish them, <span class=\"seg\" id=\"wollstonecraft-seg1-6\" data-c=\"education\">without cultivating their understandings</span>, they are taken out of their sphere of duties, and made ridiculous and useless when <span class=\"seg\" id=\"wollstonecraft-seg2-2\" data-c=\"beauty\">the short-lived bloom of beauty</span> is over, I presume that rational men will excuse me for endeavouring to persuade them to <span class=\"seg\" id=\"wollstonecraft-seg8-2\" data-c=\"counterstereotype\">become more masculine</span> and respectable.</p> <p>Indeed the word masculine is only a bugbear; there is little reason to fear that women will acquire <span class=\"seg\" id=\"wollstonecraft-seg10-2\" data-c=\"strength\">too much courage or fortitude</span>, for their <span class=\"seg\" id=\"wollstonecraft-seg7-5\" data-c=\"weakness\">apparent inferiority with respect to bodily strength</span> must render them in some degree dependent on men in the various relations of life; but why should it be increased by <span class=\"seg\" id=\"wollstonecraft-seg11\" data-c=\"gender\">prejudices that give a sex to virtue</span>, and confound simple truths with sensual reveries?</p> <p>Women are, in fact, so much degraded by <span class=\"seg\" id=\"wollstonecraft-seg11-1\" data-c=\"gender\">mistaken notions of female excellence</span>, that I do not mean to add a paradox when I assert that this <span class=\"seg\" id=\"wollstonecraft-seg7-6\" data-c=\"weakness\">artificial weakness</span> produces a propensity to tyrannize, and gives birth to cunning, the natural opponent of strength, which leads them to play off those contemptible infantine airs that undermine esteem even whilst they excite desire. Let men become more chaste and modest, and <span class=\"seg\" id=\"wollstonecraft-seg3-6\" data-c=\"intellect\">if women do not grow wiser in the same ratio it will be clear that they have weaker understandings</span>.</p> <p>It seems scarcely necessary to say that I now speak of the sex in general. Many individuals have more sense than their male relatives; and, as nothing preponderates where there is a constant struggle for an equilibrium without it has naturally more gravity, some women govern their husbands without degrading themselves, because intellect will always govern.</p>",
+   "life": {
+    "qid": "Q101638",
+    "viaf": "51697482",
+    "born": 1759,
+    "died": 1797,
+    "approx": false,
+    "birthplace": "London",
+    "deathplace": "London",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": null,
+     "note": "from the project's 2023 site"
+    }
+   }
   },
   {
    "id": "sand",
@@ -1213,8 +1393,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "on ne te respecte pas comme une fille de seize ans devrait pouvoir l'exiger.",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#counterstereotype\"> on ne te respecte pas comme une fille \n            de seize ans devrait pouvoir l'exiger.</seg>",
      "before": "… parles si raisonnablement, et que, pour la première fois de ta vie, je te vois douce et trai table, je vas te dire pourquoi",
-     "after": "C'est que tu n'as rien d'une fille et tout d'un garçon, dans ton air et dans tes manières ; c'est que tu ne prends …"
+     "after": "C'est que tu n'as rien d'une fille et tout d'un garçon, dans ton air et dans tes manières ; c'est que tu ne prends …",
+     "en": "people don't respect you the way a girl of sixteen ought to be able to demand."
     },
     {
      "id": "sand-seg1-1",
@@ -1223,8 +1405,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "tu n'as rien d'une fille et tout d'un garçon",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#counterstereotype\"> tu n'as rien d'une fille et tout d'un garçon</seg>",
      "before": "… et trai table, je vas te dire pourquoi on ne te respecte pas comme une fille de seize ans devrait pouvoir l'exiger. C'est que",
-     "after": ", dans ton air et dans tes manières ; c'est que tu ne prends pas soin de ta personne. Pour commencer, tu n'as point …"
+     "after": ", dans ton air et dans tes manières ; c'est que tu ne prends pas soin de ta personne. Pour commencer, tu n'as point …",
+     "en": "there's nothing of a girl about you and everything of a boy"
     },
     {
      "id": "sand-seg2",
@@ -1233,8 +1417,10 @@ window.WOG = {
       "body"
      ],
      "text": "tu ne prends pas soin de ta personne.",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#body\">tu ne prends pas soin de ta personne.</seg>",
      "before": "… devrait pouvoir l'exiger. C'est que tu n'as rien d'une fille et tout d'un garçon, dans ton air et dans tes manières ; c'est que",
-     "after": "Pour commencer, tu n'as point l'air propre et soigneu , et tu te fais paraître laide par ton habillement et ton langage. Tu sais …"
+     "after": "Pour commencer, tu n'as point l'air propre et soigneu , et tu te fais paraître laide par ton habillement et ton langage. Tu sais …",
+     "en": "you don't take care of your person."
     },
     {
      "id": "sand-seg3",
@@ -1243,8 +1429,10 @@ window.WOG = {
       "grace"
      ],
      "text": "tu n'as point l'air propre et soigneu",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#grace\">tu n'as point l'air propre et soigneu</seg>",
      "before": "… et tout d'un garçon, dans ton air et dans tes manières ; c'est que tu ne prends pas soin de ta personne. Pour commencer,",
-     "after": ", et tu te fais paraître laide par ton habillement et ton langage. Tu sais bien que les enfants t'appellent d'un nom encore plus …"
+     "after": ", et tu te fais paraître laide par ton habillement et ton langage. Tu sais bien que les enfants t'appellent d'un nom encore plus …",
+     "en": "you don't look clean and tidy"
     },
     {
      "id": "sand-seg2-1",
@@ -1253,8 +1441,10 @@ window.WOG = {
       "body"
      ],
      "text": "tu te fais paraître laide par ton habillement et ton langage.",
+     "xml": "<seg xml:id=\"seg2.1\" ana=\"#body\">tu te fais paraître laide par \n            ton habillement et ton langage.</seg>",
      "before": "… tes manières ; c'est que tu ne prends pas soin de ta personne. Pour commencer, tu n'as point l'air propre et soigneu , et",
-     "after": "Tu sais bien que les enfants t'appellent d'un nom encore plus déplaisant que celui de grelet. Ils t'appellent souvent le màlot . Eh bien. …"
+     "after": "Tu sais bien que les enfants t'appellent d'un nom encore plus déplaisant que celui de grelet. Ils t'appellent souvent le màlot . Eh bien. …",
+     "en": "you make yourself look ugly by the way you dress and the way you talk."
     },
     {
      "id": "sand-seg1-2",
@@ -1263,8 +1453,11 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "le màlot",
+     "xml": "<seg xml:id=\"seg1.2\" ana=\"#counterstereotype\"> le màlot</seg>",
      "before": "… ton habillement et ton langage. Tu sais bien que les enfants t'appellent d'un nom encore plus déplaisant que celui de grelet. Ils t'appellent souvent",
-     "after": ". Eh bien. crois-tu que ce soit à propos, à seize ans, de ne point ressembler encore à une fille? Tu montes sur les …"
+     "after": ". Eh bien. crois-tu que ce soit à propos, à seize ans, de ne point ressembler encore à une fille? Tu montes sur les …",
+     "en": "the “màlot” (the tomboy)",
+     "enNote": "“Màlot” is a word from Sand's Berry dialect for a boyish girl."
     },
     {
      "id": "sand-seg1-3",
@@ -1273,8 +1466,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "de ne point ressembler encore à une fille?",
+     "xml": "<seg xml:id=\"seg1.3\" ana=\"#counterstereotype\"> de ne point ressembler encore à une fille?</seg>",
      "before": "… encore plus déplaisant que celui de grelet. Ils t'appellent souvent le màlot . Eh bien. crois-tu que ce soit à propos, à seize ans,",
-     "after": "Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen sans bride ni selle, tu la fais galoper …"
+     "after": "Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen sans bride ni selle, tu la fais galoper …",
+     "en": "not to look like a girl yet?"
     },
     {
      "id": "sand-seg1-4",
@@ -1283,8 +1478,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "C'est bon d'être forte et leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.",
+     "xml": "<seg xml:id=\"seg1.4\" ana=\"#counterstereotype\"> C'est bon d'être forte et \n            leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. \n            Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</seg>",
      "before": "… un vrai chat-écurieux, et quand tu sautes sur une jumen sans bride ni selle, tu la fais galoper comme si le diable était dessus.",
-     "after": "Aussi on te remarque, on te taquine, on crie après toi comme après lo un loup. Tu as de l'esprit et tu réponds des …"
+     "after": "Aussi on te remarque, on te taquine, on crie après toi comme après lo un loup. Tu as de l'esprit et tu réponds des …",
+     "en": "It's good to be strong and nimble; it's good, too, to be afraid of nothing, and for a man that's a gift of nature. But for a woman, too much is too much, and you look as if you want to be noticed."
     },
     {
      "id": "sand-seg4",
@@ -1293,8 +1490,10 @@ window.WOG = {
       "witch"
      ],
      "text": "sorcière",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#witch\">sorcière</seg>",
      "before": "… d'eux. Cela te fait craindre, et on déteste ceux qu'on craint On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois",
-     "after": "ou non, je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ; tu cherches …"
+     "after": "ou non, je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ; tu cherches …",
+     "en": "witch"
     },
     {
      "id": "sand-seg5",
@@ -1303,8 +1502,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#intellect\">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</seg>",
      "before": "… fait craindre, et on déteste ceux qu'on craint On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois sorcière ou non,",
-     "after": "tu cherches à le paraître pour effrayer ceux qui te fâchent, et c'est toujours un assez vilain renom que tu te donnes là. Voilà …"
+     "after": "tu cherches à le paraître pour effrayer ceux qui te fâchent, et c'est toujours un assez vilain renom que tu te donnes là. Voilà …",
+     "en": "I'm willing to believe you know things, but I hope you haven't given yourself over to evil spirits;"
     },
     {
      "id": "sand-seg4-1",
@@ -1313,8 +1514,10 @@ window.WOG = {
       "witch"
      ],
      "text": "mauvais sorts",
+     "xml": "<seg xml:id=\"seg4.1\" ana=\"#witch\">mauvais sorts</seg>",
      "before": "… ? \" \" L'endroit n'est guère agréable,\" dit Landry, qui ne se souciait point trop de s'attarder avec elle, et qui songeait toujours aux",
-     "after": "qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point. \"Tu ne trouves point l'endroit agréable,\" reprit-elle, \"parce que vous autres riches vous …"
+     "after": "qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point. \"Tu ne trouves point l'endroit agréable,\" reprit-elle, \"parce que vous autres riches vous …",
+     "en": "evil spells"
     },
     {
      "id": "sand-seg4-2",
@@ -1323,8 +1526,10 @@ window.WOG = {
       "witch"
      ],
      "text": "sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, je les regarde et ne méprise ni leur odeur ni leur figure.",
+     "xml": "<seg xml:id=\"seg4.2\" ana=\"#witch\">sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, \n            je les regarde et ne méprise ni leur odeur ni leur figure.</seg>",
      "before": "… endroit, Landry, pour ceux qui connaissent la vertu et la douceur de toutes les choses que Dieu a faites. Moi, je sais, sans être",
-     "after": "Je te dis cela, Landry, pour t'enseigner tout à l'heure une autre cliose qui se rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des …"
+     "after": "Je te dis cela, Landry, pour t'enseigner tout à l'heure une autre cliose qui se rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des …",
+     "en": "witch, what the humblest herbs you crush underfoot are good for; and once I know their use, I look at them and scorn neither their smell nor their shape."
     },
     {
      "id": "sand-seg6",
@@ -1333,8 +1538,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "ma vilaine figure et à mes mauvais habillements",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#beauty\">ma vilaine figure \n            et à mes mauvais habillements</seg>",
      "before": "… eu de sérieux envers les autres ; et si le monde était juste et raisonnable, il ferait plus d'attention à mon bon cœur qu'à",
-     "after": ". Vois un peu, ou apprends si tu ne le sais, quel a été mon sort depuis que je suis au monde. Je ne …"
+     "after": ". Vois un peu, ou apprends si tu ne le sais, quel a été mon sort depuis que je suis au monde. Je ne …",
+     "en": "my ugly face and my shabby clothes"
     },
     {
      "id": "sand-seg1-5",
@@ -1343,8 +1550,10 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "Peut être qu'à ma place une fille raisonnable",
+     "xml": "<seg xml:id=\"seg1.5\" ana=\"#counterstereotype\">Peut être qu'à ma place une fille raisonnable</seg>",
      "before": "… pour un rien qu'ils se seraient pardonné entre eux, ils me reprochaient la faute de ma mère et voulaient me forcer à rougir d'elle.",
-     "after": ", comme tu dis, se fût abaissée dans le silence, pensant qu'il était prudent d'abandonner la cause de sa mère et de la laisser …"
+     "after": ", comme tu dis, se fût abaissée dans le silence, pensant qu'il était prudent d'abandonner la cause de sa mère et de la laisser …",
+     "en": "Perhaps in my place a sensible girl"
     },
     {
      "id": "sand-seg7",
@@ -1353,8 +1562,10 @@ window.WOG = {
       "bitch"
      ],
      "text": "enfant de coureuse et de vivandière",
+     "xml": "<seg xml:id=\"seg7\" ana=\"#bitch\">enfant de coureuse et de vivandière</seg>",
      "before": "… je la retrouve ou que je n'en entende jamais parler, je laimerai toujours de toute la force de mon cœur. Aussi, quand on m'appell",
-     "after": ", je suis en colère, non à cause de moi : je sais bien que cela ne peut m'offenser, puisque je n'ai rien fait …"
+     "after": ", je suis en colère, non à cause de moi : je sais bien que cela ne peut m'offenser, puisque je n'ai rien fait …",
+     "en": "child of a gadabout and a camp-follower"
     },
     {
      "id": "sand-seg5-1",
@@ -1363,8 +1574,10 @@ window.WOG = {
       "intellect"
      ],
      "text": "curieuse, si c'est l'être que de désirer connaître les choses cachées",
+     "xml": "<seg xml:id=\"seg5.1\" ana=\"#intellect\">curieuse, \n            si c'est l'être que de désirer connaître les choses\n            cachées</seg>",
      "before": "… disent que je suis curieuse et insolente, que je surprends leurs secrets pour les divulguer. Il est vrai que le bon Dieu m'a faite",
-     "after": ". Mais si on avait été bon et humain envers moi, je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. J'aurais …"
+     "after": ". Mais si on avait été bon et humain envers moi, je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. J'aurais …",
+     "en": "curious, if it is curious to want to know hidden things"
     },
     {
      "id": "sand-seg4-3",
@@ -1373,8 +1586,10 @@ window.WOG = {
       "witch"
      ],
      "text": "j'ai été traitée de sorcière",
+     "xml": "<seg xml:id=\"seg4.3\" ana=\"#witch\">j'ai été traitée de sorcière</seg>",
      "before": "… les enfants de mon âge dont je guérissais les blessures et les maladies, et à qui- j'enseignais mes remèdes sans demander -jamais de récompense,",
-     "after": ", et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, me disaient plus tard des sottises à la première …"
+     "after": ", et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, me disaient plus tard des sottises à la première …",
+     "en": "I've been called a witch"
     },
     {
      "id": "sand-seg6-1",
@@ -1383,8 +1598,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "Quant à ne prendre soin ni de ma personne",
+     "xml": "<seg xml:id=\"seg6.1\" ana=\"#beauty\">Quant à ne prendre soin ni de ma personne </seg>",
      "before": "… de suite ce qui me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi que Dieu le commande.",
-     "after": "ni de mes manières , cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je …"
+     "after": "ni de mes manières , cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je …",
+     "en": "As for taking care neither of my person"
     },
     {
      "id": "sand-seg3-1",
@@ -1393,8 +1610,10 @@ window.WOG = {
       "grace"
      ],
      "text": "ni de mes manières",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#grace\">ni de mes manières</seg>",
      "before": "… la langue, et qu'ensuite je n'y pense plus et pardonne ainsi que Dieu le commande. Quant à ne prendre soin ni de ma personne",
-     "after": ", cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je suis si laide que …"
+     "after": ", cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je suis si laide que …",
+     "en": "nor of my manners"
     },
     {
      "id": "sand-seg6-2",
@@ -1403,8 +1622,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "qu'elle est laide ! il faut la tuer !",
+     "xml": "<seg xml:id=\"seg6.2\" ana=\"#beauty\">qu'elle est laide ! il faut la tuer ! </seg>",
      "before": "… leur reproche moi-même. Aussi, moi, je ne suis pas comme ceux qui disent : ' Voilà une chenille, une vilaine bête ; ah !",
-     "after": "' Moi, je n'écrase pas la pauvre créature du bon Dieu, et si lo la chenille tombe dans l'eau, je lui tends une feuille …"
+     "after": "' Moi, je n'écrase pas la pauvre créature du bon Dieu, et si lo la chenille tombe dans l'eau, je lui tends une feuille …",
+     "en": "how ugly she is! she should be killed!"
     },
     {
      "id": "sand-seg4-4",
@@ -1413,11 +1634,30 @@ window.WOG = {
       "witch"
      ],
      "text": "Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes à une guêpe et à clouer une chauve-souris vivante contre un arbre.",
+     "xml": "<seg xml:id=\"seg4.4\" ana=\"#witch\">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, \n        parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes \n        à une guêpe et à clouer une chauve-souris vivante contre un arbre.</seg>",
      "before": "… pas la pauvre créature du bon Dieu, et si lo la chenille tombe dans l'eau, je lui tends une feuille pour qu'elle se sauve.",
-     "after": "Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, je n'aurais pas plus que toi le droit de …"
+     "after": "Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, je n'aurais pas plus que toi le droit de …",
+     "en": "And because of that they say I love wicked creatures and that I'm a witch, because I don't like making a frog suffer, pulling the legs off a wasp, or nailing a live bat to a tree."
     }
    ],
-   "html": "<p>\"Eh bien, <span class=\"pers\" data-p=\"FanchonFadet\">Fanchon Fadet</span>, puisque tu parles si raisonnablement, et que, pour la première fois de ta vie, je te vois douce et trai table, je vas te dire pourquoi <span class=\"seg\" id=\"sand-seg1\" data-c=\"counterstereotype\"> on ne te respecte pas comme une fille de seize ans devrait pouvoir l'exiger.</span> C'est que <span class=\"seg\" id=\"sand-seg1-1\" data-c=\"counterstereotype\"> tu n'as rien d'une fille et tout d'un garçon</span>, dans ton air et dans tes manières ; c'est que <span class=\"seg\" id=\"sand-seg2\" data-c=\"body\">tu ne prends pas soin de ta personne.</span> Pour commencer, <span class=\"seg\" id=\"sand-seg3\" data-c=\"grace\">tu n'as point l'air propre et soigneu</span> , et <span class=\"seg\" id=\"sand-seg2-1\" data-c=\"body\">tu te fais paraître laide par ton habillement et ton langage.</span> Tu sais bien que les enfants t'appellent d'un nom encore plus déplaisant que celui de grelet. Ils t'appellent souvent <span class=\"seg\" id=\"sand-seg1-2\" data-c=\"counterstereotype\"> le màlot</span> . Eh bien. crois-tu que ce soit à propos, à seize ans, <span class=\"seg\" id=\"sand-seg1-3\" data-c=\"counterstereotype\"> de ne point ressembler encore à une fille?</span> Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen sans bride ni selle, tu la fais galoper comme si le diable était dessus. <span class=\"seg\" id=\"sand-seg1-4\" data-c=\"counterstereotype\"> C'est bon d'être forte et leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</span> Aussi on te remarque, on te taquine, on crie après toi comme après lo un loup. Tu as de l'esprit et tu réponds des malices qui font rire ceux à qui elles ne s'adressent point. C'est encore bon d'avoir plus d'esprit que les autres ; mais à force de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu as surpris les secrets des autres, tu les leur jettes à la.\"figure bien durement, aussitôt que tu as à te plaindre d'eux. Cela te fait craindre, et on déteste ceux qu'on craint On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois <span class=\"seg\" id=\"sand-seg4\" data-c=\"witch\">sorcière</span> ou non, <span class=\"seg\" id=\"sand-seg5\" data-c=\"intellect\">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</span> tu cherches à le paraître pour effrayer ceux qui te fâchent, et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, <span class=\"pers\" data-p=\"FanchonFadet\">Fanchon Fadet</span>, et c'est à cause de ces torts-là que les gens en ont avec toi. Rumine un peu la chose, et tu verras que si tu voulais être un peu plus comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement\".</p> <p>\" Je te remercie, <span class=\"pers\" data-p=\"Landry\">Landry</span>,\" répondit la petite <span class=\"pers\" data-p=\"FanchonFadet\">Fadette</span>, d'un air très-sérieux, après avoir écouté le besson bien religieusement \"Tu m'as dit à peu près ce que tout le monde me reproche, et tu me l'as dit avec beaucoup d'honnêteté et de ménagement, ce que les autres ne font point ; mais à présent veux- tu que je te réponde, et, pour cela, veux-tu t'asseoir à mon côté pour un petit moment ? \" \" L'endroit n'est guère agréable,\" dit <span class=\"pers\" data-p=\"Landry\">Landry</span>, qui ne se souciait point trop de s'attarder avec elle, et qui songeait toujours aux <span class=\"seg\" id=\"sand-seg4-1\" data-c=\"witch\">mauvais sorts</span> qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point.</p> <p>\"Tu ne trouves point l'endroit agréable,\" reprit-elle, \"parce que vous autres riches vous êtes difficiles. Il vous faut du beau gazon pour vous asseoir dehors, et vous pouvez choisir dans vos prés et dans vos jardins les plus belles places et le meilleur ombrage. Mais ceux qui n'ont rien à eux n'en demandent pas si long au bon <span class=\"role\">Dieu</span>, et ils s'accommodent de la première pierre venue pour poser leur tête. Les épines ne blessent point leurs pieds, et là où ils se trouvent ils observent tout ce qui est joli et avenant au ciel et sur la terre II n*y a point de vilain endroit, <span class=\"pers\" data-p=\"Landry\">Landry</span>, pour ceux qui connaissent la vertu et la douceur de toutes les choses que <span class=\"role\">Dieu</span> a faites. Moi, je sais, sans être <span class=\"seg\" id=\"sand-seg4-2\" data-c=\"witch\">sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, je les regarde et ne méprise ni leur odeur ni leur figure.</span> Je te dis cela, <span class=\"pers\" data-p=\"Landry\">Landry</span>, pour t'enseigner tout à l'heure une autre cliose qui se rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des jardins et aux ronces des carrières ; c'est que l'on méprise trop souvent ce qui ne paraît ni beau ni bon, et que par là on se prive de ce qui est secourable et salutaire.\"</p> <p>\"Je n'entends pas bien ce que tu veux signifier,\" dit <span class=\"pers\" data-p=\"Landry\">Landry</span> en s'asseyant auprès d'elle ; — et ils restèrent un istant sans parler, car la petite <span class=\"pers\">Fadette</span> avait l'espiit envolé à des idées que Landry ne connaissait point ; et, quant à lui, malgré qu'il en eût un peu d'embrouillement dans la tête, il ne pouvait pas s'empêcher d'avoir du plaisir à entendre cette, fille; car jamais il n'avait entendu une voix si douce et des paroles si bien dites que les paroles et la voix de la Fadette dans ce moment-là.</p> <p>\" Écoute, <span class=\"pers\" data-p=\"Landry\">Landry</span>,\" lui dit-elle, \" je suis plus à plaindre qu'à blâmer; et si j'ai des torts envers moi-même, du moins n'en ai-je jamais eu de sérieux envers les autres ; et si le monde était juste et raisonnable, il ferait plus d'attention à mon bon cœur qu'à <span class=\"seg\" id=\"sand-seg6\" data-c=\"beauty\">ma vilaine figure et à mes mauvais habillements</span> . Vois un peu, ou apprends si tu ne le sais, quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de ma pauvre mère qu'un chacun blâme et insulte, quoiqu'elle ne soit point là pour se défendre, et sans que je puisse le faire moi qui ne sais pas bien ce qu'elle a fait de mal, ni pourquoi elle a été poussée lo à le faire. Eh bien, le monde est si méchant, qu'à peine ma mère m'eut-elle délaissée, et comme je la pleurais encore bien amèrement, au moindre dépit que les autres enfants avaient contre moi, pour un jeu, pour un rien qu'ils se seraient pardonné entre eux, ils me reprochaient la faute de ma mère et voulaient me forcer à rougir d'elle. <span class=\"seg\" id=\"sand-seg1-5\" data-c=\"counterstereotype\">Peut être qu'à ma place une fille raisonnable</span> , comme tu dis, se fût abaissée dans le silence, pensant qu'il était prudent d'abandonner la cause de sa mère et de la laisser injurier pour se préserver de l'être. Mais moi, vois-tu, je ne le pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, et qu'elle soit ce qu'on voudra, que je la retrouve ou que je n'en entende jamais parler, je laimerai toujours de toute la force de mon cœur. Aussi, quand on m'appell <span class=\"seg\" id=\"sand-seg7\" data-c=\"bitch\">enfant de coureuse et de vivandière</span> , je suis en colère, non à cause de moi : je sais bien que cela ne peut m'offenser, puisque je n'ai rien fait de mal ; mais à cause de cette pauvre chère femme que mon devoir est de défendre. Et comme je ne peux ni ne sais la défendre, je la venge, en disant aux autres les vérités qu'ils méritent, et en leur montrant qu'ils ne valent pas mieux que celle à qui ils jettent la pierre. Voilà pourqoui ils disent que je suis curieuse et insolente, que je surprends leurs secrets pour les divulguer. Il est vrai que le bon <span class=\"role\">Dieu</span> m'a faite <span class=\"seg\" id=\"sand-seg5-1\" data-c=\"intellect\">curieuse, si c'est l'être que de désirer connaître les choses cachées</span> . Mais si on avait été bon et humain envers moi, je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. J'aurais renfermé mon amusement dans la connaissance des secrets que m'enseigne ma grand'mère pour la guérison du corps humain. Les fleurs, les herbes, les pierres, les mouches, tous les secrets de nature, il y en aurait eu bien assez pour m'occuper et pour me divertir, moi qui aime à vaguer et à fureter partout J'aurais toujours été seule, sans connaître l'ennui ; car mon plus grand plaisir est d'aller dans les endroits qu'on ne fréquente point et d'y rêvasser à cinquante choses dont je n'entends jamais parler aux personnes qui se croient bien sages et bien avisées. Si je me suis laissé attirer dans le commerce de mon prochain, c'est par l'envie que j'avais de rendre service avec les petites connaissances qui me sont venues et dont ma grand'mère elle-même fait souvent son profit sans rien dire. Eh bien, au lieu d'être remerciée honnêtement par tous les enfants de mon âge dont je guérissais les blessures et les maladies, et à qui- j'enseignais mes remèdes sans demander -jamais de récompense, <span class=\"seg\" id=\"sand-seg4-3\" data-c=\"witch\">j'ai été traitée de sorcière</span> , et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, me disaient plus tard des sottises à la première occasion.</p> <p>\" Cela me courrouçait, et j'aurais pu leur nuire, car si je sais des choses pour faire du bien, j'en sais aussi pour faire du mal ; et pourtant je n'en ai jamais fait usage ; je ne connais point la rancune, et si je me venge en paroles, c'est que je suis soulagée en disant tout de suite ce qui me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi que Dieu le commande. <span class=\"seg\" id=\"sand-seg6-1\" data-c=\"beauty\">Quant à ne prendre soin ni de ma personne </span> <span class=\"seg\" id=\"sand-seg3-1\" data-c=\"grace\">ni de mes manières</span> , cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je suis si laide que personne ne peut me regarder. On me l'a dit assez souvent pour que je le sache; et, en voyant combien les gens sont durs et méprisants pour ceux que le bon <span class=\"role\">Dieu</span> a mal partagés, je me suis fait un plaisir de leur déplaire, me consolant par l'idée que ma figure n'avait rien de repoussant pour le bon Dieu et pour mon ange gardien, lesquels ne me la reprocheraient pas plus que je ne la leur reproche moi-même. Aussi, moi, je ne suis pas comme ceux qui disent : ' Voilà une chenille, une vilaine bête ; ah ! <span class=\"seg\" id=\"sand-seg6-2\" data-c=\"beauty\">qu'elle est laide ! il faut la tuer ! </span> ' Moi, je n'écrase pas la pauvre créature du bon <span class=\"role\">Dieu</span>, et si lo la chenille tombe dans l'eau, je lui tends une feuille pour qu'elle se sauve. <span class=\"seg\" id=\"sand-seg4-4\" data-c=\"witch\">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes à une guêpe et à clouer une chauve-souris vivante contre un arbre.</span> Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, je n'aurais pas plus que toi le droit de vivre.\"</p>"
+   "html": "<p>\"Eh bien, <span class=\"pers\" data-p=\"FanchonFadet\">Fanchon Fadet</span>, puisque tu parles si raisonnablement, et que, pour la première fois de ta vie, je te vois douce et trai table, je vas te dire pourquoi <span class=\"seg\" id=\"sand-seg1\" data-c=\"counterstereotype\"> on ne te respecte pas comme une fille de seize ans devrait pouvoir l'exiger.</span> C'est que <span class=\"seg\" id=\"sand-seg1-1\" data-c=\"counterstereotype\"> tu n'as rien d'une fille et tout d'un garçon</span>, dans ton air et dans tes manières ; c'est que <span class=\"seg\" id=\"sand-seg2\" data-c=\"body\">tu ne prends pas soin de ta personne.</span> Pour commencer, <span class=\"seg\" id=\"sand-seg3\" data-c=\"grace\">tu n'as point l'air propre et soigneu</span> , et <span class=\"seg\" id=\"sand-seg2-1\" data-c=\"body\">tu te fais paraître laide par ton habillement et ton langage.</span> Tu sais bien que les enfants t'appellent d'un nom encore plus déplaisant que celui de grelet. Ils t'appellent souvent <span class=\"seg\" id=\"sand-seg1-2\" data-c=\"counterstereotype\"> le màlot</span> . Eh bien. crois-tu que ce soit à propos, à seize ans, <span class=\"seg\" id=\"sand-seg1-3\" data-c=\"counterstereotype\"> de ne point ressembler encore à une fille?</span> Tu montes sur les arbres comme un vrai chat-écurieux, et quand tu sautes sur une jumen sans bride ni selle, tu la fais galoper comme si le diable était dessus. <span class=\"seg\" id=\"sand-seg1-4\" data-c=\"counterstereotype\"> C'est bon d'être forte et leste ; c'est bon aussi de n'avoir peur de rien, et c'est un avantage de nature pour un homme. Mais pour une femme trop est trop, et tu as l'air de vouloir te faire remarquer.</span> Aussi on te remarque, on te taquine, on crie après toi comme après lo un loup. Tu as de l'esprit et tu réponds des malices qui font rire ceux à qui elles ne s'adressent point. C'est encore bon d'avoir plus d'esprit que les autres ; mais à force de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu as surpris les secrets des autres, tu les leur jettes à la.\"figure bien durement, aussitôt que tu as à te plaindre d'eux. Cela te fait craindre, et on déteste ceux qu'on craint On leur rend plus de mal qu'ils n'en font. Enfin, que tu sois <span class=\"seg\" id=\"sand-seg4\" data-c=\"witch\">sorcière</span> ou non, <span class=\"seg\" id=\"sand-seg5\" data-c=\"intellect\">je veux croire que tu as des connaissances, mais j'espère que tu ne t'es pas donnée aux mauvais esprits ;</span> tu cherches à le paraître pour effrayer ceux qui te fâchent, et c'est toujours un assez vilain renom que tu te donnes là. Voilà tous tes torts, <span class=\"pers\" data-p=\"FanchonFadet\">Fanchon Fadet</span>, et c'est à cause de ces torts-là que les gens en ont avec toi. Rumine un peu la chose, et tu verras que si tu voulais être un peu plus comme les autres, on te saurait plus de gré de ce que tu as de plus qu'eux dans ton entendement\".</p> <p>\" Je te remercie, <span class=\"pers\" data-p=\"Landry\">Landry</span>,\" répondit la petite <span class=\"pers\" data-p=\"FanchonFadet\">Fadette</span>, d'un air très-sérieux, après avoir écouté le besson bien religieusement \"Tu m'as dit à peu près ce que tout le monde me reproche, et tu me l'as dit avec beaucoup d'honnêteté et de ménagement, ce que les autres ne font point ; mais à présent veux- tu que je te réponde, et, pour cela, veux-tu t'asseoir à mon côté pour un petit moment ? \" \" L'endroit n'est guère agréable,\" dit <span class=\"pers\" data-p=\"Landry\">Landry</span>, qui ne se souciait point trop de s'attarder avec elle, et qui songeait toujours aux <span class=\"seg\" id=\"sand-seg4-1\" data-c=\"witch\">mauvais sorts</span> qu'on l'accusait de jeter sur ceux qui ne s'en méfiaient point.</p> <p>\"Tu ne trouves point l'endroit agréable,\" reprit-elle, \"parce que vous autres riches vous êtes difficiles. Il vous faut du beau gazon pour vous asseoir dehors, et vous pouvez choisir dans vos prés et dans vos jardins les plus belles places et le meilleur ombrage. Mais ceux qui n'ont rien à eux n'en demandent pas si long au bon <span class=\"role\">Dieu</span>, et ils s'accommodent de la première pierre venue pour poser leur tête. Les épines ne blessent point leurs pieds, et là où ils se trouvent ils observent tout ce qui est joli et avenant au ciel et sur la terre II n*y a point de vilain endroit, <span class=\"pers\" data-p=\"Landry\">Landry</span>, pour ceux qui connaissent la vertu et la douceur de toutes les choses que <span class=\"role\">Dieu</span> a faites. Moi, je sais, sans être <span class=\"seg\" id=\"sand-seg4-2\" data-c=\"witch\">sorcière, à quoi sont bonnes les moindres herbes que tu écrases sous tes pieds ; et quand je sais leur usage, je les regarde et ne méprise ni leur odeur ni leur figure.</span> Je te dis cela, <span class=\"pers\" data-p=\"Landry\">Landry</span>, pour t'enseigner tout à l'heure une autre cliose qui se rapporte aux âmes chrétiennes aussi bien qu'aux fleurs des jardins et aux ronces des carrières ; c'est que l'on méprise trop souvent ce qui ne paraît ni beau ni bon, et que par là on se prive de ce qui est secourable et salutaire.\"</p> <p>\"Je n'entends pas bien ce que tu veux signifier,\" dit <span class=\"pers\" data-p=\"Landry\">Landry</span> en s'asseyant auprès d'elle ; — et ils restèrent un istant sans parler, car la petite <span class=\"pers\">Fadette</span> avait l'espiit envolé à des idées que Landry ne connaissait point ; et, quant à lui, malgré qu'il en eût un peu d'embrouillement dans la tête, il ne pouvait pas s'empêcher d'avoir du plaisir à entendre cette, fille; car jamais il n'avait entendu une voix si douce et des paroles si bien dites que les paroles et la voix de la Fadette dans ce moment-là.</p> <p>\" Écoute, <span class=\"pers\" data-p=\"Landry\">Landry</span>,\" lui dit-elle, \" je suis plus à plaindre qu'à blâmer; et si j'ai des torts envers moi-même, du moins n'en ai-je jamais eu de sérieux envers les autres ; et si le monde était juste et raisonnable, il ferait plus d'attention à mon bon cœur qu'à <span class=\"seg\" id=\"sand-seg6\" data-c=\"beauty\">ma vilaine figure et à mes mauvais habillements</span> . Vois un peu, ou apprends si tu ne le sais, quel a été mon sort depuis que je suis au monde. Je ne te dirai point de mal de ma pauvre mère qu'un chacun blâme et insulte, quoiqu'elle ne soit point là pour se défendre, et sans que je puisse le faire moi qui ne sais pas bien ce qu'elle a fait de mal, ni pourquoi elle a été poussée lo à le faire. Eh bien, le monde est si méchant, qu'à peine ma mère m'eut-elle délaissée, et comme je la pleurais encore bien amèrement, au moindre dépit que les autres enfants avaient contre moi, pour un jeu, pour un rien qu'ils se seraient pardonné entre eux, ils me reprochaient la faute de ma mère et voulaient me forcer à rougir d'elle. <span class=\"seg\" id=\"sand-seg1-5\" data-c=\"counterstereotype\">Peut être qu'à ma place une fille raisonnable</span> , comme tu dis, se fût abaissée dans le silence, pensant qu'il était prudent d'abandonner la cause de sa mère et de la laisser injurier pour se préserver de l'être. Mais moi, vois-tu, je ne le pouvais pas. C'était plus fort- que moi. Ma mère était toujours ma mère, et qu'elle soit ce qu'on voudra, que je la retrouve ou que je n'en entende jamais parler, je laimerai toujours de toute la force de mon cœur. Aussi, quand on m'appell <span class=\"seg\" id=\"sand-seg7\" data-c=\"bitch\">enfant de coureuse et de vivandière</span> , je suis en colère, non à cause de moi : je sais bien que cela ne peut m'offenser, puisque je n'ai rien fait de mal ; mais à cause de cette pauvre chère femme que mon devoir est de défendre. Et comme je ne peux ni ne sais la défendre, je la venge, en disant aux autres les vérités qu'ils méritent, et en leur montrant qu'ils ne valent pas mieux que celle à qui ils jettent la pierre. Voilà pourqoui ils disent que je suis curieuse et insolente, que je surprends leurs secrets pour les divulguer. Il est vrai que le bon <span class=\"role\">Dieu</span> m'a faite <span class=\"seg\" id=\"sand-seg5-1\" data-c=\"intellect\">curieuse, si c'est l'être que de désirer connaître les choses cachées</span> . Mais si on avait été bon et humain envers moi, je n'aurais pas songé à contenter ma curiosité aux dépens du prochain. J'aurais renfermé mon amusement dans la connaissance des secrets que m'enseigne ma grand'mère pour la guérison du corps humain. Les fleurs, les herbes, les pierres, les mouches, tous les secrets de nature, il y en aurait eu bien assez pour m'occuper et pour me divertir, moi qui aime à vaguer et à fureter partout J'aurais toujours été seule, sans connaître l'ennui ; car mon plus grand plaisir est d'aller dans les endroits qu'on ne fréquente point et d'y rêvasser à cinquante choses dont je n'entends jamais parler aux personnes qui se croient bien sages et bien avisées. Si je me suis laissé attirer dans le commerce de mon prochain, c'est par l'envie que j'avais de rendre service avec les petites connaissances qui me sont venues et dont ma grand'mère elle-même fait souvent son profit sans rien dire. Eh bien, au lieu d'être remerciée honnêtement par tous les enfants de mon âge dont je guérissais les blessures et les maladies, et à qui- j'enseignais mes remèdes sans demander -jamais de récompense, <span class=\"seg\" id=\"sand-seg4-3\" data-c=\"witch\">j'ai été traitée de sorcière</span> , et ceux qui venaient bien doucement me prier quand ils avaient besoin de moi, me disaient plus tard des sottises à la première occasion.</p> <p>\" Cela me courrouçait, et j'aurais pu leur nuire, car si je sais des choses pour faire du bien, j'en sais aussi pour faire du mal ; et pourtant je n'en ai jamais fait usage ; je ne connais point la rancune, et si je me venge en paroles, c'est que je suis soulagée en disant tout de suite ce qui me vient au bout de la langue, et qu'ensuite je n'y pense plus et pardonne ainsi que Dieu le commande. <span class=\"seg\" id=\"sand-seg6-1\" data-c=\"beauty\">Quant à ne prendre soin ni de ma personne </span> <span class=\"seg\" id=\"sand-seg3-1\" data-c=\"grace\">ni de mes manières</span> , cela devrait montrer que je ne suis pas assez folle pour me croire belle, lorsque je sais que je suis si laide que personne ne peut me regarder. On me l'a dit assez souvent pour que je le sache; et, en voyant combien les gens sont durs et méprisants pour ceux que le bon <span class=\"role\">Dieu</span> a mal partagés, je me suis fait un plaisir de leur déplaire, me consolant par l'idée que ma figure n'avait rien de repoussant pour le bon Dieu et pour mon ange gardien, lesquels ne me la reprocheraient pas plus que je ne la leur reproche moi-même. Aussi, moi, je ne suis pas comme ceux qui disent : ' Voilà une chenille, une vilaine bête ; ah ! <span class=\"seg\" id=\"sand-seg6-2\" data-c=\"beauty\">qu'elle est laide ! il faut la tuer ! </span> ' Moi, je n'écrase pas la pauvre créature du bon <span class=\"role\">Dieu</span>, et si lo la chenille tombe dans l'eau, je lui tends une feuille pour qu'elle se sauve. <span class=\"seg\" id=\"sand-seg4-4\" data-c=\"witch\">Et à cause de cela on dit que j'aime les mauvaises bêtes et que je suis sorcière, parce que je n'aime pas à faire souffrir une grenouille, à arracher les pattes à une guêpe et à clouer une chauve-souris vivante contre un arbre.</span> Pauvre bête, que je lui dis, si on doit tuer tout ce qui est vilain, je n'aurais pas plus que toi le droit de vivre.\"</p>",
+   "life": {
+    "qid": "Q3816",
+    "viaf": "46766944",
+    "born": 1804,
+    "died": 1876,
+    "approx": false,
+    "birthplace": "former 6th arrondissement of Paris",
+    "deathplace": "Nohant-Vic",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "George Sand.PNG",
+     "page": "https://commons.wikimedia.org/wiki/File:George_Sand.PNG",
+     "artist": "Auguste Charpentier",
+     "licence": "Public domain",
+     "licenceUrl": null
+    }
+   }
   },
   {
    "id": "negri",
@@ -1486,8 +1726,10 @@ window.WOG = {
       "body"
      ],
      "text": "attillato come una fascia sul suo bel corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso, fra la nebbia.",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#body\"> attillato come una fascia sul suo bel\n        corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia\n        fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso,\n        fra la nebbia. </seg>",
      "before": "Raimonda alzò il bavero del soprabito,",
-     "after": "Così densa, così opaca era la nebbia, che si sarebbe potuta tagliar col coltello. Penetrava nella bocca e nelle narici, mozzava il respiro, dava …"
+     "after": "Così densa, così opaca era la nebbia, che si sarebbe potuta tagliar col coltello. Penetrava nella bocca e nelle narici, mozzava il respiro, dava …",
+     "en": "fitted like a band around her beautiful body, with a serpentine suppleness: she wound the fur boa around her collar up to her nose, thrust her hands into her muff, and off she went, head down, into the fog."
     },
     {
      "id": "negri-seg6",
@@ -1496,8 +1738,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "Raimonda aveva la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo, pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza maschera raggrinzata, paonazza, costringendo anche la bocca ad una smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#beauty\"> Raimonda aveva\n        la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta\n        sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte\n        era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo,\n        pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza\n        maschera raggrinzata, paonazza, costringendo anche la bocca ad una\n        smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</seg>",
      "before": "… camminava sicura, conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi gliel’avrebbero potuta far da sé senza l’aiuto degli occhi.",
-     "after": "Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel …"
+     "after": "Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel …",
+     "en": "The right side of Raimonda's face was horribly scarred. At ten, a bad fall onto the glowing embers of the fireplace had left her like this. By an irony of fate she had grown up lithe and very beautiful of body, warm-blooded, clear of soul, quick of the senses, surely made for a destiny of love, had the atrocious half-mask, wrinkled and purple, which twisted even her mouth into a grotesque grimace when she laughed, not disfigured her beyond remedy."
     },
     {
      "id": "negri-seg2",
@@ -1506,8 +1750,10 @@ window.WOG = {
       "society"
      ],
      "text": "Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel mostro non esiste la propria mostruosità».",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#society\"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva,\n        parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua\n        disgrazia. Pel mostro non esiste la propria mostruosità».</seg>",
      "before": "… un destino d’amore, se l’atroce mezza maschera raggrinzata, paonazza, costringendo anche la bocca ad una smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.",
-     "after": "S’ingannavano. Non forse la madre, alla quale il sesto senso materno dava pupille più penetranti; ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di …"
+     "after": "S’ingannavano. Non forse la madre, alla quale il sesto senso materno dava pupille più penetranti; ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di …",
+     "en": "Faced with her apparent cheerfulness, at times excessively exuberant, relatives and friends thought and said: «Luckily she doesn't mind her misfortune. The monster cannot see its own monstrousness.»"
     },
     {
      "id": "negri-seg4",
@@ -1516,8 +1762,10 @@ window.WOG = {
       "mother"
      ],
      "text": "Non forse la madre, alla quale il sesto senso materno dava pupille più penetranti;",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#mother\"> Non forse la madre, alla quale il sesto senso materno\n        dava pupille più penetranti;</seg>",
      "before": "… a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel mostro non esiste la propria mostruosità». S’ingannavano.",
-     "after": "ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso. La verità era questa: tolte le obliose ore …"
+     "after": "ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso. La verità era questa: tolte le obliose ore …",
+     "en": "Not, perhaps, her mother, whom the maternal sixth sense gave keener eyes;"
     },
     {
      "id": "negri-seg6-1",
@@ -1526,8 +1774,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "Per questo, nella propria camera, non teneva specchi.",
+     "xml": "<seg xml:id=\"seg6.1\" ana=\"#beauty\">Per questo, nella propria camera, non teneva specchi.</seg>",
      "before": "… sola o fra molti – ella non si fosse veduta nell’inesorabilità della sua laidezza, con quei terribili occhi in dentro, che non ingannano mai.",
-     "after": "Per questo, portava feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar sul capo alla brava, senza aiuto di spilloni; e vi …"
+     "after": "Per questo, portava feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar sul capo alla brava, senza aiuto di spilloni; e vi …",
+     "en": "That is why she kept no mirrors in her room."
     },
     {
      "id": "negri-seg2-1",
@@ -1536,8 +1786,10 @@ window.WOG = {
       "society"
      ],
      "text": "Non lasciava, tuttavia, trasparire agli uomini se non quel ch’era impossibile nascondere: il marchio del viso.",
+     "xml": "<seg xml:id=\"seg2.1\" ana=\"#society\"> Non lasciava, tuttavia, trasparire agli\n        uomini se non quel ch’era impossibile nascondere: il marchio del viso.</seg>",
      "before": "… Non v’è scampo contro di essa. Non v’è forza d’oblio che possa dimenticarla, o di dominio che possa vincerla. In tale stato viveva Raimonda.",
-     "after": "Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un divieto. Quel divieto la disonorava come una condanna. Dai dodici …"
+     "after": "Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un divieto. Quel divieto la disonorava come una condanna. Dai dodici …",
+     "en": "Yet she let men see nothing but what could not be hidden: the mark on her face."
     },
     {
      "id": "negri-seg5",
@@ -1546,8 +1798,10 @@ window.WOG = {
       "education"
      ],
      "text": "Aritmetica, disegno, fisica, grammatica, non sembravano in realtà che pretesti inventati dalla dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in boccio l’istinto atavico in quelle piccole future femmine, che già davano furtivamente un nome ed un corpo al loro bisogno di amare e di sentirsi amate.",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#education\"> Aritmetica, disegno,\n        fisica, grammatica, non sembravano in realtà che pretesti inventati dalla\n        dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in\n        boccio l’istinto atavico in quelle piccole future femmine, che già davano\n        furtivamente un nome ed un corpo al loro bisogno di amare e di sentirsi\n        amate.</seg>",
      "before": "… dei magazzini o l’odor d’inchiostro degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti acerbi, non germinasse che il desiderio dell’amore.",
-     "after": "Più tardi, nel laboratorio di macchine e strumenti fotografici, dove Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a sé, fra i …"
+     "after": "Più tardi, nel laboratorio di macchine e strumenti fotografici, dove Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a sé, fra i …",
+     "en": "Arithmetic, drawing, physics, grammar seemed in truth no more than pretexts invented by hard living and by the will of their families, to deceive, to strangle in the bud the atavistic instinct in those little future women, who were already secretly giving a name and a body to their need to love and to be loved."
     },
     {
      "id": "negri-seg3",
@@ -1556,8 +1810,10 @@ window.WOG = {
       "gender"
      ],
      "text": "Le commesse, eleganti in abiti tagliati sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello studio; oppure trovavan sulla porta, la sera, l’amico pronto per accompagnarle.",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#gender\"> Le commesse, eleganti in abiti tagliati\n        sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce\n        serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia\n        e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello\n        studio; oppure trovavan sulla porta, la sera, l’amico pronto per\n        accompagnarle.</seg>",
      "before": "… potuto collocarsi in qualità di dattilografa, ella, intorno a sé, fra i compagni di lavoro, non aveva veduto che amore, illusione d’amore, menzogna d’amore.",
-     "after": "Le varie correnti si urtavano, sprizzavan scintille nell’urto, creando per Raimonda un’irrespirabile atmosfera magnetica. La sua giovinezza era tagliata fuori da quelle vibrazioni di …"
+     "after": "Le varie correnti si urtavano, sprizzavan scintille nell’urto, creando per Raimonda un’irrespirabile atmosfera magnetica. La sua giovinezza era tagliata fuori da quelle vibrazioni di …",
+     "en": "The shop girls, smart in dresses cut to the latest fashion plate from remnants at thirty soldi a metre, their plaits pinned tight around their temples as the fashion was, in very high heels, their lashes and eyelids bruised with kohl, flirted, restless, with the young men of the office; or found at the door, in the evening, a friend ready to walk them home."
     },
     {
      "id": "negri-seg2-2",
@@ -1566,8 +1822,10 @@ window.WOG = {
       "society"
      ],
      "text": "La sua giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva sussistere la legge naturale dell’esistenza.",
+     "xml": "<seg xml:id=\"seg2.2\" ana=\"#society\">La sua\n        giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva\n        sussistere la legge naturale dell’esistenza. </seg>",
      "before": "… oppure trovavan sulla porta, la sera, l’amico pronto per accompagnarle. Le varie correnti si urtavano, sprizzavan scintille nell’urto, creando per Raimonda un’irrespirabile atmosfera magnetica.",
-     "after": "Lo sapeva. E vi pareva rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si aggrovigliavan dentro come un viluppo di serpi. Ed era …"
+     "after": "Lo sapeva. E vi pareva rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si aggrovigliavan dentro come un viluppo di serpi. Ed era …",
+     "en": "Her youth was cut off from those tremors of joy. For her, the natural law of existence could not hold."
     },
     {
      "id": "negri-seg2-3",
@@ -1576,8 +1834,10 @@ window.WOG = {
       "society"
      ],
      "text": "Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale riuscisse a nasconderla agli occhi altrui:",
+     "xml": "<seg xml:id=\"seg2.3\" ana=\"#society\">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale\n        riuscisse a nasconderla agli occhi altrui: </seg>",
      "before": "… naturale dell’esistenza. Lo sapeva. E vi pareva rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si aggrovigliavan dentro come un viluppo di serpi.",
-     "after": "simile in questo al bambino che, celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile ad ognuno. Era giunta a …"
+     "after": "simile in questo al bambino che, celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile ad ognuno. Era giunta a …",
+     "en": "And she had come to wish she were blind, as if her own blindness could hide her from the eyes of others:"
     },
     {
      "id": "negri-seg3-1",
@@ -1586,8 +1846,10 @@ window.WOG = {
       "gender"
      ],
      "text": "Scivolava rasente i muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle: «Signorina…». Non si volse, continuò la strada, col cuore che le martellava. Nessuno, nessuno, fino a quel momento, l’aveva seguita per via. «Signorina…» L’uomo la seguiva davvero, accordando il passo con quello di lei, mormorando altre parole, vuote, incoerenti, dolcissime.",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#gender\"> Scivolava rasente i\n        muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle:\n        «Signorina…».\n        Non si volse, continuò la strada, col cuore che le martellava. Nessuno,\n        nessuno, fino a quel momento, l’aveva seguita per via.\n        «Signorina…»\n        L’uomo la seguiva davvero, accordando il passo con quello di lei,\n        mormorando altre parole, vuote, incoerenti, dolcissime.</seg>",
      "before": "… di sicurezza. Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le indicava lo svolto di via Solferino in via Pontaccio.",
-     "after": "Raimonda le udiva per la prima, forse per l’unica volta; e la maschia voce era calda, profonda, vellutata, di quelle che agiscono immediatamente sui …"
+     "after": "Raimonda le udiva per la prima, forse per l’unica volta; e la maschia voce era calda, profonda, vellutata, di quelle che agiscono immediatamente sui …",
+     "en": "She was slipping along close to the walls, muffled up and happy, when a man's voice whispered behind her: «Signorina…». She did not turn; she walked on, her heart pounding. No one, no one, until that moment, had ever followed her in the street. «Signorina…» The man really was following her, matching his step to hers, murmuring other words, empty, incoherent, very sweet."
     },
     {
      "id": "negri-seg3-2",
@@ -1596,11 +1858,30 @@ window.WOG = {
       "gender"
      ],
      "text": "Milano era un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta felicità: solo temendo che l’ora dell’incantesimo finisse. In corso Garibaldi, quando comprese che soli cento passi la separavano dalla porta di casa, indugiò in un istante di perplessità, s’appoggiò al muro, sempre in silenzio. L’ignoto vide, in quel trepido atto, un invito. Trasse a sé la fanciulla pel braccio, cercò, avido, la bocca, senza vederla; e, attraverso la veletta, la baciò.",
+     "xml": "<seg xml:id=\"seg3.2\" ana=\"#gender\">Milano era\n        un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima\n        agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta\n        felicità: solo temendo che l’ora dell’incantesimo finisse.\n        In corso Garibaldi, quando comprese che soli cento passi la separavano\n        dalla porta di casa, indugiò in un istante di perplessità, s’appoggiò al muro,\n        sempre in silenzio. L’ignoto vide, in quel trepido atto, un invito. Trasse a sé\n        la fanciulla pel braccio, cercò, avido, la bocca, senza vederla; e, attraverso\n        la veletta, la baciò.</seg>",
      "before": "… nebbia li univa e li divideva nel medesimo tempo. Altre fantastiche ombre passavano, larve nere apparenti nelle orbite dei fanali, subito inghiottite dall’elemento grigio.",
-     "after": "Con sua immensa meraviglia, il bacio gli fu reso. Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in quell’attimo l’intera sua …"
+     "after": "Con sua immensa meraviglia, il bacio gli fu reso. Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in quell’attimo l’intera sua …",
+     "en": "Milan was an immense shipwrecked ship, where Raimonda was dying the sweetest death: revealed at last to a man; at last a woman; trembling with silent happiness; afraid only that the hour of enchantment would end. In Corso Garibaldi, when she understood that only a hundred steps separated her from her front door, she wavered for a moment, leaned against the wall, still silent. The stranger saw an invitation in that trembling gesture. He drew the girl to him by the arm, sought her mouth greedily, without seeing it; and, through the veil, kissed her."
     }
    ],
-   "html": "<p>Raimonda alzò il bavero del soprabito, <span class=\"seg\" id=\"negri-seg1\" data-c=\"body\"> attillato come una fascia sul suo bel corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso, fra la nebbia. </span> Così densa, così opaca era la nebbia, che si sarebbe potuta tagliar col coltello. Penetrava nella bocca e nelle narici, mozzava il respiro, dava il senso dell’asfissia. Vie e case scomparivano, dissolte nell’impalpabile massa dei vapori. Atmosfera di sogno. Ma un sogno sinistro, pieno d’agguati. Si doveva aprirsi il varco a guisa di nuotatori nell’acqua, respingendo la potenza d’un elemento. Le carrozze, rarissime, avanzavano adagio, passo passo, ombre vaghe e difformi nel grigio, scampanellando dalle sonagliere dei cavalli. La coltre spessa e morbida tappava ogni fessura, attutiva ogni rumore, mascherava ogni fisionomia. Di questo, sovra tutto, era felice Raimonda, che camminava sicura, conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <span class=\"seg\" id=\"negri-seg6\" data-c=\"beauty\"> Raimonda aveva la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo, pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza maschera raggrinzata, paonazza, costringendo anche la bocca ad una smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</span> <span class=\"seg\" id=\"negri-seg2\" data-c=\"society\"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel mostro non esiste la propria mostruosità».</span> S’ingannavano. <span class=\"seg\" id=\"negri-seg4\" data-c=\"mother\"> Non forse la madre, alla quale il sesto senso materno dava pupille più penetranti;</span> ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso. La verità era questa: tolte le obliose ore del sonno, non un minuto della vita di Raimonda era trascorso senza che – nel camminare, nel parlare, nel ridere, durante le più gravi e le più semplici occupazioni, sola o fra molti – ella non si fosse veduta nell’inesorabilità della sua laidezza, con quei terribili occhi in dentro, che non ingannano mai. <span class=\"seg\" id=\"negri-seg6-1\" data-c=\"beauty\">Per questo, nella propria camera, non teneva specchi.</span> Per questo, portava feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar sul capo alla brava, senza aiuto di spilloni; e vi avvolgeva intorno larghe e fitte velette a fiorami, le quali tuttavia non riuscivano a nascondere compiutamente il segno del fuoco. Talvolta, a notte alta, un incubo angoscioso la svegliava di soprassalto, col batticuore; ed ella sbarrava nel buio gli occhi ancor ciechi di sonno; e, subito, nell’implacabile memoria dei sensi le si scolpiva la visione del proprio volto; e pensava, con terrore, la disgraziata, che l’ombra sarebbe svanita con la notte, che la luce avrebbe fatto ritorno, e con essa gli sguardi pietosi o ironici o stupiti o sfuggenti, sulla sua deformità. Vi sono tragedie che afferrano una creatura in piena bellezza, in piena felicità, in piena armonia d’azione; e l’incalzano e l’aggirano vorticosamente nel loro turbine ruinoso: poi la lasciano, a terra, inerte, uno straccio, ma libera: ed ella a poco a poco si riconosce, si ritrova intatta, riprende a vivere, a gioire delle forze naturali, a respirare energia e speranza, quasi che nulla fosse avvenuto. – Vi è, invece, la tragedia muta, sorda, costante, fissa, che ha l’inesorabilità d’un cancro. Non v’è scampo contro di essa. Non v’è forza d’oblio che possa dimenticarla, o di dominio che possa vincerla. In tale stato viveva Raimonda. <span class=\"seg\" id=\"negri-seg2-1\" data-c=\"society\"> Non lasciava, tuttavia, trasparire agli uomini se non quel ch’era impossibile nascondere: il marchio del viso.</span> Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un divieto. Quel divieto la disonorava come una condanna. Dai dodici ai sedici anni, alle scuole tecniche, nei gruppi delle compagne non aveva udito che bisbigliar d’amore. Pareva che in tutte quelle fanciulle destinate a guadagnarsi la vita fra l’odor di muffa dei magazzini o l’odor d’inchiostro degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti acerbi, non germinasse che il desiderio dell’amore. <span class=\"seg\" id=\"negri-seg5\" data-c=\"education\"> Aritmetica, disegno, fisica, grammatica, non sembravano in realtà che pretesti inventati dalla dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in boccio l’istinto atavico in quelle piccole future femmine, che già davano furtivamente un nome ed un corpo al loro bisogno di amare e di sentirsi amate.</span> Più tardi, nel laboratorio di macchine e strumenti fotografici, dove Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a sé, fra i compagni di lavoro, non aveva veduto che amore, illusione d’amore, menzogna d’amore. <span class=\"seg\" id=\"negri-seg3\" data-c=\"gender\"> Le commesse, eleganti in abiti tagliati sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello studio; oppure trovavan sulla porta, la sera, l’amico pronto per accompagnarle.</span> Le varie correnti si urtavano, sprizzavan scintille nell’urto, creando per Raimonda un’irrespirabile atmosfera magnetica. <span class=\"seg\" id=\"negri-seg2-2\" data-c=\"society\">La sua giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva sussistere la legge naturale dell’esistenza. </span> Lo sapeva. E vi pareva rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si aggrovigliavan dentro come un viluppo di serpi. <span class=\"seg\" id=\"negri-seg2-3\" data-c=\"society\">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale riuscisse a nasconderla agli occhi altrui: </span> simile in questo al bambino che, celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile ad ognuno. Era giunta a non trovarsi bene che nell’ombra; e sempre avrebbe voluto muoversi fra la densa bruma che ravvolgeva quella sera di novembre, dandole un senso inatteso e mordente d’agilità, di libertà, di sicurezza. Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le indicava lo svolto di via Solferino in via Pontaccio.<span class=\"seg\" id=\"negri-seg3-1\" data-c=\"gender\"> Scivolava rasente i muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle: «Signorina…». Non si volse, continuò la strada, col cuore che le martellava. Nessuno, nessuno, fino a quel momento, l’aveva seguita per via. «Signorina…» L’uomo la seguiva davvero, accordando il passo con quello di lei, mormorando altre parole, vuote, incoerenti, dolcissime.</span> Raimonda le udiva per la prima, forse per l’unica volta; e la maschia voce era calda, profonda, vellutata, di quelle che agiscono immediatamente sui sensi. Con un rapidissimo volger del capo e delle pupille aveva scorta l’alta figura d’un giovane, sfumata nella bruma che intorbidava, velandoli, i lineamenti del viso. Ah!… Quell’ignoto non l’avrebbe vista in faccia, non avrebbe celato il brivido del ribrezzo davanti alla mezza maschera deforme. Fitta veletta, fitta nebbia, ora di sogno, nella quale ella pure poteva esser bella per un uomo: ora che forse non sarebbe ritornata più!… Tacque, lasciò dire, lasciò che l’ignoto le si avvicinasse alle spalle, le si serrasse dappresso, tanto da alitarle nel collo il respiro profumato di sigaretta. «Signorina… Come si chiama?… Non corra tanto. Mi dica il suo nome, il suo bel nome. Signorina…» Nessuna udibile risposta; ma un consenso pieno di turbamento nel silenzio stesso, nel passo un poco rallentato, nell’atto di alzare il manicotto fino a celare il mento e la bocca. La nebbia li univa e li divideva nel medesimo tempo. Altre fantastiche ombre passavano, larve nere apparenti nelle orbite dei fanali, subito inghiottite dall’elemento grigio. <span class=\"seg\" id=\"negri-seg3-2\" data-c=\"gender\">Milano era un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta felicità: solo temendo che l’ora dell’incantesimo finisse. In corso Garibaldi, quando comprese che soli cento passi la separavano dalla porta di casa, indugiò in un istante di perplessità, s’appoggiò al muro, sempre in silenzio. L’ignoto vide, in quel trepido atto, un invito. Trasse a sé la fanciulla pel braccio, cercò, avido, la bocca, senza vederla; e, attraverso la veletta, la baciò.</span> Con sua immensa meraviglia, il bacio gli fu reso. Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in quell’attimo l’intera sua vita di donna, accumulando in quell’attimo sogni, desideri, brividi, carezze, impeti di dedizione, voluttà di sensazioni, tutta l’occulta parte di sé che alla luce spietata del sole non aveva diritto di esistere. Quando le ingorde labbra lentamente si staccarono, e il lunghissimo bacio ebbe fine, l’uomo stupefatto, inebriato, cieco, rimasto intontito sul marciapiede, sentì la fanciulla guizzargli di mano con agilità di lucertola, e sparir nell’ombra. Non tentò di seguirla. A un metro di distanza non sarebbe stato possibile riconoscere una persona. La massa fluttuante dei vapori s’addensava sempre più, diveniva un corpo quasi solido, benda agli occhi, bavaglio alla bocca. Ritrovata per virtù di consuetudine la porta della sua casa, infilata a capo basso un’umidiccia scala a chiocciola anch’essa invasa di nebbia, Raimonda suonò il campanello d’un modesto usciolo bruno. Alla madre che, inquieta e premurosa, le aperse, mormorò un frettoloso saluto. Poi, con voce rauca: «Stasera non mangio, ho male alla testa, voglio riposare, abbi pazienza…». E sgusciò nella sua camera e vi si rinchiuse. Nel letto, al buio, colle braccia avvinte sul seno, coi begli occhi sbarrati nell’oscurità, rabbrividendo ancora per tutto il corpo sotto l’invisibile carezza della maschia voce carnale, rigustando in bocca il sapore dell’unico bacio, si raggomitolò, sussultò, si contorse, pregò Iddio che di quell’ora non le togliesse mai più la memoria – e pianse, e rise.</p>"
+   "html": "<p>Raimonda alzò il bavero del soprabito, <span class=\"seg\" id=\"negri-seg1\" data-c=\"body\"> attillato come una fascia sul suo bel corpo, di serpentina flessuosità: avvolse intorno al bavero il boa di pelliccia fino all’altezza del naso, ficcò le mani nel manicotto, e via, a capo basso, fra la nebbia. </span> Così densa, così opaca era la nebbia, che si sarebbe potuta tagliar col coltello. Penetrava nella bocca e nelle narici, mozzava il respiro, dava il senso dell’asfissia. Vie e case scomparivano, dissolte nell’impalpabile massa dei vapori. Atmosfera di sogno. Ma un sogno sinistro, pieno d’agguati. Si doveva aprirsi il varco a guisa di nuotatori nell’acqua, respingendo la potenza d’un elemento. Le carrozze, rarissime, avanzavano adagio, passo passo, ombre vaghe e difformi nel grigio, scampanellando dalle sonagliere dei cavalli. La coltre spessa e morbida tappava ogni fessura, attutiva ogni rumore, mascherava ogni fisionomia. Di questo, sovra tutto, era felice Raimonda, che camminava sicura, conoscendo così bene la sua via quotidiana dall’ufficio alla casa, che i piedi gliel’avrebbero potuta far da sé senza l’aiuto degli occhi. <span class=\"seg\" id=\"negri-seg6\" data-c=\"beauty\"> Raimonda aveva la parte destra del viso orribilmente sfregiata. A dieci anni, una mala caduta sulla brace rovente del caminetto l’aveva ridotta così. Per ironia della sorte era cresciuta agile e bellissima di corpo, calda di sangue, chiara nell’animo, pronta nei sensi, certo creata per un destino d’amore, se l’atroce mezza maschera raggrinzata, paonazza, costringendo anche la bocca ad una smorfia grottesca nel riso, non l’avesse deturpata senza rimedio.</span> <span class=\"seg\" id=\"negri-seg2\" data-c=\"society\"> Dinanzi all’apparente gaiezza di lei, d’una esuberanza a tratti eccessiva, parenti e amici pensavano e dicevano: «Per fortuna è indifferente alla sua disgrazia. Pel mostro non esiste la propria mostruosità».</span> S’ingannavano. <span class=\"seg\" id=\"negri-seg4\" data-c=\"mother\"> Non forse la madre, alla quale il sesto senso materno dava pupille più penetranti;</span> ma, debole e incerta creatura crepuscolare, tentava, illudendosi, di sopire dentro di sé vergogna, dolore, rimorso. La verità era questa: tolte le obliose ore del sonno, non un minuto della vita di Raimonda era trascorso senza che – nel camminare, nel parlare, nel ridere, durante le più gravi e le più semplici occupazioni, sola o fra molti – ella non si fosse veduta nell’inesorabilità della sua laidezza, con quei terribili occhi in dentro, che non ingannano mai. <span class=\"seg\" id=\"negri-seg6-1\" data-c=\"beauty\">Per questo, nella propria camera, non teneva specchi.</span> Per questo, portava feltri o cuffiette di paglia d’un’estrema semplicità, che si potessero calcar sul capo alla brava, senza aiuto di spilloni; e vi avvolgeva intorno larghe e fitte velette a fiorami, le quali tuttavia non riuscivano a nascondere compiutamente il segno del fuoco. Talvolta, a notte alta, un incubo angoscioso la svegliava di soprassalto, col batticuore; ed ella sbarrava nel buio gli occhi ancor ciechi di sonno; e, subito, nell’implacabile memoria dei sensi le si scolpiva la visione del proprio volto; e pensava, con terrore, la disgraziata, che l’ombra sarebbe svanita con la notte, che la luce avrebbe fatto ritorno, e con essa gli sguardi pietosi o ironici o stupiti o sfuggenti, sulla sua deformità. Vi sono tragedie che afferrano una creatura in piena bellezza, in piena felicità, in piena armonia d’azione; e l’incalzano e l’aggirano vorticosamente nel loro turbine ruinoso: poi la lasciano, a terra, inerte, uno straccio, ma libera: ed ella a poco a poco si riconosce, si ritrova intatta, riprende a vivere, a gioire delle forze naturali, a respirare energia e speranza, quasi che nulla fosse avvenuto. – Vi è, invece, la tragedia muta, sorda, costante, fissa, che ha l’inesorabilità d’un cancro. Non v’è scampo contro di essa. Non v’è forza d’oblio che possa dimenticarla, o di dominio che possa vincerla. In tale stato viveva Raimonda. <span class=\"seg\" id=\"negri-seg2-1\" data-c=\"society\"> Non lasciava, tuttavia, trasparire agli uomini se non quel ch’era impossibile nascondere: il marchio del viso.</span> Ella si sentiva isolata. Fra il suo fluido e il fluido altrui s’interponeva un divieto. Quel divieto la disonorava come una condanna. Dai dodici ai sedici anni, alle scuole tecniche, nei gruppi delle compagne non aveva udito che bisbigliar d’amore. Pareva che in tutte quelle fanciulle destinate a guadagnarsi la vita fra l’odor di muffa dei magazzini o l’odor d’inchiostro degli uffici, in tutte quelle adolescenze verdastre ed asprigne come i frutti acerbi, non germinasse che il desiderio dell’amore. <span class=\"seg\" id=\"negri-seg5\" data-c=\"education\"> Aritmetica, disegno, fisica, grammatica, non sembravano in realtà che pretesti inventati dalla dura esistenza e dalla volontà dei parenti, per ingannare, per strozzare in boccio l’istinto atavico in quelle piccole future femmine, che già davano furtivamente un nome ed un corpo al loro bisogno di amare e di sentirsi amate.</span> Più tardi, nel laboratorio di macchine e strumenti fotografici, dove Raimonda aveva potuto collocarsi in qualità di dattilografa, ella, intorno a sé, fra i compagni di lavoro, non aveva veduto che amore, illusione d’amore, menzogna d’amore. <span class=\"seg\" id=\"negri-seg3\" data-c=\"gender\"> Le commesse, eleganti in abiti tagliati sull’ultimo figurino negli scampoli da trenta soldi al metro, colle trecce serrate intorno alle tempie secondo la moda, con tacchi altissimi, con ciglia e palpebre offese dal bistro, civettavano, nervose, coi giovanotti dello studio; oppure trovavan sulla porta, la sera, l’amico pronto per accompagnarle.</span> Le varie correnti si urtavano, sprizzavan scintille nell’urto, creando per Raimonda un’irrespirabile atmosfera magnetica. <span class=\"seg\" id=\"negri-seg2-2\" data-c=\"society\">La sua giovinezza era tagliata fuori da quelle vibrazioni di gioia. Per lei non poteva sussistere la legge naturale dell’esistenza. </span> Lo sapeva. E vi pareva rassegnata; ma, in fondo, avvilimento, desiderio insoddisfatto, rancore, le si aggrovigliavan dentro come un viluppo di serpi. <span class=\"seg\" id=\"negri-seg2-3\" data-c=\"society\">Ed era giunta a desiderar d’esser cieca, quasi che la cecità personale riuscisse a nasconderla agli occhi altrui: </span> simile in questo al bambino che, celandosi il volto col braccio alzato ad arco, crede di essersi reso invisibile ad ognuno. Era giunta a non trovarsi bene che nell’ombra; e sempre avrebbe voluto muoversi fra la densa bruma che ravvolgeva quella sera di novembre, dandole un senso inatteso e mordente d’agilità, di libertà, di sicurezza. Un fanale a gas, d’un fosco rosso di piaga nella compagine nebbiosa, le indicava lo svolto di via Solferino in via Pontaccio.<span class=\"seg\" id=\"negri-seg3-1\" data-c=\"gender\"> Scivolava rasente i muri, imbacuccata e felice, quando una voce maschia le susurrò alle spalle: «Signorina…». Non si volse, continuò la strada, col cuore che le martellava. Nessuno, nessuno, fino a quel momento, l’aveva seguita per via. «Signorina…» L’uomo la seguiva davvero, accordando il passo con quello di lei, mormorando altre parole, vuote, incoerenti, dolcissime.</span> Raimonda le udiva per la prima, forse per l’unica volta; e la maschia voce era calda, profonda, vellutata, di quelle che agiscono immediatamente sui sensi. Con un rapidissimo volger del capo e delle pupille aveva scorta l’alta figura d’un giovane, sfumata nella bruma che intorbidava, velandoli, i lineamenti del viso. Ah!… Quell’ignoto non l’avrebbe vista in faccia, non avrebbe celato il brivido del ribrezzo davanti alla mezza maschera deforme. Fitta veletta, fitta nebbia, ora di sogno, nella quale ella pure poteva esser bella per un uomo: ora che forse non sarebbe ritornata più!… Tacque, lasciò dire, lasciò che l’ignoto le si avvicinasse alle spalle, le si serrasse dappresso, tanto da alitarle nel collo il respiro profumato di sigaretta. «Signorina… Come si chiama?… Non corra tanto. Mi dica il suo nome, il suo bel nome. Signorina…» Nessuna udibile risposta; ma un consenso pieno di turbamento nel silenzio stesso, nel passo un poco rallentato, nell’atto di alzare il manicotto fino a celare il mento e la bocca. La nebbia li univa e li divideva nel medesimo tempo. Altre fantastiche ombre passavano, larve nere apparenti nelle orbite dei fanali, subito inghiottite dall’elemento grigio. <span class=\"seg\" id=\"negri-seg3-2\" data-c=\"gender\">Milano era un’immensa nave naufragata, ove Raimonda agonizzava in una dolcissima agonia: rivelata finalmente a un uomo: finalmente donna: tremante di muta felicità: solo temendo che l’ora dell’incantesimo finisse. In corso Garibaldi, quando comprese che soli cento passi la separavano dalla porta di casa, indugiò in un istante di perplessità, s’appoggiò al muro, sempre in silenzio. L’ignoto vide, in quel trepido atto, un invito. Trasse a sé la fanciulla pel braccio, cercò, avido, la bocca, senza vederla; e, attraverso la veletta, la baciò.</span> Con sua immensa meraviglia, il bacio gli fu reso. Ladra d’amore, sì, ella era; e sapeva e godeva d’esserlo, chiudendo in quell’attimo l’intera sua vita di donna, accumulando in quell’attimo sogni, desideri, brividi, carezze, impeti di dedizione, voluttà di sensazioni, tutta l’occulta parte di sé che alla luce spietata del sole non aveva diritto di esistere. Quando le ingorde labbra lentamente si staccarono, e il lunghissimo bacio ebbe fine, l’uomo stupefatto, inebriato, cieco, rimasto intontito sul marciapiede, sentì la fanciulla guizzargli di mano con agilità di lucertola, e sparir nell’ombra. Non tentò di seguirla. A un metro di distanza non sarebbe stato possibile riconoscere una persona. La massa fluttuante dei vapori s’addensava sempre più, diveniva un corpo quasi solido, benda agli occhi, bavaglio alla bocca. Ritrovata per virtù di consuetudine la porta della sua casa, infilata a capo basso un’umidiccia scala a chiocciola anch’essa invasa di nebbia, Raimonda suonò il campanello d’un modesto usciolo bruno. Alla madre che, inquieta e premurosa, le aperse, mormorò un frettoloso saluto. Poi, con voce rauca: «Stasera non mangio, ho male alla testa, voglio riposare, abbi pazienza…». E sgusciò nella sua camera e vi si rinchiuse. Nel letto, al buio, colle braccia avvinte sul seno, coi begli occhi sbarrati nell’oscurità, rabbrividendo ancora per tutto il corpo sotto l’invisibile carezza della maschia voce carnale, rigustando in bocca il sapore dell’unico bacio, si raggomitolò, sussultò, si contorse, pregò Iddio che di quell’ora non le togliesse mai più la memoria – e pianse, e rise.</p>",
+   "life": {
+    "qid": "Q346250",
+    "viaf": "73891042",
+    "born": 1870,
+    "died": 1945,
+    "approx": false,
+    "birthplace": "Lodi",
+    "deathplace": "Milan",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "Ada Negri 1913.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Ada_Negri_1913.jpg",
+     "artist": "Emilio Sommariva",
+     "licence": "Public domain",
+     "licenceUrl": null
+    }
+   }
   },
   {
    "id": "cahun",
@@ -1678,8 +1959,10 @@ window.WOG = {
       "sensuality"
      ],
      "text": "sensuelle",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#sensuality\"> sensuelle </seg>",
      "before": "… bas ; un nez bien réussi dans son genre – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop",
-     "after": ": cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; …"
+     "after": ": cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; …",
+     "en": "sensual"
     },
     {
      "id": "cahun-seg2",
@@ -1688,8 +1971,10 @@ window.WOG = {
       "uglyness"
      ],
      "text": "– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop sensuelle : cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés…",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#uglyness\">– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon \n         – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre \n         – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop <seg xml:id=\"seg3\" ana=\"#sensuality\"> sensuelle </seg>: cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ;\n         le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés… </seg>",
      "before": "",
-     "after": "Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – et la beauté renaît ! Car …"
+     "after": "Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – et la beauté renaît ! Car …",
+     "en": "– Superfluous breasts; heavy, contradictory teeth; eyes and hair of the dullest shade; fairly fine hands, but twisted and deformed by a demon – the demon of heredity… The oval head of the slave, the forehead too high… or too low; a nose quite successful of its kind – alas! a kind that calls up ugly associations; the mouth too sensual: it may please while one is hungry, but once one has eaten it turns the stomach; the chin barely prominent enough; and over the whole body, muscles only sketched in…"
     },
     {
      "id": "cahun-seg1",
@@ -1698,8 +1983,10 @@ window.WOG = {
       "body"
      ],
      "text": "– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop sensuelle : cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés…",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#body\"><seg xml:id=\"seg2\" ana=\"#uglyness\">– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon \n         – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre \n         – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop <seg xml:id=\"seg3\" ana=\"#sensuality\"> sensuelle </seg>: cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ;\n         le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés… </seg></seg>",
      "before": "",
-     "after": "Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – et la beauté renaît ! Car …"
+     "after": "Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – et la beauté renaît ! Car …",
+     "en": "– Superfluous breasts; heavy, contradictory teeth; eyes and hair of the dullest shade; fairly fine hands, but twisted and deformed by a demon – the demon of heredity… The oval head of the slave, the forehead too high… or too low; a nose quite successful of its kind – alas! a kind that calls up ugly associations; the mouth too sensual: it may please while one is hungry, but once one has eaten it turns the stomach; the chin barely prominent enough; and over the whole body, muscles only sketched in…"
     },
     {
      "id": "cahun-seg4",
@@ -1708,8 +1995,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "et la beauté renaît !",
+     "xml": "<seg xml:id=\"seg4\" ana=\"beauty\"> et la beauté renaît ! </seg>",
      "before": "… le corps des muscles seulement esquissés… Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent –",
-     "after": "Car devant son miroir Narcisse est touché de la grâce. Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques …"
+     "after": "Car devant son miroir Narcisse est touché de la grâce. Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques …",
+     "en": "and beauty is born again!"
     },
     {
      "id": "cahun-seg5",
@@ -1718,8 +2007,10 @@ window.WOG = {
       "grace"
      ],
      "text": "grâce.",
+     "xml": "<seg xml:id=\"seg5\" ana=\"grace\"> grâce.</seg>",
      "before": "… une adresse tardive corrige une ombre, un geste imprudent – et la beauté renaît ! Car devant son miroir Narcisse est touché de la",
-     "after": "Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques autres. Hors-texte – La parole est à l’Androgyne : « …"
+     "after": "Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques autres. Hors-texte – La parole est à l’Androgyne : « …",
+     "en": "grace."
     },
     {
      "id": "cahun-seg6",
@@ -1728,8 +2019,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "marierai…",
+     "xml": "<seg xml:id=\"seg6\" ana=\"marriage\"> marierai… </seg>",
      "before": "… ! je ne te promets rien de pareil… combien de temps ? Je ne sais pas. Sais-je seulement si je t’aime… Oui, je me",
-     "after": "Quand ? bientôt, n’en doute pas… » – Franchise admirable ! et perdue… J’étais incapable de l’apprécier – et cela se comprend : passionnée, …"
+     "after": "Quand ? bientôt, n’en doute pas… » – Franchise admirable ! et perdue… J’étais incapable de l’apprécier – et cela se comprend : passionnée, …",
+     "en": "shall marry…"
     },
     {
      "id": "cahun-seg7",
@@ -1738,11 +2031,27 @@ window.WOG = {
       "counterstereotype"
      ],
      "text": "– Férocité, luxure, un égoïsme monstrueux…",
+     "xml": "<seg xml:id=\"seg7\" ana=\"counterstereotype\"> – Férocité, luxure, un égoïsme monstrueux… </seg>",
      "before": "… elle est absolument loyale. « Ce fut là le méchant début de nos amours. – Et voilà bientôt quinze années… » Portraits psychologiques L’Androgyne:",
-     "after": "(Il y a bien des circonstances, des détails contradictoires ; on pourrait atténuer… mais à quoi bon ? Sachons ne choisir que l’essentiel.) – …"
+     "after": "(Il y a bien des circonstances, des détails contradictoires ; on pourrait atténuer… mais à quoi bon ? Sachons ne choisir que l’essentiel.) – …",
+     "en": "– Ferocity, lust, a monstrous selfishness…"
     }
    ],
-   "html": "<p><span class=\"seg\" id=\"cahun-seg1\" data-c=\"body\"><span class=\"seg\" id=\"cahun-seg2\" data-c=\"uglyness\">– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop <span class=\"seg\" id=\"cahun-seg3\" data-c=\"sensuality\"> sensuelle </span>: cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés… </span></span> Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – <span class=\"seg\" id=\"cahun-seg4\" data-c=\"beauty\"> et la beauté renaît ! </span> Car devant son miroir <span class=\"pers\" data-p=\"Narcisse\">Narcisse</span> est touché de la <span class=\"seg\" id=\"cahun-seg5\" data-c=\"grace\"> grâce.</span> Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques autres.</p> <p><span class=\"inhead\">Hors-texte</span> – La parole est à <span class=\"role\"> l’Androgyne </span> : « À la recherche de l’homme. Voilà où j’en suis. Mais il n’en fut pas toujours de même : Enfant, ne lui jurai-je pas un éternel amour ? Comme elle était sensée déjà ! Il m’en souvient très bien (la souffrance d’alors m’a formé la mémoire : une mémoire à vif), très bien, ô sagesse précoce ! – car tu me répondais : « Tu as tort… et moi, non ! je ne te promets rien de pareil… combien de temps ? Je ne sais pas. Sais-je seulement si je t’aime… Oui, je me <span class=\"seg\" id=\"cahun-seg6\" data-c=\"marriage\"> marierai… </span> Quand ? bientôt, n’en doute pas… » – Franchise admirable ! et perdue… J’étais incapable de l’apprécier – et cela se comprend : passionnée, presque hystérique, indigne… et bien loin d’envier, haïssant si fort toute la sérénité du monde !… « À force d’insister j’obtins qu’elle me promît un an – ce qu’elle ne consentit pourtant qu’à regret. Elle me mit à la porte ce jour-là, s’enferma dans sa chambre – seule – pour méditer une décision si grave. Elle sortit. Je revins : Eh bien ? dis-je (car j’y pensais toujours. Elle aussi d’ailleurs). Mais elle répondit : « Eh bien ! quoi ?… Je vais au jardin : <span class=\"role\">maman</span> réclame ses fleurs. Tu restes ici ? » On ne se débarrasse pas de moi si facilement. Je m’entête : Toujours, dis, toujours ? – Je marchande ; et, voyant qu’elle va se fâcher, je rabaisse mes prétentions : Un an, dis, un an ? Promets-moi un an, ce n’est pas grand-chose… Alors, ne pouvant plus se dérober, elle me regarde durement, réfléchie, sérieuse : « Un an, soit » – et cela, comme une aumône à un pauvre qu’on sait simulateur, pour qu’enfin je la laisse en repos. « Pourtant cette promesse n’était point une pièce fausse ; mais elle l’avait pesée, elle comptait la tenir. Elle la tint largement. Avant tout, et pour sa propre estime, elle est absolument loyale. « Ce fut là le méchant début de nos amours. – Et voilà bientôt quinze années… »</p> <p><span class=\"inhead\">Portraits psychologiques</span> <span class=\"role\">L’Androgyne</span>: <span class=\"seg\" id=\"cahun-seg7\" data-c=\"counterstereotype\"> – Férocité, luxure, un égoïsme monstrueux… </span> (Il y a bien des circonstances, des détails contradictoires ; on pourrait atténuer… mais à quoi bon ? Sachons ne choisir que l’essentiel.) – Enthousiasmes faciles, incessants et fidèles – mais dureté de cœur. Lâcheté physique, et parfois morale (mais de source physique). – Aucun préjugé : pas de sens social.</p> <p><span class=\"role\">Le Maître de l’Androgyne</span> : – Méfiance envers les hommes (et soi-même) ; confiance… relative à l’égard de l’Androgyne. Une excessive pudeur mentale. Une paresse étrange – qui est plutôt l’horreur des initiatives, de tout changement, peut-être des transitions. – Honnêteté stricte, un sens rare de la justice, le respect de la liberté de chacun. Quelques préjugés enracinés, pour ainsi dire : physiques, qui sont bien des préjugés cependant puisqu’à l’essai ils peuvent être vaincus. – Douceur, bonté sans illusion. – Une certaine lâcheté morale (effet de l’excessive pudeur et de la paresse).</p> <p><span class=\"role\">Le Poète</span>, amant de <span class=\"role\">l’Androgyne</span>: – Bovarysme. Impuissance. Aucune concentration d’esprit. Peu de logique : jugements subjectifs. Enthousiasme et générosité (non pas bonté). – Quelques préjugés, mais superficiels : de vanité sociale. Accès de témérité, puis de faiblesse morale (dépression nerveuse). Explications – Écoute, <span class=\"role\">Androgyne</span>! Si c’est Lui que tu aimes, quitte-moi. Je ne le désire pas, mais je m’en consolerai… Ne va pas te croire indispensable. – (Que répondre à cela ?)… Ce n’est pas Lui que j’aime assez pour te quitter… – Alors, <span class=\"role\">Androgyne</span>, puisqu’après tout c’est moi que tu aimes, il faut être honnête et cesser de mentir. (Que répondre à cela ?)... Je ne souhaite pas mentir. C’est Lui, c’est toi qui m’y contrains. Ce n’est certes pas Lui, mais je crains que ce ne soit point toi non plus que j’aime… assez pour être « honnête ». (Existe-t-il, Celui ?… non, non ! mais plutôt : est-il bien nécessaire d’être « honnête » ?) – Restez avec votre <span class=\"role\">Maître</span>, <span class=\"role\">Androgyne</span>, mais couchez avec moi. Il vous soignera mieux que je ne pourrais faire… (traduisez : je n’aurai pas cette peine) – et moi je serai là pour l’Art, le Rêve, l’Amour… Il faut seulement me promettre de n’aimer que moi seul, de ne coucher qu’avec moi seul… (En effet : quand je fais l’amour à mon Maître, le Poète s’en aperçoit et le Poète est furieux !) – (Enfin à cela je puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de force à coucher avec vous deux !</p>"
+   "html": "<p><span class=\"seg\" id=\"cahun-seg1\" data-c=\"body\"><span class=\"seg\" id=\"cahun-seg2\" data-c=\"uglyness\">– Des seins superflus ; les dents lourdes et contradictoires ; les yeux et les cheveux du ton le plus banal ; des mains assez fines, mais qu’un démon – le démon de l’hérédité – a tordues, déformées… La tête ovale de l’esclave, le front trop haut… ou trop bas ; un nez bien réussi dans son genre – hélas ! un genre qui donne de vilaines associations d’images ; la bouche trop <span class=\"seg\" id=\"cahun-seg3\" data-c=\"sensuality\"> sensuelle </span>: cela peut plaire tant qu’on a faim, mais dès qu’on a mangé ça vous écœure ; le menton à peine assez saillant ; et par tout le corps des muscles seulement esquissés… </span></span> Victorieuse !… parfois victorieuse des plus atroces gênes, une adresse tardive corrige une ombre, un geste imprudent – <span class=\"seg\" id=\"cahun-seg4\" data-c=\"beauty\"> et la beauté renaît ! </span> Car devant son miroir <span class=\"pers\" data-p=\"Narcisse\">Narcisse</span> est touché de la <span class=\"seg\" id=\"cahun-seg5\" data-c=\"grace\"> grâce.</span> Il consent à se reconnaître. Et l’illusion qu’il crée pour lui-même s’étend à quelques autres.</p> <p><span class=\"inhead\">Hors-texte</span> – La parole est à <span class=\"role\"> l’Androgyne </span> : « À la recherche de l’homme. Voilà où j’en suis. Mais il n’en fut pas toujours de même : Enfant, ne lui jurai-je pas un éternel amour ? Comme elle était sensée déjà ! Il m’en souvient très bien (la souffrance d’alors m’a formé la mémoire : une mémoire à vif), très bien, ô sagesse précoce ! – car tu me répondais : « Tu as tort… et moi, non ! je ne te promets rien de pareil… combien de temps ? Je ne sais pas. Sais-je seulement si je t’aime… Oui, je me <span class=\"seg\" id=\"cahun-seg6\" data-c=\"marriage\"> marierai… </span> Quand ? bientôt, n’en doute pas… » – Franchise admirable ! et perdue… J’étais incapable de l’apprécier – et cela se comprend : passionnée, presque hystérique, indigne… et bien loin d’envier, haïssant si fort toute la sérénité du monde !… « À force d’insister j’obtins qu’elle me promît un an – ce qu’elle ne consentit pourtant qu’à regret. Elle me mit à la porte ce jour-là, s’enferma dans sa chambre – seule – pour méditer une décision si grave. Elle sortit. Je revins : Eh bien ? dis-je (car j’y pensais toujours. Elle aussi d’ailleurs). Mais elle répondit : « Eh bien ! quoi ?… Je vais au jardin : <span class=\"role\">maman</span> réclame ses fleurs. Tu restes ici ? » On ne se débarrasse pas de moi si facilement. Je m’entête : Toujours, dis, toujours ? – Je marchande ; et, voyant qu’elle va se fâcher, je rabaisse mes prétentions : Un an, dis, un an ? Promets-moi un an, ce n’est pas grand-chose… Alors, ne pouvant plus se dérober, elle me regarde durement, réfléchie, sérieuse : « Un an, soit » – et cela, comme une aumône à un pauvre qu’on sait simulateur, pour qu’enfin je la laisse en repos. « Pourtant cette promesse n’était point une pièce fausse ; mais elle l’avait pesée, elle comptait la tenir. Elle la tint largement. Avant tout, et pour sa propre estime, elle est absolument loyale. « Ce fut là le méchant début de nos amours. – Et voilà bientôt quinze années… »</p> <p><span class=\"inhead\">Portraits psychologiques</span> <span class=\"role\">L’Androgyne</span>: <span class=\"seg\" id=\"cahun-seg7\" data-c=\"counterstereotype\"> – Férocité, luxure, un égoïsme monstrueux… </span> (Il y a bien des circonstances, des détails contradictoires ; on pourrait atténuer… mais à quoi bon ? Sachons ne choisir que l’essentiel.) – Enthousiasmes faciles, incessants et fidèles – mais dureté de cœur. Lâcheté physique, et parfois morale (mais de source physique). – Aucun préjugé : pas de sens social.</p> <p><span class=\"role\">Le Maître de l’Androgyne</span> : – Méfiance envers les hommes (et soi-même) ; confiance… relative à l’égard de l’Androgyne. Une excessive pudeur mentale. Une paresse étrange – qui est plutôt l’horreur des initiatives, de tout changement, peut-être des transitions. – Honnêteté stricte, un sens rare de la justice, le respect de la liberté de chacun. Quelques préjugés enracinés, pour ainsi dire : physiques, qui sont bien des préjugés cependant puisqu’à l’essai ils peuvent être vaincus. – Douceur, bonté sans illusion. – Une certaine lâcheté morale (effet de l’excessive pudeur et de la paresse).</p> <p><span class=\"role\">Le Poète</span>, amant de <span class=\"role\">l’Androgyne</span>: – Bovarysme. Impuissance. Aucune concentration d’esprit. Peu de logique : jugements subjectifs. Enthousiasme et générosité (non pas bonté). – Quelques préjugés, mais superficiels : de vanité sociale. Accès de témérité, puis de faiblesse morale (dépression nerveuse). Explications – Écoute, <span class=\"role\">Androgyne</span>! Si c’est Lui que tu aimes, quitte-moi. Je ne le désire pas, mais je m’en consolerai… Ne va pas te croire indispensable. – (Que répondre à cela ?)… Ce n’est pas Lui que j’aime assez pour te quitter… – Alors, <span class=\"role\">Androgyne</span>, puisqu’après tout c’est moi que tu aimes, il faut être honnête et cesser de mentir. (Que répondre à cela ?)... Je ne souhaite pas mentir. C’est Lui, c’est toi qui m’y contrains. Ce n’est certes pas Lui, mais je crains que ce ne soit point toi non plus que j’aime… assez pour être « honnête ». (Existe-t-il, Celui ?… non, non ! mais plutôt : est-il bien nécessaire d’être « honnête » ?) – Restez avec votre <span class=\"role\">Maître</span>, <span class=\"role\">Androgyne</span>, mais couchez avec moi. Il vous soignera mieux que je ne pourrais faire… (traduisez : je n’aurai pas cette peine) – et moi je serai là pour l’Art, le Rêve, l’Amour… Il faut seulement me promettre de n’aimer que moi seul, de ne coucher qu’avec moi seul… (En effet : quand je fais l’amour à mon Maître, le Poète s’en aperçoit et le Poète est furieux !) – (Enfin à cela je puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de force à coucher avec vous deux !</p>",
+   "life": {
+    "qid": "Q219634",
+    "viaf": "19757660",
+    "born": 1894,
+    "died": 1954,
+    "approx": false,
+    "birthplace": "Nantes",
+    "deathplace": "Saint Helier",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": null,
+     "note": "from the project's 2023 site"
+    }
+   }
   },
   {
    "id": "beauvoir",
@@ -1892,8 +2201,10 @@ window.WOG = {
       "body"
      ],
      "text": "corps",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#body\">corps</seg>",
      "before": "Mon",
-     "after": "changeait ; mon existence aussi : le passé me quittait. Déjà nous avions déménagé, et Louise était partie. Je regardais avec ma sœur de …"
+     "after": "changeait ; mon existence aussi : le passé me quittait. Déjà nous avions déménagé, et Louise était partie. Je regardais avec ma sœur de …",
+     "en": "body"
     },
     {
      "id": "beauvoir-seg2",
@@ -1902,8 +2213,10 @@ window.WOG = {
       "housework"
      ],
      "text": "déménagé",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#housework\">déménagé</seg>",
      "before": "Mon corps changeait ; mon existence aussi : le passé me quittait. Déjà nous avions",
-     "after": ", et Louise était partie. Je regardais avec ma sœur de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre Meyrignac. …"
+     "after": ", et Louise était partie. Je regardais avec ma sœur de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre Meyrignac. …",
+     "en": "moved house"
     },
     {
      "id": "beauvoir-seg3",
@@ -1912,8 +2225,10 @@ window.WOG = {
       "sorority"
      ],
      "text": "sœur",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#sorority\">sœur</seg>",
      "before": "Mon corps changeait ; mon existence aussi : le passé me quittait. Déjà nous avions déménagé, et Louise était partie. Je regardais avec ma",
-     "after": "de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre Meyrignac. Grand-père était très âgé, il mourrait ; quand le domaine …"
+     "after": "de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre Meyrignac. Grand-père était très âgé, il mourrait ; quand le domaine …",
+     "en": "sister"
     },
     {
      "id": "beauvoir-seg2-1",
@@ -1922,8 +2237,10 @@ window.WOG = {
       "housework"
      ],
      "text": "vaisselle ; elle lavait des assiettes, je les essuyais",
+     "xml": "<seg xml:id=\"seg2.1\" ana=\"#housework\">vaisselle ; elle lavait des assiettes, je les essuyais </seg>",
      "before": "… quand je me rendis compte que, dans un bref délai, elle deviendrait mon lot, l’angoisse me prit. Un après-midi, j’aidais maman à faire la",
-     "after": "; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres cuisines où des femmes frottaient des casseroles ou épluchaient …"
+     "after": "; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres cuisines où des femmes frottaient des casseroles ou épluchaient …",
+     "en": "the washing-up; she washed the plates, I dried them"
     },
     {
      "id": "beauvoir-seg2-2",
@@ -1932,8 +2249,10 @@ window.WOG = {
       "housework"
      ],
      "text": "cuisines où des femmes frottaient des casseroles ou épluchaient des légumes.",
+     "xml": "<seg xml:id=\"seg2.2\" ana=\"#housework\">cuisines où des femmes frottaient des casseroles ou épluchaient des légumes.</seg>",
      "before": "… vaisselle ; elle lavait des assiettes, je les essuyais ; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres",
-     "after": "Chaque jour, le déjeuner, le dîner ; chaque jour la vaisselle ; ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je …"
+     "after": "Chaque jour, le déjeuner, le dîner ; chaque jour la vaisselle ; ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je …",
+     "en": "kitchens where women scrubbed saucepans or peeled vegetables."
     },
     {
      "id": "beauvoir-seg2-3",
@@ -1942,8 +2261,10 @@ window.WOG = {
       "housework"
      ],
      "text": "chaque jour la vaisselle ;",
+     "xml": "<seg xml:id=\"seg2.3\" ana=\"#housework\">chaque jour la vaisselle ;</seg>",
      "before": "… la caserne de pompiers, et d’autres cuisines où des femmes frottaient des casseroles ou épluchaient des légumes. Chaque jour, le déjeuner, le dîner ;",
-     "after": "ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je ainsi ? Une image se forma dans ma tête, avec une netteté …"
+     "after": "ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je ainsi ? Une image se forma dans ma tête, avec une netteté …",
+     "en": "the washing-up every day;"
     },
     {
      "id": "beauvoir-seg2-4",
@@ -1952,8 +2273,10 @@ window.WOG = {
       "housework"
      ],
      "text": "rangeant dans le placard une pile d’assiettes",
+     "xml": "<seg xml:id=\"seg2.4\" ana=\"#housework\">rangeant dans le placard une pile d’assiettes</seg>",
      "before": "… mais si je ne trouvais là-haut qu’un morne plateau, sans aucun but vers lequel marcher, à quoi bon ? Non, me dis-je, tout en",
-     "after": "; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de ménagère. Mon père n’était pas féministe ; …"
+     "after": "; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de ménagère. Mon père n’était pas féministe ; …",
+     "en": "putting a pile of plates away in the cupboard"
     },
     {
      "id": "beauvoir-seg2-5",
@@ -1962,8 +2285,10 @@ window.WOG = {
       "housework"
      ],
      "text": "ménagère.",
+     "xml": "<seg xml:id=\"seg2.5\" ana=\"#housework\">ménagère.</seg>",
      "before": "… rangeant dans le placard une pile d’assiettes ; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de",
-     "after": "Mon père n’était pas féministe ; il admirait la sagesse des romans de Colette Yver où l’avocate, la doctoresse, finissent par sacrifier leur carrière …"
+     "after": "Mon père n’était pas féministe ; il admirait la sagesse des romans de Colette Yver où l’avocate, la doctoresse, finissent par sacrifier leur carrière …",
+     "en": "housewife."
     },
     {
      "id": "beauvoir-seg4",
@@ -1972,8 +2297,10 @@ window.WOG = {
       "feminism"
      ],
      "text": "féministe ;",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#feminism\">féministe ;</seg>",
      "before": "… pile d’assiettes ; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de ménagère. Mon père n’était pas",
-     "after": "il admirait la sagesse des romans de Colette Yver où l’avocate, la doctoresse, finissent par sacrifier leur carrière à l’harmonie du foyer ; mais …"
+     "after": "il admirait la sagesse des romans de Colette Yver où l’avocate, la doctoresse, finissent par sacrifier leur carrière à l’harmonie du foyer ; mais …",
+     "en": "feminist;"
     },
     {
      "id": "beauvoir-seg5",
@@ -1982,8 +2309,10 @@ window.WOG = {
       "submission"
      ],
      "text": "sacrifier leur carrière à l’harmonie du foyer ;",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#submission\">sacrifier leur carrière à l’harmonie du foyer ;</seg>",
      "before": "… destin de ménagère. Mon père n’était pas féministe ; il admirait la sagesse des romans de Colette Yver où l’avocate, la doctoresse, finissent par",
-     "after": "mais nécessité fait loi : « Vous, mes petites, vous ne vous marierez pas, répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. …"
+     "after": "mais nécessité fait loi : « Vous, mes petites, vous ne vous marierez pas, répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. …",
+     "en": "to sacrifice their careers to the harmony of the home;"
     },
     {
      "id": "beauvoir-seg6",
@@ -1992,8 +2321,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "marierez pas,",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#marriage\">marierez pas,</seg>",
      "before": "… la doctoresse, finissent par sacrifier leur carrière à l’harmonie du foyer ; mais nécessité fait loi : « Vous, mes petites, vous ne vous",
-     "after": "répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du mariage ; elle …"
+     "after": "répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du mariage ; elle …",
+     "en": "will not marry,"
     },
     {
      "id": "beauvoir-seg6-1",
@@ -2002,8 +2333,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "mariage",
+     "xml": "<seg xml:id=\"seg6.1\" ana=\"#marriage\">mariage</seg>",
      "before": "… vous marierez pas, répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du",
-     "after": "; elle autorisait des espoirs. Il y avait eu des gens qui avaient fait des choses : j’en ferais. Je ne prévoyais pas bien …"
+     "after": "; elle autorisait des espoirs. Il y avait eu des gens qui avaient fait des choses : j’en ferais. Je ne prévoyais pas bien …",
+     "en": "marriage"
     },
     {
      "id": "beauvoir-seg6-2",
@@ -2012,8 +2345,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "mariage",
+     "xml": "<seg xml:id=\"seg6.2\" ana=\"#marriage\">mariage</seg>",
      "before": "… volume broché de la collection Tauchnitz où s’achevait leur histoire, je l’ouvris au hasard : je tombai sur une page qui m’apprit brutalement le",
-     "after": "de Laurie avec une jeune sœur de Joe, la blonde, vaine et stupide Amy. Je rejetai le livre, comme s’il m’avait brûlé les doigts. …"
+     "after": "de Laurie avec une jeune sœur de Joe, la blonde, vaine et stupide Amy. Je rejetai le livre, comme s’il m’avait brûlé les doigts. …",
+     "en": "marriage"
     },
     {
      "id": "beauvoir-seg6-3",
@@ -2022,8 +2357,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "n’épousât",
+     "xml": "<seg xml:id=\"seg6.3\" ana=\"#marriage\">n’épousât</seg>",
      "before": "… qui je rêvais d’être un jourreconnue ; néanmoins son intrusion me mécontenta. Autrefois, lisant Les Vacances de Madame de Ségur, j’avais déploré que Sophie",
-     "after": "pas Paul, son ami d’enfance, mais un jeune châtelain inconnu. L’amitié, l’amour, c’était à mes yeux quelque chose de définitif, d’éternel, et non pas …"
+     "after": "pas Paul, son ami d’enfance, mais un jeune châtelain inconnu. L’amitié, l’amour, c’était à mes yeux quelque chose de définitif, d’éternel, et non pas …",
+     "en": "should not marry"
     },
     {
      "id": "beauvoir-seg5-1",
@@ -2032,8 +2369,10 @@ window.WOG = {
       "submission"
      ],
      "text": "obligatoires",
+     "xml": "<seg xml:id=\"seg5.1\" ana=\"#submission\">obligatoires</seg>",
      "before": "… mon esprit critique s’éveillait, je la supportais de plus en plus impatiemment. Visites, déjeuners de famille, toutes ces corvées que mes parents tenaient pour",
-     "after": ", je n’en voyais pas l’utilité. Les réponses : « Ça se doit. Ça ne se fait pas », ne me satisfaisaient plus du …"
+     "after": ", je n’en voyais pas l’utilité. Les réponses : « Ça se doit. Ça ne se fait pas », ne me satisfaisaient plus du …",
+     "en": "compulsory"
     },
     {
      "id": "beauvoir-seg5-2",
@@ -2042,8 +2381,11 @@ window.WOG = {
       "submission"
      ],
      "text": "« Ça se doit. Ça ne se fait pas »",
+     "xml": "<seg xml:id=\"seg5.2\" ana=\"#submission\">« Ça se doit. Ça ne se fait pas »</seg>",
      "before": "… en plus impatiemment. Visites, déjeuners de famille, toutes ces corvées que mes parents tenaient pour obligatoires, je n’en voyais pas l’utilité. Les réponses :",
-     "after": ", ne me satisfaisaient plus du tout. La sollicitude de ma mère me pesait. Elle avait « ses idées » qu’elle ne se souciait …"
+     "after": ", ne me satisfaisaient plus du tout. La sollicitude de ma mère me pesait. Elle avait « ses idées » qu’elle ne se souciait …",
+     "en": "«One must. One doesn't.»",
+     "enNote": "Beauvoir quotes the two formulas of her upbringing: what one must do, and what one does not do."
     },
     {
      "id": "beauvoir-seg5-3",
@@ -2052,8 +2394,10 @@ window.WOG = {
       "submission"
      ],
      "text": "un abus de pouvoir.",
+     "xml": "<seg xml:id=\"seg5.3\" ana=\"#submission\">un abus de pouvoir.</seg>",
      "before": "… maison, je lui tins tête. Je dus céder la rage au cœur, me promettant de ne jamais lui pardonner ce que je considérais comme",
-     "after": "Si elle m’avait souvent contrariée, je crois qu’elle m’eût précipitée dans la révolte. Mais dans les choses importantes — mes études, le choix de …"
+     "after": "Si elle m’avait souvent contrariée, je crois qu’elle m’eût précipitée dans la révolte. Mais dans les choses importantes — mes études, le choix de …",
+     "en": "an abuse of power."
     },
     {
      "id": "beauvoir-seg2-6",
@@ -2062,8 +2406,10 @@ window.WOG = {
       "housework"
      ],
      "text": "ne me demandant que de menus services : moudre le café, descendre la caisse à ordures.",
+     "xml": "<seg xml:id=\"seg2.6\" ana=\"#housework\">ne me demandant que de menus services : moudre le café, descendre la caisse à ordures.</seg>",
      "before": "… les choses importantes — mes études, le choix de mes amies — elle intervenait peu ; elle respectait mon travail et même mes loisirs,",
-     "after": "J’avais l’habitude de la docilité, et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma mère n’éclata …"
+     "after": "J’avais l’habitude de la docilité, et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma mère n’éclata …",
+     "en": "asking of me only small services: grinding the coffee, taking the rubbish bin down."
     },
     {
      "id": "beauvoir-seg5-4",
@@ -2072,8 +2418,10 @@ window.WOG = {
       "submission"
      ],
      "text": "docilité",
+     "xml": "<seg xml:id=\"seg5.4\" ana=\"#submission\">docilité</seg>",
      "before": "… et même mes loisirs, ne me demandant que de menus services : moudre le café, descendre la caisse à ordures. J’avais l’habitude de la",
-     "after": ", et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma mère n’éclata pas, mais j’en avais …"
+     "after": ", et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma mère n’éclata pas, mais j’en avais …",
+     "en": "docility"
     },
     {
      "id": "beauvoir-seg5-5",
@@ -2082,8 +2430,10 @@ window.WOG = {
       "submission"
      ],
      "text": "me maintenir dans la dépendance et d’affirmer sur moi des droits.",
+     "xml": "<seg xml:id=\"seg5.5\" ana=\"#submission\">me maintenir dans la dépendance et d’affirmer sur moi des droits.</seg>",
      "before": "… mère fut fâchée. Elle devinait en moi des réticences qui lui donnaient de l’humeur, et elle me grondait souvent. Je lui en voulais de",
-     "after": "En outre j’étais jalouse de la place qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir. …"
+     "after": "En outre j’étais jalouse de la place qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir. …",
+     "en": "to keep me dependent and to assert rights over me."
     },
     {
      "id": "beauvoir-seg5-7",
@@ -2092,8 +2442,10 @@ window.WOG = {
       "submission"
      ],
      "text": "supériorité de mon père m’aveuglait",
+     "xml": "<seg xml:id=\"seg5.7\" ana=\"#submission\">supériorité de mon père m’aveuglait</seg>",
      "before": "… qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir. Plus sa vie devenait ingrate, plus la",
-     "after": "; elle ne dépendait ni de la fortune ni du succès, aussi je me persuadais qu’il les avait délibérément négligés ; cela ne m’empêchait …"
+     "after": "; elle ne dépendait ni de la fortune ni du succès, aussi je me persuadais qu’il les avait délibérément négligés ; cela ne m’empêchait …",
+     "en": "my father's superiority blinded me"
     },
     {
      "id": "beauvoir-seg5-8",
@@ -2102,8 +2454,10 @@ window.WOG = {
       "submission"
      ],
      "text": "Dans toutes les discussions auxquelles j’assistais, il avait le dernier mot,",
+     "xml": "<seg xml:id=\"seg5.8\" ana=\"#submission\">Dans toutes les discussions auxquelles j’assistais, il avait le dernier mot,</seg>",
      "before": "… d’un tas de sujets élevés, et j’étais transportée bien loin des grisailles quotidiennes. Je n’imaginais pas qu’il existât un homme aussi intelligent que lui.",
-     "after": "et quand il s’attaquait à des absents, il les écrasait. Il admirait avec feu certains grands hommes ; mais ceux-ci appartenaient à des sphères …"
+     "after": "et quand il s’attaquait à des absents, il les écrasait. Il admirait avec feu certains grands hommes ; mais ceux-ci appartenaient à des sphères …",
+     "en": "In every discussion I witnessed, he had the last word,"
     },
     {
      "id": "beauvoir-seg5-6",
@@ -2112,8 +2466,10 @@ window.WOG = {
       "submission"
      ],
      "text": "jugeait souverainement.",
+     "xml": "<seg xml:id=\"seg5.6\" ana=\"#submission\">jugeait souverainement.</seg>",
      "before": "… des limites : mon père, lui, parlait d’une voix vivante, sa pensée était insaisissable et infinie. Gens et choses comparaissaient devant lui : il",
-     "after": "Du moment qu’il m’approuvait, j’étais sûre de moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je …"
+     "after": "Du moment qu’il m’approuvait, j’étais sûre de moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je …",
+     "en": "judged with sovereign authority."
     },
     {
      "id": "beauvoir-seg8",
@@ -2122,8 +2478,10 @@ window.WOG = {
       "grace"
      ],
      "text": "l’élégance",
+     "xml": "<seg xml:id=\"seg8\" ana=\"#grace\">l’élégance</seg>",
      "before": "… moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je le déçus :il appréciait chez les femmes",
-     "after": ", la beauté. Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma sœur, qui restait une …"
+     "after": ", la beauté. Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma sœur, qui restait une …",
+     "en": "elegance"
     },
     {
      "id": "beauvoir-seg7",
@@ -2132,8 +2490,10 @@ window.WOG = {
       "beauty"
      ],
      "text": "la beauté",
+     "xml": "<seg xml:id=\"seg7\" ana=\"#beauty\">la beauté</seg>",
      "before": "… Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je le déçus :il appréciait chez les femmes l’élégance,",
-     "after": ". Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma sœur, qui restait une jolie enfant. …"
+     "after": ". Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma sœur, qui restait une jolie enfant. …",
+     "en": "beauty"
     },
     {
      "id": "beauvoir-seg5-9",
@@ -2142,11 +2502,30 @@ window.WOG = {
       "submission"
      ],
      "text": "« Fais ce que ta mère te dit ! »",
+     "xml": "<seg xml:id=\"seg5.9\" ana=\"#submission\">« Fais ce que ta <roleName>mère</roleName> te dit ! »</seg>",
      "before": "… seuls, nous nous parlions comme si elle avait été là. En cas de conflit, si j’avais recouru à mon père, il m’aurait répondu :",
-     "after": "Il ne m’arriva qu’une fois de chercher sa complicité. Il nous avait emmenées aux courses d’Auteuil ; la pelouse était noire de monde, il …"
+     "after": "Il ne m’arriva qu’une fois de chercher sa complicité. Il nous avait emmenées aux courses d’Auteuil ; la pelouse était noire de monde, il …",
+     "en": "«Do as your mother tells you!»"
     }
    ],
-   "html": "<p>Mon <span class=\"seg\" id=\"beauvoir-seg1\" data-c=\"body\">corps</span> changeait ; mon existence aussi : le passé me quittait. Déjà nous avions <span class=\"seg\" id=\"beauvoir-seg2\" data-c=\"housework\">déménagé</span>, et <span class=\"pers\" data-p=\"Louise\">Louise</span> était partie. Je regardais avec ma <span class=\"seg\" id=\"beauvoir-seg3\" data-c=\"sorority\">sœur</span> de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre <span class=\"pers\" data-p=\"Meyrignac\">Meyrignac</span>. <span class=\"role\">Grand-père</span> était très âgé, il mourrait ; quand le domaine appartiendrait à mon <span class=\"role\">oncle</span> <span class=\"pers\" data-p=\"Gaston\">Gaston</span> — qui déjà en était nu-propriétaire — je ne m’y sentirais plus chez moi ; j’y viendrais en étrangère, puis je n’y viendrais plus. Je fus consternée. Mes parents répétaient — et leur exemple semblait le confirmer — que la vie a raison des amitiés d’enfance : est-ce que j’oublierais <span class=\"pers\" data-p=\"Zaza\">Zaza</span> ? Nous nous demandions avec inquiétude <span class=\"pers\" data-p=\"Poupette\">Poupette</span> et moi si notre affection résisterait à l’âge. Les grandes personnes ne partageaient pas nos jeux ni nos plaisirs. Je n’en connaissais aucune qui parût beaucoup s’amuser sur terre : la vie n’est pas gaie, la vie n’est pas un roman, déclaraient-elles en chœur. La monotonie de l’existence adulte m’avait toujours apitoyée ; quand je me rendis compte que, dans un bref délai, elle deviendrait mon lot, l’angoisse me prit. Un après-midi, j’aidais <span class=\"role\">maman</span> à faire la <span class=\"seg\" id=\"beauvoir-seg2-1\" data-c=\"housework\">vaisselle ; elle lavait des assiettes, je les essuyais </span>; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres <span class=\"seg\" id=\"beauvoir-seg2-2\" data-c=\"housework\">cuisines où des femmes frottaient des casseroles ou épluchaient des légumes.</span> Chaque jour, le déjeuner, le dîner ; <span class=\"seg\" id=\"beauvoir-seg2-3\" data-c=\"housework\">chaque jour la vaisselle ;</span> ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je ainsi ? Une image se forma dans ma tête, avec une netteté si désolante que je me la rappelle encore aujourd’hui : une rangée de carrés gris s’étendait jusqu’à l’horizon, diminués selon les lois de la perspective, mais tous identiques, et plats ; c’étaient les jours et les semaines, et les années. Moi, depuis ma naissance, je m’étais endormie chaque soir un peu plus riche que la veille ; je m’élevais de degré en degré ; mais si je ne trouvais là-haut qu’un morne plateau, sans aucun but vers lequel marcher, à quoi bon ? Non, me dis-je, tout en <span class=\"seg\" id=\"beauvoir-seg2-4\" data-c=\"housework\">rangeant dans le placard une pile d’assiettes</span> ; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de <span class=\"seg\" id=\"beauvoir-seg2-5\" data-c=\"housework\">ménagère.</span> Mon <span class=\"role\">père</span> n’était pas <span class=\"seg\" id=\"beauvoir-seg4\" data-c=\"feminism\">féministe ;</span> il admirait la sagesse des romans de <span class=\"pers\" data-p=\"Colette Yver\">Colette Yver</span> où l’avocate, la doctoresse, finissent par <span class=\"seg\" id=\"beauvoir-seg5\" data-c=\"submission\">sacrifier leur carrière à l’harmonie du foyer ;</span> mais nécessité fait loi : « Vous, mes petites, vous ne vous <span class=\"seg\" id=\"beauvoir-seg6\" data-c=\"marriage\">marierez pas,</span> répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du <span class=\"seg\" id=\"beauvoir-seg6-1\" data-c=\"marriage\">mariage</span> ; elle autorisait des espoirs. Il y avait eu des gens qui avaient fait des choses : j’en ferais. Je ne prévoyais pas bien lesquelles. L’astronomie, l’archéologie, la paléontologie tour à tour m’avaient réclamée et je continuais à caresser vaguement le dessein d’écrire. Mais ces projets manquaient de consistance, je n’y croyais pas assez pour envisager avec confiance l’avenir. D’avance, je portais le deuil de mon passé. Ce refus du dernier sevrage se manifesta avec éclat à l’occasion du roman de <span class=\"pers\" data-p=\"Louisa Alcott\">Louisa Alcott</span>, Good Wives, qui fait suite à Little Women. Un an, ou davantage, avait passé depuis que j’avais quitté Joe et Laurie, souriant ensemble à l’avenir. Dès que j’eus entre les mains le petit volume broché de la collection Tauchnitz où s’achevait leur histoire, je l’ouvris au hasard : je tombai sur une page qui m’apprit brutalement le <span class=\"seg\" id=\"beauvoir-seg6-2\" data-c=\"marriage\">mariage</span> de <span class=\"pers\" data-p=\"Laurie\">Laurie</span> avec une jeune <span class=\"role\">sœur</span> de <span class=\"pers\" data-p=\"Joe\">Joe</span>, la blonde, vaine et stupide <span class=\"pers\" data-p=\"Amy\">Amy</span>. Je rejetai le livre, comme s’il m’avait brûlé les doigts. Pendant plusieurs jours, je restai terrassée par un malheur qui m’avait atteinte au vif de moi-même : l’homme que j’aimais et dont je me croyais aimée m’avait trahie pour une sotte. Je détestai <span class=\"pers\" data-p=\"Louisa Alcott\">Louisa Alcott</span>. Plus tard, je découvris que <span class=\"pers\" data-p=\"Joe\">Joe</span> avait elle-même refusé sa main à <span class=\"pers\" data-p=\"Laurie\">Laurie.</span> Après un long célibat, des erreurs, des épreuves, elle rencontrait un <span class=\"role\">professeur</span>, plus âgé qu’elle, doté des plus hautes qualités : il la comprenait, la consolait, la conseillait, ils s’épousaient. Bien mieux que le jeune <span class=\"pers\" data-p=\"Laurie\">Laurie</span>, cet homme supérieur, survenant du dehors dans l’histoire de <span class=\"pers\" data-p=\"Joe\">Joe</span>, incarnait le <span class=\"role\">Juge suprême</span> par qui je rêvais d’être un jourreconnue ; néanmoins son intrusion me mécontenta. Autrefois, lisant Les Vacances de Madame de Ségur, j’avais déploré que <span class=\"pers\" data-p=\"Sophie\">Sophie</span> <span class=\"seg\" id=\"beauvoir-seg6-3\" data-c=\"marriage\">n’épousât</span> pas <span class=\"pers\" data-p=\"Paul\">Paul</span>, son ami d’enfance, mais un jeune châtelain inconnu. L’amitié, l’amour, c’était à mes yeux quelque chose de définitif, d’éternel, et non pas une aventure précaire. Je ne voulais pas que l’avenir m’imposât des ruptures : il fallait qu’il enveloppât tout mon passé.</p> <p>J’avais perdu la sécurité de l’enfance ; en échange je n’avais rien gagné. L’autorité de mes parents n’avait pas fléchi et comme mon esprit critique s’éveillait, je la supportais de plus en plus impatiemment. Visites, déjeuners de famille, toutes ces corvées que mes parents tenaient pour <span class=\"seg\" id=\"beauvoir-seg5-1\" data-c=\"submission\">obligatoires</span>, je n’en voyais pas l’utilité. Les réponses : <span class=\"seg\" id=\"beauvoir-seg5-2\" data-c=\"submission\">« Ça se doit. Ça ne se fait pas »</span>, ne me satisfaisaient plus du tout. La sollicitude de ma <span class=\"role\">mère</span> me pesait. Elle avait « ses idées » qu’elle ne se souciait pas de justifier, aussi ses décisions me paraissaient-elles souvent arbitraires. Nous nous disputâmes violemment à propos d’un missel que j’offris à ma <span class=\"role\">sœur</span> pour sa communion solennelle ; je le voulais relié de cuir fauve, comme celui que possédaient la plupart de mes camarades ; <span class=\"role\">maman</span> estimait qu’une couverture de toile bleue serait bien assez belle ; je protestai que l’argent de ma tirelire m’appartenait ; elle répondit qu’on ne doit pas dépenser vingt francs pour un objet qui peut n’en coûter que quatorze. Pendant que nous achetions du pain chez le boulanger, tout au long de l’escalier et de retour à la maison, je lui tins tête. Je dus céder la rage au cœur, me promettant de ne jamais lui pardonner ce que je considérais comme <span class=\"seg\" id=\"beauvoir-seg5-3\" data-c=\"submission\">un abus de pouvoir.</span> Si elle m’avait souvent contrariée, je crois qu’elle m’eût précipitée dans la révolte. Mais dans les choses importantes — mes études, le choix de mes amies — elle intervenait peu ; elle respectait mon travail et même mes loisirs, <span class=\"seg\" id=\"beauvoir-seg2-6\" data-c=\"housework\">ne me demandant que de menus services : moudre le café, descendre la caisse à ordures.</span> J’avais l’habitude de la <span class=\"seg\" id=\"beauvoir-seg5-4\" data-c=\"submission\">docilité</span>, et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma <span class=\"role\">mère</span> n’éclata pas, mais j’en avais sourdement conscience. Son éducation, son milieu l’avaient convaincue que pour une femme la maternité est le plus beau des rôles : elle ne pouvait le jouer que si je tenais le mien, mais je refusais aussi farouchement qu’à cinq ans d’entrer dans les comédies des adultes. Au cours Désir, la veille de notre communion solennelle, on nous exhortait à aller nous jeter aux pieds de nos mamans en leur demandant pardon de nos fautes ; non seulement je ne l’avais pas fait, mais quand son tour fut venu, j’en dissuadai ma <span class=\"role\">sœur.</span> Ma <span class=\"role\">mère</span> fut fâchée. Elle devinait en moi des réticences qui lui donnaient de l’humeur, et elle me grondait souvent. Je lui en voulais de <span class=\"seg\" id=\"beauvoir-seg5-5\" data-c=\"submission\">me maintenir dans la dépendance et d’affirmer sur moi des droits.</span> En outre j’étais jalouse de la place qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir. Plus sa vie devenait ingrate, plus la <span class=\"seg\" id=\"beauvoir-seg5-7\" data-c=\"submission\">supériorité de mon père m’aveuglait</span> ; elle ne dépendait ni de la fortune ni du succès, aussi je me persuadais qu’il les avait délibérément négligés ; cela ne m’empêchait pas de le plaindre : je le pensais méconnu, incompris, victime d’obscurs cataclysmes. Je lui savais d’autant plus gré de ses accès de gaieté, encore assez fréquents. Il racontait de vieilles histoires, se moquait du tiers et du quart, faisait de bons mots. Quand il restait à la maison, il nous lisait <span class=\"pers\" data-p=\"Victor Hugo\">Victor Hugo</span>,<span class=\"pers\" data-p=\"Rostand\">Rostan</span> ; il parlait des écrivains qu’il aimait, de théâtre, de grands événements passés, d’un tas de sujets élevés, et j’étais transportée bien loin des grisailles quotidiennes. Je n’imaginais pas qu’il existât un homme aussi intelligent que lui. <span class=\"seg\" id=\"beauvoir-seg5-8\" data-c=\"submission\">Dans toutes les discussions auxquelles j’assistais, il avait le dernier mot,</span> et quand il s’attaquait à des absents, il les écrasait. Il admirait avec feu certains grands hommes ; mais ceux-ci appartenaient à des sphères si lointaines qu’elles me paraissaient mythiques, et d’ailleurs ils n’étaient jamais irréprochables ; l’excès même de leur génie les vouait à l’erreur : ils sombraient dans l’orgueil et leur esprit se faussait. C’était le cas de <span class=\"pers\" data-p=\"Victor Hugo\">Victor Hugo</span> dont mon <span class=\"role\">père</span> déclamait les poèmes avec enthousiasme mais que la vanité avait finalement égaré ; c’était le cas de <span class=\"pers\" data-p=\"Zola\">Zola</span>, d’<span class=\"pers\" data-p=\"Anatole France\">Anatole France</span>, de beaucoup d’autres. Mon <span class=\"role\">père</span> opposait à leurs aberrations une sereine impartialité. Même ceux qu’il estimait sans réserve, leur œuvre avait des limites : mon <span class=\"role\">père</span>, lui, parlait d’une voix vivante, sa pensée était insaisissable et infinie. Gens et choses comparaissaient devant lui : il <span class=\"seg\" id=\"beauvoir-seg5-6\" data-c=\"submission\">jugeait souverainement.</span> Du moment qu’il m’approuvait, j’étais sûre de moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je le déçus :il appréciait chez les femmes <span class=\"seg\" id=\"beauvoir-seg8\" data-c=\"grace\">l’élégance</span>, <span class=\"seg\" id=\"beauvoir-seg7\" data-c=\"beauty\">la beauté</span>. Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma <span class=\"role\">sœur</span>, qui restait une jolie enfant. Il rayonnait de fierté quand elle parada, déguisée en « Belle de la Nuit ». Il participait parfois à des spectacles que son ami <span class=\"pers\" data-p=\"M. Jeannot\">M. Jeannot </span>— grand zélateur du théâtre chrétien — organisait dans des patronages de banlieue ; il fit jouer <span class=\"pers\" data-p=\"Poupette\">Poupette</span> avec lui. Le visage encadré de longues tresses blondes, elle tint le rôle de la petite fille dans Le Pharmacien, de <span class=\"pers\" data-p=\"Max Maurey\">Max Maurey.</span> Il lui apprit à réciter des fables en les détaillant et avec des effets. Sans me l’avouer, je souffrais de leur entente et j’en voulais vaguement à ma <span class=\"role\">sœur</span>.</p> <p>Ma véritable rivale, c’était ma <span class=\"role\">mère</span>. Je rêvais d’avoir avec mon père des rapports personnels ; mais même dans les rares occasions où nous nous trouvions tous les deux seuls, nous nous parlions comme si elle avait été là. En cas de conflit, si j’avais recouru à mon <span class=\"role\">père</span>, il m’aurait répondu : <span class=\"seg\" id=\"beauvoir-seg5-9\" data-c=\"submission\">« Fais ce que ta <span class=\"role\">mère</span> te dit ! »</span> Il ne m’arriva qu’une fois de chercher sa complicité. Il nous avait emmenées aux courses d’Auteuil ; la pelouse était noire de monde, il faisait chaud, rien ne se passait, et je m’ennuyais ; enfin on donna le départ : les gens se ruèrent vers les barrières, et leurs dos me cachèrent la piste. Mon <span class=\"role\">père</span> avait loué pour nous des pliants et je voulus monter sur le mien. « Non », dit <span class=\"role\">maman</span>, qui détestait la foule et que la bousculade avait énervée. J’insistai. « Non et non », répéta-t-elle. Comme elle s’affairait avec ma <span class=\"role\">sœur</span>, je me tournai vers mon <span class=\"role\">père</span> et je lançai avec emportement : « <span class=\"role\">Maman</span> est ridicule. Pourquoi est-ce que je ne peux pas monter sur ce pliant ? » Il haussa les épaules d’un air gêné, sans prendre parti. Du moins ce geste ambigu me permettait-il de supposer qu’à part soi mon père trouvait parfois ma mère trop impérieuse ; je me persuadai qu’une silencieuse alliance existait entre lui et moi. Je perdis cette illusion. Pendant un déjeuner, on parla d’un grand cousin dissipé qui considérait sa mère comme une idiote : de l’aveu de mon <span class=\"role\">père</span> elle l’était en effet. Il déclara cependant avec véhémence : « Un enfant qui juge sa <span class=\"role\">mère</span> est un imbécile. » Je devins écarlate et je quittai la table en prétextant un malaise : je jugeais ma <span class=\"role\">mère</span>. Mon <span class=\"role\">père</span> m’avait porté un double coup, en affirmant leur solidarité et en me traitant indirectement d’imbécile. Ce qui m’affolait encore davantage, c’est que je jugeais cette phrase même qu’il venait de prononcer : puisque la sottise de ma tante sautait aux yeux, pourquoi son <span class=\"role\">fils</span> ne l’eût-il pas reconnue ? Ce n’est pas mal de se dire la vérité, et d’ailleurs, bien souvent, on ne le fait pas exprès ; en ce moment, par exemple, je ne pouvais pas m’empêcher de penser ce que je pensais : étais-je en faute ? En un sens non, et pourtant les paroles de mon <span class=\"role\">père</span> mordaient sur moi si bien que je me sentais à la fois irréprochable et monstrueuse. Par la suite, et peut-être en partie à cause de cet incident, je n’accordai plus à mon <span class=\"role\">père</span> une infaillibilité absolue. Pourtant mes parents conservèrent le pouvoir de faire de moi une coupable ; j’acceptais leurs verdicts tout en me voyant avec d’autres yeux que les leurs. La vérité de mon être leur appartenait encore autant qu’à moi : mais paradoxalement, ma vérité en eux pouvait n’être qu’un leurre, elle pouvait être fausse. Il n’y avait qu’un moyen de prévenir cette étrange confusion : il fallait leur dissimuler les trompeuses apparences.</p>"
+   "html": "<p>Mon <span class=\"seg\" id=\"beauvoir-seg1\" data-c=\"body\">corps</span> changeait ; mon existence aussi : le passé me quittait. Déjà nous avions <span class=\"seg\" id=\"beauvoir-seg2\" data-c=\"housework\">déménagé</span>, et <span class=\"pers\" data-p=\"Louise\">Louise</span> était partie. Je regardais avec ma <span class=\"seg\" id=\"beauvoir-seg3\" data-c=\"sorority\">sœur</span> de vieilles photographies quand je m’avisai soudain qu’un de ces jours, j’allais perdre <span class=\"pers\" data-p=\"Meyrignac\">Meyrignac</span>. <span class=\"role\">Grand-père</span> était très âgé, il mourrait ; quand le domaine appartiendrait à mon <span class=\"role\">oncle</span> <span class=\"pers\" data-p=\"Gaston\">Gaston</span> — qui déjà en était nu-propriétaire — je ne m’y sentirais plus chez moi ; j’y viendrais en étrangère, puis je n’y viendrais plus. Je fus consternée. Mes parents répétaient — et leur exemple semblait le confirmer — que la vie a raison des amitiés d’enfance : est-ce que j’oublierais <span class=\"pers\" data-p=\"Zaza\">Zaza</span> ? Nous nous demandions avec inquiétude <span class=\"pers\" data-p=\"Poupette\">Poupette</span> et moi si notre affection résisterait à l’âge. Les grandes personnes ne partageaient pas nos jeux ni nos plaisirs. Je n’en connaissais aucune qui parût beaucoup s’amuser sur terre : la vie n’est pas gaie, la vie n’est pas un roman, déclaraient-elles en chœur. La monotonie de l’existence adulte m’avait toujours apitoyée ; quand je me rendis compte que, dans un bref délai, elle deviendrait mon lot, l’angoisse me prit. Un après-midi, j’aidais <span class=\"role\">maman</span> à faire la <span class=\"seg\" id=\"beauvoir-seg2-1\" data-c=\"housework\">vaisselle ; elle lavait des assiettes, je les essuyais </span>; par la fenêtre, je voyais le mur de la caserne de pompiers, et d’autres <span class=\"seg\" id=\"beauvoir-seg2-2\" data-c=\"housework\">cuisines où des femmes frottaient des casseroles ou épluchaient des légumes.</span> Chaque jour, le déjeuner, le dîner ; <span class=\"seg\" id=\"beauvoir-seg2-3\" data-c=\"housework\">chaque jour la vaisselle ;</span> ces heures indéfiniment recommencées et qui ne mènent nulle part : vivrais-je ainsi ? Une image se forma dans ma tête, avec une netteté si désolante que je me la rappelle encore aujourd’hui : une rangée de carrés gris s’étendait jusqu’à l’horizon, diminués selon les lois de la perspective, mais tous identiques, et plats ; c’étaient les jours et les semaines, et les années. Moi, depuis ma naissance, je m’étais endormie chaque soir un peu plus riche que la veille ; je m’élevais de degré en degré ; mais si je ne trouvais là-haut qu’un morne plateau, sans aucun but vers lequel marcher, à quoi bon ? Non, me dis-je, tout en <span class=\"seg\" id=\"beauvoir-seg2-4\" data-c=\"housework\">rangeant dans le placard une pile d’assiettes</span> ; ma vie à moi conduira quelque part. Heureusement, je n’étais pas vouée à un destin de <span class=\"seg\" id=\"beauvoir-seg2-5\" data-c=\"housework\">ménagère.</span> Mon <span class=\"role\">père</span> n’était pas <span class=\"seg\" id=\"beauvoir-seg4\" data-c=\"feminism\">féministe ;</span> il admirait la sagesse des romans de <span class=\"pers\" data-p=\"Colette Yver\">Colette Yver</span> où l’avocate, la doctoresse, finissent par <span class=\"seg\" id=\"beauvoir-seg5\" data-c=\"submission\">sacrifier leur carrière à l’harmonie du foyer ;</span> mais nécessité fait loi : « Vous, mes petites, vous ne vous <span class=\"seg\" id=\"beauvoir-seg6\" data-c=\"marriage\">marierez pas,</span> répétait-il souvent. Vous n’avez pas de dot, il faudra travailler. » Je préférais infiniment la perspective d’un métier à celle du <span class=\"seg\" id=\"beauvoir-seg6-1\" data-c=\"marriage\">mariage</span> ; elle autorisait des espoirs. Il y avait eu des gens qui avaient fait des choses : j’en ferais. Je ne prévoyais pas bien lesquelles. L’astronomie, l’archéologie, la paléontologie tour à tour m’avaient réclamée et je continuais à caresser vaguement le dessein d’écrire. Mais ces projets manquaient de consistance, je n’y croyais pas assez pour envisager avec confiance l’avenir. D’avance, je portais le deuil de mon passé. Ce refus du dernier sevrage se manifesta avec éclat à l’occasion du roman de <span class=\"pers\" data-p=\"Louisa Alcott\">Louisa Alcott</span>, Good Wives, qui fait suite à Little Women. Un an, ou davantage, avait passé depuis que j’avais quitté Joe et Laurie, souriant ensemble à l’avenir. Dès que j’eus entre les mains le petit volume broché de la collection Tauchnitz où s’achevait leur histoire, je l’ouvris au hasard : je tombai sur une page qui m’apprit brutalement le <span class=\"seg\" id=\"beauvoir-seg6-2\" data-c=\"marriage\">mariage</span> de <span class=\"pers\" data-p=\"Laurie\">Laurie</span> avec une jeune <span class=\"role\">sœur</span> de <span class=\"pers\" data-p=\"Joe\">Joe</span>, la blonde, vaine et stupide <span class=\"pers\" data-p=\"Amy\">Amy</span>. Je rejetai le livre, comme s’il m’avait brûlé les doigts. Pendant plusieurs jours, je restai terrassée par un malheur qui m’avait atteinte au vif de moi-même : l’homme que j’aimais et dont je me croyais aimée m’avait trahie pour une sotte. Je détestai <span class=\"pers\" data-p=\"Louisa Alcott\">Louisa Alcott</span>. Plus tard, je découvris que <span class=\"pers\" data-p=\"Joe\">Joe</span> avait elle-même refusé sa main à <span class=\"pers\" data-p=\"Laurie\">Laurie.</span> Après un long célibat, des erreurs, des épreuves, elle rencontrait un <span class=\"role\">professeur</span>, plus âgé qu’elle, doté des plus hautes qualités : il la comprenait, la consolait, la conseillait, ils s’épousaient. Bien mieux que le jeune <span class=\"pers\" data-p=\"Laurie\">Laurie</span>, cet homme supérieur, survenant du dehors dans l’histoire de <span class=\"pers\" data-p=\"Joe\">Joe</span>, incarnait le <span class=\"role\">Juge suprême</span> par qui je rêvais d’être un jourreconnue ; néanmoins son intrusion me mécontenta. Autrefois, lisant Les Vacances de Madame de Ségur, j’avais déploré que <span class=\"pers\" data-p=\"Sophie\">Sophie</span> <span class=\"seg\" id=\"beauvoir-seg6-3\" data-c=\"marriage\">n’épousât</span> pas <span class=\"pers\" data-p=\"Paul\">Paul</span>, son ami d’enfance, mais un jeune châtelain inconnu. L’amitié, l’amour, c’était à mes yeux quelque chose de définitif, d’éternel, et non pas une aventure précaire. Je ne voulais pas que l’avenir m’imposât des ruptures : il fallait qu’il enveloppât tout mon passé.</p> <p>J’avais perdu la sécurité de l’enfance ; en échange je n’avais rien gagné. L’autorité de mes parents n’avait pas fléchi et comme mon esprit critique s’éveillait, je la supportais de plus en plus impatiemment. Visites, déjeuners de famille, toutes ces corvées que mes parents tenaient pour <span class=\"seg\" id=\"beauvoir-seg5-1\" data-c=\"submission\">obligatoires</span>, je n’en voyais pas l’utilité. Les réponses : <span class=\"seg\" id=\"beauvoir-seg5-2\" data-c=\"submission\">« Ça se doit. Ça ne se fait pas »</span>, ne me satisfaisaient plus du tout. La sollicitude de ma <span class=\"role\">mère</span> me pesait. Elle avait « ses idées » qu’elle ne se souciait pas de justifier, aussi ses décisions me paraissaient-elles souvent arbitraires. Nous nous disputâmes violemment à propos d’un missel que j’offris à ma <span class=\"role\">sœur</span> pour sa communion solennelle ; je le voulais relié de cuir fauve, comme celui que possédaient la plupart de mes camarades ; <span class=\"role\">maman</span> estimait qu’une couverture de toile bleue serait bien assez belle ; je protestai que l’argent de ma tirelire m’appartenait ; elle répondit qu’on ne doit pas dépenser vingt francs pour un objet qui peut n’en coûter que quatorze. Pendant que nous achetions du pain chez le boulanger, tout au long de l’escalier et de retour à la maison, je lui tins tête. Je dus céder la rage au cœur, me promettant de ne jamais lui pardonner ce que je considérais comme <span class=\"seg\" id=\"beauvoir-seg5-3\" data-c=\"submission\">un abus de pouvoir.</span> Si elle m’avait souvent contrariée, je crois qu’elle m’eût précipitée dans la révolte. Mais dans les choses importantes — mes études, le choix de mes amies — elle intervenait peu ; elle respectait mon travail et même mes loisirs, <span class=\"seg\" id=\"beauvoir-seg2-6\" data-c=\"housework\">ne me demandant que de menus services : moudre le café, descendre la caisse à ordures.</span> J’avais l’habitude de la <span class=\"seg\" id=\"beauvoir-seg5-4\" data-c=\"submission\">docilité</span>, et je croyais que, en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma <span class=\"role\">mère</span> n’éclata pas, mais j’en avais sourdement conscience. Son éducation, son milieu l’avaient convaincue que pour une femme la maternité est le plus beau des rôles : elle ne pouvait le jouer que si je tenais le mien, mais je refusais aussi farouchement qu’à cinq ans d’entrer dans les comédies des adultes. Au cours Désir, la veille de notre communion solennelle, on nous exhortait à aller nous jeter aux pieds de nos mamans en leur demandant pardon de nos fautes ; non seulement je ne l’avais pas fait, mais quand son tour fut venu, j’en dissuadai ma <span class=\"role\">sœur.</span> Ma <span class=\"role\">mère</span> fut fâchée. Elle devinait en moi des réticences qui lui donnaient de l’humeur, et elle me grondait souvent. Je lui en voulais de <span class=\"seg\" id=\"beauvoir-seg5-5\" data-c=\"submission\">me maintenir dans la dépendance et d’affirmer sur moi des droits.</span> En outre j’étais jalouse de la place qu’elle occupait dans le cœur de mon père car ma passion pour lui n’avait fait que grandir. Plus sa vie devenait ingrate, plus la <span class=\"seg\" id=\"beauvoir-seg5-7\" data-c=\"submission\">supériorité de mon père m’aveuglait</span> ; elle ne dépendait ni de la fortune ni du succès, aussi je me persuadais qu’il les avait délibérément négligés ; cela ne m’empêchait pas de le plaindre : je le pensais méconnu, incompris, victime d’obscurs cataclysmes. Je lui savais d’autant plus gré de ses accès de gaieté, encore assez fréquents. Il racontait de vieilles histoires, se moquait du tiers et du quart, faisait de bons mots. Quand il restait à la maison, il nous lisait <span class=\"pers\" data-p=\"Victor Hugo\">Victor Hugo</span>,<span class=\"pers\" data-p=\"Rostand\">Rostan</span> ; il parlait des écrivains qu’il aimait, de théâtre, de grands événements passés, d’un tas de sujets élevés, et j’étais transportée bien loin des grisailles quotidiennes. Je n’imaginais pas qu’il existât un homme aussi intelligent que lui. <span class=\"seg\" id=\"beauvoir-seg5-8\" data-c=\"submission\">Dans toutes les discussions auxquelles j’assistais, il avait le dernier mot,</span> et quand il s’attaquait à des absents, il les écrasait. Il admirait avec feu certains grands hommes ; mais ceux-ci appartenaient à des sphères si lointaines qu’elles me paraissaient mythiques, et d’ailleurs ils n’étaient jamais irréprochables ; l’excès même de leur génie les vouait à l’erreur : ils sombraient dans l’orgueil et leur esprit se faussait. C’était le cas de <span class=\"pers\" data-p=\"Victor Hugo\">Victor Hugo</span> dont mon <span class=\"role\">père</span> déclamait les poèmes avec enthousiasme mais que la vanité avait finalement égaré ; c’était le cas de <span class=\"pers\" data-p=\"Zola\">Zola</span>, d’<span class=\"pers\" data-p=\"Anatole France\">Anatole France</span>, de beaucoup d’autres. Mon <span class=\"role\">père</span> opposait à leurs aberrations une sereine impartialité. Même ceux qu’il estimait sans réserve, leur œuvre avait des limites : mon <span class=\"role\">père</span>, lui, parlait d’une voix vivante, sa pensée était insaisissable et infinie. Gens et choses comparaissaient devant lui : il <span class=\"seg\" id=\"beauvoir-seg5-6\" data-c=\"submission\">jugeait souverainement.</span> Du moment qu’il m’approuvait, j’étais sûre de moi. Pendant des années, il ne m’avait décerné que des éloges. Lorsque j’entrai dans l’âge ingrat, je le déçus :il appréciait chez les femmes <span class=\"seg\" id=\"beauvoir-seg8\" data-c=\"grace\">l’élégance</span>, <span class=\"seg\" id=\"beauvoir-seg7\" data-c=\"beauty\">la beauté</span>. Non seulement il ne me cacha pas son désappointement, mais il marqua plus d’intérêt qu’autrefois à ma <span class=\"role\">sœur</span>, qui restait une jolie enfant. Il rayonnait de fierté quand elle parada, déguisée en « Belle de la Nuit ». Il participait parfois à des spectacles que son ami <span class=\"pers\" data-p=\"M. Jeannot\">M. Jeannot </span>— grand zélateur du théâtre chrétien — organisait dans des patronages de banlieue ; il fit jouer <span class=\"pers\" data-p=\"Poupette\">Poupette</span> avec lui. Le visage encadré de longues tresses blondes, elle tint le rôle de la petite fille dans Le Pharmacien, de <span class=\"pers\" data-p=\"Max Maurey\">Max Maurey.</span> Il lui apprit à réciter des fables en les détaillant et avec des effets. Sans me l’avouer, je souffrais de leur entente et j’en voulais vaguement à ma <span class=\"role\">sœur</span>.</p> <p>Ma véritable rivale, c’était ma <span class=\"role\">mère</span>. Je rêvais d’avoir avec mon père des rapports personnels ; mais même dans les rares occasions où nous nous trouvions tous les deux seuls, nous nous parlions comme si elle avait été là. En cas de conflit, si j’avais recouru à mon <span class=\"role\">père</span>, il m’aurait répondu : <span class=\"seg\" id=\"beauvoir-seg5-9\" data-c=\"submission\">« Fais ce que ta <span class=\"role\">mère</span> te dit ! »</span> Il ne m’arriva qu’une fois de chercher sa complicité. Il nous avait emmenées aux courses d’Auteuil ; la pelouse était noire de monde, il faisait chaud, rien ne se passait, et je m’ennuyais ; enfin on donna le départ : les gens se ruèrent vers les barrières, et leurs dos me cachèrent la piste. Mon <span class=\"role\">père</span> avait loué pour nous des pliants et je voulus monter sur le mien. « Non », dit <span class=\"role\">maman</span>, qui détestait la foule et que la bousculade avait énervée. J’insistai. « Non et non », répéta-t-elle. Comme elle s’affairait avec ma <span class=\"role\">sœur</span>, je me tournai vers mon <span class=\"role\">père</span> et je lançai avec emportement : « <span class=\"role\">Maman</span> est ridicule. Pourquoi est-ce que je ne peux pas monter sur ce pliant ? » Il haussa les épaules d’un air gêné, sans prendre parti. Du moins ce geste ambigu me permettait-il de supposer qu’à part soi mon père trouvait parfois ma mère trop impérieuse ; je me persuadai qu’une silencieuse alliance existait entre lui et moi. Je perdis cette illusion. Pendant un déjeuner, on parla d’un grand cousin dissipé qui considérait sa mère comme une idiote : de l’aveu de mon <span class=\"role\">père</span> elle l’était en effet. Il déclara cependant avec véhémence : « Un enfant qui juge sa <span class=\"role\">mère</span> est un imbécile. » Je devins écarlate et je quittai la table en prétextant un malaise : je jugeais ma <span class=\"role\">mère</span>. Mon <span class=\"role\">père</span> m’avait porté un double coup, en affirmant leur solidarité et en me traitant indirectement d’imbécile. Ce qui m’affolait encore davantage, c’est que je jugeais cette phrase même qu’il venait de prononcer : puisque la sottise de ma tante sautait aux yeux, pourquoi son <span class=\"role\">fils</span> ne l’eût-il pas reconnue ? Ce n’est pas mal de se dire la vérité, et d’ailleurs, bien souvent, on ne le fait pas exprès ; en ce moment, par exemple, je ne pouvais pas m’empêcher de penser ce que je pensais : étais-je en faute ? En un sens non, et pourtant les paroles de mon <span class=\"role\">père</span> mordaient sur moi si bien que je me sentais à la fois irréprochable et monstrueuse. Par la suite, et peut-être en partie à cause de cet incident, je n’accordai plus à mon <span class=\"role\">père</span> une infaillibilité absolue. Pourtant mes parents conservèrent le pouvoir de faire de moi une coupable ; j’acceptais leurs verdicts tout en me voyant avec d’autres yeux que les leurs. La vérité de mon être leur appartenait encore autant qu’à moi : mais paradoxalement, ma vérité en eux pouvait n’être qu’un leurre, elle pouvait être fausse. Il n’y avait qu’un moyen de prévenir cette étrange confusion : il fallait leur dissimuler les trompeuses apparences.</p>",
+   "life": {
+    "qid": "Q7197",
+    "viaf": "2466221",
+    "born": 1908,
+    "died": 1986,
+    "approx": false,
+    "birthplace": "6th arrondissement of Paris",
+    "deathplace": "14th arrondissement of Paris",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "Simone de Beauvoir2.png",
+     "page": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png",
+     "artist": "Moshe Milner",
+     "licence": "CC BY-SA 3.0",
+     "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+   }
   },
   {
    "id": "chiara",
@@ -2238,8 +2617,10 @@ window.WOG = {
       "sorority"
      ],
      "text": "sorella",
+     "xml": "<seg xml:id=\"seg1\" ana=\"#sorority\">sorella</seg>",
      "before": "Alla signora in Cristo veneratissima e",
-     "after": "degna d’amore più di tutte le creature mortali, Agnese, germana dell’illustre Re di Boemia, ma ora soprattutto sorella e sposa del sommo Re dei …"
+     "after": "degna d’amore più di tutte le creature mortali, Agnese, germana dell’illustre Re di Boemia, ma ora soprattutto sorella e sposa del sommo Re dei …",
+     "en": "sister"
     },
     {
      "id": "chiara-seg2",
@@ -2248,8 +2629,10 @@ window.WOG = {
       "marriage"
      ],
      "text": "sposa",
+     "xml": "<seg xml:id=\"seg2\" ana=\"#marriage\">sposa</seg>",
      "before": "… in Cristo veneratissima e sorella degna d’amore più di tutte le creature mortali, Agnese, germana dell’illustre Re di Boemia, ma ora soprattutto sorella e",
-     "after": "del sommo Re dei cieli, Chiara, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura salutare gaudio nell’Autore della salvezza e …"
+     "after": "del sommo Re dei cieli, Chiara, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura salutare gaudio nell’Autore della salvezza e …",
+     "en": "bride"
     },
     {
      "id": "chiara-seg1-1",
@@ -2258,8 +2641,10 @@ window.WOG = {
       "sorority"
      ],
      "text": "sorelle",
+     "xml": "<seg xml:id=\"seg1.1\" ana=\"#sorority\">sorelle</seg>",
      "before": "… o carissima. Non permettere che nessun’ombra di mestizia avvolga il tuo cuore, o signora in Cristo dilettissima, gioia degli Angeli e corona delle tue",
-     "after": ". Colloca i tuoi occhi davanti allo specchio dell’eternità, colloca la tua anima nello splendore della gloria, colloca il tuo cuore in Colui che …"
+     "after": ". Colloca i tuoi occhi davanti allo specchio dell’eternità, colloca la tua anima nello splendore della gloria, colloca il tuo cuore in Colui che …",
+     "en": "sisters"
     },
     {
      "id": "chiara-seg3",
@@ -2268,8 +2653,10 @@ window.WOG = {
       "virginity"
      ],
      "text": "vergine",
+     "xml": "<seg xml:id=\"seg3\" ana=\"#virginity\">vergine</seg>",
      "before": "… luna; i suoi premi sono di pregio e grandezza infiniti. Voglio dire quel Figlio dell’Altissimo, che la Vergine ha partorito, senza cessare di essere",
-     "after": ". Stringiti alla sua dolcissima Madre, la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel …"
+     "after": ". Stringiti alla sua dolcissima Madre, la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel …",
+     "en": "virgin"
     },
     {
      "id": "chiara-seg4",
@@ -2278,8 +2665,10 @@ window.WOG = {
       "mother"
      ],
      "text": "Madre",
+     "xml": "<seg xml:id=\"seg4\" ana=\"#mother\">Madre</seg>",
      "before": "… di pregio e grandezza infiniti. Voglio dire quel Figlio dell’Altissimo, che la Vergine ha partorito, senza cessare di essere vergine. Stringiti alla sua dolcissima",
-     "after": ", la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo …"
+     "after": ", la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo …",
+     "en": "Mother"
     },
     {
      "id": "chiara-seg3-1",
@@ -2288,8 +2677,10 @@ window.WOG = {
       "virginity"
      ],
      "text": "grembo verginale",
+     "xml": "<seg xml:id=\"seg3.1\" ana=\"#virginity\">grembo verginale</seg>",
      "before": "… tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo seno e lo portò nel suo",
-     "after": ". Chi non sdegnerebbe con orrore le insidie del nemico dell’umano genere, che facendo brillare innanzi agli occhi il luccicore delle cose transitorie e …"
+     "after": ". Chi non sdegnerebbe con orrore le insidie del nemico dell’umano genere, che facendo brillare innanzi agli occhi il luccicore delle cose transitorie e …",
+     "en": "virginal womb"
     },
     {
      "id": "chiara-seg3-2",
@@ -2298,8 +2689,10 @@ window.WOG = {
       "virginity"
      ],
      "text": "Vergine delle vergini",
+     "xml": "<seg xml:id=\"seg3.2\" ana=\"#virginity\">Vergine delle vergini</seg>",
      "before": "… e io pure lo amerò; e noi verremo a lui e porremo in lui la nostra dimora”. A qual modo, dunque, che la gloriosa",
-     "after": "portò Cristo materialmente nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo …"
+     "after": "portò Cristo materialmente nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo …",
+     "en": "Virgin of virgins"
     },
     {
      "id": "chiara-seg5",
@@ -2308,8 +2701,10 @@ window.WOG = {
       "body"
      ],
      "text": "corpo",
+     "xml": "<seg xml:id=\"seg5\" ana=\"#body\">corpo</seg>",
      "before": "… materialmente nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo spiritualmente nel",
-     "after": "casto e verginale. E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più …"
+     "after": "casto e verginale. E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più …",
+     "en": "body"
     },
     {
      "id": "chiara-seg3-3",
@@ -2318,8 +2713,10 @@ window.WOG = {
       "virginity"
      ],
      "text": "casto e verginale",
+     "xml": "<seg xml:id=\"seg3.3\" ana=\"#virginity\">casto e verginale</seg>",
      "before": "… nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo spiritualmente nel corpo",
-     "after": ". E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più duraturo e …"
+     "after": ". E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più duraturo e …",
+     "en": "chaste and virginal"
     },
     {
      "id": "chiara-seg6",
@@ -2328,8 +2725,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "cibi",
+     "xml": "<seg xml:id=\"seg6\" ana=\"#foodOrFoodAbst\">cibi</seg>",
      "before": "… raccomandò di celebrare con particolare solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella varietà dei",
-     "after": ". Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le quali ci insegnò e ci comandò di usare …"
+     "after": ". Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le quali ci insegnò e ci comandò di usare …",
+     "en": "foods"
     },
     {
      "id": "chiara-seg6-1",
@@ -2338,8 +2737,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "cibo",
+     "xml": "<seg xml:id=\"seg6.1\" ana=\"#foodOrFoodAbst\">cibo</seg>",
      "before": "… che, salvo le deboli e le inferme, -­‐ verso le quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di",
-     "after": "-­‐, nessuna di noi, che sia sana e robusta, dovrebbe prendere se non cibi quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni …"
+     "after": "-­‐, nessuna di noi, che sia sana e robusta, dovrebbe prendere se non cibi quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni …",
+     "en": "food"
     },
     {
      "id": "chiara-seg7",
@@ -2348,8 +2749,10 @@ window.WOG = {
       "strength"
      ],
      "text": "robusta",
+     "xml": "<seg xml:id=\"seg7\" ana=\"#strength\">robusta</seg>",
      "before": "… le quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di cibo -­‐, nessuna di noi, che sia sana e",
-     "after": ", dovrebbe prendere se non cibi quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni giorno ad eccezione delle domeniche e del Natale …"
+     "after": ", dovrebbe prendere se non cibi quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni giorno ad eccezione delle domeniche e del Natale …",
+     "en": "strong"
     },
     {
      "id": "chiara-seg6-2",
@@ -2358,8 +2761,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "cibi",
+     "xml": "<seg xml:id=\"seg6.2\" ana=\"#foodOrFoodAbst\">cibi</seg>",
      "before": "… ci comandò di usare ogni discrezione con qualsiasi genere di cibo -­‐, nessuna di noi, che sia sana e robusta, dovrebbe prendere se non",
-     "after": "quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo …"
+     "after": "quaresimali, tanto nei giorni feriali che nei festivi, digiunando ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo …",
+     "en": "foods"
     },
     {
      "id": "chiara-seg6-3",
@@ -2368,8 +2773,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "digiunando",
+     "xml": "<seg xml:id=\"seg6.3\" ana=\"#foodOrFoodAbst\">digiunando</seg>",
      "before": "… di cibo -­‐, nessuna di noi, che sia sana e robusta, dovrebbe prendere se non cibi quaresimali, tanto nei giorni feriali che nei festivi,",
-     "after": "ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il cibo due volte. Ed anche nei giovedì, …"
+     "after": "ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il cibo due volte. Ed anche nei giovedì, …",
+     "en": "fasting"
     },
     {
      "id": "chiara-seg6-4",
@@ -2378,8 +2785,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "cibo",
+     "xml": "<seg xml:id=\"seg6.4\" ana=\"#foodOrFoodAbst\">cibo</seg>",
      "before": "… nei giorni feriali che nei festivi, digiunando ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il",
-     "after": "due volte. Ed anche nei giovedì, dei periodi non di digiuno, ciascuna può fare come le piace, cioè chi non volesse digiunare non vi …"
+     "after": "due volte. Ed anche nei giovedì, dei periodi non di digiuno, ciascuna può fare come le piace, cioè chi non volesse digiunare non vi …",
+     "en": "food"
     },
     {
      "id": "chiara-seg6-5",
@@ -2388,8 +2797,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "digiuno",
+     "xml": "<seg xml:id=\"seg6.5\" ana=\"#foodOrFoodAbst\">digiuno</seg>",
      "before": "… delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il cibo due volte. Ed anche nei giovedì, dei periodi non di",
-     "after": ", ciascuna può fare come le piace, cioè chi non volesse digiunare non vi è tenuta. Ma noi, che siamo in buona salute, digiuniamo …"
+     "after": ", ciascuna può fare come le piace, cioè chi non volesse digiunare non vi è tenuta. Ma noi, che siamo in buona salute, digiuniamo …",
+     "en": "fast"
     },
     {
      "id": "chiara-seg6-6",
@@ -2398,8 +2809,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "digiunare",
+     "xml": "<seg xml:id=\"seg6.6\" ana=\"#foodOrFoodAbst\">digiunare</seg>",
      "before": "… prendere il cibo due volte. Ed anche nei giovedì, dei periodi non di digiuno, ciascuna può fare come le piace, cioè chi non volesse",
-     "after": "non vi è tenuta. Ma noi, che siamo in buona salute, digiuniamo tutti i giorni, eccetto le domeniche e il Natale. Non siamo però …"
+     "after": "non vi è tenuta. Ma noi, che siamo in buona salute, digiuniamo tutti i giorni, eccetto le domeniche e il Natale. Non siamo però …",
+     "en": "to fast"
     },
     {
      "id": "chiara-seg6-7",
@@ -2408,8 +2821,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "digiuniamo",
+     "xml": "<seg xml:id=\"seg6.7\" ana=\"#foodOrFoodAbst\">digiuniamo</seg>",
      "before": "… di digiuno, ciascuna può fare come le piace, cioè chi non volesse digiunare non vi è tenuta. Ma noi, che siamo in buona salute,",
-     "after": "tutti i giorni, eccetto le domeniche e il Natale. Non siamo però tenute al digiuno -­‐ così ci ha insegnato il beato Francesco in …"
+     "after": "tutti i giorni, eccetto le domeniche e il Natale. Non siamo però tenute al digiuno -­‐ così ci ha insegnato il beato Francesco in …",
+     "en": "we fast"
     },
     {
      "id": "chiara-seg6-8",
@@ -2418,8 +2833,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "digiuno",
+     "xml": "<seg xml:id=\"seg6.8\" ana=\"#foodOrFoodAbst\">digiuno</seg>",
      "before": "… è tenuta. Ma noi, che siamo in buona salute, digiuniamo tutti i giorni, eccetto le domeniche e il Natale. Non siamo però tenute al",
-     "after": "-­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il tempo pasquale e nelle feste della Madonna e dei …"
+     "after": "-­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il tempo pasquale e nelle feste della Madonna e dei …",
+     "en": "fast"
     },
     {
      "id": "chiara-seg7-1",
@@ -2428,8 +2845,10 @@ window.WOG = {
       "strength"
      ],
      "text": "robuste",
+     "xml": "<seg xml:id=\"seg7.1\" ana=\"#strength\">robuste</seg>",
      "before": "… nelle feste della Madonna e dei santi Apostoli, a meno che cadessero il venerdì. Ma, come ho detto sopra, noi che siamo sane e",
-     "after": ", consumiamo sempre cibi quaresimali. Siccome però, non abbiamo un corpo di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto …"
+     "after": ", consumiamo sempre cibi quaresimali. Siccome però, non abbiamo un corpo di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto …",
+     "en": "strong"
     },
     {
      "id": "chiara-seg6-9",
@@ -2438,8 +2857,10 @@ window.WOG = {
       "foodOrFoodAbst"
      ],
      "text": "cibi",
+     "xml": "<seg xml:id=\"seg6.9\" ana=\"#foodOrFoodAbst\">cibi</seg>",
      "before": "… Madonna e dei santi Apostoli, a meno che cadessero il venerdì. Ma, come ho detto sopra, noi che siamo sane e robuste, consumiamo sempre",
-     "after": "quaresimali. Siccome però, non abbiamo un corpo di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto fragili e inclini ad …"
+     "after": "quaresimali. Siccome però, non abbiamo un corpo di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto fragili e inclini ad …",
+     "en": "foods"
     },
     {
      "id": "chiara-seg5-1",
@@ -2448,8 +2869,10 @@ window.WOG = {
       "body"
      ],
      "text": "corpo",
+     "xml": "<seg xml:id=\"seg5.1\" ana=\"#body\">corpo</seg>",
      "before": "… che cadessero il venerdì. Ma, come ho detto sopra, noi che siamo sane e robuste, consumiamo sempre cibi quaresimali. Siccome però, non abbiamo un",
-     "after": "di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto fragili e inclini ad ogni debolezza corporale, ti prego e ti …"
+     "after": "di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto fragili e inclini ad ogni debolezza corporale, ti prego e ti …",
+     "en": "body"
     },
     {
      "id": "chiara-seg8",
@@ -2458,8 +2881,10 @@ window.WOG = {
       "weakness"
      ],
      "text": "né la nostra è la robustezza del granito",
+     "xml": "<seg xml:id=\"seg8\" ana=\"#weakness\">né la nostra è la robustezza del granito</seg>",
      "before": "… venerdì. Ma, come ho detto sopra, noi che siamo sane e robuste, consumiamo sempre cibi quaresimali. Siccome però, non abbiamo un corpo di bronzo,",
-     "after": ", anzi siamo piuttosto fragili e inclini ad ogni debolezza corporale, ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia …"
+     "after": ", anzi siamo piuttosto fragili e inclini ad ogni debolezza corporale, ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia …",
+     "en": "nor is ours the strength of granite"
     },
     {
      "id": "chiara-seg8-1",
@@ -2468,8 +2893,10 @@ window.WOG = {
       "weakness"
      ],
      "text": "fragili e inclini ad ogni debolezza corporale",
+     "xml": "<seg xml:id=\"seg8.1\" ana=\"#weakness\">fragili e inclini ad ogni debolezza corporale</seg>",
      "before": "… robuste, consumiamo sempre cibi quaresimali. Siccome però, non abbiamo un corpo di bronzo, né la nostra è la robustezza del granito, anzi siamo piuttosto",
-     "after": ", ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale ho saputo …"
+     "after": ", ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale ho saputo …",
+     "en": "frail and prone to every bodily weakness"
     },
     {
      "id": "chiara-seg1-2",
@@ -2478,11 +2905,30 @@ window.WOG = {
       "sorority"
      ],
      "text": "sorelle",
+     "xml": "<seg xml:id=\"seg1.2\" ana=\"#sorority\">sorelle</seg>",
      "before": "… auguro di stare sempre bene nel Signore, con la premura con la quale lo potrei augurare a me stessa. Raccomanda me e le mie",
-     "after": "nelle tue sante orazioni."
+     "after": "nelle tue sante orazioni.",
+     "en": "sisters"
     }
    ],
-   "html": "<p>Alla signora in Cristo veneratissima e <span class=\"seg\" id=\"chiara-seg1\" data-c=\"sorority\">sorella</span> degna d’amore più di tutte le creature mortali, <span class=\"pers\" data-p=\"AgnesediBoemia\">Agnese</span>, germana dell’illustre <span class=\"role\">Re di <span class=\"place\">Boemia</span></span>, ma ora soprattutto sorella e <span class=\"seg\" id=\"chiara-seg2\" data-c=\"marriage\">sposa</span> del sommo Re dei cieli, <span class=\"pers\" data-p=\"ChiaradAssisi\">Chiara</span>, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura salutare gaudio nell’Autore della salvezza e quanto di meglio essa possa desiderare. Le liete notizie del tuo benessere, del tuo stato felice e dei tuoi prosperi progressi nella corsa che hai intrapresa per la conquista del celeste palio, mi riempiono di tanta gioia; e tanto più respiro di esultanza nel Signore, perché so e ritengo che tu supplisci magnificamente alle imperfezioni che sono in me e nelle altre sorelle nella nostra imitazione degli esempi di <span class=\"pers\" data-p=\"GesudiNazareth\">Gesù</span> Cristo povero ed umile. Davvero posso rallegrarmi, e nessuno potrebbe strapparmi da questa gioia, poiché ho raggiunto quello che ho desiderato sotto il cielo, dal momento che vedo te trionfare in una maniera, direi, terribile e incredibile, sostenuta da una prerogativa meravigliosa della sapienza che procede da Dio medesimo, sulle astuzie dello scaltro serpente, sulla superbia, che è rovina dell’umana natura, e sulla vanità, che rende fatui i cuori degli uomini. E ti ammiro ancora stringere a te, mediante l’umiltà, con la forza della fede e le braccia della povertà, il tesoro incomparabile, nascosto nel campo del mondo e dei cuori umani, col quale si compra Colui che dal nulla trasse tutte le cose. E, per avvalermi delle parole medesime dell’<span class=\"role\">Apostolo</span>, ti stimo collaboratrice di Dio stesso e sostegno delle membra deboli e vacillanti del suo ineffabile Corpo. Chi potrebbe, dunque, impedirmi di rallegrarmi per sì mirabili motivi di gaudio? Gioisci, perciò, anche tu nel Signore sempre, o carissima. Non permettere che nessun’ombra di mestizia avvolga il tuo cuore, o signora in Cristo dilettissima, gioia degli Angeli e corona delle tue <span class=\"seg\" id=\"chiara-seg1-1\" data-c=\"sorority\">sorelle</span>. Colloca i tuoi occhi davanti allo specchio dell’eternità, colloca la tua anima nello splendore della gloria, colloca il tuo cuore in Colui che è figura della divina sostanza, e trasformati interamente, per mezzo della contemplazione, nella immagine della divinità di Lui. Allora anche tu proverai ciò che è riservato ai soli suoi amici, e gusterai la segreta dolcezza che Dio medesimo ha riservato fin dall’inizio per coloro che lo amano. Senza concedere neppure uno sguardo alle seduzioni, che in questo mondo fallace ed irrequieto tendono lacci ai ciechi che vi attaccano il loro cuore, con tutta te stessa ama Colui che per amor tuo tutto si è donato. La sua bellezza ammirano il sole e la luna; i suoi premi sono di pregio e grandezza infiniti. Voglio dire quel Figlio dell’Altissimo, che la Vergine ha partorito, senza cessare di essere <span class=\"seg\" id=\"chiara-seg3\" data-c=\"virginity\">vergine</span>. Stringiti alla sua dolcissima <span class=\"seg\" id=\"chiara-seg4\" data-c=\"mother\">Madre</span>, la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo seno e lo portò nel suo <span class=\"seg\" id=\"chiara-seg3-1\" data-c=\"virginity\">grembo verginale</span>. Chi non sdegnerebbe con orrore le insidie del nemico dell’umano genere, che facendo brillare innanzi agli occhi il luccicore delle cose transitorie e delle glorie fallaci, tenta annientare ciò che è più grande del cielo? Sì perché è ormai chiaro che l’anima dell’uomo fedele, che è la più degna di tutte le creature, è resa dalla grazia di Dio più grande del cielo. Mentre, infatti, i cieli con tutte le altre cose create non possono contenere il Creatore, l’anima fedele invece, ed essa sola, è sua dimora e soggiorno, e ciò soltanto a motivo della carità, di cui gli empi sono privi. È la stessa Verità che lo afferma: “Colui che mi ama, sarà amato dal Padre mio, e io pure lo amerò; e noi verremo a lui e porremo in lui la nostra dimora”. A qual modo, dunque, che la gloriosa <span class=\"seg\" id=\"chiara-seg3-2\" data-c=\"virginity\">Vergine delle vergini</span> portò Cristo materialmente nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo spiritualmente nel <span class=\"seg\" id=\"chiara-seg5\" data-c=\"body\">corpo</span> <span class=\"seg\" id=\"chiara-seg3-3\" data-c=\"virginity\">casto e verginale</span>. E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più duraturo e definitivo anche a paragone di tutti gli altri possessi transeunti di questo mondo. Come si ingannano, molte volte, al riguardo, re e regine di questo mondo! Quand’anche elevassero la loro superbia fino al cielo e toccassero quasi col capo le nubi, alla fine saranno dissolti nel nulla, come spazzatura. Passando ora al quesito che mi hai sottoposto, credo di poterti rispondere così. Tu mi domandi quali feste il gloriosissimo Padre nostro <span class=\"role\">san</span> <span class=\"pers\" data-p=\"FrancescodAssisi\">Francesco</span> ci raccomandò di celebrare con particolare solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella varietà dei <span class=\"seg\" id=\"chiara-seg6\" data-c=\"foodOrFoodAbst\">cibi</span>. Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di <span class=\"seg\" id=\"chiara-seg6-1\" data-c=\"foodOrFoodAbst\">cibo</span> -­‐, nessuna di noi, che sia sana e <span class=\"seg\" id=\"chiara-seg7\" data-c=\"strength\">robusta</span>, dovrebbe prendere se non <span class=\"seg\" id=\"chiara-seg6-2\" data-c=\"foodOrFoodAbst\">cibi</span> quaresimali, tanto nei giorni feriali che nei festivi, <span class=\"seg\" id=\"chiara-seg6-3\" data-c=\"foodOrFoodAbst\">digiunando</span> ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il <span class=\"seg\" id=\"chiara-seg6-4\" data-c=\"foodOrFoodAbst\">cibo</span> due volte. Ed anche nei giovedì, dei periodi non di <span class=\"seg\" id=\"chiara-seg6-5\" data-c=\"foodOrFoodAbst\">digiuno</span>, ciascuna può fare come le piace, cioè chi non volesse <span class=\"seg\" id=\"chiara-seg6-6\" data-c=\"foodOrFoodAbst\">digiunare</span> non vi è tenuta. Ma noi, che siamo in buona salute, <span class=\"seg\" id=\"chiara-seg6-7\" data-c=\"foodOrFoodAbst\">digiuniamo</span> tutti i giorni, eccetto le domeniche e il Natale. Non siamo però tenute al <span class=\"seg\" id=\"chiara-seg6-8\" data-c=\"foodOrFoodAbst\">digiuno</span> -­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il tempo pasquale e nelle feste della Madonna e dei santi Apostoli, a meno che cadessero il venerdì. Ma, come ho detto sopra, noi che siamo sane e <span class=\"seg\" id=\"chiara-seg7-1\" data-c=\"strength\">robuste</span>, consumiamo sempre <span class=\"seg\" id=\"chiara-seg6-9\" data-c=\"foodOrFoodAbst\">cibi</span> quaresimali. Siccome però, non abbiamo un <span class=\"seg\" id=\"chiara-seg5-1\" data-c=\"body\">corpo</span> di bronzo, <span class=\"seg\" id=\"chiara-seg8\" data-c=\"weakness\">né la nostra è la robustezza del granito</span>, anzi siamo piuttosto <span class=\"seg\" id=\"chiara-seg8-1\" data-c=\"weakness\">fragili e inclini ad ogni debolezza corporale</span>, ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale ho saputo che ti sei avviata, affinché, vivendo, la tua vita sia lode del Signore, e tu renda al Signore, un culto spirituale ed il tuo sacrificio sia sempre condito col sale della prudenza. Ti auguro di stare sempre bene nel Signore, con la premura con la quale lo potrei augurare a me stessa. Raccomanda me e le mie <span class=\"seg\" id=\"chiara-seg1-2\" data-c=\"sorority\">sorelle</span> nelle tue sante orazioni.</p>"
+   "html": "<p>Alla signora in Cristo veneratissima e <span class=\"seg\" id=\"chiara-seg1\" data-c=\"sorority\">sorella</span> degna d’amore più di tutte le creature mortali, <span class=\"pers\" data-p=\"AgnesediBoemia\">Agnese</span>, germana dell’illustre <span class=\"role\">Re di <span class=\"place\">Boemia</span></span>, ma ora soprattutto sorella e <span class=\"seg\" id=\"chiara-seg2\" data-c=\"marriage\">sposa</span> del sommo Re dei cieli, <span class=\"pers\" data-p=\"ChiaradAssisi\">Chiara</span>, umilissima e indegna ancella di Cristo e serva delle Donne Povere, augura salutare gaudio nell’Autore della salvezza e quanto di meglio essa possa desiderare. Le liete notizie del tuo benessere, del tuo stato felice e dei tuoi prosperi progressi nella corsa che hai intrapresa per la conquista del celeste palio, mi riempiono di tanta gioia; e tanto più respiro di esultanza nel Signore, perché so e ritengo che tu supplisci magnificamente alle imperfezioni che sono in me e nelle altre sorelle nella nostra imitazione degli esempi di <span class=\"pers\" data-p=\"GesudiNazareth\">Gesù</span> Cristo povero ed umile. Davvero posso rallegrarmi, e nessuno potrebbe strapparmi da questa gioia, poiché ho raggiunto quello che ho desiderato sotto il cielo, dal momento che vedo te trionfare in una maniera, direi, terribile e incredibile, sostenuta da una prerogativa meravigliosa della sapienza che procede da Dio medesimo, sulle astuzie dello scaltro serpente, sulla superbia, che è rovina dell’umana natura, e sulla vanità, che rende fatui i cuori degli uomini. E ti ammiro ancora stringere a te, mediante l’umiltà, con la forza della fede e le braccia della povertà, il tesoro incomparabile, nascosto nel campo del mondo e dei cuori umani, col quale si compra Colui che dal nulla trasse tutte le cose. E, per avvalermi delle parole medesime dell’<span class=\"role\">Apostolo</span>, ti stimo collaboratrice di Dio stesso e sostegno delle membra deboli e vacillanti del suo ineffabile Corpo. Chi potrebbe, dunque, impedirmi di rallegrarmi per sì mirabili motivi di gaudio? Gioisci, perciò, anche tu nel Signore sempre, o carissima. Non permettere che nessun’ombra di mestizia avvolga il tuo cuore, o signora in Cristo dilettissima, gioia degli Angeli e corona delle tue <span class=\"seg\" id=\"chiara-seg1-1\" data-c=\"sorority\">sorelle</span>. Colloca i tuoi occhi davanti allo specchio dell’eternità, colloca la tua anima nello splendore della gloria, colloca il tuo cuore in Colui che è figura della divina sostanza, e trasformati interamente, per mezzo della contemplazione, nella immagine della divinità di Lui. Allora anche tu proverai ciò che è riservato ai soli suoi amici, e gusterai la segreta dolcezza che Dio medesimo ha riservato fin dall’inizio per coloro che lo amano. Senza concedere neppure uno sguardo alle seduzioni, che in questo mondo fallace ed irrequieto tendono lacci ai ciechi che vi attaccano il loro cuore, con tutta te stessa ama Colui che per amor tuo tutto si è donato. La sua bellezza ammirano il sole e la luna; i suoi premi sono di pregio e grandezza infiniti. Voglio dire quel Figlio dell’Altissimo, che la Vergine ha partorito, senza cessare di essere <span class=\"seg\" id=\"chiara-seg3\" data-c=\"virginity\">vergine</span>. Stringiti alla sua dolcissima <span class=\"seg\" id=\"chiara-seg4\" data-c=\"mother\">Madre</span>, la quale generò un Figlio tale che i cieli non lo potevano contenere, eppure ella lo raccolse nel piccolo chiostro del suo santo seno e lo portò nel suo <span class=\"seg\" id=\"chiara-seg3-1\" data-c=\"virginity\">grembo verginale</span>. Chi non sdegnerebbe con orrore le insidie del nemico dell’umano genere, che facendo brillare innanzi agli occhi il luccicore delle cose transitorie e delle glorie fallaci, tenta annientare ciò che è più grande del cielo? Sì perché è ormai chiaro che l’anima dell’uomo fedele, che è la più degna di tutte le creature, è resa dalla grazia di Dio più grande del cielo. Mentre, infatti, i cieli con tutte le altre cose create non possono contenere il Creatore, l’anima fedele invece, ed essa sola, è sua dimora e soggiorno, e ciò soltanto a motivo della carità, di cui gli empi sono privi. È la stessa Verità che lo afferma: “Colui che mi ama, sarà amato dal Padre mio, e io pure lo amerò; e noi verremo a lui e porremo in lui la nostra dimora”. A qual modo, dunque, che la gloriosa <span class=\"seg\" id=\"chiara-seg3-2\" data-c=\"virginity\">Vergine delle vergini</span> portò Cristo materialmente nel suo grembo, tu pure, seguendo le sue vestigia, specialmente dell’umiltà e povertà di Lui, puoi sempre, senza alcun dubbio, portarlo spiritualmente nel <span class=\"seg\" id=\"chiara-seg5\" data-c=\"body\">corpo</span> <span class=\"seg\" id=\"chiara-seg3-3\" data-c=\"virginity\">casto e verginale</span>. E conterrai in te Colui dal quale tu e tutte le creature sono contenute, e possederai ciò che è bene più duraturo e definitivo anche a paragone di tutti gli altri possessi transeunti di questo mondo. Come si ingannano, molte volte, al riguardo, re e regine di questo mondo! Quand’anche elevassero la loro superbia fino al cielo e toccassero quasi col capo le nubi, alla fine saranno dissolti nel nulla, come spazzatura. Passando ora al quesito che mi hai sottoposto, credo di poterti rispondere così. Tu mi domandi quali feste il gloriosissimo Padre nostro <span class=\"role\">san</span> <span class=\"pers\" data-p=\"FrancescodAssisi\">Francesco</span> ci raccomandò di celebrare con particolare solennità, pensando, se ben ho capito, che si possa in esse usare una certa maggior larghezza nella varietà dei <span class=\"seg\" id=\"chiara-seg6\" data-c=\"foodOrFoodAbst\">cibi</span>. Nella tua prudenza certamente saprai che, salvo le deboli e le inferme, -­‐ verso le quali ci insegnò e ci comandò di usare ogni discrezione con qualsiasi genere di <span class=\"seg\" id=\"chiara-seg6-1\" data-c=\"foodOrFoodAbst\">cibo</span> -­‐, nessuna di noi, che sia sana e <span class=\"seg\" id=\"chiara-seg7\" data-c=\"strength\">robusta</span>, dovrebbe prendere se non <span class=\"seg\" id=\"chiara-seg6-2\" data-c=\"foodOrFoodAbst\">cibi</span> quaresimali, tanto nei giorni feriali che nei festivi, <span class=\"seg\" id=\"chiara-seg6-3\" data-c=\"foodOrFoodAbst\">digiunando</span> ogni giorno ad eccezione delle domeniche e del Natale del Signore, nei quali giorni possiamo prendere il <span class=\"seg\" id=\"chiara-seg6-4\" data-c=\"foodOrFoodAbst\">cibo</span> due volte. Ed anche nei giovedì, dei periodi non di <span class=\"seg\" id=\"chiara-seg6-5\" data-c=\"foodOrFoodAbst\">digiuno</span>, ciascuna può fare come le piace, cioè chi non volesse <span class=\"seg\" id=\"chiara-seg6-6\" data-c=\"foodOrFoodAbst\">digiunare</span> non vi è tenuta. Ma noi, che siamo in buona salute, <span class=\"seg\" id=\"chiara-seg6-7\" data-c=\"foodOrFoodAbst\">digiuniamo</span> tutti i giorni, eccetto le domeniche e il Natale. Non siamo però tenute al <span class=\"seg\" id=\"chiara-seg6-8\" data-c=\"foodOrFoodAbst\">digiuno</span> -­‐ così ci ha insegnato il beato Francesco in suo scritto -­‐, durante tutto il tempo pasquale e nelle feste della Madonna e dei santi Apostoli, a meno che cadessero il venerdì. Ma, come ho detto sopra, noi che siamo sane e <span class=\"seg\" id=\"chiara-seg7-1\" data-c=\"strength\">robuste</span>, consumiamo sempre <span class=\"seg\" id=\"chiara-seg6-9\" data-c=\"foodOrFoodAbst\">cibi</span> quaresimali. Siccome però, non abbiamo un <span class=\"seg\" id=\"chiara-seg5-1\" data-c=\"body\">corpo</span> di bronzo, <span class=\"seg\" id=\"chiara-seg8\" data-c=\"weakness\">né la nostra è la robustezza del granito</span>, anzi siamo piuttosto <span class=\"seg\" id=\"chiara-seg8-1\" data-c=\"weakness\">fragili e inclini ad ogni debolezza corporale</span>, ti prego e ti supplico nel Signore, o carissima, di moderarti con saggia discrezione nell’austerità, quasi esagerata e impossibile, nella quale ho saputo che ti sei avviata, affinché, vivendo, la tua vita sia lode del Signore, e tu renda al Signore, un culto spirituale ed il tuo sacrificio sia sempre condito col sale della prudenza. Ti auguro di stare sempre bene nel Signore, con la premura con la quale lo potrei augurare a me stessa. Raccomanda me e le mie <span class=\"seg\" id=\"chiara-seg1-2\" data-c=\"sorority\">sorelle</span> nelle tue sante orazioni.</p>",
+   "life": {
+    "qid": "Q191107",
+    "viaf": "8754769",
+    "born": 1194,
+    "died": 1253,
+    "approx": false,
+    "birthplace": "Assisi",
+    "deathplace": "Assisi",
+    "source": "Wikidata, matched by VIAF",
+    "portrait": {
+     "file": "Simone Martini 047.jpg",
+     "page": "https://commons.wikimedia.org/wiki/File:Simone_Martini_047.jpg",
+     "artist": "Simone Martini",
+     "licence": "Public domain",
+     "licenceUrl": null
+    }
+   }
   }
  ],
  "concepts": {
@@ -2496,7 +2942,74 @@ window.WOG = {
     "marguerite"
    ],
    "passages": 3,
-   "doc": "\"Honor\" in relation to femininity has varied throughout history and cultures, often entwined with notions of purity and virtue. Traditional concepts of feminine honor have placed an emphasis on modesty and fidelity, reflecting societal expectations. The women that break this code are not considered well, as it is the case of the countess in the text by Marguerite de Navarre."
+   "doc": "\"Honor\" in relation to femininity has varied throughout history and cultures, often entwined with notions of purity and virtue. Traditional concepts of feminine honor have placed an emphasis on modesty and fidelity, reflecting societal expectations. The women that break this code are not considered well, as it is the case of the countess in the text by Marguerite de Navarre.",
+   "check": {
+    "pattern": {
+     "fr": "honneur",
+     "it": "onor",
+     "en": "hono"
+    },
+    "total": 7,
+    "tagged": 2,
+    "inOther": 1,
+    "untaggedAll": 5,
+    "byText": {
+     "marguerite": {
+      "total": 6,
+      "tagged": 2
+     },
+     "franco": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "other",
+      "others": [
+       "independence"
+      ],
+      "before": "comme celle qui preféroit son plaisir à tout l'",
+      "word": "honneur",
+      "after": "du monde, ne leur en feit pire visaige,"
+     },
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "ainsy de leur prison, car jamais homme n'eut",
+      "word": "honneur",
+      "after": "à dire mal des femmes\". \"Puis que le faict estoit"
+     },
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "\"ilz ne le devoient jamais confesser pour leur",
+      "word": "honneur",
+      "after": "mesme. Car les livres de la Table"
+     },
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "nous apprennent que ce n'est point",
+      "word": "honneur",
+      "after": "à un bon chevalier, d'en abattre un qui ne vault"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "ne l’animo suo invitto alta virtute, e che a l’",
+      "word": "onor",
+      "after": "la mente abbia rivolta, con armi insidiose e non"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 3
+   }
   },
   "beauty": {
    "id": "beauty",
@@ -2519,7 +3032,250 @@ window.WOG = {
     "beauvoir"
    ],
    "passages": 11,
-   "doc": "This concept has historically been associated with femininity, often placing a strong emphasis on physical appearance as a defining feminine value. The concept of beauty is one of the most frequent in the texts we have analysed, and we have highlighted it even when the woman was lacking this required feature (i.e. the case of \"La Petite Fadette\" by George Sand)"
+   "doc": "This concept has historically been associated with femininity, often placing a strong emphasis on physical appearance as a defining feminine value. The concept of beauty is one of the most frequent in the texts we have analysed, and we have highlighted it even when the woman was lacking this required feature (i.e. the case of \"La Petite Fadette\" by George Sand)",
+   "check": {
+    "pattern": {
+     "fr": "beaut|belles?\\b|beaux?\\b|bel\\b",
+     "it": "bellezz|bellissim|bell[aoie]\\b|bel\\b",
+     "en": "beaut"
+    },
+    "total": 28,
+    "tagged": 6,
+    "inOther": 7,
+    "untaggedAll": 22,
+    "byText": {
+     "marguerite": {
+      "total": 1,
+      "tagged": 0
+     },
+     "franco": {
+      "total": 3,
+      "tagged": 0
+     },
+     "lambert": {
+      "total": 6,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 3,
+      "tagged": 3
+     },
+     "sand": {
+      "total": 4,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 5,
+      "tagged": 1
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 1
+     },
+     "beauvoir": {
+      "total": 4,
+      "tagged": 1
+     },
+     "chiara": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "other",
+      "others": [
+       "grace"
+      ],
+      "before": "de chascun; et combien qu'elle ne fust des plus",
+      "word": "belles",
+      "after": ", si avoit-elle une grace avecq une audace tant"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "body"
+      ],
+      "before": "mal uso in ciò la colpa ascrivo. Data è dal ciel la feminil",
+      "word": "bellezza",
+      "after": ", perch’ella sia felicitate in terra di qualunque"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "ho veduto in lingua selvaghesca certa fattura vostra molto",
+      "word": "bella",
+      "after": ", simile a la maniera pedantesca: se voi volete usar"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "Quella di cui la fama è gloriosa, e che ’n",
+      "word": "bellezza",
+      "after": "od in valor eccelle, senza par di gran lunga"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "sur les femmes ; elles ne rentrent dans leur domination que par la",
+      "word": "beauté",
+      "after": "et par la vertu : si elles peuvent joindre les deux,"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "les deux, leur empire sera plus absolu : mais le regne de la",
+      "word": "beauté",
+      "after": "est peu durable. On l’appelle une courte tyrannie ;"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "charme de la nouveauté. Il faut penser qu’il y a peu de tems à être",
+      "word": "belle",
+      "after": ", et beaucoup à ne l’être plus ; que quand les graces"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "une fois la pudeur est immolée, elle ne revient pas plus que les",
+      "word": "belles",
+      "after": "années : c’est elle qui sert leur veritable interêt"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "elle qui sert leur veritable interêt : elle augmente leur",
+      "word": "beauté",
+      "after": ": elle en est la fleur : elle sert d’excuse à la laideur : elle est"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "est aussi une coquetterie rafinée, une espece d’enchere, que les",
+      "word": "belles",
+      "after": "personnes mettent à leurs appas, et une maniere"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "que vous autres riches vous êtes difficiles. Il vous faut du",
+      "word": "beau",
+      "after": "gazon pour vous asseoir dehors, et vous pouvez choisir"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "et vous pouvez choisir dans vos prés et dans vos jardins les plus",
+      "word": "belles",
+      "after": "places et le meilleur ombrage. Mais ceux qui n'ont"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "que l'on méprise trop souvent ce qui ne paraît ni",
+      "word": "beau",
+      "after": "ni bon, et que par là on se prive de ce qui est"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "devrait montrer que je ne suis pas assez folle pour me croire",
+      "word": "belle",
+      "after": ", lorsque je sais que je suis si laide que personne ne peut"
+     },
+     {
+      "t": "negri",
+      "where": "other",
+      "others": [
+       "body"
+      ],
+      "before": "alzò il bavero del soprabito, attillato come una fascia sul suo",
+      "word": "bel",
+      "after": "corpo, di serpentina flessuosità: avvolse intorno al bavero"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "Vi sono tragedie che afferrano una creatura in piena",
+      "word": "bellezza",
+      "after": ", in piena felicità, in piena armonia d’azione; e"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "nebbia, ora di sogno, nella quale ella pure poteva esser",
+      "word": "bella",
+      "after": "per un uomo: ora che forse non sarebbe ritornata più!…"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "si chiama?… Non corra tanto. Mi dica il suo nome, il suo",
+      "word": "bel",
+      "after": "nome. Signorina…» Nessuna udibile risposta; ma un consenso"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "; maman estimait qu’une couverture de toile bleue serait bien assez",
+      "word": "belle",
+      "after": "; je protestai que l’argent de ma tirelire m’appartenait ; elle"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "l’avaient convaincue que pour une femme la maternité est le plus",
+      "word": "beau",
+      "after": "des rôles : elle ne pouvait le jouer que si je tenais le mien, mais"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "enfant. Il rayonnait de fierté quand elle parada, déguisée en «",
+      "word": "Belle",
+      "after": "de la Nuit ». Il participait parfois à des spectacles que son ami"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "Colui che per amor tuo tutto si è donato. La sua",
+      "word": "bellezza",
+      "after": "ammirano il sole e la luna; i suoi premi sono di pregio e grandezza"
+     }
+    ],
+    "passagesWithoutWord": 5,
+    "passages": 11
+   }
   },
   "grace": {
    "id": "grace",
@@ -2539,7 +3295,112 @@ window.WOG = {
     "beauvoir"
    ],
    "passages": 11,
-   "doc": "Grace, often associated with femininity, has historically been idealized as a quality encompassing elegance, poise, and refined manners. It is something positive that a \"real woman\" is required to have (i.e. Marguerite de Navarre) and not to disregard (i.e. George Sand)."
+   "doc": "Grace, often associated with femininity, has historically been idealized as a quality encompassing elegance, poise, and refined manners. It is something positive that a \"real woman\" is required to have (i.e. Marguerite de Navarre) and not to disregard (i.e. George Sand).",
+   "check": {
+    "pattern": {
+     "fr": "grâce|grace|gracieu",
+     "it": "grazi",
+     "en": "grace"
+    },
+    "total": 10,
+    "tagged": 3,
+    "inOther": 4,
+    "untaggedAll": 7,
+    "byText": {
+     "marguerite": {
+      "total": 2,
+      "tagged": 1
+     },
+     "franco": {
+      "total": 1,
+      "tagged": 0
+     },
+     "lambert": {
+      "total": 4,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 1
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 1
+     },
+     "chiara": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "estoit fort audatienx et homme de bonne",
+      "word": "grace",
+      "after": ". Au commencement, elle luy tint une si grande"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "war"
+      ],
+      "before": "Quanto le meretrici hanno di buono, quanto di",
+      "word": "grazioso",
+      "after": "e di gentile, esprime in me del parlar vostro il"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "belle, et beaucoup à ne l’être plus ; que quand les",
+      "word": "graces",
+      "after": "abandonnent les Femmes, elles ne se soûtiennent que par les parties"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "les agrémens se trouvent chez les personnes de ce caractere ; les",
+      "word": "graces",
+      "after": "vives et soudaines, dont parle Plutarque, ne font que pour elles."
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "les destinons à plaire, et elles ne nous plaisent que par leurs",
+      "word": "graces",
+      "after": "ou par leurs vices ; il semble qu’elles ne soient faites que pour"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "gender"
+      ],
+      "before": "des choses qui perfectionnent la raison. Ne voulez-vous que des",
+      "word": "grâces",
+      "after": "qui favorisent les plaisirs ? Ne vous plaignez donc pas si les"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "è la più degna di tutte le creature, è resa dalla",
+      "word": "grazia",
+      "after": "di Dio più grande del cielo. Mentre, infatti, i cieli con tutte le"
+     }
+    ],
+    "passagesWithoutWord": 8,
+    "passages": 11
+   }
   },
   "bitch": {
    "id": "bitch",
@@ -2555,7 +3416,42 @@ window.WOG = {
     "sand"
    ],
    "passages": 3,
-   "doc": "The term \"bitch\" has been traditionally used to derogatorily describe women who assert themselves or challenge traditional gender roles, perpetuating negative stereotypes about feminine assertiveness. Although it is used explicitly only in two of our texts, we have identified other references to the concept of a woman being \"too free\"."
+   "doc": "The term \"bitch\" has been traditionally used to derogatorily describe women who assert themselves or challenge traditional gender roles, perpetuating negative stereotypes about feminine assertiveness. Although it is used explicitly only in two of our texts, we have identified other references to the concept of a woman being \"too free\".",
+   "check": {
+    "pattern": {
+     "fr": "putain|courtisan|coureuse",
+     "it": "meretric|puttan|cortigian",
+     "en": "whore|harlot|prostitu"
+    },
+    "total": 3,
+    "tagged": 2,
+    "inOther": 1,
+    "untaggedAll": 1,
+    "byText": {
+     "franco": {
+      "total": 2,
+      "tagged": 1
+     },
+     "sand": {
+      "total": 1,
+      "tagged": 1
+     }
+    },
+    "examples": [
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "war"
+      ],
+      "before": "sono, o che ve n’èn tra tali di lodate. Quanto le",
+      "word": "meretrici",
+      "after": "hanno di buono, quanto di grazioso e di gentile,"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 3
+   }
   },
   "independence": {
    "id": "independence",
@@ -2567,7 +3463,60 @@ window.WOG = {
     "marguerite"
    ],
    "passages": 1,
-   "doc": "Femininity was (and is) often closely tied to dependency, with societal norms promoting women's reliance on male figures for financial and emotional support, reflecting traditional gender roles that limit their opportunities and self-determination. In our text, we refer to this concept as the ability of women to stand out of this preconception, as it is the case of the countess in the excerpt by Marguerite de Navarre."
+   "doc": "Femininity was (and is) often closely tied to dependency, with societal norms promoting women's reliance on male figures for financial and emotional support, reflecting traditional gender roles that limit their opportunities and self-determination. In our text, we refer to this concept as the ability of women to stand out of this preconception, as it is the case of the countess in the excerpt by Marguerite de Navarre.",
+   "check": {
+    "pattern": {
+     "fr": "indépendan|liberté",
+     "it": "indipenden|libertà",
+     "en": "independen|liberty|freedom"
+    },
+    "total": 3,
+    "tagged": 0,
+    "inOther": 0,
+    "untaggedAll": 3,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 1,
+      "tagged": 0
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "faut bien, dit-il, lui laisser sa part de la Royauté, qui est la",
+      "word": "liberté",
+      "after": "et l’impunité. La societé a-t’elle gagné dans cet"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "dandole un senso inatteso e mordente d’agilità, di",
+      "word": "libertà",
+      "after": ", di sicurezza. Un fanale a gas, d’un fosco rosso di"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "Honnêteté stricte, un sens rare de la justice, le respect de la",
+      "word": "liberté",
+      "after": "de chacun. Quelques préjugés enracinés, pour ainsi dire :"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 1
+   }
   },
   "counterstereotype": {
    "id": "counterstereotype",
@@ -2609,7 +3558,134 @@ window.WOG = {
     "chiara"
    ],
    "passages": 11,
-   "doc": "The way the body of women should be is deeply ingrained in societal norms, often subjecting women to unrealistic beauty standards and objectification. These standards have historically placed a significant emphasis on women's bodies as a means of defining their worth, perpetuating harmful and restrictive ideals. Many excerpts refer to this concept, either to its conceptual absence (i.e. Chiara d'Assisi) or to necessity of taking extreme care of it as a woman (i.e. George Sand)."
+   "doc": "The way the body of women should be is deeply ingrained in societal norms, often subjecting women to unrealistic beauty standards and objectification. These standards have historically placed a significant emphasis on women's bodies as a means of defining their worth, perpetuating harmful and restrictive ideals. Many excerpts refer to this concept, either to its conceptual absence (i.e. Chiara d'Assisi) or to necessity of taking extreme care of it as a woman (i.e. George Sand).",
+   "check": {
+    "pattern": {
+     "fr": "corps\\b|corporel",
+     "it": "corp[oi]\\b|corpore|corporal",
+     "en": "body|bodies|corporal"
+    },
+    "total": 15,
+    "tagged": 6,
+    "inOther": 5,
+    "untaggedAll": 9,
+    "byText": {
+     "franco": {
+      "total": 1,
+      "tagged": 1
+     },
+     "wollstonecraft": {
+      "total": 2,
+      "tagged": 0
+     },
+     "sand": {
+      "total": 1,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 5,
+      "tagged": 1
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 1
+     },
+     "beauvoir": {
+      "total": 1,
+      "tagged": 1
+     },
+     "chiara": {
+      "total": 4,
+      "tagged": 2
+     }
+    },
+    "examples": [
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "strength"
+      ],
+      "before": "to endeavour to acquire strength, both of mind and",
+      "word": "body",
+      "after": ", and to convince them that the soft; phrases,"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "strength"
+      ],
+      "before": "of accomplishments; meanwhile strength of",
+      "word": "body",
+      "after": "and mind are sacrificed to libertine notions of"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "que m'enseigne ma grand'mère pour la guérison du",
+      "word": "corps",
+      "after": "humain. Les fleurs, les herbes, les pierres, les"
+     },
+     {
+      "t": "negri",
+      "where": "other",
+      "others": [
+       "beauty"
+      ],
+      "before": "Per ironia della sorte era cresciuta agile e bellissima di",
+      "word": "corpo",
+      "after": ", calda di sangue, chiara nell’animo, pronta nei sensi,"
+     },
+     {
+      "t": "negri",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "future femmine, che già davano furtivamente un nome ed un",
+      "word": "corpo",
+      "after": "al loro bisogno di amare e di sentirsi amate. Più"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "fluttuante dei vapori s’addensava sempre più, diveniva un",
+      "word": "corpo",
+      "after": "quasi solido, benda agli occhi, bavaglio alla"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "sbarrati nell’oscurità, rabbrividendo ancora per tutto il",
+      "word": "corpo",
+      "after": "sotto l’invisibile carezza della maschia voce carnale,"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "e sostegno delle membra deboli e vacillanti del suo ineffabile",
+      "word": "Corpo",
+      "after": ". Chi potrebbe, dunque, impedirmi di rallegrarmi per"
+     },
+     {
+      "t": "chiara",
+      "where": "other",
+      "others": [
+       "weakness"
+      ],
+      "before": "siamo piuttosto fragili e inclini ad ogni debolezza",
+      "word": "corporale",
+      "after": ", ti prego e ti supplico nel Signore, o carissima,"
+     }
+    ],
+    "passagesWithoutWord": 5,
+    "passages": 11
+   }
   },
   "intellect": {
    "id": "intellect",
@@ -2627,7 +3703,262 @@ window.WOG = {
     "sand"
    ],
    "passages": 14,
-   "doc": "Femininity was (and in some geographical locations still is) often unfairly linked to perceived intellectual limitations, reinforcing gender stereotypes that marginalized women's contributions to academia and intellectual pursuits. Traditional expectations focused on nurturing roles rather than intellectual achievements for women. In these excerpts, we have underlined the spans of texts in which women are self-aware of the strength of their mind, putting themselves at the same level of men."
+   "doc": "Femininity was (and in some geographical locations still is) often unfairly linked to perceived intellectual limitations, reinforcing gender stereotypes that marginalized women's contributions to academia and intellectual pursuits. Traditional expectations focused on nurturing roles rather than intellectual achievements for women. In these excerpts, we have underlined the spans of texts in which women are self-aware of the strength of their mind, putting themselves at the same level of men.",
+   "check": {
+    "pattern": {
+     "fr": "esprit|intelligen|intellect|sçavoir|savoir|entendement",
+     "it": "intellett|ingegn|intelligen|mente\\b",
+     "en": "minds?\\b|understanding|intellect"
+    },
+    "total": 38,
+    "tagged": 13,
+    "inOther": 5,
+    "untaggedAll": 25,
+    "byText": {
+     "marguerite": {
+      "total": 1,
+      "tagged": 0
+     },
+     "franco": {
+      "total": 1,
+      "tagged": 0
+     },
+     "lambert": {
+      "total": 18,
+      "tagged": 8
+     },
+     "wollstonecraft": {
+      "total": 10,
+      "tagged": 4
+     },
+     "sand": {
+      "total": 4,
+      "tagged": 1
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 3,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "occasion d'en rire, mais, pour",
+      "word": "sçavoir",
+      "after": "si ce que je pense est vmay, je vous prie que je"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "l’animo suo invitto alta virtute, e che a l’onor la",
+      "word": "mente",
+      "after": "abbia rivolta, con armi insidiose e non vedute, a"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "body"
+      ],
+      "before": "du goût des Femmes ? Elles ont mis la débauche à la place du",
+      "word": "sçavoir",
+      "after": "; le precieux qu’on leur a tant reproché, elles l’ont"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "des hommes ! Ils veulent que nous ne fassions aucun usage de notre",
+      "word": "esprit",
+      "after": "ni de nos sentimens.Ne doit-il pas leur suffire de"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "toutes les sentences des Philosophes : la ssensibilité secourt l’",
+      "word": "esprit",
+      "after": "et sert la vertu. On convient que les agrémens se trouvent chez les"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "de preuves à ce que j’avance. On demandoit un jour à un homme d’",
+      "word": "esprit",
+      "after": "de ses amis, ce qu’elle faisoit et ce qu’elle pensoit dans sa"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "Cela prouve que rien n’est si absolu, que la superiorité de l’",
+      "word": "esprit",
+      "after": ", qui vient de la sensibilité et de la force de l’imagination, parce"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "ne doivent rien à l’art. Pourquoi trouver mauvais qu’elles ayent un",
+      "word": "esprit",
+      "after": "qui ne leur coûte rien ? Nous gâtons toutes les dispositions que"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "nous commençons par négliger leur éducation : nous n’occupons leur",
+      "word": "esprit",
+      "after": "à rien de solide, et le cœur en profite : nous les destinons à"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "gloire, qui est l’ame et le soutien de toutes les productions de l’",
+      "word": "esprit",
+      "after": ", leur est refusée. On ôte à leur esprit tout objet, toute esperance"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "toutes les productions de l’esprit, leur est refusée. On ôte à leur",
+      "word": "esprit",
+      "after": "tout objet, toute esperance : on l’abaisse, et si j’ose me servir"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "gender"
+      ],
+      "before": "? vous souhaitez tous de vous unir à des personnes estimables, d’un",
+      "word": "esprit",
+      "after": "aimable et d’un cœur droit. Permettez-leur donc l’usage des choses"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "of women, in fact, evidently prove that their",
+      "word": "minds",
+      "after": "are not in a healthy state; for, like the flowers"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "when it is asserted, in direct terms, that the",
+      "word": "minds",
+      "after": "of women are enfeebled by false refinement; that"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "to render them vain and helpless, and the unfolding",
+      "word": "mind",
+      "after": "is not strengthened by the practice of those duties"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "dependence, and despising that weak elegancy of",
+      "word": "mind",
+      "after": ", exquisite sensibility, and sweet docility of"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "to accomplish them, without cultivating their",
+      "word": "understandings",
+      "after": ", they are taken out of their sphere of duties, and"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "husbands without degrading themselves, because",
+      "word": "intellect",
+      "after": "will always"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "on crie après toi comme après lo un loup. Tu as de l'",
+      "word": "esprit",
+      "after": "et tu réponds des malices qui font rire ceux à qui"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "ne s'adressent point. C'est encore bon d'avoir plus d'",
+      "word": "esprit",
+      "after": "que les autres ; mais à force de le montrer, on se"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "on te saurait plus de gré de ce que tu as de plus qu'eux dans ton",
+      "word": "entendement",
+      "after": "\". \" Je te remercie, Landry,\" répondit"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "– Bovarysme. Impuissance. Aucune concentration d’",
+      "word": "esprit",
+      "after": ". Peu de logique : jugements subjectifs. Enthousiasme et générosité"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "gagné. L’autorité de mes parents n’avait pas fléchi et comme mon",
+      "word": "esprit",
+      "after": "critique s’éveillait, je la supportais de plus en plus"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "Je n’imaginais pas qu’il existât un homme aussi",
+      "word": "intelligent",
+      "after": "que lui. Dans toutes les discussions auxquelles j’assistais, il"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "génie les vouait à l’erreur : ils sombraient dans l’orgueil et leur",
+      "word": "esprit",
+      "after": "se faussait. C’était le cas de Victor Hugo dont mon père déclamait"
+     }
+    ],
+    "passagesWithoutWord": 6,
+    "passages": 14
+   }
   },
   "gender": {
    "id": "gender",
@@ -2657,7 +3988,130 @@ window.WOG = {
     "franco"
    ],
    "passages": 7,
-   "doc": "Femininity is often juxtaposed with the traditional image of women as nurturers and peacemakers, while war is viewed as a masculine endeavor. We have highlighted the excerpts in which this conception is reversed, as explicitly as Veronica Franco did in her \"D’ardito cavalier non è prodezza\", poem whose title itself refers to the theme of war."
+   "doc": "Femininity is often juxtaposed with the traditional image of women as nurturers and peacemakers, while war is viewed as a masculine endeavor. We have highlighted the excerpts in which this conception is reversed, as explicitly as Veronica Franco did in her \"D’ardito cavalier non è prodezza\", poem whose title itself refers to the theme of war.",
+   "check": {
+    "pattern": {
+     "fr": "guerre|bataill|combat|armes\\b|épée",
+     "it": "guerr|battagl|arm[ie]\\b|spad[ae]\\b|combatt",
+     "en": "wars?\\b|warfare|battle|arms\\b|sword|combat"
+    },
+    "total": 15,
+    "tagged": 5,
+    "inOther": 7,
+    "untaggedAll": 10,
+    "byText": {
+     "marguerite": {
+      "total": 1,
+      "tagged": 0
+     },
+     "franco": {
+      "total": 13,
+      "tagged": 5
+     },
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "prisons, quilz avoient eues durant les",
+      "word": "guerres",
+      "after": ". Mais Valnebon, à qui il faisoit"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "de le cose d’amore, or ch’io sono in procinto di far",
+      "word": "guerra",
+      "after": ", torno al mio intento, ond’era uscita fuore, e vi"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "mio intento, ond’era uscita fuore, e vi disfido a singolar",
+      "word": "battaglia",
+      "after": ". Cingetevi pur d’armi e di valore: vi mostrerò"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "e vi disfido a singolar battaglia. Cingetevi pur d’",
+      "word": "armi",
+      "after": "e di valore: vi mostrerò quanto al vostro prevaglia"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "prevaglia il sesso feminil; pigliate quali volete",
+      "word": "armi",
+      "after": ", e di voi stesso vi caglia, ch’io vi risponderò di colpi"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "carico d’oppugnarvi ora s’impone. Prendete pur de l’",
+      "word": "armi",
+      "after": "omai l’eletta, ch’io non posso soffrir lunga"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "lunga dimora, da lo sdegno de l’animo costretta. La",
+      "word": "spada",
+      "after": ", che ’n man vostra rade e fôra, de la lingua volgar"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "’l foglio, e fatemi saper senz’altro indugio quali",
+      "word": "armi",
+      "after": "per combatter in man toglio. Voi non avrete incontro a me"
+     },
+     {
+      "t": "franco",
+      "where": "none",
+      "others": [],
+      "before": "e fatemi saper senz’altro indugio quali armi per",
+      "word": "combatter",
+      "after": "in man toglio. Voi non avrete incontro a me"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "education"
+      ],
+      "before": "goûts qu’elles ne croyent pas avoir reçus de la nature, pour les",
+      "word": "combattre",
+      "after": ". Mais ce qu’il y a de singulier, c’est"
+     }
+    ],
+    "passagesWithoutWord": 3,
+    "passages": 7
+   }
   },
   "education": {
    "id": "education",
@@ -2675,7 +4129,96 @@ window.WOG = {
     "negri"
    ],
    "passages": 10,
-   "doc": "Not only in the past, but also today, women's access to education is often limited, reflecting deeply entrenched gender biases and societal norms. Many societies restrict women's educational opportunities, perpetuating gender inequalities and limiting their personal and professional development. We have selected the excerpts that point out the necessity of an education for women (i.e. Mary Wollstonecraft) and highlight their potential (i.e. Veronica Franco)."
+   "doc": "Not only in the past, but also today, women's access to education is often limited, reflecting deeply entrenched gender biases and societal norms. Many societies restrict women's educational opportunities, perpetuating gender inequalities and limiting their personal and professional development. We have selected the excerpts that point out the necessity of an education for women (i.e. Mary Wollstonecraft) and highlight their potential (i.e. Veronica Franco).",
+   "check": {
+    "pattern": {
+     "fr": "éducation|instruc|école",
+     "it": "educaz|istruz|scuol",
+     "en": "educat|school|instruct"
+    },
+    "total": 13,
+    "tagged": 6,
+    "inOther": 0,
+    "untaggedAll": 7,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 1
+     },
+     "wollstonecraft": {
+      "total": 10,
+      "tagged": 5
+     },
+     "negri": {
+      "total": 1,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "over various books written on the subject of",
+      "word": "education",
+      "after": ", and patiently observed the conduct of parents and"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "mankind they have the strongest claim to pity; the",
+      "word": "education",
+      "after": "of the rich tends to render them vain and helpless,"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "sweeten the exercise of those severe duties, which",
+      "word": "educate",
+      "after": "a rational and immortal being for a nobler field of"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "or pitied by the writers who endeavour by satire or",
+      "word": "instruction",
+      "after": "to improve them. It is acknowledged that they spend"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "passions that open and enlarge the soul, that the",
+      "word": "instruction",
+      "after": "which women have hitherto received has only tended,"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "come una condanna. Dai dodici ai sedici anni, alle",
+      "word": "scuole",
+      "after": "tecniche, nei gruppi delle compagne non aveva udito che"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "pas, mais j’en avais sourdement conscience. Son",
+      "word": "éducation",
+      "after": ", son milieu l’avaient convaincue que pour une femme la maternité"
+     }
+    ],
+    "passagesWithoutWord": 4,
+    "passages": 10
+   }
   },
   "modesty": {
    "id": "modesty",
@@ -2687,7 +4230,68 @@ window.WOG = {
     "lambert"
    ],
    "passages": 3,
-   "doc": "Modesty, decency and shame, in the context of traditional femininity, are virtues highly emphasized, requiring women to conform to strict dress codes and behavioral norms. Women are expected to minimize self-expression to conform to societal standards of modesty. That is what we wanted to highlight with this concept, referred to in the case of the excerpt by Madame de Lambert."
+   "doc": "Modesty, decency and shame, in the context of traditional femininity, are virtues highly emphasized, requiring women to conform to strict dress codes and behavioral norms. Women are expected to minimize self-expression to conform to societal standards of modesty. That is what we wanted to highlight with this concept, referred to in the case of the excerpt by Madame de Lambert.",
+   "check": {
+    "pattern": {
+     "fr": "pudeur|pudique|modestie",
+     "it": "pudor|pudic|modesti",
+     "en": "modest"
+    },
+    "total": 5,
+    "tagged": 1,
+    "inOther": 0,
+    "untaggedAll": 4,
+    "byText": {
+     "lambert": {
+      "total": 2,
+      "tagged": 1
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 0
+     },
+     "cahun": {
+      "total": 2,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "jeunesse voluptueuse et une vieillesse honorable. Quand une fois la",
+      "word": "pudeur",
+      "after": "est immolée, elle ne revient pas plus que les belles années"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "they excite desire. Let men become more chaste and",
+      "word": "modest",
+      "after": ", and if women do not grow wiser in the same ratio"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "relative à l’égard de l’Androgyne. Une excessive",
+      "word": "pudeur",
+      "after": "mentale. Une paresse étrange – qui est plutôt l’horreur des"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "sans illusion. – Une certaine lâcheté morale (effet de l’excessive",
+      "word": "pudeur",
+      "after": "et de la paresse). Le Poète, amant de"
+     }
+    ],
+    "passagesWithoutWord": 2,
+    "passages": 3
+   }
   },
   "marriage": {
    "id": "marriage",
@@ -2705,7 +4309,68 @@ window.WOG = {
     "chiara"
    ],
    "passages": 7,
-   "doc": "Historically, marriage is portrayed as the primary goal and duty of femininity, with women expected to prioritize their roles as wives and mothers above all else. In these excerpts, we have highlighted the spans of texts in which women challenge this preconception and claim their independence (i.e. Chiara d'Assisi, Mary Wollstonecraft)"
+   "doc": "Historically, marriage is portrayed as the primary goal and duty of femininity, with women expected to prioritize their roles as wives and mothers above all else. In these excerpts, we have highlighted the spans of texts in which women challenge this preconception and claim their independence (i.e. Chiara d'Assisi, Mary Wollstonecraft)",
+   "check": {
+    "pattern": {
+     "fr": "mari(?:er|age|é|ée|ées|és|erai|erez|era|s)?\\b|épous",
+     "it": "spos[aeio]\\b|sposar|matrimon|nozze",
+     "en": "marri|husband|wedlock"
+    },
+    "total": 10,
+    "tagged": 7,
+    "inOther": 0,
+    "untaggedAll": 3,
+    "byText": {
+     "marguerite": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 2,
+      "tagged": 1
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 1
+     },
+     "beauvoir": {
+      "total": 5,
+      "tagged": 4
+     },
+     "chiara": {
+      "total": 1,
+      "tagged": 1
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "a je diray l'estat de nostre geolière elle est",
+      "word": "mariée",
+      "after": "et son mary est bien loing\". \"C'est"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "has naturally more gravity, some women govern their",
+      "word": "husbands",
+      "after": "without degrading themselves, because intellect"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "qualités : il la comprenait, la consolait, la conseillait, ils s’",
+      "word": "épousaient",
+      "after": ". Bien mieux que le jeune Laurie, cet homme"
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 7
+   }
   },
   "mother": {
    "id": "mother",
@@ -2721,7 +4386,210 @@ window.WOG = {
     "chiara"
    ],
    "passages": 4,
-   "doc": "Motherhood, historically, has been held as the ultimate expression of femininity, with women expected to prioritize their roles as caregivers and homemakers above all else. There has been a strong emphasis on the idea that a woman's fulfillment and purpose revolved around her ability to bear and nurture children. In these excerpts, we have pointed out the importance that women have given to the ideal of motherhood, coming to the excellence of this role embodied by Mary mother of Christ (i.e. Chiara d'Assisi)."
+   "doc": "Motherhood, historically, has been held as the ultimate expression of femininity, with women expected to prioritize their roles as caregivers and homemakers above all else. There has been a strong emphasis on the idea that a woman's fulfillment and purpose revolved around her ability to bear and nurture children. In these excerpts, we have pointed out the importance that women have given to the ideal of motherhood, coming to the excellence of this role embodied by Mary mother of Christ (i.e. Chiara d'Assisi).",
+   "check": {
+    "pattern": {
+     "fr": "mères?\\b|matern",
+     "it": "madr[ei]\\b|matern",
+     "en": "mother|matern"
+    },
+    "total": 24,
+    "tagged": 4,
+    "inOther": 1,
+    "untaggedAll": 20,
+    "byText": {
+     "marguerite": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 1
+     },
+     "sand": {
+      "total": 8,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 3,
+      "tagged": 2
+     },
+     "beauvoir": {
+      "total": 10,
+      "tagged": 0
+     },
+     "chiara": {
+      "total": 1,
+      "tagged": 1
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "lentendist. Et, pour ce, a l'Eglise, comme bonne",
+      "word": "mère",
+      "after": "ordonne les prestres confesseurs et non"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "au monde. Je ne te dirai point de mal de ma pauvre",
+      "word": "mère",
+      "after": "qu'un chacun blâme et insulte, quoiqu'elle ne soit"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "à le faire. Eh bien, le monde est si méchant, qu'à peine ma",
+      "word": "mère",
+      "after": "m'eut-elle délaissée, et comme je la pleurais encore"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "eux, ils me reprochaient la faute de ma",
+      "word": "mère",
+      "after": "et voulaient me forcer à rougir d'elle. Peut être qu'à"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "qu'il était prudent d'abandonner la cause de sa",
+      "word": "mère",
+      "after": "et de la laisser injurier pour se préserver de l'être."
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "je ne le pouvais pas. C'était plus fort- que moi. Ma",
+      "word": "mère",
+      "after": "était toujours ma mère, et qu'elle soit ce qu'on"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "pas. C'était plus fort- que moi. Ma mère était toujours ma",
+      "word": "mère",
+      "after": ", et qu'elle soit ce qu'on voudra, que je la retrouve"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "la connaissance des secrets que m'enseigne ma grand'",
+      "word": "mère",
+      "after": "pour la guérison du corps humain. Les fleurs, les"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "connaissances qui me sont venues et dont ma grand'",
+      "word": "mère",
+      "after": "elle-même fait souvent son profit sans rien dire. Eh"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "suonò il campanello d’un modesto usciolo bruno. Alla",
+      "word": "madre",
+      "after": "che, inquieta e premurosa, le aperse, mormorò un frettoloso"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "fait pas », ne me satisfaisaient plus du tout. La sollicitude de ma",
+      "word": "mère",
+      "after": "me pesait. Elle avait « ses idées » qu’elle ne se souciait pas de"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "en gros, Dieu l’exigeait de moi ; le conflit qui m’opposait à ma",
+      "word": "mère",
+      "after": "n’éclata pas, mais j’en avais sourdement"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "éducation, son milieu l’avaient convaincue que pour une femme la",
+      "word": "maternité",
+      "after": "est le plus beau des rôles : elle ne pouvait le jouer que si je"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "quand son tour fut venu, j’en dissuadai ma sœur. Ma",
+      "word": "mère",
+      "after": "fut fâchée. Elle devinait en moi des réticences qui lui donnaient"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "véritable rivale, c’était ma",
+      "word": "mère",
+      "after": ". Je rêvais d’avoir avec mon père des rapports personnels ; mais"
+     },
+     {
+      "t": "beauvoir",
+      "where": "other",
+      "others": [
+       "submission"
+      ],
+      "before": "j’avais recouru à mon père, il m’aurait répondu : « Fais ce que ta",
+      "word": "mère",
+      "after": "te dit ! » Il ne m’arriva qu’une fois de chercher sa"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "de supposer qu’à part soi mon père trouvait parfois ma",
+      "word": "mère",
+      "after": "trop impérieuse ; je me persuadai qu’une silencieuse alliance"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "un déjeuner, on parla d’un grand cousin dissipé qui considérait sa",
+      "word": "mère",
+      "after": "comme une idiote : de l’aveu de mon père elle"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "Il déclara cependant avec véhémence : « Un enfant qui juge sa",
+      "word": "mère",
+      "after": "est un imbécile. » Je devins écarlate et je quittai la table en"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "et je quittai la table en prétextant un malaise : je jugeais ma",
+      "word": "mère",
+      "after": ". Mon père m’avait porté un double coup, en affirmant leur"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 4
+   }
   },
   "rights": {
    "id": "rights",
@@ -2733,7 +4601,64 @@ window.WOG = {
     "wollstonecraft"
    ],
    "passages": 1,
-   "doc": "Throughout history, women have faced significant challenges in securing equal rights, including the right to vote, own property, and access education and employment opportunities. One of our text is an excerpt of \"A vindication of the Rights of Women\" by Mary Wollstonecraft, which is why we included this concept in the archive we have created."
+   "doc": "Throughout history, women have faced significant challenges in securing equal rights, including the right to vote, own property, and access education and employment opportunities. One of our text is an excerpt of \"A vindication of the Rights of Women\" by Mary Wollstonecraft, which is why we included this concept in the archive we have created.",
+   "check": {
+    "pattern": {
+     "fr": "droits\\b",
+     "it": "diritti\\b",
+     "en": "rights\\b"
+    },
+    "total": 4,
+    "tagged": 1,
+    "inOther": 2,
+    "untaggedAll": 3,
+    "byText": {
+     "lambert": {
+      "total": 2,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 1
+     },
+     "beauvoir": {
+      "total": 1,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "il n’y a que les bienséances, qui les maintienent dans leurs",
+      "word": "droits",
+      "after": ". Mais plus elles ont voulu ressembler aux hommes de ce côté-là, et"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "que quand nous livrons notre cœur. C’est étendre trop loin leurs",
+      "word": "droits",
+      "after": ". Les hommes ont un grand intérêt à rappeller les"
+     },
+     {
+      "t": "beauvoir",
+      "where": "other",
+      "others": [
+       "submission"
+      ],
+      "before": "de me maintenir dans la dépendance et d’affirmer sur moi des",
+      "word": "droits",
+      "after": ". En outre j’étais jalouse de la place qu’elle occupait dans le cœur"
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 1
+   }
   },
   "society": {
    "id": "society",
@@ -2761,7 +4686,256 @@ window.WOG = {
     "chiara"
    ],
    "passages": 5,
-   "doc": "Femininity has been often associated with perceived physical and mental fragility, perpetuating stereotypes that limited women's recognition of their strength. In our project, we have underlined the self-awareness that women nonetheless had of their own strength, despite societal constructs (i.e. Chiara d'Assisi, Mary Wollstonecraft)"
+   "doc": "Femininity has been often associated with perceived physical and mental fragility, perpetuating stereotypes that limited women's recognition of their strength. In our project, we have underlined the self-awareness that women nonetheless had of their own strength, despite societal constructs (i.e. Chiara d'Assisi, Mary Wollstonecraft)",
+   "check": {
+    "pattern": {
+     "fr": "force|robust|fortes?\\b",
+     "it": "robust|forza|fort[ei]\\b",
+     "en": "strength|strong"
+    },
+    "total": 27,
+    "tagged": 4,
+    "inOther": 8,
+    "untaggedAll": 23,
+    "byText": {
+     "marguerite": {
+      "total": 2,
+      "tagged": 0
+     },
+     "franco": {
+      "total": 3,
+      "tagged": 0
+     },
+     "lambert": {
+      "total": 3,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 8,
+      "tagged": 2
+     },
+     "sand": {
+      "total": 4,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 1,
+      "tagged": 0
+     },
+     "cahun": {
+      "total": 2,
+      "tagged": 0
+     },
+     "chiara": {
+      "total": 4,
+      "tagged": 2
+     }
+    },
+    "examples": [
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "avez veu revenir celles qui y sont alldes, car",
+      "word": "forte",
+      "after": "amour, qui est en une femme, est malaisée à"
+     },
+     {
+      "t": "marguerite",
+      "where": "none",
+      "others": [],
+      "before": "le croirez, et quil n'est nulle Plus",
+      "word": "forte",
+      "after": "passion que celle d'amour Mais, tout ainsy qu'elle"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "war"
+      ],
+      "before": "coglieste, debil d’animo, e in armi non esperta, e",
+      "word": "robusto",
+      "after": "ed armato m’offendeste: tanto ch’io stei per lungo spazio"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "gender"
+      ],
+      "before": "’l mettersi con donne è da l’un lato biasmo ad uom",
+      "word": "forte",
+      "after": ", ma da l’altro è poi caso d’alta importanza"
+     },
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "gender"
+      ],
+      "before": "ben molli e delicate semo, ancor tal uom, ch’è delicato, è",
+      "word": "forte",
+      "after": "; e tal, ruvido ed aspro, è d’ardir scemo. Di ciò"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "et plus elles se sont avilies. Les hommes par la",
+      "word": "force",
+      "after": "plutôt que par le droit naturel, ont usurpé l’autorité sur les"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "sont éloquentes : nous allons aussi surement à la verité par la",
+      "word": "force",
+      "after": "et la chaleur des sentimens, que par l’étenduë et la justesse des"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "la superiorité de l’esprit, qui vient de la sensibilité et de la",
+      "word": "force",
+      "after": "de l’imagination, parce que la persuasion est toujours à sa"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "the flowers which are planted in too rich a soil,",
+      "word": "strength",
+      "after": "and usefulness are sacrificed to beauty; and the"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "weakness"
+      ],
+      "before": "world it is observable that the female in point of",
+      "word": "strength",
+      "after": "is, in general, inferior to the male. This is the"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "of society! As a class of mankind they have the",
+      "word": "strongest",
+      "after": "claim to pity; the education of the rich tends to"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "vain and helpless, and the unfolding mind is not",
+      "word": "strengthened",
+      "after": "by the practice of those duties which dignify the"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "weakness"
+      ],
+      "before": "their apparent inferiority with respect to bodily",
+      "word": "strength",
+      "after": "must render them in some degree dependent on men in"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "and gives birth to cunning, the natural opponent of",
+      "word": "strength",
+      "after": ", which leads them to play off those contemptible"
+     },
+     {
+      "t": "sand",
+      "where": "other",
+      "others": [
+       "counterstereotype"
+      ],
+      "before": "la fais galoper comme si le diable était dessus. C'est bon d'être",
+      "word": "forte",
+      "after": "et leste ; c'est bon aussi de n'avoir peur de rien, et"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "bon d'avoir plus d'esprit que les autres ; mais à",
+      "word": "force",
+      "after": "de le montrer, on se fait des ennemis. Tu es curieuse, et quand tu"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "ils me reprochaient la faute de ma mère et voulaient me",
+      "word": "forcer",
+      "after": "à rougir d'elle. Peut être qu'à ma place une fille"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "jamais parler, je laimerai toujours de toute la",
+      "word": "force",
+      "after": "de mon cœur. Aussi, quand on m'appell enfant de"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "d’un cancro. Non v’è scampo contro di essa. Non v’è",
+      "word": "forza",
+      "after": "d’oblio che possa dimenticarla, o di dominio che possa"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "haïssant si fort toute la sérénité du monde !… « À",
+      "word": "force",
+      "after": "d’insister j’obtins qu’elle me promît un an – ce qu’elle ne"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "puis répondre !)… Mais pourquoi, pourquoi ?… Puisque je me sens de",
+      "word": "force",
+      "after": "à coucher avec vous deux"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "ancora stringere a te, mediante l’umiltà, con la",
+      "word": "forza",
+      "after": "della fede e le braccia della povertà, il tesoro incomparabile,"
+     },
+     {
+      "t": "chiara",
+      "where": "other",
+      "others": [
+       "weakness"
+      ],
+      "before": "non abbiamo un corpo di bronzo, né la nostra è la",
+      "word": "robustezza",
+      "after": "del granito, anzi siamo piuttosto fragili e inclini"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 5
+   }
   },
   "weakness": {
    "id": "weakness",
@@ -2775,7 +4949,128 @@ window.WOG = {
     "chiara"
    ],
    "passages": 9,
-   "doc": "Femininity has been also often associated with notions of weakness or vulnerability, reflecting societal expectations that women should be delicate and dependent. These stereotypes limited women's opportunities and agency, perpetuating gender inequalities. In the excerpts we selected, we have highlighted the concept of weakness as something inherently feminine (i.e. Mary Wollstonecraft)."
+   "doc": "Femininity has been also often associated with notions of weakness or vulnerability, reflecting societal expectations that women should be delicate and dependent. These stereotypes limited women's opportunities and agency, perpetuating gender inequalities. In the excerpts we selected, we have highlighted the concept of weakness as something inherently feminine (i.e. Mary Wollstonecraft).",
+   "check": {
+    "pattern": {
+     "fr": "faible",
+     "it": "debol|fragil|imbecill",
+     "en": "weak|feeble"
+    },
+    "total": 16,
+    "tagged": 6,
+    "inOther": 2,
+    "untaggedAll": 10,
+    "byText": {
+     "franco": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 9,
+      "tagged": 4
+     },
+     "negri": {
+      "total": 1,
+      "tagged": 0
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 0
+     },
+     "chiara": {
+      "total": 4,
+      "tagged": 2
+     }
+    },
+    "examples": [
+     {
+      "t": "franco",
+      "where": "other",
+      "others": [
+       "body"
+      ],
+      "before": "fatte per l’uso che piú d’altro a l’uom diletta:",
+      "word": "imbecilli",
+      "after": "di corpo, ed in nulla atte non pur a offender gli altri, ma"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "and that women, in particular, are rendered",
+      "word": "weak",
+      "after": "and wretched by a variety of concurring causes,"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "the brute creation, and puts a natural sceptre in a",
+      "word": "feeble",
+      "after": "hand. Yet, because I am a"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "and vanity, have ever been shed by the great.",
+      "word": "Weak",
+      "after": ", artificial beings, raised above the common wants"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "soften our slavish dependence, and despising that",
+      "word": "weak",
+      "after": "elegancy of mind, exquisite sensibility, and sweet"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "in the same ratio it will be clear that they have",
+      "word": "weaker",
+      "after": "understandings. It seems"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "il sesto senso materno dava pupille più penetranti; ma,",
+      "word": "debole",
+      "after": "e incerta creatura crepuscolare, tentava, illudendosi, di"
+     },
+     {
+      "t": "cahun",
+      "where": "none",
+      "others": [],
+      "before": "mais superficiels : de vanité sociale. Accès de témérité, puis de",
+      "word": "faiblesse",
+      "after": "morale (dépression nerveuse). Explications – Écoute,"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "di Dio stesso e sostegno delle membra",
+      "word": "deboli",
+      "after": "e vacillanti del suo ineffabile Corpo. Chi"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "dei cibi. Nella tua prudenza certamente saprai che, salvo le",
+      "word": "deboli",
+      "after": "e le inferme, -­‐ verso le quali ci insegnò e ci"
+     }
+    ],
+    "passagesWithoutWord": 4,
+    "passages": 9
+   }
   },
   "witch": {
    "id": "witch",
@@ -2787,7 +5082,27 @@ window.WOG = {
     "sand"
    ],
    "passages": 5,
-   "doc": "In the past, the concept of witches often intersected with femininity, as women who deviated from societal norms or exhibited unconventional behavior were frequently accused of witchcraft. These accusations stemmed from deep-seated fears and prejudices, resulting in certain historical periods in persecution and violence against women. We have pointed out the excerpts in which women are referred to as witches because they act outside of societal standards (i.e. George Sand)"
+   "doc": "In the past, the concept of witches often intersected with femininity, as women who deviated from societal norms or exhibited unconventional behavior were frequently accused of witchcraft. These accusations stemmed from deep-seated fears and prejudices, resulting in certain historical periods in persecution and violence against women. We have pointed out the excerpts in which women are referred to as witches because they act outside of societal standards (i.e. George Sand)",
+   "check": {
+    "pattern": {
+     "fr": "sorci",
+     "it": "streg",
+     "en": "witch"
+    },
+    "total": 4,
+    "tagged": 4,
+    "inOther": 0,
+    "untaggedAll": 0,
+    "byText": {
+     "sand": {
+      "total": 4,
+      "tagged": 4
+     }
+    },
+    "examples": [],
+    "passagesWithoutWord": 1,
+    "passages": 5
+   }
   },
   "uglyness": {
    "id": "uglyness",
@@ -2799,7 +5114,118 @@ window.WOG = {
     "cahun"
    ],
    "passages": 1,
-   "doc": "The notion of \"ugliness\" in relation to femininity has perpetuated harmful beauty standards, pressuring women to conform to narrow ideals of physical attractiveness. Such standards have often been used to undermine women's self-esteem and reinforce gender inequality. In our excerpts, we refer to the concept of ugliness as something the author does not like about their body (i.e. Claude Cahun)"
+   "doc": "The notion of \"ugliness\" in relation to femininity has perpetuated harmful beauty standards, pressuring women to conform to narrow ideals of physical attractiveness. Such standards have often been used to undermine women's self-esteem and reinforce gender inequality. In our excerpts, we refer to the concept of ugliness as something the author does not like about their body (i.e. Claude Cahun)",
+   "check": {
+    "pattern": {
+     "fr": "laid(?:e|es|s|eur)?\\b|difform",
+     "it": "brutt|deform|difform|sfregia|deturpa",
+     "en": "ugl|deform"
+    },
+    "total": 9,
+    "tagged": 0,
+    "inOther": 5,
+    "untaggedAll": 9,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     },
+     "sand": {
+      "total": 3,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 5,
+      "tagged": 0
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "modesty"
+      ],
+      "before": "leur beauté : elle en est la fleur : elle sert d’excuse à la",
+      "word": "laideur",
+      "after": ": elle est le charme des yeux, l’attrait des cœurs,"
+     },
+     {
+      "t": "sand",
+      "where": "other",
+      "others": [
+       "body"
+      ],
+      "before": "point l'air propre et soigneu , et tu te fais paraître",
+      "word": "laide",
+      "after": "par ton habillement et ton langage. Tu sais bien que"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "folle pour me croire belle, lorsque je sais que je suis si",
+      "word": "laide",
+      "after": "que personne ne peut me regarder. On me l'a dit assez"
+     },
+     {
+      "t": "sand",
+      "where": "other",
+      "others": [
+       "beauty"
+      ],
+      "before": "' Voilà une chenille, une vilaine bête ; ah ! qu'elle est",
+      "word": "laide",
+      "after": "! il faut la tuer ! ' Moi, je n'écrase pas la pauvre"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "rarissime, avanzavano adagio, passo passo, ombre vaghe e",
+      "word": "difformi",
+      "after": "nel grigio, scampanellando dalle sonagliere dei cavalli. La"
+     },
+     {
+      "t": "negri",
+      "where": "other",
+      "others": [
+       "beauty"
+      ],
+      "before": "Raimonda aveva la parte destra del viso orribilmente",
+      "word": "sfregiata",
+      "after": ". A dieci anni, una mala caduta sulla brace rovente del"
+     },
+     {
+      "t": "negri",
+      "where": "other",
+      "others": [
+       "beauty"
+      ],
+      "before": "la bocca ad una smorfia grottesca nel riso, non l’avesse",
+      "word": "deturpata",
+      "after": "senza rimedio. Dinanzi all’apparente gaiezza di lei, d’una"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "sguardi pietosi o ironici o stupiti o sfuggenti, sulla sua",
+      "word": "deformità",
+      "after": ". Vi sono tragedie che afferrano una creatura in piena"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "celato il brivido del ribrezzo davanti alla mezza maschera",
+      "word": "deforme",
+      "after": ". Fitta veletta, fitta nebbia, ora di sogno, nella quale"
+     }
+    ],
+    "passagesWithoutWord": 1,
+    "passages": 1
+   }
   },
   "sensuality": {
    "id": "sensuality",
@@ -2811,7 +5237,64 @@ window.WOG = {
     "cahun"
    ],
    "passages": 1,
-   "doc": "Sensuality, in relation to femininity, encompasses a woman's ability to attract men because of her behavior and physical appearance. It highlights the importance of being able to \"give\" pleasure as an integral aspect of a woman's traditional identity. In one of our excerpt (i.e. Claude Cahun), sensuality is lived as an obstacle by the author."
+   "doc": "Sensuality, in relation to femininity, encompasses a woman's ability to attract men because of her behavior and physical appearance. It highlights the importance of being able to \"give\" pleasure as an integral aspect of a woman's traditional identity. In one of our excerpt (i.e. Claude Cahun), sensuality is lived as an obstacle by the author.",
+   "check": {
+    "pattern": {
+     "fr": "sensuel|voluptu",
+     "it": "sensual|volutt",
+     "en": "sensual|voluptu"
+    },
+    "total": 4,
+    "tagged": 1,
+    "inOther": 0,
+    "untaggedAll": 3,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 0
+     },
+     "negri": {
+      "total": 1,
+      "tagged": 0
+     },
+     "cahun": {
+      "total": 1,
+      "tagged": 1
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "Il ne faut pas qu’elles esperent allier une jeunesse",
+      "word": "voluptueuse",
+      "after": "et une vieillesse honorable. Quand une fois la pudeur est immolée,"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "a sex to virtue, and confound simple truths with",
+      "word": "sensual",
+      "after": "reveries? Women are, in"
+     },
+     {
+      "t": "negri",
+      "where": "none",
+      "others": [],
+      "before": "sogni, desideri, brividi, carezze, impeti di dedizione,",
+      "word": "voluttà",
+      "after": "di sensazioni, tutta l’occulta parte di sé che alla luce"
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 1
+   }
   },
   "housework": {
    "id": "housework",
@@ -2823,7 +5306,66 @@ window.WOG = {
     "beauvoir"
    ],
    "passages": 7,
-   "doc": "Housework was (and sometimes still is) largely regarded as an essential duty of femininity, reinforcing traditional gender roles where women were responsible for domestic chores and caregiving. These societal expectations often limit women's opportunities outside the home and contribute to their economic dependence. In one of our excerpt (i.e. Simone de Beauvoir), the relevance of houseworks in the life of a woman in a traditional family is highlighted."
+   "doc": "Housework was (and sometimes still is) largely regarded as an essential duty of femininity, reinforcing traditional gender roles where women were responsible for domestic chores and caregiving. These societal expectations often limit women's opportunities outside the home and contribute to their economic dependence. In one of our excerpt (i.e. Simone de Beauvoir), the relevance of houseworks in the life of a woman in a traditional family is highlighted.",
+   "check": {
+    "pattern": {
+     "fr": "vaisselle|ménag|cuisin",
+     "it": "faccend|cucin",
+     "en": "housework|domestic"
+    },
+    "total": 7,
+    "tagged": 4,
+    "inOther": 1,
+    "untaggedAll": 3,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 0
+     },
+     "sand": {
+      "total": 1,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 4,
+      "tagged": 4
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "cette sorte de mérite ; mais nous leur demandons un mélange et un",
+      "word": "menagement",
+      "after": "de ces qualitez, qu’il est difficile d’attraper et de réduire à une"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "the natural emotions of the heart, render the",
+      "word": "domestic",
+      "after": "pleasures insipid, that ought to sweeten the"
+     },
+     {
+      "t": "sand",
+      "where": "none",
+      "others": [],
+      "before": "et tu me l'as dit avec beaucoup d'honnêteté et de",
+      "word": "ménagement",
+      "after": ", ce que les autres ne font point ; mais à présent veux-"
+     }
+    ],
+    "passagesWithoutWord": 3,
+    "passages": 7
+   }
   },
   "sorority": {
    "id": "sorority",
@@ -2837,7 +5379,120 @@ window.WOG = {
     "chiara"
    ],
    "passages": 4,
-   "doc": "Sorority, often associated with femininity, represents a collective bond and sisterhood among women, providing support, friendship, and a sense of belonging. It emphasizes the strength and solidarity that can arise from female connections and shared experiences, fostering empowerment and mutual support. We wanted to emphasize this concept by highlighting the ideal of sorority portrayed in the past by authors such as Chiara d'Assisi."
+   "doc": "Sorority, often associated with femininity, represents a collective bond and sisterhood among women, providing support, friendship, and a sense of belonging. It emphasizes the strength and solidarity that can arise from female connections and shared experiences, fostering empowerment and mutual support. We wanted to emphasize this concept by highlighting the ideal of sorority portrayed in the past by authors such as Chiara d'Assisi.",
+   "check": {
+    "pattern": {
+     "fr": "sœurs?\\b|soeurs?\\b",
+     "it": "sorell",
+     "en": "sisters?\\b|sisterhood"
+    },
+    "total": 14,
+    "tagged": 4,
+    "inOther": 0,
+    "untaggedAll": 10,
+    "byText": {
+     "lambert": {
+      "total": 1,
+      "tagged": 0
+     },
+     "wollstonecraft": {
+      "total": 1,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 7,
+      "tagged": 1
+     },
+     "chiara": {
+      "total": 5,
+      "tagged": 3
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "nous l’a appris. On vint un jour lui dire que sa",
+      "word": "sœur",
+      "after": "aimoit un jeune homme, que leur intrigue étoit publique, et qu’elle"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "and that kind of love which has been termed its",
+      "word": "sister",
+      "after": ", will soon become objects of"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "page qui m’apprit brutalement le mariage de Laurie avec une jeune",
+      "word": "sœur",
+      "after": "de Joe, la blonde, vaine et stupide Amy. Je rejetai le livre, comme"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "nous disputâmes violemment à propos d’un missel que j’offris à ma",
+      "word": "sœur",
+      "after": "pour sa communion solennelle ; je le voulais relié"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "l’avais pas fait, mais quand son tour fut venu, j’en dissuadai ma",
+      "word": "sœur",
+      "after": ". Ma mère fut fâchée. Elle devinait en moi des"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "désappointement, mais il marqua plus d’intérêt qu’autrefois à ma",
+      "word": "sœur",
+      "after": ", qui restait une jolie enfant. Il rayonnait de fierté quand elle"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "je souffrais de leur entente et j’en voulais vaguement à ma",
+      "word": "sœur",
+      "after": ". Ma véritable rivale,"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "», répéta-t-elle. Comme elle s’affairait avec ma",
+      "word": "sœur",
+      "after": ", je me tournai vers mon père et je lançai avec emportement : «"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "dell’illustre Re di Boemia, ma ora soprattutto",
+      "word": "sorella",
+      "after": "e sposa del sommo Re dei cieli, Chiara, umilissima"
+     },
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "alle imperfezioni che sono in me e nelle altre",
+      "word": "sorelle",
+      "after": "nella nostra imitazione degli esempi di Gesù Cristo povero ed"
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 4
+   }
   },
   "feminism": {
    "id": "feminism",
@@ -2849,7 +5504,27 @@ window.WOG = {
     "beauvoir"
    ],
    "passages": 1,
-   "doc": "Feminism represented a powerful movement for women's rights, advocating for equality in various spheres, including suffrage, education, and employment. It challenged deeply entrenched gender discrimination and oppressive norms that marginalized women. In one of our excerpts (i.e. Simone de Beauvoir), the presence of feminism as an alternative for the life of a woman is presented explicitly."
+   "doc": "Feminism represented a powerful movement for women's rights, advocating for equality in various spheres, including suffrage, education, and employment. It challenged deeply entrenched gender discrimination and oppressive norms that marginalized women. In one of our excerpts (i.e. Simone de Beauvoir), the presence of feminism as an alternative for the life of a woman is presented explicitly.",
+   "check": {
+    "pattern": {
+     "fr": "féminis",
+     "it": "femminis",
+     "en": "feminis"
+    },
+    "total": 1,
+    "tagged": 1,
+    "inOther": 0,
+    "untaggedAll": 0,
+    "byText": {
+     "beauvoir": {
+      "total": 1,
+      "tagged": 1
+     }
+    },
+    "examples": [],
+    "passagesWithoutWord": 0,
+    "passages": 1
+   }
   },
   "submission": {
    "id": "submission",
@@ -2861,7 +5536,58 @@ window.WOG = {
     "beauvoir"
    ],
    "passages": 10,
-   "doc": null
+   "doc": null,
+   "check": {
+    "pattern": {
+     "fr": "soumi|obéi|docil|dépendan",
+     "it": "sottomess|sottomission|obbed|docil|dipenden",
+     "en": "submi|obedien|docil|dependen"
+    },
+    "total": 5,
+    "tagged": 2,
+    "inOther": 1,
+    "untaggedAll": 3,
+    "byText": {
+     "wollstonecraft": {
+      "total": 3,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 2,
+      "tagged": 2
+     }
+    },
+    "examples": [
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "the men condescendingly use to soften our slavish",
+      "word": "dependence",
+      "after": ", and despising that weak elegancy of mind,"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "other",
+      "others": [
+       "grace"
+      ],
+      "before": "elegancy of mind, exquisite sensibility, and sweet",
+      "word": "docility",
+      "after": "of manners, supposed to be the sexual"
+     },
+     {
+      "t": "wollstonecraft",
+      "where": "none",
+      "others": [],
+      "before": "to bodily strength must render them in some degree",
+      "word": "dependent",
+      "after": "on men in the various relations of life; but why should it be"
+     }
+    ],
+    "passagesWithoutWord": 8,
+    "passages": 10
+   }
   },
   "foodOrFoodAbst": {
    "id": "foodOrFoodAbst",
@@ -2873,7 +5599,86 @@ window.WOG = {
     "chiara"
    ],
    "passages": 10,
-   "doc": "Women in various cultures were expected to practice food abstinence during specific periods due to cultural or religious beliefs. The evolution of this conceptualization and the ideal body a woman is required to have bring more women than men to mental health disorders linked to their relationship with their body and its nurture. In the texts we have analysed, the prime example of this is Chiara d'Assisi."
+   "doc": "Women in various cultures were expected to practice food abstinence during specific periods due to cultural or religious beliefs. The evolution of this conceptualization and the ideal body a woman is required to have bring more women than men to mental health disorders linked to their relationship with their body and its nurture. In the texts we have analysed, the prime example of this is Chiara d'Assisi.",
+   "check": {
+    "pattern": {
+     "fr": "nourritur|jeûn|aliment",
+     "it": "cib[oi]\\b|digiun",
+     "en": "food|fasting"
+    },
+    "total": 16,
+    "tagged": 10,
+    "inOther": 1,
+    "untaggedAll": 6,
+    "byText": {
+     "lambert": {
+      "total": 3,
+      "tagged": 0
+     },
+     "beauvoir": {
+      "total": 3,
+      "tagged": 0
+     },
+     "chiara": {
+      "total": 10,
+      "tagged": 10
+     }
+    },
+    "examples": [
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "nous l’a appris. On vint un jour lui dire que sa sœur aimoit un",
+      "word": "jeune",
+      "after": "homme, que leur intrigue étoit publique, et qu’elle se respectoit"
+     },
+     {
+      "t": "lambert",
+      "where": "none",
+      "others": [],
+      "before": "Il ne faut pas qu’elles esperent allier une",
+      "word": "jeunesse",
+      "after": "voluptueuse et une vieillesse honorable. Quand une fois la pudeur"
+     },
+     {
+      "t": "lambert",
+      "where": "other",
+      "others": [
+       "intellect"
+      ],
+      "before": "lectures, il se fait en nous insensiblement une",
+      "word": "nourriture",
+      "after": "solide, qui coule dans les mœurs. [...]"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "sur une page qui m’apprit brutalement le mariage de Laurie avec une",
+      "word": "jeune",
+      "after": "sœur de Joe, la blonde, vaine et stupide Amy. Je rejetai le livre,"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "conseillait, ils s’épousaient. Bien mieux que le",
+      "word": "jeune",
+      "after": "Laurie, cet homme supérieur, survenant du dehors dans l’histoire de"
+     },
+     {
+      "t": "beauvoir",
+      "where": "none",
+      "others": [],
+      "before": "déploré que Sophie n’épousât pas Paul, son ami d’enfance, mais un",
+      "word": "jeune",
+      "after": "châtelain inconnu. L’amitié, l’amour, c’était à mes"
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 10
+   }
   },
   "virginity": {
    "id": "virginity",
@@ -2885,7 +5690,36 @@ window.WOG = {
     "chiara"
    ],
    "passages": 4,
-   "doc": "Virginity has held immense societal value within the context of femininity, often associated with purity, chastity, modesty, and virtue. In certain geographical contexts, today and in the past, women were (and are)expected to preserve their virginity until marriage, reinforcing strict sexual norms and gender roles. This value has been linked to religious requirements and cosmologies, as it is underlined by Chiara d'Assisi in her \"Lettera sul digiuno\"."
+   "doc": "Virginity has held immense societal value within the context of femininity, often associated with purity, chastity, modesty, and virtue. In certain geographical contexts, today and in the past, women were (and are)expected to preserve their virginity until marriage, reinforcing strict sexual norms and gender roles. This value has been linked to religious requirements and cosmologies, as it is underlined by Chiara d'Assisi in her \"Lettera sul digiuno\".",
+   "check": {
+    "pattern": {
+     "fr": "vierge|virginit",
+     "it": "vergin",
+     "en": "virgin"
+    },
+    "total": 6,
+    "tagged": 5,
+    "inOther": 0,
+    "untaggedAll": 1,
+    "byText": {
+     "chiara": {
+      "total": 6,
+      "tagged": 5
+     }
+    },
+    "examples": [
+     {
+      "t": "chiara",
+      "where": "none",
+      "others": [],
+      "before": "Voglio dire quel Figlio dell’Altissimo, che la",
+      "word": "Vergine",
+      "after": "ha partorito, senza cessare di essere vergine."
+     }
+    ],
+    "passagesWithoutWord": 0,
+    "passages": 4
+   }
   }
  },
  "notes": [

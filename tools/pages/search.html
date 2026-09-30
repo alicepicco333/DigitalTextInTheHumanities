@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{head}}
+<title>Search · Words of Gender</title>
+<meta name="description" content="Search every word of the nine excerpts and their English translations, see which concept each occurrence is tagged with, and check how consistently the words for each concept were tagged.">
+</head>
+<body>
+{{mast}}
+<main id="main" class="wrap">
+  <div class="sec-head" style="margin-top:32px">
+    <p class="eyebrow">Search the archive</p>
+    <h1 style="font-size:clamp(36px,4.6vw,60px)">Every occurrence of a word</h1>
+    <p>Search the nine texts in French, Italian and English, and the working English translations of the tagged passages. Case and accents are ignored, so <i>mere</i> finds <i>mère</i>. Each match shows the concept it is tagged with, or that it is outside any tagged passage.</p>
+  </div>
+
+  <form class="sf" id="sf" role="search">
+    <label for="q" class="sr-only">Search the texts</label>
+    <input type="search" id="q" autocomplete="off" spellcheck="false" placeholder="A word, in any of the three languages">
+    <div class="sf-opts">
+      <label class="switch"><input type="checkbox" id="whole" checked> Whole words only</label>
+      <label class="switch"><input type="checkbox" id="in-en" checked> Also search the English translations</label>
+    </div>
+    <div class="chips" role="group" aria-label="Try a word">
+      <span class="hint">Try</span>
+      <button type="button" class="chip" data-q="beauté">beauté</button>
+      <button type="button" class="chip" data-q="bellezza">bellezza</button>
+      <button type="button" class="chip" data-q="mère">mère</button>
+      <button type="button" class="chip" data-q="honour">honour</button>
+      <button type="button" class="chip" data-q="esprit">esprit</button>
+      <button type="button" class="chip" data-q="armi">armi</button>
+      <button type="button" class="chip" data-q="corps">corps</button>
+      <button type="button" class="chip" data-q="grazia">grazia</button>
+    </div>
+  </form>
+  <p class="sum" id="sum" role="status" aria-live="polite"></p>
+  <div id="results" class="results"></div>
+
+  <section aria-labelledby="check-h" class="check-sec">
+    <div class="sec-head">
+      <p class="eyebrow">A check on the encoding</p>
+      <h2 id="check-h">How the words were tagged</h2>
+      <p>For each concept that a word can name, the build script counts every occurrence of that word in the texts (by stem, in the language of each text) and how many of those fall inside a passage tagged with the concept. This is not a score of the encoding. The encoders tagged passages that <em>argue</em> about a concept, not every time a word appears: <i>grace</i> is often the grace of God, and <i>esprit</i> is mostly wit or mind. The last column counts the opposite case, passages tagged with a concept that never use its word, where the reading does work a search cannot.</p>
+    </div>
+    <div class="check-wrap frame"><table class="check" id="check"></table></div>
+  </section>
+</main>
+{{foot}}
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>

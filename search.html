@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem('wog-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=IBM+Plex+Mono:wght@400&family=Jost:ital,wght@0,400;0,500;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/keepsake.css">
+<title>Search · Words of Gender</title>
+<meta name="description" content="Search every word of the nine excerpts and their English translations, see which concept each occurrence is tagged with, and check how consistently the words for each concept were tagged.">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="mast">
+  <div class="mast-in">
+    <a class="brand" href="index.html">Words <i>of</i> Gender</a>
+    <nav aria-label="Primary">
+      <ul class="nav">
+        <li><a href="index.html">Contents</a></li>
+        <li><a href="texts.html">Read</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="search.html" aria-current="page">Search</a></li>
+        <li><a href="about.html">About &amp; method</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" id="theme" type="button" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg><span class="tl">Dark</span></button>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <div class="sec-head" style="margin-top:32px">
+    <p class="eyebrow">Search the archive</p>
+    <h1 style="font-size:clamp(36px,4.6vw,60px)">Every occurrence of a word</h1>
+    <p>Search the nine texts in French, Italian and English, and the working English translations of the tagged passages. Case and accents are ignored, so <i>mere</i> finds <i>mère</i>. Each match shows the concept it is tagged with, or that it is outside any tagged passage.</p>
+  </div>
+
+  <form class="sf" id="sf" role="search">
+    <label for="q" class="sr-only">Search the texts</label>
+    <input type="search" id="q" autocomplete="off" spellcheck="false" placeholder="A word, in any of the three languages">
+    <div class="sf-opts">
+      <label class="switch"><input type="checkbox" id="whole" checked> Whole words only</label>
+      <label class="switch"><input type="checkbox" id="in-en" checked> Also search the English translations</label>
+    </div>
+    <div class="chips" role="group" aria-label="Try a word">
+      <span class="hint">Try</span>
+      <button type="button" class="chip" data-q="beauté">beauté</button>
+      <button type="button" class="chip" data-q="bellezza">bellezza</button>
+      <button type="button" class="chip" data-q="mère">mère</button>
+      <button type="button" class="chip" data-q="honour">honour</button>
+      <button type="button" class="chip" data-q="esprit">esprit</button>
+      <button type="button" class="chip" data-q="armi">armi</button>
+      <button type="button" class="chip" data-q="corps">corps</button>
+      <button type="button" class="chip" data-q="grazia">grazia</button>
+    </div>
+  </form>
+  <p class="sum" id="sum" role="status" aria-live="polite"></p>
+  <div id="results" class="results"></div>
+
+  <section aria-labelledby="check-h" class="check-sec">
+    <div class="sec-head">
+      <p class="eyebrow">A check on the encoding</p>
+      <h2 id="check-h">How the words were tagged</h2>
+      <p>For each concept that a word can name, the build script counts every occurrence of that word in the texts (by stem, in the language of each text) and how many of those fall inside a passage tagged with the concept. This is not a score of the encoding. The encoders tagged passages that <em>argue</em> about a concept, not every time a word appears: <i>grace</i> is often the grace of God, and <i>esprit</i> is mostly wit or mind. The last column counts the opposite case, passages tagged with a concept that never use its word, where the reading does work a search cannot.</p>
+    </div>
+    <div class="check-wrap frame"><table class="check" id="check"></table></div>
+  </section>
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p><strong>Words of Gender</strong>, the prototype of an archive of women authors.</p>
+      <p>Developed for the course <a href="https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/467035">Digital Text in the Humanities</a> held by Professor Tiziana Mancinelli, MA Digital Humanities and Digital Knowledge, University of Bologna, 2023.</p>
+    </div>
+    <div>
+      <p><strong>Team</strong>: Nicole Liggeri, Chiara Parravicini, Lucia Bertoldini, Alice Picco.</p>
+      <p>Texts encoded in TEI P5 with linked open data. <a href="https://github.com/alicepicco333/DigitalTextInTheHumanities">Source and XML on GitHub</a>.</p>
+    </div>
+  </div>
+</footer>
+<script src="data/archive.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>

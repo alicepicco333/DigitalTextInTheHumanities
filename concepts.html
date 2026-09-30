@@ -24,6 +24,7 @@
         <li><a href="index.html">Contents</a></li>
         <li><a href="texts.html">Read</a></li>
         <li><a href="concepts.html" aria-current="page">Concepts</a></li>
+        <li><a href="search.html">Search</a></li>
         <li><a href="about.html">About &amp; method</a></li>
       </ul>
     </nav>
@@ -34,7 +35,7 @@
   <div class="sec-head" style="margin-top:32px">
     <p class="eyebrow">Author × concept</p>
     <h1 style="font-size:clamp(36px,4.6vw,60px)">Where the concepts meet</h1>
-    <p>Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side.</p>
+    <p>Each row is a concept declared in an <span class="mono">&lt;interpGrp&gt;</span>; each column an author, in the order of first edition. The dot grows with the number of <span class="mono">&lt;seg&gt;</span> passages tagged with the concept. Choose a concept to read all its passages side by side, with a working English translation under each one. <a href="#ct-h">See the concepts in time ↓</a></p>
   </div>
 
   <div class="cx">
@@ -57,6 +58,15 @@
 
     <section class="compare" id="compare" aria-live="polite" tabindex="-1"></section>
   </div>
+  <section aria-labelledby="ct-h" class="ctime-sec">
+    <div class="sec-head">
+      <p class="eyebrow">Concepts in time</p>
+      <h2 id="ct-h">Four centuries, one concept per row</h2>
+      <p id="ct-d">The same counts as the matrix, with each author placed at the year of her first edition on a proportional axis from 1540 to 1970, so the gaps between the texts show. Rows are ordered by the first text in which a concept is tagged; the line joins its first and last appearance. Chiara d’Assisi’s letter has no date in its encoding and stands apart. Choose a row or a dot to compare its passages above.</p>
+    </div>
+    <div class="ctime frame" id="ctime"></div>
+    <details class="ctime-t"><summary>The same as a table</summary><div id="ctime-table"></div></details>
+  </section>
   <div class="tip" id="tip" role="presentation"></div>
 </main>
 <footer class="foot">

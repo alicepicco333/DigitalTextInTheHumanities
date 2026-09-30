@@ -32,6 +32,9 @@
   rows.push(['Transcribed from', src ? esc(src) : 'Not recorded']);
   if (s.url) rows.push(['Digitised copy', link(s.url)]);
   rows.push(['Language', esc(W.langName(t))]);
+  if (t.life) rows.push(['Life', (t.life.born || '?') + '–' + (t.life.died || '?') + (t.life.birthplace ? ' · born in ' + esc(t.life.birthplace) : '') +
+    (t.firstEdition && t.life.died && t.firstEdition > t.life.died ? ' · this text appeared after her death' : '') +
+    ' · <a href="https://www.wikidata.org/wiki/' + esc(t.life.qid) + '">Wikidata ' + esc(t.life.qid) + '</a>']);
   t.lod.author.forEach(function (u) { rows.push(['Author authority', link(u)]); });
   t.lod.work.forEach(function (u) { rows.push(['Work authority', link(u)]); });
   rows.push(['Encoded by', esc(t.encoder || '') + ' · <a href="' + esc(encodeURI(t.file)) + '">TEI source</a> · ' + t.words + ' words, ' + W.plural(t.segs.length, 'segment')]);
@@ -91,6 +94,77 @@
   }
 
   var STYLES = { 1: 'solid line', 2: 'double line', 3: 'dashed line', 4: 'dotted line' };
+  var segById = {};
+  t.segs.forEach(function (g) { segById[g.id] = g; });
+
+  // English: under each paragraph, the working translation of every tagged passage in it
+  var hasEn = t.segs.some(function (g) { return g.en; });
+  function drawEnglish() {
+    textEl.querySelectorAll('.en-block').forEach(function (b) { b.remove(); });
+    if (!hasEn || !$('opt-en').checked) return;
+    textEl.querySelectorAll('p').forEach(function (p) {
+      var gs = [].slice.call(p.querySelectorAll('.seg')).map(function (el) { return segById[el.id]; }).filter(function (g) { return g && g.en; });
+      if (!gs.length) return;
+      var d = document.createElement('div');
+      d.className = 'en-block';
+      d.setAttribute('lang', 'en');
+      d.innerHTML = '<p class="en-h">In English <span>· working translation of the tagged passages</span></p><ol>' + gs.map(function (g) {
+        var c = g.concepts.filter(function (x) { return active[x]; })[0];
+        return '<li data-for="' + g.id + '"' + (c ? ' class="s' + active[c] + '"' : '') + '><span class="en-c">' + esc(g.concepts.map(W.label).join(' + ')) + '</span>' +
+          esc(g.en) + (g.enNote ? '<span class="en-note">' + esc(g.enNote) + '</span>' : '') + '</li>';
+      }).join('') + '</ol>';
+      p.parentNode.insertBefore(d, p.nextSibling);
+    });
+  }
+  // hovering a translation points at its passage, and the other way round
+  textEl.addEventListener('mouseover', function (e) {
+    var li = e.target.closest('.en-block li'), sg = e.target.closest('.seg');
+    textEl.querySelectorAll('.pair').forEach(function (x) { x.classList.remove('pair'); });
+    var id = li ? li.getAttribute('data-for') : sg ? sg.id : null;
+    if (!id) return;
+    var a = document.getElementById(id), b = textEl.querySelector('.en-block li[data-for="' + id + '"]');
+    if (a && b) { a.classList.add('pair'); b.classList.add('pair'); }
+  });
+
+  // the encoding: select a passage to see its TEI
+  function showTei(seg) {
+    textEl.querySelectorAll('.tei-box').forEach(function (b) { b.remove(); });
+    textEl.querySelectorAll('.seg.tei-sel').forEach(function (x) { x.classList.remove('tei-sel'); x.setAttribute('aria-expanded', 'false'); });
+    if (!seg) return;
+    var g = segById[seg.id];
+    if (!g || !g.xml) return;
+    var box = document.createElement('div');
+    box.className = 'tei-box';
+    box.id = 'tei-' + g.id;
+    box.innerHTML = '<div class="tei-bar"><span>The TEI of this passage · <span class="mono">' + esc(t.file.split('/').pop()) + '</span></span>' +
+      '<button type="button" class="tbtn tei-close">Close</button></div><pre><code>' + esc(g.xml) + '</code></pre>';
+    var p = seg.closest('p') || seg;
+    var nx = p.nextSibling;
+    var after = nx && nx.classList && nx.classList.contains('en-block') ? nx : p;
+    after.parentNode.insertBefore(box, after.nextSibling);
+    seg.classList.add('tei-sel');
+    seg.setAttribute('aria-expanded', 'true');
+    box.querySelector('.tei-close').addEventListener('click', function () { showTei(null); seg.focus(); });
+  }
+  function teiMode(on) {
+    textEl.classList.toggle('tei-on', on);
+    textEl.querySelectorAll('.seg').forEach(function (g) {
+      if (on) { g.setAttribute('tabindex', '0'); g.setAttribute('role', 'button'); g.setAttribute('aria-expanded', 'false'); g.setAttribute('aria-label', 'Show the TEI of this passage: ' + g.textContent.trim().slice(0, 60)); }
+      else { g.removeAttribute('tabindex'); g.removeAttribute('role'); g.removeAttribute('aria-expanded'); g.removeAttribute('aria-label'); }
+    });
+    if (!on) showTei(null);
+    $('tei-hint').hidden = !on;
+  }
+  textEl.addEventListener('click', function (e) {
+    if (!textEl.classList.contains('tei-on') || e.target.closest('.tei-box')) return;
+    var seg = e.target.closest('.seg');
+    if (seg) showTei(seg.classList.contains('tei-sel') ? null : seg);
+  });
+  textEl.addEventListener('keydown', function (e) {
+    if (!textEl.classList.contains('tei-on') || (e.key !== 'Enter' && e.key !== ' ')) return;
+    var seg = e.target.closest('.seg');
+    if (seg && e.target === seg) { e.preventDefault(); showTei(seg.classList.contains('tei-sel') ? null : seg); }
+  });
 
   function render() {
     // clear
@@ -117,6 +191,7 @@
       b.setAttribute('aria-disabled', (untagged || (!sl && n >= MAX)) ? 'true' : 'false');
     });
     $('status').textContent = n >= MAX ? 'Four concepts are on. Switch one off to add another.' : '';
+    drawEnglish();
     var q = new URLSearchParams(location.search);
     q.set('t', t.id);
     var on = Object.keys(active).sort(function (a, b) { return active[a] - active[b]; });
@@ -143,6 +218,8 @@
   $('clear').addEventListener('click', function () { active = {}; render(); });
   $('opt-labels').addEventListener('change', function () { textEl.classList.toggle('no-labels', !this.checked); });
   $('opt-pers').addEventListener('change', function () { textEl.classList.toggle('show-pers', this.checked); });
+  if (hasEn) { $('opt-en').checked = true; $('opt-en').addEventListener('change', drawEnglish); } else { $('opt-en-wrap').hidden = true; }
+  $('opt-tei').addEventListener('change', function () { teiMode(this.checked); });
 
   // initial state from the URL
   (params.get('c') || '').split(',').filter(Boolean).forEach(turnOn);

@@ -1,0 +1,146 @@
+{
+ "sand": {
+  "qid": "Q3816",
+  "viaf": "46766944",
+  "born": 1804,
+  "died": 1876,
+  "approx": false,
+  "birthplace": "former 6th arrondissement of Paris",
+  "deathplace": "Nohant-Vic",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "George Sand.PNG",
+   "page": "https://commons.wikimedia.org/wiki/File:George_Sand.PNG",
+   "artist": "Auguste Charpentier",
+   "licence": "Public domain",
+   "licenceUrl": null
+  }
+ },
+ "beauvoir": {
+  "qid": "Q7197",
+  "viaf": "2466221",
+  "born": 1908,
+  "died": 1986,
+  "approx": false,
+  "birthplace": "6th arrondissement of Paris",
+  "deathplace": "14th arrondissement of Paris",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "Simone de Beauvoir2.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Simone_de_Beauvoir2.png",
+   "artist": "Moshe Milner",
+   "licence": "CC BY-SA 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+ },
+ "wollstonecraft": {
+  "qid": "Q101638",
+  "viaf": "51697482",
+  "born": 1759,
+  "died": 1797,
+  "approx": false,
+  "birthplace": "London",
+  "deathplace": "London",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": null,
+   "note": "from the project's 2023 site"
+  }
+ },
+ "marguerite": {
+  "qid": "Q190058",
+  "viaf": "89797196",
+  "born": 1492,
+  "died": 1549,
+  "approx": false,
+  "birthplace": "Angoulême",
+  "deathplace": "Gascony",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": null,
+   "note": "from the project's 2023 site"
+  }
+ },
+ "chiara": {
+  "qid": "Q191107",
+  "viaf": "8754769",
+  "born": 1194,
+  "died": 1253,
+  "approx": false,
+  "birthplace": "Assisi",
+  "deathplace": "Assisi",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "Simone Martini 047.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Simone_Martini_047.jpg",
+   "artist": "Simone Martini",
+   "licence": "Public domain",
+   "licenceUrl": null
+  }
+ },
+ "cahun": {
+  "qid": "Q219634",
+  "viaf": "19757660",
+  "born": 1894,
+  "died": 1954,
+  "approx": false,
+  "birthplace": "Nantes",
+  "deathplace": "Saint Helier",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": null,
+   "note": "from the project's 2023 site"
+  }
+ },
+ "franco": {
+  "qid": "Q257493",
+  "viaf": "66577804",
+  "born": 1546,
+  "died": 1591,
+  "approx": false,
+  "birthplace": "Venice",
+  "deathplace": "Venice",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "Seguace JacopoTintoretto Ritratto di signora.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Seguace_JacopoTintoretto_Ritratto_di_signora.jpg",
+   "artist": "Follower of Jacopo Tintoretto",
+   "licence": "Public domain",
+   "licenceUrl": null
+  }
+ },
+ "negri": {
+  "qid": "Q346250",
+  "viaf": "73891042",
+  "born": 1870,
+  "died": 1945,
+  "approx": false,
+  "birthplace": "Lodi",
+  "deathplace": "Milan",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "Ada Negri 1913.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Ada_Negri_1913.jpg",
+   "artist": "Emilio Sommariva",
+   "licence": "Public domain",
+   "licenceUrl": null
+  }
+ },
+ "lambert": {
+  "qid": "Q457511",
+  "viaf": "95150112",
+  "born": 1647,
+  "died": 1733,
+  "approx": false,
+  "birthplace": "Paris",
+  "deathplace": "Paris",
+  "source": "Wikidata, matched by VIAF",
+  "portrait": {
+   "file": "Nicolas de Largillierre - Portrait d'Anne-Thérèse de Marguenat de Courcelles, marquise de Lambert (1647-1733) - P2516 - Musée Carnavalet.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largillierre_-_Portrait_d%27Anne-Th%C3%A9r%C3%A8se_de_Marguenat_de_Courcelles,_marquise_de_Lambert_(1647-1733)_-_P2516_-_Mus%C3%A9e_Carnavalet.jpg",
+   "artist": "Nicolas de Largillière",
+   "licence": "Public domain",
+   "licenceUrl": null
+  }
+ }
+}

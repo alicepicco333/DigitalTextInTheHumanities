@@ -8,9 +8,20 @@
   var ids = Object.keys(D.concepts).sort(function (a, b) { return D.concepts[a].label.localeCompare(D.concepts[b].label); });
   $('alpha').innerHTML = ids.map(function (c) {
     var k = D.concepts[c], n = Object.keys(k.counts).length;
-    return '<div id="c-' + esc(c) + '"><h4><span>' + esc(k.label) + '</span><a href="concepts.html?c=' + encodeURIComponent(c) + '">' +
-      W.plural(k.passages, 'passage') + ', ' + W.plural(n, 'author') + ' →</a></h4>' +
+    return '<div id="c-' + esc(c) + '"><h3><span>' + esc(k.label) + '</span><a href="concepts.html?c=' + encodeURIComponent(c) + '">' +
+      W.plural(k.passages, 'passage') + ', ' + W.plural(n, 'author') + ' →</a></h3>' +
       '<p>' + (k.doc ? esc(k.doc) : '<i>Added during encoding (Simone de Beauvoir); not described in the original documentation.</i>') + '</p></div>';
+  }).join('');
+
+  // portrait credits, from data/authors.json (Wikimedia Commons)
+  var pl = $('portraits');
+  if (pl) pl.innerHTML = D.texts.map(function (t) {
+    var p = t.life && t.life.portrait;
+    if (!p) return '';
+    var who = esc(t.author) + (t.id === 'franco' ? ' (a portrait of a lady traditionally identified as Veronica Franco)' : '');
+    if (!p.file) return '<li>' + who + ': the portrait used on the project’s 2023 site.</li>';
+    return '<li>' + who + ': ' + (p.artist ? esc(p.artist) + ', ' : '') + '<a href="' + esc(p.page) + '">' + esc(p.file.replace(/\.[a-z]+$/i, '')) + '</a>, Wikimedia Commons, ' +
+      (p.licenceUrl ? '<a href="' + esc(p.licenceUrl) + '">' + esc(p.licence) + '</a>' : esc(p.licence || 'licence not stated')) + '. Cropped.</li>';
   }).join('');
 
   // working tag list (lista_tag.txt)

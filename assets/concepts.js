@@ -85,6 +85,7 @@
           q = '<blockquote lang="' + esc(t.lang) + '" data-full="' + esc(g.text) + '">' + esc(shown) + '</blockquote>';
         }
         h += '<div class="psg">' + q +
+          (g.en ? '<p class="psg-en" lang="en"><span class="en-l">In English</span> ' + esc(g.en) + '</p>' : '') +
           (also.length ? '<div class="also">Also tagged: ' + esc(also.map(W.label).join(', ')) + '</div>' : '') +
           '<div class="also">' + (long ? '<button type="button" class="more" aria-expanded="false">Show the whole passage (' + w.length + ' words)</button> · ' : '') +
           '<a href="texts.html?t=' + t.id + '&amp;c=' + encodeURIComponent(sel) + '#' + g.id + '">Read in context →</a></div></div>';
@@ -108,6 +109,7 @@
       tr.querySelector('.rowbtn').setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     drawCompare(focusAuthor);
+    document.querySelectorAll('#ctime .ct-row').forEach(function (g) { g.classList.toggle('sel', g.getAttribute('data-c') === c); });
     try { history.replaceState(null, '', '?c=' + encodeURIComponent(c)); } catch (e) { /* ignore */ }
     if (fromUser && !focusAuthor && window.matchMedia('(max-width: 1080px)').matches) {
       $('compare').scrollIntoView({ block: 'start' });
@@ -115,8 +117,90 @@
     }
   }
 
+  // Concepts in time: one row per concept, each text at the year of its first edition on a proportional axis
+  function drawTime() {
+    var box = $('ctime');
+    if (!box) return;
+    var dated = texts.filter(function (t) { return t.firstEdition != null; });
+    var undated = texts.filter(function (t) { return t.firstEdition == null; });
+    var Y0 = 1540, Y1 = 1970, L = 190, R = 830, UX = 900, RH = 26, TOP = 78;
+    var x = function (y) { return L + (y - Y0) / (Y1 - Y0) * (R - L); };
+    function first(c) {
+      var ys = dated.filter(function (t) { return C[c].counts[t.id]; }).map(function (t) { return +t.firstEdition; });
+      return ys.length ? Math.min.apply(null, ys) : 9999;
+    }
+    var rows = ids.slice().sort(function (a, b) { return first(a) - first(b) || nAuthors(b) - nAuthors(a) || C[a].label.localeCompare(C[b].label); });
+    var H = TOP + rows.length * RH + 8;
+    var s = '<svg viewBox="0 0 960 ' + H + '" role="img" aria-labelledby="ct-h ct-d" class="ct-svg">';
+    // century grid and year labels on the axis line; each author on her own dotted guide, named in two staggered rows above
+    s += '<line class="ct-axis" x1="' + L + '" x2="' + R + '" y1="' + (TOP - 4) + '" y2="' + (TOP - 4) + '"/>';
+    for (var y = 1600; y <= 1900; y += 100) {
+      s += '<line class="ct-grid" x1="' + x(y) + '" x2="' + x(y) + '" y1="' + (TOP - 4) + '" y2="' + (H - 4) + '"/>';
+      s += '<text class="ct-tick" x="' + x(y) + '" y="' + (TOP - 10) + '">' + y + '</text>';
+    }
+    dated.forEach(function (t, i) {
+      var ax = x(+t.firstEdition), ly = 13 + (i % 3) * 16;
+      s += '<line class="ct-guide" x1="' + ax + '" x2="' + ax + '" y1="' + (ly + 4) + '" y2="' + (H - 4) + '"/>';
+      s += '<text class="ct-au" x="' + ax + '" y="' + ly + '">' + esc(t.id === 'marguerite' ? 'Navarre' : t.author.split(' ').pop()) + ' <tspan class="ct-yr">' + t.firstEdition + '</tspan></text>';
+    });
+    s += '<line class="ct-sep" x1="' + (UX - 34) + '" x2="' + (UX - 34) + '" y1="4" y2="' + (H - 4) + '"/>';
+    undated.forEach(function (t) { s += '<text class="ct-au" x="' + UX + '" y="14">' + esc(t.author.split(' ')[0]) + ' <tspan class="ct-yr">n.d.</tspan></text>'; });
+    rows.forEach(function (c, i) {
+      var cy = TOP + i * RH + RH / 2, k = C[c];
+      var on = dated.filter(function (t) { return k.counts[t.id]; });
+      s += '<g class="ct-row' + (c === sel ? ' sel' : '') + '" data-c="' + c + '">';
+      s += '<rect class="ct-hit" x="0" y="' + (cy - RH / 2) + '" width="960" height="' + RH + '"/>';
+      s += '<text class="ct-lab" x="' + (L - 22) + '" y="' + (cy + 5) + '">' + esc(k.label) + '</text>';
+      if (on.length > 1) s += '<line class="ct-span" x1="' + x(+on[0].firstEdition) + '" x2="' + x(+on[on.length - 1].firstEdition) + '" y1="' + cy + '" y2="' + cy + '"/>';
+      on.concat(undated.filter(function (t) { return k.counts[t.id]; })).forEach(function (t) {
+        var cx = t.firstEdition == null ? UX : x(+t.firstEdition);
+        s += '<circle class="ct-dot" cx="' + cx.toFixed(1) + '" cy="' + cy + '" r="' + (size(k.counts[t.id]) / 2) + '" data-c="' + c + '" data-t="' + t.id + '" data-n="' + k.counts[t.id] + '"/>';
+      });
+      s += '</g>';
+    });
+    box.innerHTML = s + '</svg>';
+    // the same content as a table, for screen readers and for reading the numbers
+    var tb = '<table class="ct-table"><caption>Tagged passages per concept, by author in the order of first edition</caption><thead><tr><th scope="col">Concept</th><th scope="col">First appears</th><th scope="col">Authors (passages)</th></tr></thead><tbody>';
+    rows.forEach(function (c) {
+      var k = C[c], f = first(c);
+      tb += '<tr><th scope="row">' + esc(k.label) + '</th><td>' + (f < 9999 ? f : 'only in the undated letter') + '</td><td>' +
+        esc(texts.filter(function (t) { return k.counts[t.id]; }).sort(function (a, b) { return (a.firstEdition || 9999) - (b.firstEdition || 9999); })
+          .map(function (t) { return t.author + ' ' + W.date(t) + ' (' + k.counts[t.id] + ')'; }).join(', ')) + '</td></tr>';
+    });
+    $('ctime-table').innerHTML = tb + '</tbody></table>';
+  }
+
   drawMatrix();
   drawCompare();
+  drawTime();
+
+  var ct = $('ctime');
+  ct.addEventListener('click', function (e) {
+    var g = e.target.closest('.ct-row');
+    if (!g) return;
+    var dot = e.target.closest('.ct-dot');
+    select(g.getAttribute('data-c'), dot ? dot.getAttribute('data-t') : null, false);
+    drawTime();
+    var target = dot ? $('col-' + dot.getAttribute('data-t')) : $('compare');
+    if (target) { target.scrollIntoView({ block: 'start' }); target.focus({ preventScroll: true }); }
+  });
+  ct.addEventListener('mousemove', function (e) {
+    var dot = e.target.closest('.ct-dot'), g = e.target.closest('.ct-row');
+    if (!g) { tip.style.display = 'none'; return; }
+    var c = C[g.getAttribute('data-c')];
+    if (dot) {
+      var t = W.text(dot.getAttribute('data-t'));
+      tip.innerHTML = '<b>' + esc(c.label) + '</b> in ' + esc(t.author) + ', ' + W.date(t) + '<br>' + W.plural(+dot.getAttribute('data-n'), 'passage') + ' · click to read';
+    } else {
+      tip.innerHTML = '<b>' + esc(c.label) + '</b><br>' + W.plural(nAuthors(g.getAttribute('data-c')), 'author') + ' · ' + W.plural(c.passages, 'passage') + ' · click to compare';
+    }
+    tip.style.display = 'block';
+    var px = e.clientX + 14, py = e.clientY + 14, r = tip.getBoundingClientRect();
+    if (px + r.width > innerWidth - 8) px = e.clientX - r.width - 14;
+    if (py + r.height > innerHeight - 8) py = e.clientY - r.height - 14;
+    tip.style.left = px + 'px'; tip.style.top = py + 'px';
+  });
+  ct.addEventListener('mouseleave', function () { tip.style.display = 'none'; });
 
   $('matrix').addEventListener('click', function (e) {
     var b = e.target.closest('.rowbtn');
